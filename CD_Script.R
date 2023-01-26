@@ -1,12 +1,13 @@
 #SETUP/CLEAN----------
-# install/load packages (working within a project so working directory is fine) 
+# Install/load packages (working within a project so working directory is fine) 
 library(tidyverse)
 
-# import data from csv file, using the janitor package to clean the name format up.
-Raw_Data <- readr::read_csv("~/Desktop/Charlie_CD/Charlie_CD/Raw_Data.csv") %>% 
+# Import data from csv file, using the janitor package to clean the name format up. 
+# Make sure you change the name of the file to match, and check the pathway!
+Raw_Data <- readr::read_csv("~/Desktop/Charlie_CD/Charlie_CD/Raw Data/Charlie_KPS_19JAN_22.csv") %>% 
   janitor::clean_names()
 
-# to make sure we don't edit any raw data files, duplicate and call the original dataset "base".
+# To make sure we don't edit any raw data files, duplicate and call the original dataset "base".
 Base <- Raw_Data
 
 # drop unnecessary columns entirely, unless you have used them in the CD software.
@@ -71,7 +72,7 @@ FilteredReplicate$sample_location <- stringi::stri_replace_all_regex(FilteredRep
 FilteredReplicate$sample_location <- gsub('.{1}$', '', FilteredReplicate$sample_location)
 
 # SPECIFIC FOR THIS DATASET
-# correct the digester numbers
+# correct the digester numbers (or correct anything that has number separation)
 FilteredDigesterCorrect <- add_column(FilteredReplicate, digester_number = NA)
 FilteredDigesterCorrect <- mutate(FilteredDigesterCorrect,
                             digester_number = case_when(
@@ -81,10 +82,32 @@ FilteredDigesterCorrect <- mutate(FilteredDigesterCorrect,
                               str_detect(sample, "digester4") ~ "D",
                               ))
 
-# FIX THIS
-#FilteredCorrectSamples <- add_column(FilteredDigesterCorrect, sample_names = NA)
-#FilteredCorrectSamples$sample_names <- str_c(FilteredDigesterCorrect$sample_location, "_", FilteredDigesterCorrect$digester_number)
-
 # Remove "solo" results.
-SoloRemoved <- plyr::ddply(FilteredReplicate, c("unique_id", "sample"),
+SoloRemoved <- plyr::ddply(FilteredDigesterCorrect, c("unique_id", "sample_location"),
                       function(d) {if (nrow(d) > 1) d else NULL})
+
+# Split by the mass_list_search column, and make two tables for mzcloud results and mass_list results
+Split <- split(SoloRemoved, SoloRemoved$annot_source_mass_list_search)
+MZCloud <- Split$"No results"
+MassList <- Split$"Full match"
+
+# Bring together the mass lists so we can split by specific mass list.
+MassListLonger <- MassList %>% 
+  pivot_longer(cols = c(starts_with("mass_list_match")) ,
+               names_to = "mass_list_name",
+               names_prefix = "mass_list_match_",
+               values_to = "mass_list_match")
+
+# filter for no matches in mass list.
+FilteredMassList <- MassListLonger[!grepl('No matches found', MassListLonger$mass_list_match),]
+
+# split further into mass lists
+# POSSIBLY UNIQUE TO THIS DATASE, CHANGE AS NEEDED.
+SplitMassList <- split(FilteredMassList, FilteredMassList$mass_list_name)
+ITN <- SplitMassList$"itn_kps"
+Cannabinoids <- SplitMassList$"kps_cannabinoids"
+ITNMetabolites <- SplitMassList$"itn_cyp_metabolites"
+
+# count unique compounds in each
+# CHANGE NAME OF MASS LIST EACH TIME, NUMBER WILL PRINT IN CONSOLE.
+length(unique(ITNMetabolites$unique_id))
