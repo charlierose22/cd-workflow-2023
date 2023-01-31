@@ -2,20 +2,24 @@
 # Install/load packages (working within a project so working directory is fine) 
 library(tidyverse)
 
-# Import data from csv file, using the janitor package to clean the name format up. 
+# Import data from excel file, using the janitor package to clean the name format up. 
 # Make sure you change the name of the file to match, and check the pathway!
-Raw_Data <- readr::read_csv("~/Desktop/Charlie_CD/Charlie_CD/Raw Data/Charlie_KPS_19JAN_22.csv") %>% 
+Raw_Data <- readxl::read_excel("~/Desktop/Charlie_CD/Charlie_CD/Raw Data/Charlie_KPS_26JAN_22.xlsx") %>% 
   janitor::clean_names()
 
 # To make sure we don't edit any raw data files, duplicate and call the original dataset "base".
 Base <- Raw_Data
 
+# filter to remove samples with no annotation, or no MS2 data.
+Base_NoNA <- with(Base, Base[!(name == "" | is.na(name)), ])
+Base_MS2 <- Base_NoNA[!grepl('No MS2', Base_NoNA$ms2),]
+
 # drop unnecessary columns entirely, unless you have used them in the CD software.
-Base$tags = NULL
-Base$checked = NULL
+Base_MS2$tags = NULL
+Base_MS2$checked = NULL
 
 # concatenate compound names and retention times to make a unique identifier, this will make things easier later on.
-BaseUniqueID <- add_column(Base, unique_id = NA, .after = 0)
+BaseUniqueID <- add_column(Base_MS2, unique_id = NA, .after = 0)
 BaseUniqueID$unique_id <- str_c(BaseUniqueID$name, "_", BaseUniqueID$rt_min)
 
 # add peak number in as another unique identifier.
@@ -71,7 +75,7 @@ FilteredReplicate$sample_location = FilteredReplicate$sample
 FilteredReplicate$sample_location <- stringi::stri_replace_all_regex(FilteredReplicate$sample_location, "^\\d|\\d|_*", "")
 FilteredReplicate$sample_location <- gsub('.{1}$', '', FilteredReplicate$sample_location)
 
-# SPECIFIC FOR THIS DATASET
+#SPECIFIC FOR THIS DATASET-----------------------------------
 # correct the digester numbers (or correct anything that has number separation)
 FilteredDigesterCorrect <- add_column(FilteredReplicate, digester_number = NA)
 FilteredDigesterCorrect <- mutate(FilteredDigesterCorrect,
@@ -80,10 +84,19 @@ FilteredDigesterCorrect <- mutate(FilteredDigesterCorrect,
                               str_detect(sample, "digester2") ~ "B",
                               str_detect(sample, "digester3") ~ "C",
                               str_detect(sample, "digester4") ~ "D",
-                              ))
+                              !str_detect(sample, "digester") ~ ""))
+FilteredMerge <- add_column(FilteredDigesterCorrect, location = NA)
+FilteredDigesterMerge <- FilteredMerge %>%
+  unite("location", sample_location:digester_number)
+# remove underscores
+FilteredDigesterMerge$location <- stringi::stri_replace_all_regex(FilteredDigesterMerge$location, "_", "")
+# change names back to original!
+colnames(FilteredDigesterMerge)[27] = "sample_location"
+FilteredReplicate <- FilteredDigesterMerge
 
+#FILTER2------------
 # Remove "solo" results.
-SoloRemoved <- plyr::ddply(FilteredDigesterCorrect, c("unique_id", "sample_location"),
+SoloRemoved <- plyr::ddply(FilteredReplicate, c("unique_id", "sample_location"),
                       function(d) {if (nrow(d) > 1) d else NULL})
 
 # Split by the mass_list_search column, and make two tables for mzcloud results and mass_list results
@@ -108,6 +121,16 @@ ITN <- SplitMassList$"itn_kps"
 Cannabinoids <- SplitMassList$"kps_cannabinoids"
 ITNMetabolites <- SplitMassList$"itn_cyp_metabolites"
 
-# count unique compounds in each
+# method to count unique compounds in each
 # CHANGE NAME OF MASS LIST EACH TIME, NUMBER WILL PRINT IN CONSOLE.
-length(unique(ITNMetabolites$unique_id))
+length(unique(ITN$unique_id))
+
+#VISUALISE------------
+# heatmap (check x axis)
+ggplot(ITN, aes(y = name, x = sample_location, fill = group_area)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "yellow", midpoint = 2e+08) +
+  labs(x = "Wastewater Treatment Stage", y = "Compound Name", colour = "Intensity") +
+  theme(axis.text.x = element_text(45)) +
+  theme_bw(base_size = 14)
+ggsave("Test_Heatmap.png", width = 15, height = 5)
