@@ -4,11 +4,11 @@ library(tidyverse)
 
 # Import data from excel file, using the janitor package to clean the name format up. 
 # Make sure you change the name of the file to match, and check the pathway!
-Raw_Data <- readxl::read_excel("~/Desktop/Charlie_CD/Charlie_CD/Raw Data/Charlie_KPS_26JAN_22.xlsx") %>% 
+test_data <- readxl::read_excel("~/GitHub/cd_workflow_2023/Data/Charlie_KPS_26JAN_22.xlsx") %>% 
   janitor::clean_names()
 
 # To make sure we don't edit any raw data files, duplicate and call the original dataset "base".
-Base <- Raw_Data
+Base <- test_data
 
 # filter to remove samples with no annotation, or no MS2 data.
 Base_NoNA <- with(Base, Base[!(name == "" | is.na(name)), ])
@@ -125,12 +125,33 @@ ITNMetabolites <- SplitMassList$"itn_cyp_metabolites"
 # CHANGE NAME OF MASS LIST EACH TIME, NUMBER WILL PRINT IN CONSOLE.
 length(unique(ITN$unique_id))
 
+
 #VISUALISE------------
 # heatmap (check x axis)
-ggplot(ITN, aes(y = name, x = sample_location, fill = group_area)) +
+ITN %>% 
+  filter(!is.na(name)) %>% 
+ggplot(aes(y = name, 
+                x = factor(sample_location, level = 
+                             c("feedpump",
+                               "digesterA",
+                               "digesterB",
+                               "digesterC",
+                               "digesterD",
+                               "centrin",
+                               "newdry",
+                               "olddry")), 
+                fill = group_area)) +
   geom_tile() +
+  scale_y_discrete(limits = rev) +
+  scale_x_discrete(limit = c("feedpump",
+                             "digesterA",
+                             "digesterB",
+                             "digesterC",
+                             "digesterD",
+                             "centrin",
+                             "newdry",
+                             "olddry")) +
   scale_fill_gradient2(low = "blue", high = "red", mid = "yellow", midpoint = 2e+08) +
   labs(x = "Wastewater Treatment Stage", y = "Compound Name", colour = "Intensity") +
-  theme(axis.text.x = element_text(45)) +
   theme_bw(base_size = 14)
 ggsave("Test_Heatmap.png", width = 15, height = 5)
