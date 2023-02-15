@@ -4,11 +4,11 @@ library(tidyverse)
 
 # Import data from excel file, using the janitor package to clean the name format up. 
 # Make sure you change the name of the file to match, and check the pathway!
-test_data <- readxl::read_excel("~/GitHub/cd_workflow_2023/Data/Charlie_KPS_26JAN_22.xlsx") %>% 
+JAN26_data <- readxl::read_excel("~/GitHub/cd_workflow_2023/Data/Charlie_KPS_26JAN_22.xlsx") %>% 
   janitor::clean_names()
 
 # To make sure we don't edit any raw data files, duplicate and call the original dataset "base".
-Base <- test_data
+Base <- JAN26_data
 
 # filter to remove samples with no annotation, or no MS2 data.
 Base_NoNA <- with(Base, Base[!(name == "" | is.na(name)), ])
@@ -47,7 +47,7 @@ SampleNames <- mutate(SampleNames,
 SampleNames$sample <- str_replace_all(SampleNames$sample, "group_area_", "")
 SampleNames$sample <- str_replace_all(SampleNames$sample, "peak_rating_", "")
 
-# pivot wider?
+# pivot wider
 Wider <- SampleNames %>%
   pivot_wider(names_from = measurement, values_from = result)
 
@@ -88,8 +88,10 @@ FilteredDigesterCorrect <- mutate(FilteredDigesterCorrect,
 FilteredMerge <- add_column(FilteredDigesterCorrect, location = NA)
 FilteredDigesterMerge <- FilteredMerge %>%
   unite("location", sample_location:digester_number)
+
 # remove underscores
 FilteredDigesterMerge$location <- stringi::stri_replace_all_regex(FilteredDigesterMerge$location, "_", "")
+
 # change names back to original!
 colnames(FilteredDigesterMerge)[27] = "sample_location"
 FilteredReplicate <- FilteredDigesterMerge
@@ -112,7 +114,9 @@ MassListLonger <- MassList %>%
                values_to = "mass_list_match")
 
 # filter for no matches in mass list.
-FilteredMassList <- MassListLonger[!grepl('No matches found', MassListLonger$mass_list_match),]
+MixRemoved <- MassListLonger[!grepl('mix', MassListLonger$sample_location),]
+MixRemoved2 <- MixRemoved[!grepl('control', MixRemoved$sample_location),]
+FilteredMassList <- MixRemoved2[!grepl('No matches found', MixRemoved2$mass_list_match),]
 
 # split further into mass lists
 # POSSIBLY UNIQUE TO THIS DATASE, CHANGE AS NEEDED.
@@ -124,34 +128,36 @@ ITNMetabolites <- SplitMassList$"itn_cyp_metabolites"
 # method to count unique compounds in each
 # CHANGE NAME OF MASS LIST EACH TIME, NUMBER WILL PRINT IN CONSOLE.
 length(unique(ITN$unique_id))
+### go into a table or a flowchart?
 
+# create a csv of filtered results.
+write.csv(ITN, "ITN-filtered-R.csv", row.names = FALSE)
 
 #VISUALISE------------
-# heatmap (check x axis)
-ITN %>% 
+# heatmap
+heatmap <- ITN %>% 
   filter(!is.na(name)) %>% 
-ggplot(aes(y = name, 
-                x = factor(sample_location, level = 
-                             c("feedpump",
-                               "digesterA",
-                               "digesterB",
-                               "digesterC",
-                               "digesterD",
-                               "centrin",
-                               "newdry",
-                               "olddry")), 
-                fill = group_area)) +
+  ggplot(aes(y = name, 
+             x = sample_location, 
+             fill = group_area)) +
   geom_tile() +
   scale_y_discrete(limits = rev) +
-  scale_x_discrete(limit = c("feedpump",
-                             "digesterA",
-                             "digesterB",
-                             "digesterC",
-                             "digesterD",
-                             "centrin",
-                             "newdry",
-                             "olddry")) +
-  scale_fill_gradient2(low = "blue", high = "red", mid = "yellow", midpoint = 2e+08) +
+  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 1.8e+08) +
   labs(x = "Wastewater Treatment Stage", y = "Compound Name", colour = "Intensity") +
-  theme_bw(base_size = 14)
+  theme_bw(base_size = 14) +
+  theme(panel.grid.major = element_line(colour = "gray80"),
+        panel.grid.minor = element_line(colour = "gray80"),
+        axis.title = element_text(family = "serif",
+                                  size = 14, face = "bold", colour = "gray20"),
+        legend.text = element_text(size = 12),
+        legend.title = element_text(size = 13,
+                                    family = "serif"),
+        plot.background = element_rect(colour = NA,
+                                       linetype = "solid"), legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
 ggsave("Test_Heatmap.png", width = 15, height = 5)
+
+ggThemeAssist::ggThemeAssistGadget(heatmap)
+
+heatmap + theme(axis.title = element_text(size = 18),
+    axis.text = element_text(family = "serif",
+        size = 18), plot.title = element_text(size = 18))
