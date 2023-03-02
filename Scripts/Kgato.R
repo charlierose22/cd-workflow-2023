@@ -128,7 +128,7 @@ FilteredReplicate3 <- mutate(FilteredReplicate3,
 FilteredReplicate1$sample_location = FilteredReplicate1$sample
 FilteredReplicate3$sample_location = FilteredReplicate3$sample
 FilteredReplicate1$sample_location <- stringi::stri_replace_all_regex(FilteredReplicate1$sample_location, "^\\d|\\d|_*", "")
-FilteredReplicate3$sample_location <- stringi::stri_replace_all_regex(FilteredReplicate3$sample_location, "^_*", "")
+FilteredReplicate3$sample_location <- stringi::stri_replace_all_regex(FilteredReplicate3$sample_location, "_[^_]+$", "")
 FilteredReplicate1$sample_location <- gsub('.{1}$', '', FilteredReplicate1$sample_location)
 
 # correct the digester numbers (or correct anything that has number separation)
