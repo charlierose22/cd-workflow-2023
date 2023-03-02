@@ -110,12 +110,14 @@ GroupAreaFiltered3 <- subset(PeakRatingFiltered3, group_area > 100000)
 
 # create column for replicate IDs if possible
 FilteredReplicate1 <- add_column(GroupAreaFiltered1, replicate = NA)
+
 # fill replicate file based on end of string in sample column
 FilteredReplicate1 <- mutate(FilteredReplicate1,
                             replicate = case_when(
                               str_ends(sample, "a") ~ "1",
                               str_ends(sample, "b") ~ "2",
                               str_ends(sample, "c") ~ "3"))
+
 # Add location column for each sample and remove numbers (DO NOT PUT NUMBERS IN LOCATION TITLES! e.g. if you're talking pipe_1/pipe_2, call them pipe_a/pipe_b)
 FilteredReplicate1$sample_location = FilteredReplicate1$sample
 FilteredReplicate1$sample_location <- stringi::stri_replace_all_regex(FilteredReplicate1$sample_location, "^\\d|\\d|_*", "")
@@ -133,8 +135,10 @@ FilteredDigesterCorrect1 <- mutate(FilteredDigesterCorrect1,
 FilteredMerge1 <- add_column(FilteredDigesterCorrect1, location = NA)
 FilteredDigesterMerge1 <- FilteredMerge1 %>%
   unite("location", sample_location:digester_number)
+
 # remove underscores
 FilteredDigesterMerge1$location <- stringi::stri_replace_all_regex(FilteredDigesterMerge1$location, "_", "")
+
 # change names back to original!
 colnames(FilteredDigesterMerge1)[27] = "sample_location"
 FilteredReplicate1 <- FilteredDigesterMerge1
