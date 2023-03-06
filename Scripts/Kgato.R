@@ -333,42 +333,6 @@ SummaryPharmaceuticals1 <- Pharmaceuticals1 %>%
             n_peak_rating = length(peak_rating),
             se_group_area = sd_group_area / sqrt(n_group_area),
             se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
-SummaryNPL2 <- NPL2 %>% 
-  group_by(unique_id, sample_location) %>% 
-  summarise(mean_group_area = mean(group_area),
-            mean_peak_rating = mean(peak_rating),
-            median_group_area = median(group_area),
-            median_peak_rating = median(peak_rating),
-            sd_group_area = sd(group_area),
-            sd_peak_rating = sd(peak_rating),
-            n_group_area = length(group_area),
-            n_peak_rating = length(peak_rating),
-            se_group_area = sd_group_area / sqrt(n_group_area),
-            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
-SummaryPsychoactive2 <- Psychoactive2 %>% 
-  group_by(unique_id, sample_location) %>% 
-  summarise(mean_group_area = mean(group_area),
-            mean_peak_rating = mean(peak_rating),
-            median_group_area = median(group_area),
-            median_peak_rating = median(peak_rating),
-            sd_group_area = sd(group_area),
-            sd_peak_rating = sd(peak_rating),
-            n_group_area = length(group_area),
-            n_peak_rating = length(peak_rating),
-            se_group_area = sd_group_area / sqrt(n_group_area),
-            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
-SummaryPharmaceuticals2 <- Pharmaceuticals2 %>% 
-  group_by(unique_id, sample_location) %>% 
-  summarise(mean_group_area = mean(group_area),
-            mean_peak_rating = mean(peak_rating),
-            median_group_area = median(group_area),
-            median_peak_rating = median(peak_rating),
-            sd_group_area = sd(group_area),
-            sd_peak_rating = sd(peak_rating),
-            n_group_area = length(group_area),
-            n_peak_rating = length(peak_rating),
-            se_group_area = sd_group_area / sqrt(n_group_area),
-            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
 SummaryITN3 <- ITN3 %>% 
   group_by(unique_id, sample_location) %>% 
   summarise(mean_group_area = mean(group_area),
@@ -406,6 +370,30 @@ SummaryPsychoactive3 <- Psychoactive3 %>%
             se_group_area = sd_group_area / sqrt(n_group_area),
             se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
 SummaryPharmaceuticals3 <- Pharmaceuticals3 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryMZCloud1 <- FilteredMZCloud1 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryMZCloud3 <- FilteredMZCloud3 %>% 
   group_by(unique_id, sample_location) %>% 
   summarise(mean_group_area = mean(group_area),
             mean_peak_rating = mean(peak_rating),
@@ -479,42 +467,6 @@ SummaryPharmaceuticals1name <- Pharmaceuticals1 %>%
             n_peak_rating = length(peak_rating),
             se_group_area = sd_group_area / sqrt(n_group_area),
             se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
-SummaryNPL2name <- NPL2 %>% 
-  group_by(name, sample_location) %>% 
-  summarise(mean_group_area = mean(group_area),
-            mean_peak_rating = mean(peak_rating),
-            median_group_area = median(group_area),
-            median_peak_rating = median(peak_rating),
-            sd_group_area = sd(group_area),
-            sd_peak_rating = sd(peak_rating),
-            n_group_area = length(group_area),
-            n_peak_rating = length(peak_rating),
-            se_group_area = sd_group_area / sqrt(n_group_area),
-            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
-SummaryPsychoactive2name <- Psychoactive2 %>% 
-  group_by(name, sample_location) %>% 
-  summarise(mean_group_area = mean(group_area),
-            mean_peak_rating = mean(peak_rating),
-            median_group_area = median(group_area),
-            median_peak_rating = median(peak_rating),
-            sd_group_area = sd(group_area),
-            sd_peak_rating = sd(peak_rating),
-            n_group_area = length(group_area),
-            n_peak_rating = length(peak_rating),
-            se_group_area = sd_group_area / sqrt(n_group_area),
-            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
-SummaryPharmaceuticals2name <- Pharmaceuticals2 %>% 
-  group_by(name, sample_location) %>% 
-  summarise(mean_group_area = mean(group_area),
-            mean_peak_rating = mean(peak_rating),
-            median_group_area = median(group_area),
-            median_peak_rating = median(peak_rating),
-            sd_group_area = sd(group_area),
-            sd_peak_rating = sd(peak_rating),
-            n_group_area = length(group_area),
-            n_peak_rating = length(peak_rating),
-            se_group_area = sd_group_area / sqrt(n_group_area),
-            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
 SummaryITN3name <- ITN3 %>% 
   group_by(name, sample_location) %>% 
   summarise(mean_group_area = mean(group_area),
@@ -570,21 +522,33 @@ length(unique(nnn$unique_id))
 ### go into a table or a flowchart?
 
 # create a csv of filtered results.
+write.csv(SummaryITN1, "Results/SummaryITN_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(SummaryCannabinoids1, "Results/SummaryCannabinoids_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(SummaryITNMetabolites1, "Results/SummaryITNMetabolites_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(SummaryPsychoactive1, "Results/SummaryPsychoactive_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(SummaryPharmaceuticals1, "Results/SummaryPharmaceuticals_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(SummaryMZCloud1, "Results/SummaryMZCloud_Filtered_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(NPL2, "Results/NPL_Thailand_15FEB.csv", row.names = FALSE)
+write.csv(Psychoactive2, "Results/Psychoactive_Thailand_15FEB.csv", row.names = FALSE)
+write.csv(Pharmaceuticals2, "Results/Pharmaceuticals_Thailand_15FEB.csv", row.names = FALSE)
+write.csv(FilteredMZCloud2, "Results/MZCloud_Filtered_Thailand_15FEB.csv", row.names = FALSE)
+write.csv(SummaryITN3, "Results/SummaryITN_Kgato_15FEB.csv", row.names = FALSE)
+write.csv(SummaryITNMetabolites3, "Results/SummaryITNMetabolites_Kgato_15FEB.csv", row.names = FALSE)
+write.csv(SummaryPsychoactive3, "Results/SummaryPsychoactive_Kgato_15FEB.csv", row.names = FALSE)
+write.csv(SummaryPharmaceuticals3, "Results/SummaryPharmaceuticals_Kgato_15FEB.csv", row.names = FALSE)
+write.csv(SummaryMZCloud3, "Results/SummaryMZCloud_Filtered_Kgato_15FEB.csv", row.names = FALSE)
 write.csv(ITN1, "Results/ITN_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(Cannabinoids1, "Results/Cannabinoids_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(ITNMetabolites1, "Results/ITNMetabolites_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(Psychoactive1, "Results/Psychoactive_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(Pharmaceuticals1, "Results/Pharmaceuticals_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(FilteredMZCloud1, "Results/MZCloud_Filtered_Charlie_26JAN.csv", row.names = FALSE)
-write.csv(NPL2, "Results/NPL_Thailand_15FEB.csv", row.names = FALSE)
-write.csv(Psychoactive2, "Results/Psychoactive_Thailand_15FEB.csv", row.names = FALSE)
-write.csv(Pharmaceuticals2, "Results/Pharmaceuticals_Thailand_15FEB.csv", row.names = FALSE)
-write.csv(FilteredMZCloud2, "Results/MZCloud_Filtered_Thailand_15FEB.csv", row.names = FALSE)
 write.csv(ITN3, "Results/ITN_Kgato_15FEB.csv", row.names = FALSE)
 write.csv(ITNMetabolites3, "Results/ITNMetabolites_Kgato_15FEB.csv", row.names = FALSE)
 write.csv(Psychoactive3, "Results/Psychoactive_Kgato_15FEB.csv", row.names = FALSE)
 write.csv(Pharmaceuticals3, "Results/Pharmaceuticals_Kgato_15FEB.csv", row.names = FALSE)
 write.csv(FilteredMZCloud3, "Results/MZCloud_Filtered_Kgato_15FEB.csv", row.names = FALSE)
+
 
 # heatmap
 #1--------
@@ -902,3 +866,29 @@ Pharmaceuticals3 %>%
         legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
 ggsave("Figures/Pharmaceuticals_Kgato_15FEB.pdf", width = 20, height = 125, limitsize = FALSE)
 
+# summary figures, easier by name
+SummaryITN1name %>% 
+  filter(!is.na(name)) %>% 
+  ggplot(aes(y = name, 
+             x = sample_location, 
+             fill = mean_group_area)) +
+  geom_tile() +
+  scale_y_discrete(limits = rev) +
+  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 2e+08) +
+  labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
+  theme_bw(base_size = 10) +
+  theme(panel.grid.major = element_line(colour = "gray80"),
+        panel.grid.minor = element_line(colour = "gray80"),
+        axis.text.x = element_text(angle = 90),
+        legend.text = element_text(family = "serif", 
+                                   size = 10), 
+        axis.text = element_text(family = "serif", 
+                                 size = 10),
+        axis.title = element_text(family = "serif",
+                                  size = 10, face = "bold", colour = "gray20"),
+        legend.title = element_text(size = 10,
+                                    family = "serif"),
+        plot.background = element_rect(colour = NA,
+                                       linetype = "solid"), 
+        legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
+ggsave("Figures/ITN_Charlie_26JAN_summary.pdf", width = 20, height = 25)
