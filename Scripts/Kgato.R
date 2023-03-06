@@ -7,12 +7,12 @@ Thailand_15Feb_RAW <- readxl::read_excel("Data/Thailand_15Feb_RAW.xlsx") %>%
   janitor::clean_names()
 KPS_15Feb_RAW <- readxl::read_excel("Data/SamplingCampaign_15Feb_UpdNames_RAW.xlsx") %>% janitor::clean_names()
 
-
+# rename for the code, might be unnecessary but it's easy
 Base1 <- Charlie_JAN26
 Base2 <- Thailand_15Feb_RAW
 Base3 <- KPS_15Feb_RAW
 
-# filter to remove samples with no annotation, or no MS2 data.
+# filter to remove samples with no annotation, or no MS2 data
 Base1_NoNA <- with(Base1, Base1[!(name == "" | is.na(name)), ])
 Base2_NoNA <- with(Base2, Base2[!(name == "" | is.na(name)), ])
 Base3_NoNA <- with(Base3, Base3[!(name == "" | is.na(name)), ])
@@ -20,7 +20,7 @@ Base1_MS2 <- Base1_NoNA[!grepl('No MS2', Base1_NoNA$ms2),]
 Base2_MS2 <- Base2_NoNA[!grepl('No MS2', Base2_NoNA$ms2),]
 Base3_MS2 <- Base3_NoNA[!grepl('No MS2', Base3_NoNA$ms2),]
 
-# drop unnecessary columns entirely, unless you have used them in the CD software.
+# drop unnecessary columns entirely, unless you have used them in the CD software
 Base1_MS2$tags = NULL
 Base2_MS2$tags = NULL
 Base3_MS2$tags = NULL
@@ -28,7 +28,8 @@ Base1_MS2$checked = NULL
 Base2_MS2$checked = NULL
 Base3_MS2$checked = NULL
 
-# concatenate compound names and retention times to make a unique identifier, this will make things easier later on.
+# concatenate compound names and retention times to make a unique identifier 
+# this will make things easier later on
 BaseUniqueID1 <- add_column(Base1_MS2, unique_id = NA, .after = 0)
 BaseUniqueID2 <- add_column(Base2_MS2, unique_id = NA, .after = 0)
 BaseUniqueID3 <- add_column(Base3_MS2, unique_id = NA, .after = 0)
@@ -36,7 +37,7 @@ BaseUniqueID1$unique_id <- str_c(BaseUniqueID1$name, "_", BaseUniqueID1$rt_min)
 BaseUniqueID2$unique_id <- str_c(BaseUniqueID2$name, "_", BaseUniqueID2$rt_min)
 BaseUniqueID3$unique_id <- str_c(BaseUniqueID3$name, "_", BaseUniqueID3$rt_min)
 
-# add peak number in as another unique identifier.
+# add peak number in as another unique identifier
 BaseUniqueID_PeakNumber1 <- add_column(BaseUniqueID1, peak_number = NA, .after = 0)
 BaseUniqueID_PeakNumber2 <- add_column(BaseUniqueID2, peak_number = NA, .after = 0)
 BaseUniqueID_PeakNumber3 <- add_column(BaseUniqueID3, peak_number = NA, .after = 0)
@@ -44,7 +45,7 @@ BaseUniqueID_PeakNumber1$peak_number <- seq.int(nrow(BaseUniqueID_PeakNumber1))
 BaseUniqueID_PeakNumber2$peak_number <- seq.int(nrow(BaseUniqueID_PeakNumber2))
 BaseUniqueID_PeakNumber3$peak_number <- seq.int(nrow(BaseUniqueID_PeakNumber3))
 
-# starting with the group area measurements, lengthen the table to erase white space.
+# starting with the group area measurements, lengthen the table to erase white space
 colnames(BaseUniqueID_PeakNumber1) <- sub("*_raw_f\\d\\d*", "", colnames(BaseUniqueID_PeakNumber1))
 colnames(BaseUniqueID_PeakNumber2) <- sub("*_raw_f\\d\\d*", "", colnames(BaseUniqueID_PeakNumber2))
 colnames(BaseUniqueID_PeakNumber3) <- sub("*_raw_f\\d\\d*", "", colnames(BaseUniqueID_PeakNumber3))
@@ -95,7 +96,7 @@ Wider2 <- SampleNames2 %>%
 Wider3 <- SampleNames3 %>%
   pivot_wider(names_from = measurement, values_from = result)
 
-# remove NAs and filter so that the peak_rating column only has values above 5.
+# remove NAs and filter so that the peak_rating column only has values above 5
 NoNAs1 <- drop_na(Wider1, group_area)
 NoNAs2 <- drop_na(Wider2, group_area)
 NoNAs3 <- drop_na(Wider3, group_area)
@@ -124,14 +125,16 @@ FilteredReplicate3 <- mutate(FilteredReplicate3,
                                str_ends(sample, "1") ~ "1",
                                str_ends(sample, "2") ~ "2"))
 
-# Add location column for each sample and remove numbers (DO NOT PUT NUMBERS IN LOCATION TITLES! e.g. if you're talking pipe_1/pipe_2, call them pipe_a/pipe_b)
+# Add location column for each sample and remove numbers
+# (DO NOT PUT NUMBERS IN LOCATION TITLES! e.g. if you're talking pipe_1/pipe_2, call them pipe_a/pipe_b)
 FilteredReplicate1$sample_location = FilteredReplicate1$sample
 FilteredReplicate3$sample_location = FilteredReplicate3$sample
 FilteredReplicate1$sample_location <- stringi::stri_replace_all_regex(FilteredReplicate1$sample_location, "^\\d|\\d|_*", "")
 FilteredReplicate3$sample_location <- stringi::stri_replace_all_regex(FilteredReplicate3$sample_location, "_[^_]+$", "")
 FilteredReplicate1$sample_location <- gsub('.{1}$', '', FilteredReplicate1$sample_location)
 
-# correct the digester numbers (or correct anything that has number separation)
+# correct the digester numbers 
+# (or correct anything that has number separation)
 FilteredDigesterCorrect1 <- add_column(FilteredReplicate1, digester_number = NA)
 FilteredDigesterCorrect1 <- mutate(FilteredDigesterCorrect1,
                                   digester_number = case_when(
@@ -151,16 +154,64 @@ FilteredDigesterMerge1$location <- stringi::stri_replace_all_regex(FilteredDiges
 colnames(FilteredDigesterMerge1)[27] = "sample_location"
 FilteredReplicate1 <- FilteredDigesterMerge1
 
-# calculate means, std and se
-
-
 # Remove "solo" results.
 SoloRemoved1 <- plyr::ddply(FilteredReplicate1, c("unique_id", "sample_location"),
                            function(d) {if (nrow(d) > 1) d else NULL})
+SoloRemoved3 <- plyr::ddply(FilteredReplicate3, c("unique_id", "sample_location"),
+                            function(d) {if (nrow(d) > 1) d else NULL})
 
 # rename if no filtering could be done.
 SoloRemoved2 <- GroupAreaFiltered2
-SoloRemoved3 <- GroupAreaFiltered3
+
+# calculate means, std and se
+Summary1 <- SoloRemoved1 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+Summary1_compound <- SoloRemoved1 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+Summary3 <- SoloRemoved3 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+Summary3_compound <- SoloRemoved3 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
 
 # Split by the mass_list_search column, and make two tables for mzcloud results and mass_list results
 Split1 <- split(SoloRemoved1, SoloRemoved1$annot_source_mass_list_search)
@@ -220,6 +271,298 @@ ITN3 <- SplitMassList3$"itn_kps"
 ITNMetabolites3 <- SplitMassList3$"itn_cyp_metabolites"
 Psychoactive3 <- SplitMassList3$"kps_psychoactive_substances_v2"
 Pharmaceuticals3 <- SplitMassList3$"kps_pharmaceuticals_oct22"
+
+# more stats for once we've split into mass lists
+SummaryITN1 <- ITN1 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryCannabinoids1 <- Cannabinoids1 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryITNMetabolites1 <- ITNMetabolites1 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPsychoactive1 <- Psychoactive1 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPharmaceuticals1 <- Pharmaceuticals1 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryNPL2 <- NPL2 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPsychoactive2 <- Psychoactive2 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPharmaceuticals2 <- Pharmaceuticals2 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryITN3 <- ITN3 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryITNMetabolites3 <- ITNMetabolites3 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPsychoactive3 <- Psychoactive3 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPharmaceuticals3 <- Pharmaceuticals3 %>% 
+  group_by(unique_id, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+
+# and for compound names, not taking retention time into account.
+SummaryITN1name <- ITN1 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryCannabinoids1name <- Cannabinoids1 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryITNMetabolites1name <- ITNMetabolites1 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPsychoactive1name <- Psychoactive1 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPharmaceuticals1name <- Pharmaceuticals1 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryNPL2name <- NPL2 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPsychoactive2name <- Psychoactive2 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPharmaceuticals2name <- Pharmaceuticals2 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryITN3name <- ITN3 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryITNMetabolites3name <- ITNMetabolites3 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPsychoactive3name <- Psychoactive3 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
+SummaryPharmaceuticals3name <- Pharmaceuticals3 %>% 
+  group_by(name, sample_location) %>% 
+  summarise(mean_group_area = mean(group_area),
+            mean_peak_rating = mean(peak_rating),
+            median_group_area = median(group_area),
+            median_peak_rating = median(peak_rating),
+            sd_group_area = sd(group_area),
+            sd_peak_rating = sd(peak_rating),
+            n_group_area = length(group_area),
+            n_peak_rating = length(peak_rating),
+            se_group_area = sd_group_area / sqrt(n_group_area),
+            se_peak_rating = sd_peak_rating / sqrt(n_peak_rating))
 
 # method to count unique compounds in each
 # CHANGE NAME OF MASS LIST EACH TIME, NUMBER WILL PRINT IN CONSOLE.
