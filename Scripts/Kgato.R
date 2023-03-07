@@ -891,4 +891,57 @@ SummaryITN1name %>%
         plot.background = element_rect(colour = NA,
                                        linetype = "solid"), 
         legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
-ggsave("Figures/ITN_Charlie_26JAN_summary.pdf", width = 20, height = 25)
+ggsave("Figures/ITN_Charlie_26JAN_summary.pdf", width = 15, height = 10)
+
+SummaryITN3name %>% 
+  filter(!is.na(name)) %>% 
+  ggplot(aes(y = name, 
+             x = sample_location, 
+             fill = mean_group_area)) +
+  geom_tile() +
+  scale_y_discrete(limits = rev) +
+  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 1.2e+08) +
+  labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
+  theme_bw(base_size = 10) +
+  theme(panel.grid.major = element_line(colour = "gray80"),
+        panel.grid.minor = element_line(colour = "gray80"),
+        axis.text.x = element_text(angle = 90),
+        legend.text = element_text(family = "serif", 
+                                   size = 10), 
+        axis.text = element_text(family = "serif", 
+                                 size = 10),
+        axis.title = element_text(family = "serif",
+                                  size = 10, face = "bold", colour = "gray20"),
+        legend.title = element_text(size = 10,
+                                    family = "serif"),
+        plot.background = element_rect(colour = NA,
+                                       linetype = "solid"), 
+        legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
+ggsave("Figures/ITN_Kgato_15FEB_summary.pdf", width = 20, height = 25)
+
+SummaryITNMetabolites1name %>% 
+  filter(!is.na(name)) %>% 
+  ggplot(aes(y = name, 
+             x = sample_location, 
+             fill = mean_group_area)) +
+  geom_tile() +
+  scale_y_discrete(limits = rev) +
+  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 1e+08) +
+  labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
+  theme_bw(base_size = 10) +
+  theme(panel.grid.major = element_line(colour = "gray80"),
+        panel.grid.minor = element_line(colour = "gray80"),
+        axis.text.x = element_text(angle = 90),
+        legend.text = element_text(family = "serif", 
+                                   size = 10), 
+        axis.text = element_text(family = "serif", 
+                                 size = 10),
+        axis.title = element_text(family = "serif",
+                                  size = 10, face = "bold", colour = "gray20"),
+        legend.title = element_text(size = 10,
+                                    family = "serif"),
+        plot.background = element_rect(colour = NA,
+                                       linetype = "solid"), 
+        legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
+ggsave("Figures/ITNMetabolites_Charlie_26JAN_summary.pdf", width = 20, height = 18)
+
