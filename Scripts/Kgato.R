@@ -5,7 +5,7 @@ Charlie_JAN26 <- readxl::read_excel("~/GitHub/cd_workflow_2023/Data/Charlie_KPS_
   janitor::clean_names()
 Thailand_15Feb_RAW <- readxl::read_excel("Data/Thailand_15Feb_RAW.xlsx") %>% 
   janitor::clean_names()
-KPS_15Feb_RAW <- readxl::read_excel("Data/SamplingCampaign_15Feb_UpdNames_RAW.xlsx") %>% janitor::clean_names()
+KPS_15Feb_RAW <- readxl::read_excel("Data/SC_March_RAW.xlsx") %>% janitor::clean_names()
 
 # rename for the code, might be unnecessary but it's easy
 Base1 <- Charlie_JAN26
