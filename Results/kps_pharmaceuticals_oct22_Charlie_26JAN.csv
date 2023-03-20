@@ -1,0 +1,907 @@
+"name","sample_location","mass_list_name","mean_area"
+"(E)-Squalene","centrin","kps_pharmaceuticals_oct22",16735389.8907859
+"(E)-Squalene","digesterA","kps_pharmaceuticals_oct22",6159124.11714109
+"(E)-Squalene","digesterC","kps_pharmaceuticals_oct22",8862400.92986693
+"(E)-Squalene","digesterD","kps_pharmaceuticals_oct22",8020771.77090221
+"(E)-Squalene","newdry","kps_pharmaceuticals_oct22",24779321.9804582
+"(E)-Squalene","olddry","kps_pharmaceuticals_oct22",4342209.65941913
+"(R)-Lisofylline","digesterB","kps_pharmaceuticals_oct22",5839311.34379853
+"(Z)-Hexadec-9-enoic acid","feedpump","kps_pharmaceuticals_oct22",3988619.53130132
+"1-Hexadecanesulfonic acid","feedpump","kps_pharmaceuticals_oct22",18532817.6823268
+"1-oleoylglycerol","centrin","kps_pharmaceuticals_oct22",34710828.9783252
+"1-oleoylglycerol","digesterA","kps_pharmaceuticals_oct22",18026345.1409947
+"1-oleoylglycerol","digesterB","kps_pharmaceuticals_oct22",24179794.3509379
+"1-oleoylglycerol","digesterC","kps_pharmaceuticals_oct22",30466154.2058436
+"1-oleoylglycerol","digesterD","kps_pharmaceuticals_oct22",38102840.702298
+"1-oleoylglycerol","feedpump","kps_pharmaceuticals_oct22",83719929.2397563
+"1-oleoylglycerol","newdry","kps_pharmaceuticals_oct22",29512384.2854936
+"1-oleoylglycerol","olddry","kps_pharmaceuticals_oct22",48743271.4231845
+"17beta-Estradiol","centrin","kps_pharmaceuticals_oct22",10558404.1363587
+"17beta-Estradiol","digesterA","kps_pharmaceuticals_oct22",25990017.5006741
+"17beta-Estradiol","digesterB","kps_pharmaceuticals_oct22",345556802.618214
+"17beta-Estradiol","digesterC","kps_pharmaceuticals_oct22",91498121.9039792
+"17beta-Estradiol","digesterD","kps_pharmaceuticals_oct22",104962483.50917
+"17beta-Estradiol","feedpump","kps_pharmaceuticals_oct22",1110970.51529688
+"17beta-Estradiol","newdry","kps_pharmaceuticals_oct22",23383795.5333843
+"17beta-Estradiol","olddry","kps_pharmaceuticals_oct22",113552485.251619
+"3,4-Dimethylaniline","centrin","kps_pharmaceuticals_oct22",51630419.8218556
+"3,4-Dimethylaniline","digesterA","kps_pharmaceuticals_oct22",47428806.654571
+"3,4-Dimethylaniline","digesterB","kps_pharmaceuticals_oct22",46640257.1234743
+"3,4-Dimethylaniline","digesterC","kps_pharmaceuticals_oct22",51652848.5856124
+"3,4-Dimethylaniline","digesterD","kps_pharmaceuticals_oct22",137528723.073959
+"3,4-Dimethylaniline","feedpump","kps_pharmaceuticals_oct22",245303709.594511
+"3,4-Dimethylaniline","newdry","kps_pharmaceuticals_oct22",43918187.9577646
+"3,4-Dimethylaniline","olddry","kps_pharmaceuticals_oct22",56754849.0510764
+"4-Aminotetrahydrobiopterin","feedpump","kps_pharmaceuticals_oct22",56081530.2833041
+"4-Heptylphenol","centrin","kps_pharmaceuticals_oct22",37819277.1735355
+"4-Heptylphenol","digesterA","kps_pharmaceuticals_oct22",5792300.81977783
+"4-Heptylphenol","digesterB","kps_pharmaceuticals_oct22",15650241.8890908
+"4-Heptylphenol","digesterC","kps_pharmaceuticals_oct22",21332856.8624278
+"4-Heptylphenol","digesterD","kps_pharmaceuticals_oct22",37606206.0389623
+"4-Heptylphenol","feedpump","kps_pharmaceuticals_oct22",5953267.75106562
+"4-Heptylphenol","newdry","kps_pharmaceuticals_oct22",14451050.2104819
+"4-Heptylphenol","olddry","kps_pharmaceuticals_oct22",24271437.4602836
+"4-Hexylresorcinol","olddry","kps_pharmaceuticals_oct22",2079491.08811561
+"4-Oxosebacic Acid","centrin","kps_pharmaceuticals_oct22",17920197.9688385
+"4-Oxosebacic Acid","newdry","kps_pharmaceuticals_oct22",10276846.6734374
+"4-Oxosebacic Acid","olddry","kps_pharmaceuticals_oct22",19708493.3293604
+"4-piperidin-4-ylbutal","centrin","kps_pharmaceuticals_oct22",3081735.89987394
+"4-piperidin-4-ylbutal","digesterA","kps_pharmaceuticals_oct22",9316382.68317702
+"4-piperidin-4-ylbutal","digesterB","kps_pharmaceuticals_oct22",50695501.7244241
+"4-piperidin-4-ylbutal","digesterC","kps_pharmaceuticals_oct22",3672819.88817065
+"4-piperidin-4-ylbutal","feedpump","kps_pharmaceuticals_oct22",86075264.5727213
+"4-piperidin-4-ylbutal","olddry","kps_pharmaceuticals_oct22",3815867.58228741
+"5-Phenylvaleric acid","centrin","kps_pharmaceuticals_oct22",19276272.6327122
+"5-Phenylvaleric acid","digesterC","kps_pharmaceuticals_oct22",13587247.4297298
+"5-Phenylvaleric acid","digesterD","kps_pharmaceuticals_oct22",12186359.3568023
+"5-Phenylvaleric acid","newdry","kps_pharmaceuticals_oct22",21206439.4094604
+"9-Aminocamptothecin","digesterD","kps_pharmaceuticals_oct22",8605388.03993532
+"9-Aminocamptothecin","olddry","kps_pharmaceuticals_oct22",10091224.8444761
+"Abexinostat","olddry","kps_pharmaceuticals_oct22",8938912.45871429
+"Acitretin","centrin","kps_pharmaceuticals_oct22",9776707.07414382
+"Acitretin","digesterA","kps_pharmaceuticals_oct22",25858890.2622263
+"Acitretin","digesterB","kps_pharmaceuticals_oct22",54121367.6184724
+"Acitretin","digesterC","kps_pharmaceuticals_oct22",47280812.3738655
+"Acitretin","digesterD","kps_pharmaceuticals_oct22",3687723.12135641
+"Acitretin","newdry","kps_pharmaceuticals_oct22",44693244.6798745
+"Agomelatine","olddry","kps_pharmaceuticals_oct22",8175408.93165535
+"Alectinib","centrin","kps_pharmaceuticals_oct22",6471488.74731561
+"Alfacalcidol","centrin","kps_pharmaceuticals_oct22",6796297.6653381
+"Alfacalcidol","digesterA","kps_pharmaceuticals_oct22",12761347.4187057
+"Alfacalcidol","digesterB","kps_pharmaceuticals_oct22",20263348.666953
+"Alfacalcidol","digesterD","kps_pharmaceuticals_oct22",10350795.7697268
+"Alfacalcidol","feedpump","kps_pharmaceuticals_oct22",21410760.0679847
+"Alfacalcidol","newdry","kps_pharmaceuticals_oct22",25572538.4650156
+"Alfacalcidol","olddry","kps_pharmaceuticals_oct22",20369682.8915674
+"Allopurinol","feedpump","kps_pharmaceuticals_oct22",61230049.3916168
+"Allylestrenol","centrin","kps_pharmaceuticals_oct22",110496122.474109
+"Allylestrenol","digesterA","kps_pharmaceuticals_oct22",50377103.7785689
+"Allylestrenol","digesterC","kps_pharmaceuticals_oct22",155488739.450541
+"Allylestrenol","digesterD","kps_pharmaceuticals_oct22",109679564.441164
+"Allylestrenol","feedpump","kps_pharmaceuticals_oct22",40725274.9304335
+"Allylestrenol","newdry","kps_pharmaceuticals_oct22",203814222.26025
+"Allylprodine","feedpump","kps_pharmaceuticals_oct22",99195168.1579749
+"Allylprodine","newdry","kps_pharmaceuticals_oct22",4783763.22468748
+"Allylprodine","olddry","kps_pharmaceuticals_oct22",24103784.3577728
+"Alosetron","newdry","kps_pharmaceuticals_oct22",3134914.28154589
+"Alpha-Dimorphecolic","digesterA","kps_pharmaceuticals_oct22",5441426.41534175
+"Alpha-Dimorphecolic","digesterC","kps_pharmaceuticals_oct22",3598357.12948813
+"Alpha-Dimorphecolic","digesterD","kps_pharmaceuticals_oct22",3018433.56447134
+"Alpha-Dimorphecolic","feedpump","kps_pharmaceuticals_oct22",117326583.551
+"Alpha-Dimorphecolic","newdry","kps_pharmaceuticals_oct22",9991233.20934684
+"Alverine","digesterA","kps_pharmaceuticals_oct22",13057026.1983955
+"Alverine","digesterB","kps_pharmaceuticals_oct22",18554865.3290156
+"Alverine","digesterC","kps_pharmaceuticals_oct22",5439041.85283419
+"Alverine","digesterD","kps_pharmaceuticals_oct22",7428427.70234503
+"Alverine","feedpump","kps_pharmaceuticals_oct22",9783057.48983452
+"Alverine","newdry","kps_pharmaceuticals_oct22",2220564.52804901
+"Alverine","olddry","kps_pharmaceuticals_oct22",7878074.98198176
+"Amiloride","digesterD","kps_pharmaceuticals_oct22",19305173.3819366
+"Aminorex","digesterA","kps_pharmaceuticals_oct22",41749043.0063264
+"Aminorex","digesterB","kps_pharmaceuticals_oct22",37436262.2980439
+"Amiodarone","centrin","kps_pharmaceuticals_oct22",11323898.7669309
+"Amiodarone","digesterA","kps_pharmaceuticals_oct22",14463056.3816972
+"Amiodarone","digesterB","kps_pharmaceuticals_oct22",16285033.4953041
+"Amiodarone","digesterC","kps_pharmaceuticals_oct22",11615350.5353836
+"Amiodarone","digesterD","kps_pharmaceuticals_oct22",9440490.49366292
+"Amiodarone","feedpump","kps_pharmaceuticals_oct22",3660551.34819656
+"Amiodarone","newdry","kps_pharmaceuticals_oct22",24981384.5821962
+"Amiodarone","olddry","kps_pharmaceuticals_oct22",19035956.085434
+"Amisulpride","newdry","kps_pharmaceuticals_oct22",4589690.62075983
+"Amisulpride","olddry","kps_pharmaceuticals_oct22",21310171.2980656
+"Amitriptyline","centrin","kps_pharmaceuticals_oct22",116316469.241522
+"Amitriptyline","digesterA","kps_pharmaceuticals_oct22",145908915.928376
+"Amitriptyline","digesterB","kps_pharmaceuticals_oct22",235058627.406179
+"Amitriptyline","digesterC","kps_pharmaceuticals_oct22",296539541.940081
+"Amitriptyline","digesterD","kps_pharmaceuticals_oct22",208120796.353424
+"Amitriptyline","feedpump","kps_pharmaceuticals_oct22",93868424.6104269
+"Amitriptyline","newdry","kps_pharmaceuticals_oct22",16478623.4667034
+"Amitriptyline","olddry","kps_pharmaceuticals_oct22",241092999.517991
+"Amorolfine","centrin","kps_pharmaceuticals_oct22",73463840.5815366
+"Amorolfine","digesterA","kps_pharmaceuticals_oct22",63449920.4816823
+"Amorolfine","digesterB","kps_pharmaceuticals_oct22",70852274.7389419
+"Amorolfine","digesterC","kps_pharmaceuticals_oct22",142649862.021261
+"Amorolfine","digesterD","kps_pharmaceuticals_oct22",135945801.360158
+"Amorolfine","feedpump","kps_pharmaceuticals_oct22",85322959.085818
+"Amorolfine","newdry","kps_pharmaceuticals_oct22",135640762.673464
+"Amorolfine","olddry","kps_pharmaceuticals_oct22",24557376.951906
+"Amylocaine","digesterB","kps_pharmaceuticals_oct22",9576421.87526848
+"Amylocaine","digesterC","kps_pharmaceuticals_oct22",11694292.2182964
+"Amylocaine","newdry","kps_pharmaceuticals_oct22",7097687.691525
+"Amylocaine","olddry","kps_pharmaceuticals_oct22",14991732.3986195
+"Antroquinonol","centrin","kps_pharmaceuticals_oct22",88436625.3106704
+"Antroquinonol","digesterA","kps_pharmaceuticals_oct22",36113838.7825769
+"Antroquinonol","digesterB","kps_pharmaceuticals_oct22",47678497.4959342
+"Antroquinonol","digesterC","kps_pharmaceuticals_oct22",33575454.819402
+"Antroquinonol","digesterD","kps_pharmaceuticals_oct22",69943496.0791142
+"Antroquinonol","feedpump","kps_pharmaceuticals_oct22",338961553.523987
+"Antroquinonol","newdry","kps_pharmaceuticals_oct22",72600642.5397478
+"Antroquinonol","olddry","kps_pharmaceuticals_oct22",77889307.3876719
+"Apigenin","feedpump","kps_pharmaceuticals_oct22",11839330.2940264
+"Apigenin","olddry","kps_pharmaceuticals_oct22",5802242.06906566
+"Apixaban","newdry","kps_pharmaceuticals_oct22",4459620.27969196
+"Apixaban","olddry","kps_pharmaceuticals_oct22",5700551.25463935
+"Atorvastatin","centrin","kps_pharmaceuticals_oct22",4467000.8977756
+"Atorvastatin","digesterC","kps_pharmaceuticals_oct22",6189058.43752652
+"Atorvastatin","digesterD","kps_pharmaceuticals_oct22",6212247.23889854
+"Atorvastatin","newdry","kps_pharmaceuticals_oct22",7640318.45809973
+"Bardoxolone methyl","digesterA","kps_pharmaceuticals_oct22",5475562.89728584
+"Bardoxolone methyl","digesterB","kps_pharmaceuticals_oct22",8207269.48923473
+"Bardoxolone methyl","digesterD","kps_pharmaceuticals_oct22",14949205.72504
+"Bardoxolone methyl","olddry","kps_pharmaceuticals_oct22",5056457.38756328
+"Bencyclane","centrin","kps_pharmaceuticals_oct22",189978140.481485
+"Bencyclane","digesterA","kps_pharmaceuticals_oct22",94931696.2176468
+"Bencyclane","digesterB","kps_pharmaceuticals_oct22",74371980.2011982
+"Bencyclane","digesterC","kps_pharmaceuticals_oct22",74599890.8963693
+"Bencyclane","digesterD","kps_pharmaceuticals_oct22",161672126.324008
+"Bencyclane","newdry","kps_pharmaceuticals_oct22",23912241.50854
+"Bencyclane","olddry","kps_pharmaceuticals_oct22",56786582.5278539
+"Benzenesulfinic acid","centrin","kps_pharmaceuticals_oct22",3240895.13721516
+"Benzenesulfinic acid","digesterB","kps_pharmaceuticals_oct22",3885859.47225535
+"Benzenesulfinic acid","olddry","kps_pharmaceuticals_oct22",2690123.599893
+"Benzocaine","feedpump","kps_pharmaceuticals_oct22",122296167.515706
+"Benzophenone","centrin","kps_pharmaceuticals_oct22",9518096.31580925
+"Benzophenone","digesterA","kps_pharmaceuticals_oct22",21479054.4100254
+"Benzophenone","digesterB","kps_pharmaceuticals_oct22",18864606.7278508
+"Benzophenone","digesterC","kps_pharmaceuticals_oct22",10728500.1231173
+"Benzophenone","feedpump","kps_pharmaceuticals_oct22",17128323.0762449
+"Benzophenone","newdry","kps_pharmaceuticals_oct22",9846171.09779999
+"Benzophenone","olddry","kps_pharmaceuticals_oct22",30597086.0030367
+"Benzylamine","centrin","kps_pharmaceuticals_oct22",8365737.06645147
+"Bevantolol","olddry","kps_pharmaceuticals_oct22",10940304.6399319
+"Bicifadine","digesterA","kps_pharmaceuticals_oct22",16497101.3369671
+"Bifonazole","centrin","kps_pharmaceuticals_oct22",35121658.0161742
+"Bifonazole","digesterA","kps_pharmaceuticals_oct22",33404864.1452369
+"Bifonazole","digesterB","kps_pharmaceuticals_oct22",29540951.6225586
+"Bifonazole","digesterC","kps_pharmaceuticals_oct22",41616954.7174075
+"Bifonazole","digesterD","kps_pharmaceuticals_oct22",35117574.1864492
+"Bifonazole","feedpump","kps_pharmaceuticals_oct22",11347199.5953582
+"Bifonazole","newdry","kps_pharmaceuticals_oct22",35289175.9540543
+"Bifonazole","olddry","kps_pharmaceuticals_oct22",77531981.6336464
+"Biotin","olddry","kps_pharmaceuticals_oct22",954820.25224602
+"Bisindolylmaleimide","feedpump","kps_pharmaceuticals_oct22",18088740.6942324
+"Bombykol","digesterA","kps_pharmaceuticals_oct22",10985516.3844447
+"Bombykol","olddry","kps_pharmaceuticals_oct22",8522768.39617971
+"Brivaracetam","feedpump","kps_pharmaceuticals_oct22",25550103.7666834
+"Brivaracetam","olddry","kps_pharmaceuticals_oct22",9765371.14072968
+"Buthionine Sulfoxime","centrin","kps_pharmaceuticals_oct22",32862494.7800905
+"Buthionine Sulfoxime","digesterA","kps_pharmaceuticals_oct22",16258184.2984311
+"Buthionine Sulfoxime","digesterB","kps_pharmaceuticals_oct22",10139601.454315
+"Buthionine Sulfoxime","digesterC","kps_pharmaceuticals_oct22",22794336.7716701
+"Buthionine Sulfoxime","feedpump","kps_pharmaceuticals_oct22",12669710.7088772
+"Buthionine Sulfoxime","newdry","kps_pharmaceuticals_oct22",16554053.9040331
+"Buthionine Sulfoxime","olddry","kps_pharmaceuticals_oct22",7811597.59749868
+"Calcipotriene","centrin","kps_pharmaceuticals_oct22",4122704.42218771
+"Calcipotriene","newdry","kps_pharmaceuticals_oct22",14872400.3407494
+"Calcipotriene","olddry","kps_pharmaceuticals_oct22",29344397.2270762
+"Calcitriol","centrin","kps_pharmaceuticals_oct22",70254402.1145972
+"Calcitriol","digesterB","kps_pharmaceuticals_oct22",12981796.3280786
+"Calcitriol","digesterC","kps_pharmaceuticals_oct22",85132100.6700717
+"Calcitriol","digesterD","kps_pharmaceuticals_oct22",11924506.7832583
+"Calcitriol","feedpump","kps_pharmaceuticals_oct22",23317869.0111374
+"Calcitriol","newdry","kps_pharmaceuticals_oct22",20644521.0590995
+"Calcitriol","olddry","kps_pharmaceuticals_oct22",25842523.0309889
+"Calophyn","centrin","kps_pharmaceuticals_oct22",12318741.9645394
+"Calophyn","digesterA","kps_pharmaceuticals_oct22",21957409.9128909
+"Calophyn","digesterB","kps_pharmaceuticals_oct22",24826558.5175052
+"Calophyn","digesterC","kps_pharmaceuticals_oct22",16186878.6655645
+"Calophyn","digesterD","kps_pharmaceuticals_oct22",13085351.5116769
+"Calophyn","newdry","kps_pharmaceuticals_oct22",15237596.9110319
+"Calophyn","olddry","kps_pharmaceuticals_oct22",5365263.58770929
+"Candesartan","centrin","kps_pharmaceuticals_oct22",6291562.51607643
+"Candesartan","digesterA","kps_pharmaceuticals_oct22",5903474.28567101
+"Candesartan","digesterB","kps_pharmaceuticals_oct22",7874290.51989343
+"Candesartan","digesterC","kps_pharmaceuticals_oct22",7250434.31810235
+"Candesartan","digesterD","kps_pharmaceuticals_oct22",7694366.82050419
+"Canrenone","digesterC","kps_pharmaceuticals_oct22",1048177.70923164
+"Canrenone","newdry","kps_pharmaceuticals_oct22",8951362.95494466
+"Carazolol","digesterA","kps_pharmaceuticals_oct22",3342860.04023187
+"Carazolol","feedpump","kps_pharmaceuticals_oct22",3481994.55298129
+"Carazolol","newdry","kps_pharmaceuticals_oct22",4278795.33252496
+"Carbamazepine","digesterA","kps_pharmaceuticals_oct22",20030709.2977362
+"Carbamazepine","digesterB","kps_pharmaceuticals_oct22",17424662.9047356
+"Carbamazepine","digesterC","kps_pharmaceuticals_oct22",14063761.9064498
+"Carbamazepine","digesterD","kps_pharmaceuticals_oct22",16995708.7011465
+"Carbamazepine","newdry","kps_pharmaceuticals_oct22",7940232.06919849
+"Carbamazepine","olddry","kps_pharmaceuticals_oct22",15183092.8677045
+"Carbetapentane","digesterA","kps_pharmaceuticals_oct22",51918878.7748557
+"Carbetapentane","feedpump","kps_pharmaceuticals_oct22",2318147.38781771
+"Cediranib","newdry","kps_pharmaceuticals_oct22",6258422.69606192
+"Celecoxib","digesterA","kps_pharmaceuticals_oct22",3553784.70705624
+"Cetilistat","centrin","kps_pharmaceuticals_oct22",6054818.6853691
+"Cetilistat","digesterD","kps_pharmaceuticals_oct22",7758636.02287201
+"Cetilistat","feedpump","kps_pharmaceuticals_oct22",18493298.7093654
+"Cetirizine","centrin","kps_pharmaceuticals_oct22",6577862.24700022
+"Cetirizine","digesterB","kps_pharmaceuticals_oct22",9858115.84073336
+"Cetirizine","digesterC","kps_pharmaceuticals_oct22",8656350.70787386
+"Cetirizine","feedpump","kps_pharmaceuticals_oct22",7752656.29583299
+"Cetirizine","newdry","kps_pharmaceuticals_oct22",6891489.09946145
+"Cetirizine","olddry","kps_pharmaceuticals_oct22",68774825.7951091
+"Chlorphenesin","centrin","kps_pharmaceuticals_oct22",13542531.0826305
+"Chlorphenesin","digesterA","kps_pharmaceuticals_oct22",8469132.21545426
+"Chlorphenesin","digesterB","kps_pharmaceuticals_oct22",7899712.41130115
+"Chlorphenesin","digesterC","kps_pharmaceuticals_oct22",3565900.16049592
+"Chlorphenesin","feedpump","kps_pharmaceuticals_oct22",11132194.5952146
+"Chlorphenesin","newdry","kps_pharmaceuticals_oct22",17651042.3406569
+"Chlorphenesin","olddry","kps_pharmaceuticals_oct22",12668451.3918927
+"Cinitapride","feedpump","kps_pharmaceuticals_oct22",15526092.1595228
+"Cinnarizine","centrin","kps_pharmaceuticals_oct22",2978576.45727523
+"Cinnarizine","digesterA","kps_pharmaceuticals_oct22",2419601.10319739
+"Cinnarizine","olddry","kps_pharmaceuticals_oct22",7051472.72237079
+"Cisatracurium besylate","centrin","kps_pharmaceuticals_oct22",13268665.3027942
+"Cisatracurium besylate","digesterA","kps_pharmaceuticals_oct22",5905397.46413858
+"Cisatracurium besylate","digesterC","kps_pharmaceuticals_oct22",5858684.4831433
+"Cisatracurium besylate","digesterD","kps_pharmaceuticals_oct22",21095409.8890862
+"Cisatracurium besylate","feedpump","kps_pharmaceuticals_oct22",107729196.051425
+"Cisatracurium besylate","newdry","kps_pharmaceuticals_oct22",18142153.4109714
+"Cisatracurium besylate","olddry","kps_pharmaceuticals_oct22",15614628.0890904
+"Citalopram","centrin","kps_pharmaceuticals_oct22",93492164.9511138
+"Citalopram","digesterA","kps_pharmaceuticals_oct22",83109644.048056
+"Citalopram","digesterB","kps_pharmaceuticals_oct22",80032032.530857
+"Citalopram","digesterC","kps_pharmaceuticals_oct22",105623824.439861
+"Citalopram","digesterD","kps_pharmaceuticals_oct22",88003430.4459605
+"Citalopram","feedpump","kps_pharmaceuticals_oct22",86359987.0202337
+"Citalopram","newdry","kps_pharmaceuticals_oct22",90923624.9114102
+"Citalopram","olddry","kps_pharmaceuticals_oct22",232009458.751922
+"Clobutinol","centrin","kps_pharmaceuticals_oct22",6767020.62544534
+"Clobutinol","digesterB","kps_pharmaceuticals_oct22",1922338.01423331
+"Clobutinol","digesterC","kps_pharmaceuticals_oct22",9356063.59657364
+"Clobutinol","digesterD","kps_pharmaceuticals_oct22",12640069.022291
+"Clobutinol","newdry","kps_pharmaceuticals_oct22",15574828.0171909
+"Clobutinol","olddry","kps_pharmaceuticals_oct22",10269363.5050353
+"Clopidogrel","feedpump","kps_pharmaceuticals_oct22",72904596.6650991
+"Clozapine","digesterA","kps_pharmaceuticals_oct22",11351792.5654493
+"Clozapine","digesterB","kps_pharmaceuticals_oct22",14869464.9304585
+"Clozapine","feedpump","kps_pharmaceuticals_oct22",5309544.83992454
+"Clozapine","newdry","kps_pharmaceuticals_oct22",12898355.0677993
+"Clozapine","olddry","kps_pharmaceuticals_oct22",27690996.0288549
+"Colchicine","olddry","kps_pharmaceuticals_oct22",19542010.5515232
+"Corticosterone","digesterC","kps_pharmaceuticals_oct22",3849492.90889101
+"Coumafuryl","centrin","kps_pharmaceuticals_oct22",13350048.1318465
+"Coumafuryl","digesterA","kps_pharmaceuticals_oct22",10165017.8963697
+"Coumafuryl","digesterB","kps_pharmaceuticals_oct22",9928939.70878641
+"Coumafuryl","digesterC","kps_pharmaceuticals_oct22",16296960.835052
+"Coumafuryl","digesterD","kps_pharmaceuticals_oct22",14172549.1209855
+"Coumafuryl","feedpump","kps_pharmaceuticals_oct22",1074989.25665548
+"Coumafuryl","newdry","kps_pharmaceuticals_oct22",14180942.7159484
+"Coumafuryl","olddry","kps_pharmaceuticals_oct22",5937639.07552173
+"Curcumin","centrin","kps_pharmaceuticals_oct22",67178167.3193397
+"Curcumin","digesterA","kps_pharmaceuticals_oct22",4544401.03025043
+"Curcumin","digesterC","kps_pharmaceuticals_oct22",28093556.2055399
+"Curcumin","digesterD","kps_pharmaceuticals_oct22",41192221.5931121
+"Curcumin","feedpump","kps_pharmaceuticals_oct22",45404193.9783863
+"Curcumin","newdry","kps_pharmaceuticals_oct22",87585063.0968495
+"Curcumin","olddry","kps_pharmaceuticals_oct22",77214814.4063983
+"Cyclandelate","centrin","kps_pharmaceuticals_oct22",135732255.327221
+"Cyclandelate","digesterA","kps_pharmaceuticals_oct22",35057884.0847789
+"Cyclandelate","digesterB","kps_pharmaceuticals_oct22",28326289.9044505
+"Cyclandelate","digesterC","kps_pharmaceuticals_oct22",145157271.752042
+"Cyclandelate","digesterD","kps_pharmaceuticals_oct22",135866391.620905
+"Cyclandelate","feedpump","kps_pharmaceuticals_oct22",6349864.96089548
+"Cyclandelate","newdry","kps_pharmaceuticals_oct22",29749740.9328411
+"Cyclandelate","olddry","kps_pharmaceuticals_oct22",46044473.7404646
+"Cyclohexyl-norstatine","centrin","kps_pharmaceuticals_oct22",29756312.2034179
+"Cyclohexyl-norstatine","digesterA","kps_pharmaceuticals_oct22",17935976.3935907
+"Cyclohexyl-norstatine","digesterB","kps_pharmaceuticals_oct22",13097293.1868672
+"Cyclohexyl-norstatine","digesterC","kps_pharmaceuticals_oct22",12158174.1039671
+"Cyclohexyl-norstatine","digesterD","kps_pharmaceuticals_oct22",12498159.6741013
+"Cyclohexyl-norstatine","feedpump","kps_pharmaceuticals_oct22",52159178.0657291
+"Cyclohexyl-norstatine","newdry","kps_pharmaceuticals_oct22",17479081.2140589
+"Cyclohexyl-norstatine","olddry","kps_pharmaceuticals_oct22",38917220.5865123
+"D-Camphor","centrin","kps_pharmaceuticals_oct22",6430473.18474776
+"Dabigatran etexilate","newdry","kps_pharmaceuticals_oct22",6315945.05566699
+"Decamethylcyclopentasiloxane","digesterA","kps_pharmaceuticals_oct22",4902629.78207981
+"Decamethylcyclopentasiloxane","olddry","kps_pharmaceuticals_oct22",9532052.49088303
+"Decanedioic acid","feedpump","kps_pharmaceuticals_oct22",4964762.18561767
+"Decylubiquinone","feedpump","kps_pharmaceuticals_oct22",8331248.78201945
+"Deferasirox","centrin","kps_pharmaceuticals_oct22",6551613.62387844
+"Deferasirox","digesterC","kps_pharmaceuticals_oct22",16026101.1985154
+"Deferasirox","digesterD","kps_pharmaceuticals_oct22",10141163.205833
+"Deferasirox","newdry","kps_pharmaceuticals_oct22",775715.536510262
+"Deferasirox","olddry","kps_pharmaceuticals_oct22",6494450.69844473
+"Deferoxamine","digesterB","kps_pharmaceuticals_oct22",8992899.74763931
+"Desmethyl tocotrienol","olddry","kps_pharmaceuticals_oct22",11505044.6801617
+"Desogestrel","centrin","kps_pharmaceuticals_oct22",43747115.2874042
+"Desogestrel","digesterC","kps_pharmaceuticals_oct22",40676582.5767763
+"Desogestrel","digesterD","kps_pharmaceuticals_oct22",30558568.5848046
+"Desogestrel","newdry","kps_pharmaceuticals_oct22",53425558.8319214
+"Dexbrompheniramine","centrin","kps_pharmaceuticals_oct22",16025324.7664172
+"Dexbrompheniramine","digesterA","kps_pharmaceuticals_oct22",6564098.56022648
+"Dexbrompheniramine","digesterB","kps_pharmaceuticals_oct22",6760163.65355396
+"Dexbrompheniramine","digesterC","kps_pharmaceuticals_oct22",5629317.35857669
+"Dexbrompheniramine","digesterD","kps_pharmaceuticals_oct22",4665193.71417123
+"Dexbrompheniramine","feedpump","kps_pharmaceuticals_oct22",2574711.18585774
+"Dexbrompheniramine","olddry","kps_pharmaceuticals_oct22",6258464.10074557
+"Diampromide","digesterA","kps_pharmaceuticals_oct22",14181780.3357702
+"Diampromide","feedpump","kps_pharmaceuticals_oct22",18852509.5585933
+"Diampromide","olddry","kps_pharmaceuticals_oct22",45675158.9972166
+"Dienogest","olddry","kps_pharmaceuticals_oct22",21877057.9956343
+"Digitoxigenin","centrin","kps_pharmaceuticals_oct22",8349683.25132799
+"Digitoxigenin","digesterD","kps_pharmaceuticals_oct22",15250515.8774176
+"Digitoxigenin","newdry","kps_pharmaceuticals_oct22",24325590.3650016
+"Diltiazem","feedpump","kps_pharmaceuticals_oct22",23799780.2881845
+"Dipyridamole","centrin","kps_pharmaceuticals_oct22",10699747.7242635
+"Dipyridamole","digesterA","kps_pharmaceuticals_oct22",16362873.2346229
+"Dipyridamole","digesterC","kps_pharmaceuticals_oct22",9079872.17879109
+"Dipyridamole","digesterD","kps_pharmaceuticals_oct22",10768900.0977542
+"Dipyridamole","feedpump","kps_pharmaceuticals_oct22",17834775.019208
+"Dipyridamole","newdry","kps_pharmaceuticals_oct22",1936384.62825063
+"Dolutegravir","centrin","kps_pharmaceuticals_oct22",16414612.1254701
+"Dolutegravir","digesterA","kps_pharmaceuticals_oct22",11819702.9930778
+"Dolutegravir","digesterB","kps_pharmaceuticals_oct22",16105807.3964633
+"Dolutegravir","digesterC","kps_pharmaceuticals_oct22",18867543.6438128
+"Dolutegravir","digesterD","kps_pharmaceuticals_oct22",15388983.7533872
+"Dolutegravir","feedpump","kps_pharmaceuticals_oct22",8895241.59764551
+"Dolutegravir","newdry","kps_pharmaceuticals_oct22",21497273.1402198
+"Dolutegravir","olddry","kps_pharmaceuticals_oct22",22109475.9183986
+"Dopexamine","digesterB","kps_pharmaceuticals_oct22",5947960.21430275
+"Doxercalciferol","digesterA","kps_pharmaceuticals_oct22",20231582.7598603
+"Doxercalciferol","newdry","kps_pharmaceuticals_oct22",2917141.00233099
+"Dronedarone","digesterA","kps_pharmaceuticals_oct22",4252017.2496779
+"Drospirenone","newdry","kps_pharmaceuticals_oct22",4743514.54993891
+"Drospirenone","olddry","kps_pharmaceuticals_oct22",12133434.1444142
+"Drotaverine","centrin","kps_pharmaceuticals_oct22",279903302.332482
+"Drotaverine","digesterA","kps_pharmaceuticals_oct22",117286819.60101
+"Drotaverine","digesterB","kps_pharmaceuticals_oct22",179895469.29379
+"Drotaverine","digesterC","kps_pharmaceuticals_oct22",319280993.790416
+"Drotaverine","digesterD","kps_pharmaceuticals_oct22",327678583.953091
+"Drotaverine","feedpump","kps_pharmaceuticals_oct22",125816645.568219
+"Drotaverine","newdry","kps_pharmaceuticals_oct22",326814954.831347
+"Drotaverine","olddry","kps_pharmaceuticals_oct22",591350461.112129
+"Efinaconazole","centrin","kps_pharmaceuticals_oct22",4139740.31451335
+"Efinaconazole","digesterA","kps_pharmaceuticals_oct22",8260748.23632533
+"Efinaconazole","digesterB","kps_pharmaceuticals_oct22",8005916.6965175
+"Efinaconazole","newdry","kps_pharmaceuticals_oct22",71185241.3375053
+"Eicosapentaenoic acid ethyl ester","centrin","kps_pharmaceuticals_oct22",2615866017.06111
+"Eicosapentaenoic acid ethyl ester","digesterC","kps_pharmaceuticals_oct22",2891140256.81635
+"Eicosapentaenoic acid ethyl ester","digesterD","kps_pharmaceuticals_oct22",1200126900.02252
+"Eicosapentaenoic acid ethyl ester","feedpump","kps_pharmaceuticals_oct22",28327041.4193154
+"Eicosapentaenoic acid ethyl ester","newdry","kps_pharmaceuticals_oct22",1936137541.48561
+"Eicosapentaenoic acid ethyl ester","olddry","kps_pharmaceuticals_oct22",834348492.153872
+"Elacytarabine","centrin","kps_pharmaceuticals_oct22",20165479.49299
+"Elacytarabine","digesterA","kps_pharmaceuticals_oct22",9100493.62638244
+"Elacytarabine","digesterB","kps_pharmaceuticals_oct22",13209846.7074978
+"Elacytarabine","digesterD","kps_pharmaceuticals_oct22",34259816.104539
+"Elacytarabine","feedpump","kps_pharmaceuticals_oct22",4967933.33111882
+"Elacytarabine","newdry","kps_pharmaceuticals_oct22",33403809.8115455
+"Elacytarabine","olddry","kps_pharmaceuticals_oct22",19746701.8684774
+"Elaidoylamide","centrin","kps_pharmaceuticals_oct22",5151190833.23014
+"Elaidoylamide","digesterA","kps_pharmaceuticals_oct22",5816884186.90496
+"Elaidoylamide","digesterB","kps_pharmaceuticals_oct22",3483231452.35889
+"Elaidoylamide","digesterC","kps_pharmaceuticals_oct22",3211709168.2312
+"Elaidoylamide","digesterD","kps_pharmaceuticals_oct22",3303933280.96441
+"Elaidoylamide","feedpump","kps_pharmaceuticals_oct22",2768045053.25603
+"Elaidoylamide","newdry","kps_pharmaceuticals_oct22",4031630883.50086
+"Elaidoylamide","olddry","kps_pharmaceuticals_oct22",4405980833.4941
+"Ellagic acid","centrin","kps_pharmaceuticals_oct22",13451759.9016358
+"Ellagic acid","feedpump","kps_pharmaceuticals_oct22",11863431.1902891
+"Ellagic acid","newdry","kps_pharmaceuticals_oct22",14501164.8290154
+"Ellagic acid","olddry","kps_pharmaceuticals_oct22",7397566.17109319
+"Elvitegravir","centrin","kps_pharmaceuticals_oct22",3811495.03098676
+"Elvitegravir","digesterC","kps_pharmaceuticals_oct22",7365535.29572518
+"Elvitegravir","newdry","kps_pharmaceuticals_oct22",11317073.8038729
+"Elvitegravir","olddry","kps_pharmaceuticals_oct22",2239213.85371258
+"Enalapril acid","centrin","kps_pharmaceuticals_oct22",21540316.0110275
+"Enalapril acid","digesterA","kps_pharmaceuticals_oct22",14712780.8336531
+"Enalapril acid","digesterB","kps_pharmaceuticals_oct22",30580883.5802203
+"Enalapril acid","digesterC","kps_pharmaceuticals_oct22",25365431.4538654
+"Enalapril acid","digesterD","kps_pharmaceuticals_oct22",29167823.6511845
+"Enalapril acid","feedpump","kps_pharmaceuticals_oct22",38684112.8559291
+"Enalapril acid","newdry","kps_pharmaceuticals_oct22",24865361.4143418
+"Enalapril acid","olddry","kps_pharmaceuticals_oct22",35604943.2574659
+"Enzacamene","centrin","kps_pharmaceuticals_oct22",6360824.76704633
+"Enzacamene","digesterB","kps_pharmaceuticals_oct22",11081283.3773913
+"Enzacamene","digesterC","kps_pharmaceuticals_oct22",3446867.46929944
+"Enzacamene","newdry","kps_pharmaceuticals_oct22",2305143.92836507
+"Enzacamene","olddry","kps_pharmaceuticals_oct22",3447858.77476155
+"Eplerenone","centrin","kps_pharmaceuticals_oct22",287560626.893596
+"Eplerenone","digesterA","kps_pharmaceuticals_oct22",201850679.384392
+"Eplerenone","digesterB","kps_pharmaceuticals_oct22",187339006.180998
+"Eplerenone","digesterC","kps_pharmaceuticals_oct22",152523746.911425
+"Eplerenone","digesterD","kps_pharmaceuticals_oct22",141227856.20334
+"Eplerenone","feedpump","kps_pharmaceuticals_oct22",2989449.84422431
+"Eplerenone","newdry","kps_pharmaceuticals_oct22",199256579.754733
+"Eplerenone","olddry","kps_pharmaceuticals_oct22",179625874.334162
+"Estradiol","centrin","kps_pharmaceuticals_oct22",23482689.6417974
+"Estradiol","digesterB","kps_pharmaceuticals_oct22",33057121.0912541
+"Estradiol","digesterC","kps_pharmaceuticals_oct22",13655306.9794042
+"Estradiol","digesterD","kps_pharmaceuticals_oct22",10787464.3747458
+"Estradiol","feedpump","kps_pharmaceuticals_oct22",10706579.2060423
+"Estradiol","newdry","kps_pharmaceuticals_oct22",5436738.0054582
+"Estradiol","olddry","kps_pharmaceuticals_oct22",6057063.74321835
+"Estriol","feedpump","kps_pharmaceuticals_oct22",21653928.6207761
+"Ethylenediaminetetraacetic acid (EDTA)","centrin","kps_pharmaceuticals_oct22",15174988.5378939
+"Ethylenediaminetetraacetic acid (EDTA)","digesterA","kps_pharmaceuticals_oct22",18823057.628065
+"Ethylenediaminetetraacetic acid (EDTA)","digesterB","kps_pharmaceuticals_oct22",17171204.3134289
+"Ethylenediaminetetraacetic acid (EDTA)","digesterC","kps_pharmaceuticals_oct22",763957128.010183
+"Ethylenediaminetetraacetic acid (EDTA)","digesterD","kps_pharmaceuticals_oct22",526623395.210331
+"Ethylenediaminetetraacetic acid (EDTA)","feedpump","kps_pharmaceuticals_oct22",257050121.819633
+"Ethylenediaminetetraacetic acid (EDTA)","newdry","kps_pharmaceuticals_oct22",44370622.8462764
+"Ethylenediaminetetraacetic acid (EDTA)","olddry","kps_pharmaceuticals_oct22",37698316.3607645
+"Ethylphosphate","centrin","kps_pharmaceuticals_oct22",91269814.0166082
+"Ethylphosphate","digesterA","kps_pharmaceuticals_oct22",81499794.0341896
+"Ethylphosphate","digesterB","kps_pharmaceuticals_oct22",73782977.7628653
+"Ethylphosphate","digesterC","kps_pharmaceuticals_oct22",57127235.5619614
+"Ethylphosphate","digesterD","kps_pharmaceuticals_oct22",60581393.8825218
+"Ethylphosphate","feedpump","kps_pharmaceuticals_oct22",150264596.426508
+"Ethylphosphate","newdry","kps_pharmaceuticals_oct22",47898220.4962953
+"Ethylphosphate","olddry","kps_pharmaceuticals_oct22",96519710.7110941
+"Etomidate","digesterA","kps_pharmaceuticals_oct22",6831700.4762744
+"Etomidate","olddry","kps_pharmaceuticals_oct22",184053662.425792
+"Eugenol","centrin","kps_pharmaceuticals_oct22",6072810.93184656
+"Eugenol","digesterA","kps_pharmaceuticals_oct22",18037780.9447552
+"Eugenol","digesterB","kps_pharmaceuticals_oct22",16752093.2790762
+"Eugenol","digesterC","kps_pharmaceuticals_oct22",16145552.9875828
+"Eugenol","digesterD","kps_pharmaceuticals_oct22",13366256.3993759
+"Eugenol","newdry","kps_pharmaceuticals_oct22",8937706.2750981
+"Exemestane","centrin","kps_pharmaceuticals_oct22",12619065.6099071
+"Exemestane","digesterA","kps_pharmaceuticals_oct22",7096883.75473837
+"Exemestane","digesterB","kps_pharmaceuticals_oct22",19454059.2819966
+"Exemestane","digesterC","kps_pharmaceuticals_oct22",34663975.485712
+"Exemestane","digesterD","kps_pharmaceuticals_oct22",8647241.77621996
+"Fenpropidin","digesterA","kps_pharmaceuticals_oct22",10787109.0053357
+"Fenpropidin","digesterB","kps_pharmaceuticals_oct22",103609753.750633
+"Fenpropidin","digesterC","kps_pharmaceuticals_oct22",12562357.557831
+"Fenpropidin","newdry","kps_pharmaceuticals_oct22",6388971.19624985
+"Fenpropidin","olddry","kps_pharmaceuticals_oct22",5140055.97354788
+"Fenspiride","feedpump","kps_pharmaceuticals_oct22",13608012.1495547
+"Fesoterodine","centrin","kps_pharmaceuticals_oct22",5013203.60722963
+"Fesoterodine","digesterD","kps_pharmaceuticals_oct22",5675965.79167166
+"Fesoterodine","feedpump","kps_pharmaceuticals_oct22",56728095.2605857
+"Fexofenadine","centrin","kps_pharmaceuticals_oct22",159322383.669892
+"Fexofenadine","digesterA","kps_pharmaceuticals_oct22",10590126.4470577
+"Fexofenadine","digesterB","kps_pharmaceuticals_oct22",113789701.443255
+"Fexofenadine","digesterC","kps_pharmaceuticals_oct22",65160320.7744213
+"Fexofenadine","digesterD","kps_pharmaceuticals_oct22",163097737.369905
+"Fexofenadine","feedpump","kps_pharmaceuticals_oct22",57749305.4611474
+"Fexofenadine","newdry","kps_pharmaceuticals_oct22",55476277.7649545
+"Fexofenadine","olddry","kps_pharmaceuticals_oct22",503013376.187834
+"Fluoxetine","centrin","kps_pharmaceuticals_oct22",24485905.4130962
+"Fluoxetine","digesterB","kps_pharmaceuticals_oct22",10224875.2143226
+"Fluoxetine","digesterC","kps_pharmaceuticals_oct22",24680987.897988
+"Fluoxetine","digesterD","kps_pharmaceuticals_oct22",19486793.480422
+"Fluoxetine","newdry","kps_pharmaceuticals_oct22",1140898.2597485
+"Fluoxetine","olddry","kps_pharmaceuticals_oct22",25208020.1067214
+"Gabapentin","feedpump","kps_pharmaceuticals_oct22",36609284.5905367
+"Gabapentin","olddry","kps_pharmaceuticals_oct22",4977627.57676531
+"Gamolenic acid","centrin","kps_pharmaceuticals_oct22",17137354.0499292
+"Gamolenic acid","digesterA","kps_pharmaceuticals_oct22",14305382.1522234
+"Gamolenic acid","digesterB","kps_pharmaceuticals_oct22",20228740.0254864
+"Gamolenic acid","digesterC","kps_pharmaceuticals_oct22",17077531.1225271
+"Gamolenic acid","digesterD","kps_pharmaceuticals_oct22",37695325.7641177
+"Gamolenic acid","feedpump","kps_pharmaceuticals_oct22",330232554.84941
+"Gamolenic acid","newdry","kps_pharmaceuticals_oct22",31021662.4650552
+"Gamolenic acid","olddry","kps_pharmaceuticals_oct22",25457885.300273
+"Ganaxolone","feedpump","kps_pharmaceuticals_oct22",28488875.0343793
+"Gestrinone","centrin","kps_pharmaceuticals_oct22",4298969.98376446
+"Glycocholic acid","centrin","kps_pharmaceuticals_oct22",7579969.79402566
+"Glycocholic acid","feedpump","kps_pharmaceuticals_oct22",29966820.2036513
+"Glycyrrhetinic acid","centrin","kps_pharmaceuticals_oct22",16881211.9813455
+"Glycyrrhetinic acid","digesterA","kps_pharmaceuticals_oct22",21761859.8047808
+"Glycyrrhetinic acid","digesterB","kps_pharmaceuticals_oct22",35896516.3736242
+"Glycyrrhetinic acid","digesterD","kps_pharmaceuticals_oct22",19715050.1307045
+"Glycyrrhetinic acid","feedpump","kps_pharmaceuticals_oct22",8044991.85349424
+"Glycyrrhetinic acid","newdry","kps_pharmaceuticals_oct22",22766965.7903027
+"Guanine","feedpump","kps_pharmaceuticals_oct22",30813071.7164984
+"Hydroxychloroquine, (R)-","digesterA","kps_pharmaceuticals_oct22",334156721.924322
+"Hydroxychloroquine, (R)-","digesterB","kps_pharmaceuticals_oct22",304084453.627815
+"Hydroxychloroquine, (R)-","digesterC","kps_pharmaceuticals_oct22",121082495.431791
+"Hydroxychloroquine, (R)-","feedpump","kps_pharmaceuticals_oct22",21648270.9180256
+"Hydroxychloroquine, (R)-","newdry","kps_pharmaceuticals_oct22",38409615.8633332
+"Hydroxychloroquine, (R)-","olddry","kps_pharmaceuticals_oct22",112334504.793489
+"Hydroxyprogesterone caproate","newdry","kps_pharmaceuticals_oct22",31260451.3728907
+"Hydroxystilbamidine","centrin","kps_pharmaceuticals_oct22",7304448.57989927
+"Ibrutinib","digesterD","kps_pharmaceuticals_oct22",37590160.0204284
+"Ibrutinib","feedpump","kps_pharmaceuticals_oct22",10816966.2099579
+"Inavir","feedpump","kps_pharmaceuticals_oct22",28450833.5899501
+"Inavir","newdry","kps_pharmaceuticals_oct22",25546361.019247
+"Indacaterol","centrin","kps_pharmaceuticals_oct22",5756905.23307294
+"Indacaterol","olddry","kps_pharmaceuticals_oct22",6641682.63618257
+"Indobufen","centrin","kps_pharmaceuticals_oct22",8997999.61534351
+"Indobufen","digesterA","kps_pharmaceuticals_oct22",3871193.26108199
+"Indobufen","digesterB","kps_pharmaceuticals_oct22",5202040.94990213
+"Indobufen","digesterC","kps_pharmaceuticals_oct22",10137666.6108624
+"Indobufen","digesterD","kps_pharmaceuticals_oct22",11072966.9584527
+"Indobufen","feedpump","kps_pharmaceuticals_oct22",3745048.87616303
+"Indobufen","newdry","kps_pharmaceuticals_oct22",10366798.0885016
+"Indobufen","olddry","kps_pharmaceuticals_oct22",18504452.121379
+"Indole","feedpump","kps_pharmaceuticals_oct22",35112826.7893183
+"Indole","newdry","kps_pharmaceuticals_oct22",17107932.741856
+"Irbesartan","centrin","kps_pharmaceuticals_oct22",716678.220370767
+"Irbesartan","digesterD","kps_pharmaceuticals_oct22",986469.240988966
+"Irbesartan","feedpump","kps_pharmaceuticals_oct22",11729080.4118704
+"Irinotecan","centrin","kps_pharmaceuticals_oct22",23234192.8823304
+"Isopropamide","centrin","kps_pharmaceuticals_oct22",6937846.0014314
+"Isopropamide","digesterA","kps_pharmaceuticals_oct22",4714609.37724606
+"Isopropamide","digesterC","kps_pharmaceuticals_oct22",5623185.78663644
+"Isopropamide","digesterD","kps_pharmaceuticals_oct22",7586175.44649368
+"Isopropamide","newdry","kps_pharmaceuticals_oct22",9085692.89055464
+"Isopropamide","olddry","kps_pharmaceuticals_oct22",5739872.27713341
+"Isopropyl dihydrogen phosphate","centrin","kps_pharmaceuticals_oct22",708623292.932068
+"Isopropyl dihydrogen phosphate","digesterA","kps_pharmaceuticals_oct22",710532060.220374
+"Isopropyl dihydrogen phosphate","digesterB","kps_pharmaceuticals_oct22",585805477.127635
+"Isopropyl dihydrogen phosphate","digesterC","kps_pharmaceuticals_oct22",448088163.268718
+"Isopropyl dihydrogen phosphate","digesterD","kps_pharmaceuticals_oct22",474198577.836384
+"Isopropyl dihydrogen phosphate","feedpump","kps_pharmaceuticals_oct22",676709191.972213
+"Isopropyl dihydrogen phosphate","newdry","kps_pharmaceuticals_oct22",379982322.495968
+"Isopropyl dihydrogen phosphate","olddry","kps_pharmaceuticals_oct22",758404972.976781
+"Isopropyl tetradecanoate","centrin","kps_pharmaceuticals_oct22",10306339.2915016
+"Isopropyl tetradecanoate","feedpump","kps_pharmaceuticals_oct22",309357199.201782
+"Isopropyl tetradecanoate","newdry","kps_pharmaceuticals_oct22",4658666.73067309
+"Isoquinoline","feedpump","kps_pharmaceuticals_oct22",57885170.4803102
+"Isoquinoline","newdry","kps_pharmaceuticals_oct22",17467613.2331512
+"Itopride","digesterA","kps_pharmaceuticals_oct22",5679828.76853536
+"Itopride","digesterB","kps_pharmaceuticals_oct22",6905409.75995115
+"Kaempferol","feedpump","kps_pharmaceuticals_oct22",23289690.4218931
+"Kaempferol","olddry","kps_pharmaceuticals_oct22",10025683.2034098
+"Lafutidine","centrin","kps_pharmaceuticals_oct22",5248586.95954278
+"Lafutidine","digesterA","kps_pharmaceuticals_oct22",7829010.31962846
+"Lafutidine","digesterB","kps_pharmaceuticals_oct22",8327197.68430876
+"Lafutidine","digesterC","kps_pharmaceuticals_oct22",6809669.96988095
+"Lafutidine","digesterD","kps_pharmaceuticals_oct22",6100959.92633725
+"Lafutidine","feedpump","kps_pharmaceuticals_oct22",4701638.87927241
+"Lafutidine","newdry","kps_pharmaceuticals_oct22",8502025.48946266
+"Lafutidine","olddry","kps_pharmaceuticals_oct22",9911366.36260995
+"Laninamivir","digesterA","kps_pharmaceuticals_oct22",2615784.84808883
+"Lansoprazole","centrin","kps_pharmaceuticals_oct22",102467522.475356
+"Lansoprazole","digesterC","kps_pharmaceuticals_oct22",96878095.6407119
+"Lansoprazole","feedpump","kps_pharmaceuticals_oct22",172849091.010001
+"Lansoprazole","newdry","kps_pharmaceuticals_oct22",87617224.5532537
+"Lansoprazole","olddry","kps_pharmaceuticals_oct22",42466507.5322217
+"Lifibrol","centrin","kps_pharmaceuticals_oct22",15690280.9474208
+"Lifibrol","digesterA","kps_pharmaceuticals_oct22",5990974.11935582
+"Lifibrol","digesterB","kps_pharmaceuticals_oct22",16596773.2327733
+"Lifibrol","digesterC","kps_pharmaceuticals_oct22",33390116.4779086
+"Lifibrol","digesterD","kps_pharmaceuticals_oct22",6034524.55896251
+"Lifibrol","newdry","kps_pharmaceuticals_oct22",13133826.5430331
+"Linoleic acid","centrin","kps_pharmaceuticals_oct22",29417227.9112057
+"Linoleic acid","digesterC","kps_pharmaceuticals_oct22",35263127.7173976
+"Linoleic acid","digesterD","kps_pharmaceuticals_oct22",28578691.9568496
+"Linoleic acid","feedpump","kps_pharmaceuticals_oct22",76635926.4094771
+"Linoleic acid","newdry","kps_pharmaceuticals_oct22",25716355.2004265
+"Linoleic acid","olddry","kps_pharmaceuticals_oct22",16769758.8032347
+"Loperamide","centrin","kps_pharmaceuticals_oct22",15180500.1432158
+"Loperamide","digesterA","kps_pharmaceuticals_oct22",6586317.1924177
+"Loperamide","digesterB","kps_pharmaceuticals_oct22",10489270.1860277
+"Loperamide","digesterC","kps_pharmaceuticals_oct22",16312781.7492466
+"Loperamide","digesterD","kps_pharmaceuticals_oct22",14048067.5610741
+"Loperamide","olddry","kps_pharmaceuticals_oct22",17823466.9665627
+"Loratadine","centrin","kps_pharmaceuticals_oct22",5282126.21657486
+"Loratadine","newdry","kps_pharmaceuticals_oct22",3579286.80386091
+"Loratadine","olddry","kps_pharmaceuticals_oct22",8469568.3758
+"Lubiprostone","digesterA","kps_pharmaceuticals_oct22",42573584.5771299
+"Lubiprostone","digesterB","kps_pharmaceuticals_oct22",40555628.8833216
+"Lynestrenol","digesterA","kps_pharmaceuticals_oct22",18477399.7657828
+"Lynestrenol","feedpump","kps_pharmaceuticals_oct22",7155247.10018324
+"MEGESTROL","centrin","kps_pharmaceuticals_oct22",36061948.7642079
+"MEGESTROL","digesterC","kps_pharmaceuticals_oct22",19988046.4224868
+"MEGESTROL","digesterD","kps_pharmaceuticals_oct22",21071473.6162364
+"MEGESTROL","newdry","kps_pharmaceuticals_oct22",37359911.494616
+"MEGESTROL","olddry","kps_pharmaceuticals_oct22",20244568.3528093
+"Manidipine","centrin","kps_pharmaceuticals_oct22",11039201.581304
+"Manidipine","digesterA","kps_pharmaceuticals_oct22",12985776.4739055
+"Manidipine","digesterB","kps_pharmaceuticals_oct22",15547990.5758223
+"Manidipine","digesterC","kps_pharmaceuticals_oct22",19914597.5846822
+"Manidipine","digesterD","kps_pharmaceuticals_oct22",16451264.5124987
+"Manidipine","feedpump","kps_pharmaceuticals_oct22",5884690.56512138
+"Manidipine","newdry","kps_pharmaceuticals_oct22",16752667.4682949
+"Manidipine","olddry","kps_pharmaceuticals_oct22",15812140.5689253
+"Masoprocol","olddry","kps_pharmaceuticals_oct22",14475027.1975732
+"Mebeverine","feedpump","kps_pharmaceuticals_oct22",10580802.0072959
+"Medrogestone","olddry","kps_pharmaceuticals_oct22",1917970.26083056
+"Mephenesin","feedpump","kps_pharmaceuticals_oct22",10529964.1193919
+"Mepiprazole","olddry","kps_pharmaceuticals_oct22",3645960.2247501
+"Metergoline","digesterB","kps_pharmaceuticals_oct22",4489889.7096913
+"Methylprednisolone","centrin","kps_pharmaceuticals_oct22",33275830.840671
+"Methylprednisolone","digesterC","kps_pharmaceuticals_oct22",9474190.49393885
+"Methylprednisolone","digesterD","kps_pharmaceuticals_oct22",17666805.7275646
+"Methylprednisolone","feedpump","kps_pharmaceuticals_oct22",25565203.8631386
+"Methylprednisolone","newdry","kps_pharmaceuticals_oct22",66048951.0901373
+"Methylprednisolone","olddry","kps_pharmaceuticals_oct22",16597703.3180281
+"Metralindole","digesterA","kps_pharmaceuticals_oct22",183227201.346535
+"Mozenavir","centrin","kps_pharmaceuticals_oct22",10776487.5296768
+"N-Palmitoylglycine","centrin","kps_pharmaceuticals_oct22",8550941.01128358
+"N-Palmitoylglycine","digesterB","kps_pharmaceuticals_oct22",451994.660490755
+"N-Palmitoylglycine","digesterC","kps_pharmaceuticals_oct22",43651965.9950352
+"N-Palmitoylglycine","digesterD","kps_pharmaceuticals_oct22",30546954.9020359
+"N-Palmitoylglycine","feedpump","kps_pharmaceuticals_oct22",16180804.3462084
+"N-Palmitoylglycine","newdry","kps_pharmaceuticals_oct22",19487327.1472205
+"NORBIOTIN","centrin","kps_pharmaceuticals_oct22",16757677.2839694
+"NORBIOTIN","newdry","kps_pharmaceuticals_oct22",5718828.13019492
+"NORBIOTIN","olddry","kps_pharmaceuticals_oct22",42528741.7375096
+"Naronapride","centrin","kps_pharmaceuticals_oct22",9519277.51079694
+"Naronapride","digesterA","kps_pharmaceuticals_oct22",6164913.65935402
+"Naronapride","digesterB","kps_pharmaceuticals_oct22",101440152.245251
+"Naronapride","digesterC","kps_pharmaceuticals_oct22",26826053.3442505
+"Naronapride","digesterD","kps_pharmaceuticals_oct22",16033275.1784894
+"Naronapride","feedpump","kps_pharmaceuticals_oct22",6539339.07716316
+"Naronapride","newdry","kps_pharmaceuticals_oct22",15937874.5090989
+"Naronapride","olddry","kps_pharmaceuticals_oct22",18060923.8217814
+"Nicaraven","centrin","kps_pharmaceuticals_oct22",3094907.31067453
+"Nicaraven","digesterB","kps_pharmaceuticals_oct22",22963128.5941633
+"Nicaraven","digesterC","kps_pharmaceuticals_oct22",7422258.26747947
+"Nicaraven","digesterD","kps_pharmaceuticals_oct22",4792509.32695281
+"Nicaraven","newdry","kps_pharmaceuticals_oct22",4061794.31166622
+"Nicaraven","olddry","kps_pharmaceuticals_oct22",5853260.53620606
+"Nifedipine","feedpump","kps_pharmaceuticals_oct22",13179449.8208366
+"Norethindrone","feedpump","kps_pharmaceuticals_oct22",3912512.02466964
+"Norgestimate","centrin","kps_pharmaceuticals_oct22",4458131.97843678
+"Norgestimate","digesterC","kps_pharmaceuticals_oct22",5847466.5051699
+"Norgestimate","digesterD","kps_pharmaceuticals_oct22",5703640.28910362
+"Norgestimate","newdry","kps_pharmaceuticals_oct22",5015024.3560394
+"Norgestimate","olddry","kps_pharmaceuticals_oct22",8576753.69435942
+"Nylidrin","digesterA","kps_pharmaceuticals_oct22",5429158.65962418
+"Nylidrin","digesterB","kps_pharmaceuticals_oct22",8371689.5055743
+"Ocinaplon","feedpump","kps_pharmaceuticals_oct22",15953930.9222843
+"Oleic acid","centrin","kps_pharmaceuticals_oct22",124350485.393361
+"Oleic acid","digesterA","kps_pharmaceuticals_oct22",10428110.247818
+"Oleic acid","digesterB","kps_pharmaceuticals_oct22",11567904.8121329
+"Oleic acid","digesterC","kps_pharmaceuticals_oct22",100736550.804075
+"Oleic acid","digesterD","kps_pharmaceuticals_oct22",163253640.672475
+"Oleic acid","feedpump","kps_pharmaceuticals_oct22",267748524.260242
+"Oleic acid","newdry","kps_pharmaceuticals_oct22",62365316.4916533
+"Oleic acid","olddry","kps_pharmaceuticals_oct22",98545489.7947419
+"Olomoucine","digesterA","kps_pharmaceuticals_oct22",2837396.38574544
+"Olomoucine","digesterC","kps_pharmaceuticals_oct22",1698877.28921939
+"Opaviraline","digesterA","kps_pharmaceuticals_oct22",8321543.26442211
+"Opaviraline","digesterB","kps_pharmaceuticals_oct22",11077033.291368
+"Orphenadrine","feedpump","kps_pharmaceuticals_oct22",4195476.76297873
+"Oxeladin","digesterA","kps_pharmaceuticals_oct22",50380708.1439275
+"Oxyphencyclimine","olddry","kps_pharmaceuticals_oct22",22652697.9321212
+"Palmitoylethanolamide","centrin","kps_pharmaceuticals_oct22",277902275.341124
+"Palmitoylethanolamide","digesterA","kps_pharmaceuticals_oct22",32518731.1592315
+"Palmitoylethanolamide","digesterB","kps_pharmaceuticals_oct22",52984542.3682383
+"Palmitoylethanolamide","digesterC","kps_pharmaceuticals_oct22",155878254.572619
+"Palmitoylethanolamide","digesterD","kps_pharmaceuticals_oct22",406679576.319128
+"Palmitoylethanolamide","feedpump","kps_pharmaceuticals_oct22",208350208.698076
+"Palmitoylethanolamide","newdry","kps_pharmaceuticals_oct22",117642027.475766
+"Palmitoylethanolamide","olddry","kps_pharmaceuticals_oct22",31094438.1479437
+"Perifosine","olddry","kps_pharmaceuticals_oct22",7868174.12518363
+"Perospirone","digesterB","kps_pharmaceuticals_oct22",5721034.80476841
+"Perospirone","newdry","kps_pharmaceuticals_oct22",6150229.60481087
+"Phenazone","centrin","kps_pharmaceuticals_oct22",10306485.4543915
+"Phenazone","digesterA","kps_pharmaceuticals_oct22",18422647.8370941
+"Phenazone","digesterC","kps_pharmaceuticals_oct22",14532975.3168327
+"Phenazone","newdry","kps_pharmaceuticals_oct22",6342355.53475965
+"Phenazone","olddry","kps_pharmaceuticals_oct22",4836121.45498025
+"Phosphorylcholine","olddry","kps_pharmaceuticals_oct22",5632723.03106865
+"Phthalic acid","centrin","kps_pharmaceuticals_oct22",4245677.08881277
+"Phthalic acid","digesterD","kps_pharmaceuticals_oct22",4587893.28364535
+"Phthalic acid","feedpump","kps_pharmaceuticals_oct22",22493877.0176987
+"Phthalic acid","newdry","kps_pharmaceuticals_oct22",4384627.97746075
+"Phthalic acid","olddry","kps_pharmaceuticals_oct22",5017202.17945277
+"Phytosphingosine","centrin","kps_pharmaceuticals_oct22",7763950.13001644
+"Phytosphingosine","digesterA","kps_pharmaceuticals_oct22",3059320.76706861
+"Phytosphingosine","digesterB","kps_pharmaceuticals_oct22",2865178.58751964
+"Phytosphingosine","digesterC","kps_pharmaceuticals_oct22",3989073.65145724
+"Phytosphingosine","feedpump","kps_pharmaceuticals_oct22",6970811.62538366
+"Phytosphingosine","newdry","kps_pharmaceuticals_oct22",2974087.50918833
+"Phytosphingosine","olddry","kps_pharmaceuticals_oct22",8820726.66721103
+"Piceatannol","digesterC","kps_pharmaceuticals_oct22",5923821.08174184
+"Piceatannol","olddry","kps_pharmaceuticals_oct22",2268639.25926906
+"Pipendoxifene","centrin","kps_pharmaceuticals_oct22",7656188.5468844
+"Pipendoxifene","digesterA","kps_pharmaceuticals_oct22",5448026.8957112
+"Pipendoxifene","digesterB","kps_pharmaceuticals_oct22",4705927.23231912
+"Pipendoxifene","digesterC","kps_pharmaceuticals_oct22",19770227.2173717
+"Pipendoxifene","digesterD","kps_pharmaceuticals_oct22",10500801.7994239
+"Pipendoxifene","feedpump","kps_pharmaceuticals_oct22",17743328.9615309
+"Pipendoxifene","newdry","kps_pharmaceuticals_oct22",12989884.9182564
+"Pipendoxifene","olddry","kps_pharmaceuticals_oct22",11033817.3660139
+"Pivagabine","digesterB","kps_pharmaceuticals_oct22",2929404.05553798
+"Pivagabine","digesterD","kps_pharmaceuticals_oct22",4257339.27175823
+"Pivagabine","feedpump","kps_pharmaceuticals_oct22",10180820.5486027
+"Pizotyline","digesterA","kps_pharmaceuticals_oct22",18336088.3139915
+"Pizotyline","digesterB","kps_pharmaceuticals_oct22",9752838.51619119
+"Polyoxyethylene (9) lauryl ether","centrin","kps_pharmaceuticals_oct22",47990160.0068186
+"Polyoxyethylene (9) lauryl ether","digesterA","kps_pharmaceuticals_oct22",31949373.5228717
+"Polyoxyethylene (9) lauryl ether","digesterB","kps_pharmaceuticals_oct22",33691325.1842342
+"Polyoxyethylene (9) lauryl ether","digesterC","kps_pharmaceuticals_oct22",48537904.6891557
+"Polyoxyethylene (9) lauryl ether","digesterD","kps_pharmaceuticals_oct22",55916451.7856244
+"Polyoxyethylene (9) lauryl ether","feedpump","kps_pharmaceuticals_oct22",199363592.387911
+"Polyoxyethylene (9) lauryl ether","newdry","kps_pharmaceuticals_oct22",53694857.8683295
+"Polyoxyethylene (9) lauryl ether","olddry","kps_pharmaceuticals_oct22",30256644.9892091
+"Prednisolone","centrin","kps_pharmaceuticals_oct22",4477359.47518538
+"Prednisolone","digesterA","kps_pharmaceuticals_oct22",14075044.0343141
+"Prednisolone","newdry","kps_pharmaceuticals_oct22",8355003.08906168
+"Procyclidine","digesterA","kps_pharmaceuticals_oct22",8761159.41737652
+"Propranolol","centrin","kps_pharmaceuticals_oct22",45626632.0571392
+"Propranolol","digesterA","kps_pharmaceuticals_oct22",41305552.9707357
+"Propranolol","digesterB","kps_pharmaceuticals_oct22",41616023.3017752
+"Propranolol","digesterC","kps_pharmaceuticals_oct22",47756100.5805098
+"Propranolol","digesterD","kps_pharmaceuticals_oct22",43366210.8282711
+"Propranolol","feedpump","kps_pharmaceuticals_oct22",43918142.0390193
+"Propranolol","newdry","kps_pharmaceuticals_oct22",42890466.5419296
+"Propranolol","olddry","kps_pharmaceuticals_oct22",91020944.718954
+"Protriptyline","centrin","kps_pharmaceuticals_oct22",50272028.0456181
+"Protriptyline","digesterA","kps_pharmaceuticals_oct22",10669723.7450699
+"Protriptyline","digesterB","kps_pharmaceuticals_oct22",13285437.0566055
+"Protriptyline","newdry","kps_pharmaceuticals_oct22",12533144.3158643
+"Protriptyline","olddry","kps_pharmaceuticals_oct22",29902777.7073468
+"Pruvanserin","olddry","kps_pharmaceuticals_oct22",22258324.8117241
+"Quercetin","feedpump","kps_pharmaceuticals_oct22",26889164.4118835
+"Quinine","feedpump","kps_pharmaceuticals_oct22",47181248.1745267
+"Quisinostat","newdry","kps_pharmaceuticals_oct22",24755559.4547592
+"Raltegravir","centrin","kps_pharmaceuticals_oct22",87676096.7292713
+"Raltegravir","digesterB","kps_pharmaceuticals_oct22",103289439.032386
+"Raltegravir","digesterD","kps_pharmaceuticals_oct22",89171618.5175424
+"Raltegravir","feedpump","kps_pharmaceuticals_oct22",102175292.47078
+"Raltegravir","newdry","kps_pharmaceuticals_oct22",70892996.3328862
+"Raltegravir","olddry","kps_pharmaceuticals_oct22",181835226.931181
+"Resveratrol","feedpump","kps_pharmaceuticals_oct22",4256095.0235528
+"Retinol","digesterA","kps_pharmaceuticals_oct22",13009067.2235529
+"Retinol","digesterB","kps_pharmaceuticals_oct22",26534766.0074608
+"Retinol","digesterD","kps_pharmaceuticals_oct22",15909084.4473511
+"Retinol","newdry","kps_pharmaceuticals_oct22",17768719.0151566
+"Retinol","olddry","kps_pharmaceuticals_oct22",6380069.56961898
+"Retinol acetate","centrin","kps_pharmaceuticals_oct22",245528418.815561
+"Retinol acetate","digesterA","kps_pharmaceuticals_oct22",22123642.0374455
+"Retinol acetate","digesterB","kps_pharmaceuticals_oct22",38209324.3901248
+"Retinol acetate","digesterC","kps_pharmaceuticals_oct22",10538223.025008
+"Retinol acetate","digesterD","kps_pharmaceuticals_oct22",10524668.9700031
+"Retinol acetate","feedpump","kps_pharmaceuticals_oct22",28754655.5327894
+"Retinol acetate","newdry","kps_pharmaceuticals_oct22",297065571.657675
+"Retinol acetate","olddry","kps_pharmaceuticals_oct22",23982531.9100252
+"Riboflavin","centrin","kps_pharmaceuticals_oct22",6196293.29829307
+"Riboflavin","digesterA","kps_pharmaceuticals_oct22",5321726.02364672
+"Riboflavin","digesterC","kps_pharmaceuticals_oct22",27366265.9561034
+"Riboflavin","digesterD","kps_pharmaceuticals_oct22",20210082.301917
+"Riboflavin","feedpump","kps_pharmaceuticals_oct22",37219098.2246274
+"Riboflavin","newdry","kps_pharmaceuticals_oct22",11475990.9415332
+"Rimexolone","centrin","kps_pharmaceuticals_oct22",6519962.93575039
+"Rimexolone","digesterC","kps_pharmaceuticals_oct22",27409944.7875985
+"Rimexolone","digesterD","kps_pharmaceuticals_oct22",23637826.9618943
+"Rimexolone","feedpump","kps_pharmaceuticals_oct22",10627148.2341604
+"Rimexolone","newdry","kps_pharmaceuticals_oct22",37935323.2436647
+"Rimexolone","olddry","kps_pharmaceuticals_oct22",16544683.3109839
+"Rofecoxib","digesterD","kps_pharmaceuticals_oct22",211454696.75373
+"Rofecoxib","feedpump","kps_pharmaceuticals_oct22",76699113.8710305
+"Rofecoxib","newdry","kps_pharmaceuticals_oct22",23188575.8814609
+"Rofecoxib","olddry","kps_pharmaceuticals_oct22",12372955.655191
+"Sacubitril","olddry","kps_pharmaceuticals_oct22",25946446.2942709
+"Safingol","centrin","kps_pharmaceuticals_oct22",13211120.7885671
+"Safingol","digesterA","kps_pharmaceuticals_oct22",23556396.3019252
+"Safingol","digesterB","kps_pharmaceuticals_oct22",16694176.3673299
+"Safingol","digesterC","kps_pharmaceuticals_oct22",21403860.9216475
+"Safingol","digesterD","kps_pharmaceuticals_oct22",26159719.6403
+"Safingol","feedpump","kps_pharmaceuticals_oct22",99282839.1241084
+"Safingol","newdry","kps_pharmaceuticals_oct22",15970830.0289881
+"Safingol","olddry","kps_pharmaceuticals_oct22",67072348.908409
+"Salirasib","digesterA","kps_pharmaceuticals_oct22",25541980.9899294
+"Saquinavir","centrin","kps_pharmaceuticals_oct22",57989278.0812474
+"Saquinavir","digesterB","kps_pharmaceuticals_oct22",9344419.76157538
+"Saquinavir","digesterC","kps_pharmaceuticals_oct22",51314777.9990941
+"Saquinavir","digesterD","kps_pharmaceuticals_oct22",67814713.9216058
+"Saquinavir","feedpump","kps_pharmaceuticals_oct22",39993756.3346799
+"Saquinavir","newdry","kps_pharmaceuticals_oct22",67000216.3893848
+"Saquinavir","olddry","kps_pharmaceuticals_oct22",33006736.2272963
+"Selexipag","olddry","kps_pharmaceuticals_oct22",820713.237561629
+"Solifenacin","olddry","kps_pharmaceuticals_oct22",25431208.774991
+"Squaric acid dibutyl ester","centrin","kps_pharmaceuticals_oct22",19418496.0816998
+"Squaric acid dibutyl ester","digesterA","kps_pharmaceuticals_oct22",18360937.0969976
+"Squaric acid dibutyl ester","digesterB","kps_pharmaceuticals_oct22",64218712.4300768
+"Squaric acid dibutyl ester","digesterC","kps_pharmaceuticals_oct22",33052415.2545818
+"Squaric acid dibutyl ester","digesterD","kps_pharmaceuticals_oct22",24210948.5644051
+"Squaric acid dibutyl ester","feedpump","kps_pharmaceuticals_oct22",9185955.73246855
+"Squaric acid dibutyl ester","newdry","kps_pharmaceuticals_oct22",21818310.1278272
+"Squaric acid dibutyl ester","olddry","kps_pharmaceuticals_oct22",23204720.7772977
+"Stearic acid","centrin","kps_pharmaceuticals_oct22",8555648.20701653
+"Stearic acid","digesterA","kps_pharmaceuticals_oct22",4810543.59737505
+"Stearic acid","digesterB","kps_pharmaceuticals_oct22",5212145.22583093
+"Stearic acid","digesterC","kps_pharmaceuticals_oct22",2134223.18132703
+"Stearic acid","digesterD","kps_pharmaceuticals_oct22",3889942.30034483
+"Stearic acid","feedpump","kps_pharmaceuticals_oct22",8581166.56887876
+"Stearic acid","newdry","kps_pharmaceuticals_oct22",4472531.34943258
+"Styrene oxide","newdry","kps_pharmaceuticals_oct22",1263830.82792752
+"Talnetant","newdry","kps_pharmaceuticals_oct22",27203445.0446004
+"Tarazepide","newdry","kps_pharmaceuticals_oct22",10324746.8554884
+"Tegaserod","feedpump","kps_pharmaceuticals_oct22",11158120.8360863
+"Tegaserod","olddry","kps_pharmaceuticals_oct22",13007097.9624737
+"Telmisartan","centrin","kps_pharmaceuticals_oct22",25488779.8482372
+"Telmisartan","digesterA","kps_pharmaceuticals_oct22",21181171.1747425
+"Telmisartan","digesterB","kps_pharmaceuticals_oct22",25035388.5040568
+"Telmisartan","digesterC","kps_pharmaceuticals_oct22",35727963.7574867
+"Telmisartan","digesterD","kps_pharmaceuticals_oct22",30522882.2980957
+"Telmisartan","feedpump","kps_pharmaceuticals_oct22",13831950.3792784
+"Telmisartan","newdry","kps_pharmaceuticals_oct22",2435969.87908455
+"Telmisartan","olddry","kps_pharmaceuticals_oct22",28991866.9062087
+"Terbinafine","centrin","kps_pharmaceuticals_oct22",9171054.51960017
+"Terbinafine","digesterA","kps_pharmaceuticals_oct22",8875417.53926726
+"Terbinafine","digesterB","kps_pharmaceuticals_oct22",8796897.39884895
+"Terbinafine","olddry","kps_pharmaceuticals_oct22",7115211.71779751
+"Terbutryn","olddry","kps_pharmaceuticals_oct22",6840261.77309489
+"Testosterone undecanoate","centrin","kps_pharmaceuticals_oct22",12995876.8984033
+"Testosterone undecanoate","digesterA","kps_pharmaceuticals_oct22",19551136.2288439
+"Testosterone undecanoate","digesterB","kps_pharmaceuticals_oct22",19763386.4539489
+"Testosterone undecanoate","digesterD","kps_pharmaceuticals_oct22",16090990.6233245
+"Testosterone undecanoate","feedpump","kps_pharmaceuticals_oct22",7227071.5764912
+"Testosterone undecanoate","newdry","kps_pharmaceuticals_oct22",12919881.7568858
+"Testosterone undecanoate","olddry","kps_pharmaceuticals_oct22",9392196.25821122
+"Thioridazine","centrin","kps_pharmaceuticals_oct22",26788076.0257356
+"Thioridazine","feedpump","kps_pharmaceuticals_oct22",37075741.9993608
+"Thymine","feedpump","kps_pharmaceuticals_oct22",31701060.0816338
+"Tiapride","centrin","kps_pharmaceuticals_oct22",3464061.87047105
+"Tiapride","feedpump","kps_pharmaceuticals_oct22",495822.47589297
+"Ticagrelor","centrin","kps_pharmaceuticals_oct22",12707953.8466104
+"Ticagrelor","digesterA","kps_pharmaceuticals_oct22",4337168.72578821
+"Ticagrelor","digesterC","kps_pharmaceuticals_oct22",8687463.203812
+"Ticagrelor","digesterD","kps_pharmaceuticals_oct22",6476457.92745142
+"Ticagrelor","feedpump","kps_pharmaceuticals_oct22",9035998.56507104
+"Ticagrelor","newdry","kps_pharmaceuticals_oct22",21556713.9391653
+"Ticagrelor","olddry","kps_pharmaceuticals_oct22",7074719.38135496
+"Triciribine","centrin","kps_pharmaceuticals_oct22",80268251.1415736
+"Triciribine","digesterA","kps_pharmaceuticals_oct22",69883823.8811024
+"Triciribine","digesterB","kps_pharmaceuticals_oct22",38727016.8824958
+"Triciribine","digesterC","kps_pharmaceuticals_oct22",33945311.8280693
+"Triciribine","digesterD","kps_pharmaceuticals_oct22",27811515.6509933
+"Triciribine","feedpump","kps_pharmaceuticals_oct22",38505340.8728093
+"Triciribine","newdry","kps_pharmaceuticals_oct22",94151710.2083793
+"Triciribine","olddry","kps_pharmaceuticals_oct22",57687869.8405009
+"Triclocarban","digesterA","kps_pharmaceuticals_oct22",5085406.15820169
+"Triethylene glycol","centrin","kps_pharmaceuticals_oct22",4767158.63041318
+"Triethylene glycol","feedpump","kps_pharmaceuticals_oct22",21019140.8670701
+"Trilostane","centrin","kps_pharmaceuticals_oct22",32582784.5004959
+"Trilostane","digesterA","kps_pharmaceuticals_oct22",34792382.1223933
+"Trilostane","digesterB","kps_pharmaceuticals_oct22",35640453.0511485
+"Trilostane","digesterC","kps_pharmaceuticals_oct22",36318988.1329306
+"Trilostane","digesterD","kps_pharmaceuticals_oct22",24432538.9462207
+"Trilostane","newdry","kps_pharmaceuticals_oct22",29327802.3376697
+"Trilostane","olddry","kps_pharmaceuticals_oct22",18546038.9646213
+"Trimebutine","olddry","kps_pharmaceuticals_oct22",5080182.39395594
+"Ulimorelin","centrin","kps_pharmaceuticals_oct22",27888498.3979295
+"Ulimorelin","digesterB","kps_pharmaceuticals_oct22",4048011.86838862
+"Ursodiol","feedpump","kps_pharmaceuticals_oct22",40727636.2164465
+"Valpromide","digesterD","kps_pharmaceuticals_oct22",7571103.2180208
+"Valpromide","feedpump","kps_pharmaceuticals_oct22",28017620.7635682
+"Vatiquinone","centrin","kps_pharmaceuticals_oct22",12788494.4938578
+"Vatiquinone","digesterA","kps_pharmaceuticals_oct22",21395269.2191292
+"Vatiquinone","digesterB","kps_pharmaceuticals_oct22",19116662.3643246
+"Vatiquinone","digesterC","kps_pharmaceuticals_oct22",16462263.6041092
+"Vatiquinone","digesterD","kps_pharmaceuticals_oct22",13644944.4600986
+"Vatiquinone","newdry","kps_pharmaceuticals_oct22",15197412.3670881
+"Vatiquinone","olddry","kps_pharmaceuticals_oct22",8954710.55634209
+"Velusetrag","centrin","kps_pharmaceuticals_oct22",11905550.643096
+"Velusetrag","digesterB","kps_pharmaceuticals_oct22",2382076.20887862
+"Velusetrag","digesterC","kps_pharmaceuticals_oct22",13458878.1066216
+"Velusetrag","digesterD","kps_pharmaceuticals_oct22",12647525.7940418
+"Velusetrag","feedpump","kps_pharmaceuticals_oct22",755639.858043627
+"Velusetrag","newdry","kps_pharmaceuticals_oct22",15425873.3802111
+"Velusetrag","olddry","kps_pharmaceuticals_oct22",15432648.4187483
+"Vitamin D","centrin","kps_pharmaceuticals_oct22",69579225.5603666
+"Vitamin D","digesterA","kps_pharmaceuticals_oct22",52915537.9291014
+"Vitamin D","digesterB","kps_pharmaceuticals_oct22",53787261.4772444
+"Vitamin D","digesterD","kps_pharmaceuticals_oct22",33173990.6217306
+"Vitamin D","feedpump","kps_pharmaceuticals_oct22",56861967.9591148
+"Vitamin D","newdry","kps_pharmaceuticals_oct22",16318357.0053984
+"Warfarin Alcohol","centrin","kps_pharmaceuticals_oct22",23861051.7738324
+"Warfarin Alcohol","olddry","kps_pharmaceuticals_oct22",4095424.62238678
+"Z-Pro-Prolinal","digesterA","kps_pharmaceuticals_oct22",7569150.77821201
+"Z-Pro-Prolinal","digesterB","kps_pharmaceuticals_oct22",11453439.2095582
+"Z-Pro-Prolinal","olddry","kps_pharmaceuticals_oct22",25536144.5368703
+"Zanamivir","digesterA","kps_pharmaceuticals_oct22",3480313.67690546
+"Zicronapine","centrin","kps_pharmaceuticals_oct22",20052078.3158359
+"Zicronapine","digesterA","kps_pharmaceuticals_oct22",18930908.717743
+"Zicronapine","digesterB","kps_pharmaceuticals_oct22",19307431.5469125
+"Zicronapine","digesterC","kps_pharmaceuticals_oct22",14564871.0204251
+"Zicronapine","digesterD","kps_pharmaceuticals_oct22",13210154.3299317
+"Zicronapine","newdry","kps_pharmaceuticals_oct22",18064956.1565065
+"alpha-Hydroxybenzeneacetonitrile","newdry","kps_pharmaceuticals_oct22",44053472.2444674

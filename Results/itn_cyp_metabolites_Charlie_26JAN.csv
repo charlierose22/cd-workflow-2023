@@ -1,0 +1,90 @@
+"name","sample_location","mass_list_name","mean_area"
+"(3E)-3-(3-Oxo-1,3-dihydro-2H-indol-2-ylidene)-1,3-dihydro-2H-indol-2-one_BTM03005","feedpump","itn_cyp_metabolites",9105388.04348497
+"4'-Deoxycirramycin�A1_BTM02228","olddry","itn_cyp_metabolites",13384870.0675135
+"6-Allyl-o-cresol","digesterA","itn_cyp_metabolites",11978972.9115991
+"6-Allyl-o-cresol","digesterB","itn_cyp_metabolites",10763919.0699017
+"6-Allyl-o-cresol","olddry","itn_cyp_metabolites",1693626.24317596
+"Agroclavine_BTM03062","digesterA","itn_cyp_metabolites",33772690.561808
+"Agroclavine_BTM03062","digesterC","itn_cyp_metabolites",36287541.9476302
+"Agroclavine_BTM03062","newdry","itn_cyp_metabolites",1628024.11495444
+"Benzylsulfanilamide_BTM04684","centrin","itn_cyp_metabolites",23111213.9518485
+"Benzylsulfanilamide_BTM04684","digesterA","itn_cyp_metabolites",22163796.2815251
+"Benzylsulfanilamide_BTM04684","digesterB","itn_cyp_metabolites",22469899.5848651
+"Benzylsulfanilamide_BTM04684","digesterC","itn_cyp_metabolites",21175304.2266455
+"Benzylsulfanilamide_BTM04684","digesterD","itn_cyp_metabolites",20464748.8429425
+"Benzylsulfanilamide_BTM04684","feedpump","itn_cyp_metabolites",41087788.7376079
+"Benzylsulfanilamide_BTM04684","newdry","itn_cyp_metabolites",18786533.4763238
+"Benzylsulfanilamide_BTM04684","olddry","itn_cyp_metabolites",13470348.2129252
+"Bestatin/Ubenimex_BTM03524","digesterA","itn_cyp_metabolites",8375982.81005506
+"Bestatin/Ubenimex_BTM03524","digesterC","itn_cyp_metabolites",6671850.95134349
+"Bestatin/Ubenimex_BTM03524","digesterD","itn_cyp_metabolites",7071296.25260567
+"Carvedilol","olddry","itn_cyp_metabolites",7843674.95906487
+"Cefaloglycin_BTM00313","olddry","itn_cyp_metabolites",9774496.79381965
+"Ciclesonide","digesterC","itn_cyp_metabolites",7134945.48558543
+"Concanamycin A_BTM01216","centrin","itn_cyp_metabolites",33728298.0823267
+"Concanamycin A_BTM01216","digesterA","itn_cyp_metabolites",18396897.7798135
+"Concanamycin A_BTM01216","digesterB","itn_cyp_metabolites",60218985.9416476
+"Concanamycin A_BTM01216","digesterC","itn_cyp_metabolites",18025000.2426993
+"Concanamycin A_BTM01216","feedpump","itn_cyp_metabolites",38437928.6862314
+"Concanamycin A_BTM01216","newdry","itn_cyp_metabolites",25638002.7052054
+"Concanamycin A_BTM01216","olddry","itn_cyp_metabolites",41204788.2805132
+"Cryptotanshinone_BTM04455","centrin","itn_cyp_metabolites",5283247.50390616
+"Cryptotanshinone_BTM04455","digesterA","itn_cyp_metabolites",6196796.67032391
+"Cryptotanshinone_BTM04455","digesterB","itn_cyp_metabolites",24737005.962358
+"Cryptotanshinone_BTM04455","digesterC","itn_cyp_metabolites",3396936.23160213
+"Cryptotanshinone_BTM04455","newdry","itn_cyp_metabolites",1386194.84169626
+"Cryptotanshinone_BTM04455","olddry","itn_cyp_metabolites",15926332.5155285
+"Cryptotanshinone_BTM04460","digesterA","itn_cyp_metabolites",273462465.814414
+"Cryptotanshinone_BTM04460","digesterB","itn_cyp_metabolites",208387455.445877
+"Cryptotanshinone_BTM04460","digesterC","itn_cyp_metabolites",9097690.39068993
+"Dichlorophene_BTM02818","centrin","itn_cyp_metabolites",88936939.0267154
+"Dichlorophene_BTM02818","digesterA","itn_cyp_metabolites",100210586.121922
+"Dichlorophene_BTM02818","digesterB","itn_cyp_metabolites",60887563.686144
+"Dichlorophene_BTM02818","digesterC","itn_cyp_metabolites",87065020.6900899
+"Dichlorophene_BTM02818","digesterD","itn_cyp_metabolites",85934821.8018428
+"Dichlorophene_BTM02818","feedpump","itn_cyp_metabolites",48932057.5034282
+"Dichlorophene_BTM02818","newdry","itn_cyp_metabolites",109175588.140253
+"Dichlorophene_BTM02818","olddry","itn_cyp_metabolites",91653866.964356
+"Erythromycin B_BTM01919","digesterC","itn_cyp_metabolites",57396057.1428511
+"Erythromycin B_BTM01919","digesterD","itn_cyp_metabolites",43054320.5295915
+"Fluorchinolone_BTM04503","feedpump","itn_cyp_metabolites",7504612.27074747
+"Fluorescein","digesterB","itn_cyp_metabolites",14218625.5824346
+"Fluorescein","newdry","itn_cyp_metabolites",13555601.8989288
+"Fluprednisolone","centrin","itn_cyp_metabolites",7626855.69553833
+"Hydromorphone","digesterA","itn_cyp_metabolites",5263574.30517774
+"Hydromorphone","digesterD","itn_cyp_metabolites",2100717.5692551
+"Hydromorphone","feedpump","itn_cyp_metabolites",8768129.05897585
+"Hydromorphone","newdry","itn_cyp_metabolites",24476325.5042976
+"Hydromorphone","olddry","itn_cyp_metabolites",7326830.71351202
+"Kalamycin_BTM03157","olddry","itn_cyp_metabolites",7656902.50409887
+"Losartan","centrin","itn_cyp_metabolites",11655095.1212489
+"Losartan","digesterA","itn_cyp_metabolites",16813040.3103024
+"Losartan","digesterB","itn_cyp_metabolites",15914737.137974
+"Losartan","digesterC","itn_cyp_metabolites",14754828.2990129
+"Losartan","digesterD","itn_cyp_metabolites",14363630.6440552
+"Losartan","feedpump","itn_cyp_metabolites",8007499.70309218
+"Losartan","newdry","itn_cyp_metabolites",8492006.63696158
+"Losartan","olddry","itn_cyp_metabolites",11226652.8121005
+"Moxidectin_BTM03194","digesterC","itn_cyp_metabolites",4718258.11942751
+"Moxidectin_BTM03194","digesterD","itn_cyp_metabolites",3063775.21022462
+"Moxidectin_BTM03194","newdry","itn_cyp_metabolites",6231473.60302319
+"Mucidin_BTM03176","newdry","itn_cyp_metabolites",3760270.8262206
+"Mucidin_BTM03176","olddry","itn_cyp_metabolites",3440792.96747204
+"Nadifloxacin_BTM04326","centrin","itn_cyp_metabolites",5279979.11089759
+"Nadifloxacin_BTM04326","newdry","itn_cyp_metabolites",863275.697402185
+"Nandrolone","centrin","itn_cyp_metabolites",10726547.8786742
+"Nandrolone","digesterA","itn_cyp_metabolites",4466878.47827963
+"Nandrolone","newdry","itn_cyp_metabolites",16249903.4099943
+"Propylparaben","centrin","itn_cyp_metabolites",5659675.761535
+"Propylparaben","digesterA","itn_cyp_metabolites",3755211.93402087
+"Propylparaben","feedpump","itn_cyp_metabolites",12551388.1932118
+"Propylparaben","newdry","itn_cyp_metabolites",4079240.22471123
+"Propylparaben","olddry","itn_cyp_metabolites",5311377.0399908
+"Talmetoprim_BTM03332","olddry","itn_cyp_metabolites",22916447.5354552
+"Tamoxifen_BTM03704","centrin","itn_cyp_metabolites",8681473.88832159
+"Tamoxifen_BTM03704","digesterB","itn_cyp_metabolites",7580197.67032831
+"Tamoxifen_BTM03704","feedpump","itn_cyp_metabolites",10666879.0206378
+"Tamoxifen_BTM03704","newdry","itn_cyp_metabolites",6217495.19614719
+"Tamoxifen_BTM03704","olddry","itn_cyp_metabolites",7896551.39373079
+"Tiamulin_BTM02711","digesterB","itn_cyp_metabolites",81055357.8817259
+"Zimeldine","digesterD","itn_cyp_metabolites",28404981.9405371
