@@ -1,193 +1,193 @@
-"name","sample_location","mass_list_name","mean_area"
-"17-Methyltestosterone","centrin","kps_psychoactive_substances_v2",27231525.2408758
-"17-Methyltestosterone","digesterA","kps_psychoactive_substances_v2",488745488.211791
-"17-Methyltestosterone","digesterB","kps_psychoactive_substances_v2",19618205.9062632
-"17-Methyltestosterone","digesterC","kps_psychoactive_substances_v2",30923377.0019064
-"17-Methyltestosterone","digesterD","kps_psychoactive_substances_v2",34908164.9248134
-"17-Methyltestosterone","feedpump","kps_psychoactive_substances_v2",90356564.462422
-"17-Methyltestosterone","newdry","kps_psychoactive_substances_v2",26886708.2362665
-"17-Methyltestosterone","olddry","kps_psychoactive_substances_v2",35942361.8056806
-"2-Ethylmethcathinone","centrin","kps_psychoactive_substances_v2",6062719.03512338
-"2-Ethylmethcathinone","digesterA","kps_psychoactive_substances_v2",17702110.3015185
-"2-Ethylmethcathinone","digesterC","kps_psychoactive_substances_v2",9059259.51628515
-"2-Ethylmethcathinone","digesterD","kps_psychoactive_substances_v2",8219434.70345017
-"2C-G","olddry","kps_psychoactive_substances_v2",16507662.408904
-"2C-P","centrin","kps_psychoactive_substances_v2",2965346.85422058
-"2C-P","digesterA","kps_psychoactive_substances_v2",3751505.48929976
-"2C-P","feedpump","kps_psychoactive_substances_v2",4359266.53930524
-"2C-P","olddry","kps_psychoactive_substances_v2",3351483.81878404
-"3alpha-Androstanediol","feedpump","kps_psychoactive_substances_v2",4784336.89782616
-"3alpha-Androstanediol","newdry","kps_psychoactive_substances_v2",8621795.99955419
-"4-Methoxyamphetamine","centrin","kps_psychoactive_substances_v2",4164218.39732544
-"4-Methoxyamphetamine","digesterA","kps_psychoactive_substances_v2",18490407.8667916
-"4-Methoxyamphetamine","digesterB","kps_psychoactive_substances_v2",22011001.3283869
-"4-Methoxyamphetamine","digesterC","kps_psychoactive_substances_v2",1302954.90769475
-"4-Methoxyamphetamine","digesterD","kps_psychoactive_substances_v2",924282.139111183
-"4-Methoxyamphetamine","newdry","kps_psychoactive_substances_v2",7377453.98137875
-"4-Methoxyamphetamine","olddry","kps_psychoactive_substances_v2",11379823.1329343
-"AM-1235","digesterB","kps_psychoactive_substances_v2",23912324.2128755
-"Alphaxalone","centrin","kps_psychoactive_substances_v2",5581270.7380198
-"Alphaxalone","digesterA","kps_psychoactive_substances_v2",7350564.21167295
-"Androsta-1,4-diene-3,17-dione","newdry","kps_psychoactive_substances_v2",12732081.9550495
-"Bezitramide [INN:BAN:DCF]","centrin","kps_psychoactive_substances_v2",12104482.9552829
-"Bezitramide [INN:BAN:DCF]","digesterB","kps_psychoactive_substances_v2",29230292.5511313
-"Bezitramide [INN:BAN:DCF]","digesterC","kps_psychoactive_substances_v2",25346315.5975275
-"Bezitramide [INN:BAN:DCF]","digesterD","kps_psychoactive_substances_v2",9289728.8380765
-"Bezitramide [INN:BAN:DCF]","newdry","kps_psychoactive_substances_v2",10563649.3394753
-"Bezitramide [INN:BAN:DCF]","olddry","kps_psychoactive_substances_v2",9756117.92399488
-"Boldenone undecylenate","digesterA","kps_psychoactive_substances_v2",11919190.8623217
-"Boldenone undecylenate","digesterB","kps_psychoactive_substances_v2",11738100.833445
-"Boldenone undecylenate","olddry","kps_psychoactive_substances_v2",18301473.3854152
-"Butorphanol","digesterC","kps_psychoactive_substances_v2",6463445.59808674
-"CB-25","feedpump","kps_psychoactive_substances_v2",18584679.4330459
-"CB-25","newdry","kps_psychoactive_substances_v2",6283256.80753607
-"Carisoprodol","centrin","kps_psychoactive_substances_v2",5118877.32502532
-"Carisoprodol","digesterA","kps_psychoactive_substances_v2",4675218.44285633
-"Carisoprodol","digesterB","kps_psychoactive_substances_v2",3829984.07278288
-"Carisoprodol","feedpump","kps_psychoactive_substances_v2",3692818.22184136
-"Carisoprodol","olddry","kps_psychoactive_substances_v2",2902229.47132615
-"Codeine","centrin","kps_psychoactive_substances_v2",13317407.0862088
-"Codeine","digesterC","kps_psychoactive_substances_v2",15141355.0237462
-"Codeine","digesterD","kps_psychoactive_substances_v2",16108538.0861206
-"Codeine","feedpump","kps_psychoactive_substances_v2",27095657.1385919
-"Codeine","newdry","kps_psychoactive_substances_v2",18911028.1642764
-"Codeine","olddry","kps_psychoactive_substances_v2",19641120.799559
-"DM 235","olddry","kps_psychoactive_substances_v2",28282262.7609701
-"Desoxymethyltestosterone","centrin","kps_psychoactive_substances_v2",10092614.1197063
-"Desoxymethyltestosterone","digesterA","kps_psychoactive_substances_v2",7572831.62540728
-"Desoxymethyltestosterone","newdry","kps_psychoactive_substances_v2",6231653.00448893
-"Desoxymethyltestosterone","olddry","kps_psychoactive_substances_v2",6804665.10243902
-"Dextromethorphan","digesterA","kps_psychoactive_substances_v2",14902382.5993348
-"Diethylpropion","olddry","kps_psychoactive_substances_v2",66107377.3530097
-"Dihydrocodeine","feedpump","kps_psychoactive_substances_v2",6113519.87544411
-"Dihydrocodeine","newdry","kps_psychoactive_substances_v2",4138221.67246678
-"Dimenoxadol","centrin","kps_psychoactive_substances_v2",4595578.68863482
-"Dimenoxadol","digesterA","kps_psychoactive_substances_v2",4931170.82130401
-"Dimenoxadol","digesterB","kps_psychoactive_substances_v2",3718379.68224989
-"Dimenoxadol","digesterC","kps_psychoactive_substances_v2",5731700.72354025
-"Dimenoxadol","newdry","kps_psychoactive_substances_v2",6476526.43391845
-"Dipropyltryptamine","centrin","kps_psychoactive_substances_v2",35411730.8214567
-"Dipropyltryptamine","digesterB","kps_psychoactive_substances_v2",12193916.7097371
-"Dipropyltryptamine","digesterC","kps_psychoactive_substances_v2",40953751.6282393
-"Dipropyltryptamine","digesterD","kps_psychoactive_substances_v2",68721070.4435577
-"Dipropyltryptamine","feedpump","kps_psychoactive_substances_v2",28329021.4414147
-"Dipropyltryptamine","newdry","kps_psychoactive_substances_v2",45239597.4362179
-"Dipropyltryptamine","olddry","kps_psychoactive_substances_v2",32346135.2603022
-"Dromostanolone","centrin","kps_psychoactive_substances_v2",16644297.6114908
-"Dromostanolone","digesterB","kps_psychoactive_substances_v2",10358901.7807631
-"Dromostanolone","digesterC","kps_psychoactive_substances_v2",31018395.056402
-"Dromostanolone","digesterD","kps_psychoactive_substances_v2",22929285.0453871
-"Dromostanolone","feedpump","kps_psychoactive_substances_v2",49410029.8821444
-"Dromostanolone","newdry","kps_psychoactive_substances_v2",19289465.7644061
-"Dromostanolone","olddry","kps_psychoactive_substances_v2",20014020.7753824
-"Dromostanolone proprionate","centrin","kps_psychoactive_substances_v2",81818803.5581133
-"Dromostanolone proprionate","digesterC","kps_psychoactive_substances_v2",72142518.0048433
-"Dromostanolone proprionate","digesterD","kps_psychoactive_substances_v2",57222543.2169009
-"Dromostanolone proprionate","newdry","kps_psychoactive_substances_v2",79713586.6038956
-"Dromostanolone proprionate","olddry","kps_psychoactive_substances_v2",9563684.90786372
-"Indan","centrin","kps_psychoactive_substances_v2",16980456.4903875
-"Indan","digesterA","kps_psychoactive_substances_v2",15274071.498154
-"Indan","digesterB","kps_psychoactive_substances_v2",14234857.8528731
-"Indan","digesterC","kps_psychoactive_substances_v2",2680443.4791238
-"Indan","digesterD","kps_psychoactive_substances_v2",2632098.71217924
-"Indan","feedpump","kps_psychoactive_substances_v2",6168050.93110232
-"Indan","olddry","kps_psychoactive_substances_v2",3097282.04554165
-"Levophenacylmorphan","centrin","kps_psychoactive_substances_v2",38351877.5465139
-"Levophenacylmorphan","digesterA","kps_psychoactive_substances_v2",72092559.1132715
-"Levophenacylmorphan","digesterB","kps_psychoactive_substances_v2",54127665.4476459
-"Levophenacylmorphan","digesterC","kps_psychoactive_substances_v2",55185260.3028893
-"Levophenacylmorphan","digesterD","kps_psychoactive_substances_v2",32392908.7059843
-"Levophenacylmorphan","feedpump","kps_psychoactive_substances_v2",11177842.891316
-"Levophenacylmorphan","newdry","kps_psychoactive_substances_v2",84501196.947534
-"Levophenacylmorphan","olddry","kps_psychoactive_substances_v2",63133025.154754
-"MDMA","centrin","kps_psychoactive_substances_v2",3252829.24667442
-"MDMA","digesterA","kps_psychoactive_substances_v2",3291469.32272344
-"MDMA","feedpump","kps_psychoactive_substances_v2",8955404.04244286
-"MDMA","olddry","kps_psychoactive_substances_v2",3448265.49242574
-"Mephobarbital","digesterA","kps_psychoactive_substances_v2",4192085.55337703
-"Methadone","digesterB","kps_psychoactive_substances_v2",8025548.27138185
-"Methadone","digesterC","kps_psychoactive_substances_v2",15498735.1530189
-"Methadone","olddry","kps_psychoactive_substances_v2",8828855.58622248
-"Methandrostenolone","digesterA","kps_psychoactive_substances_v2",20624599.1003264
-"Methandrostenolone","feedpump","kps_psychoactive_substances_v2",33454509.0405336
-"Methasterone","feedpump","kps_psychoactive_substances_v2",16261640.483804
-"Methenolone enanthate","centrin","kps_psychoactive_substances_v2",16069740.0068395
-"Methenolone enanthate","digesterA","kps_psychoactive_substances_v2",27632245.8275952
-"Methenolone enanthate","digesterD","kps_psychoactive_substances_v2",7021681.57015994
-"Methenolone enanthate","feedpump","kps_psychoactive_substances_v2",4894424.32895209
-"Methenolone enanthate","newdry","kps_psychoactive_substances_v2",86989488.1442834
-"Methenolone enanthate","olddry","kps_psychoactive_substances_v2",37290132.4899088
-"Methylphenidate","olddry","kps_psychoactive_substances_v2",13691020.4202642
-"Nabilone","centrin","kps_psychoactive_substances_v2",54646534.0153122
-"Nabilone","digesterA","kps_psychoactive_substances_v2",7108370.99734558
-"Nabilone","digesterB","kps_psychoactive_substances_v2",7481553.86935578
-"Nabilone","digesterC","kps_psychoactive_substances_v2",66501998.17071
-"Nabilone","digesterD","kps_psychoactive_substances_v2",65352699.9461547
-"Nabilone","feedpump","kps_psychoactive_substances_v2",46895779.3666951
-"Nabilone","newdry","kps_psychoactive_substances_v2",281032111.874529
-"Nabilone","olddry","kps_psychoactive_substances_v2",83899966.9065988
-"Nalorphine","centrin","kps_psychoactive_substances_v2",15909484.3144765
-"Nalorphine","feedpump","kps_psychoactive_substances_v2",13448439.90179
-"Nandrolone decanoate","feedpump","kps_psychoactive_substances_v2",4968677.03747676
-"Noopept","centrin","kps_psychoactive_substances_v2",10361532.7859412
-"Noopept","digesterA","kps_psychoactive_substances_v2",12185634.174844
-"Noopept","digesterB","kps_psychoactive_substances_v2",12114695.6112516
-"Noopept","digesterC","kps_psychoactive_substances_v2",15216221.1998162
-"Noopept","digesterD","kps_psychoactive_substances_v2",12716185.5623088
-"Noopept","feedpump","kps_psychoactive_substances_v2",13109391.9390057
-"Noopept","newdry","kps_psychoactive_substances_v2",7997061.49103239
-"Oxabolone","centrin","kps_psychoactive_substances_v2",40934462.2727849
-"Oxabolone","digesterA","kps_psychoactive_substances_v2",19572787.4111159
-"Oxabolone","digesterB","kps_psychoactive_substances_v2",13643765.2964511
-"Oxabolone","digesterC","kps_psychoactive_substances_v2",39497300.0933863
-"Oxabolone","digesterD","kps_psychoactive_substances_v2",35862173.293069
-"Oxabolone","feedpump","kps_psychoactive_substances_v2",11655445.7792555
-"Oxabolone","newdry","kps_psychoactive_substances_v2",45035859.6617349
-"Oxabolone","olddry","kps_psychoactive_substances_v2",28074924.6726121
-"Oxandrolone","centrin","kps_psychoactive_substances_v2",6090640.08693635
-"Oxandrolone","digesterC","kps_psychoactive_substances_v2",10886872.1232603
-"Oxandrolone","digesterD","kps_psychoactive_substances_v2",21810314.6300125
-"Oxandrolone","feedpump","kps_psychoactive_substances_v2",30701783.8998383
-"Oxandrolone","newdry","kps_psychoactive_substances_v2",7244317.80843567
-"Oxandrolone","olddry","kps_psychoactive_substances_v2",8818347.96738755
-"Sertraline","centrin","kps_psychoactive_substances_v2",52607451.3202836
-"Sertraline","digesterA","kps_psychoactive_substances_v2",11718685.6269166
-"Sertraline","digesterB","kps_psychoactive_substances_v2",17419422.9870052
-"Sertraline","digesterD","kps_psychoactive_substances_v2",28349595.9792828
-"Sertraline","newdry","kps_psychoactive_substances_v2",75557523.3856145
-"Sertraline","olddry","kps_psychoactive_substances_v2",62471367.5025548
-"Tapentadol","centrin","kps_psychoactive_substances_v2",7258952494.50117
-"Tapentadol","digesterA","kps_psychoactive_substances_v2",1010728502.34736
-"Tapentadol","digesterB","kps_psychoactive_substances_v2",3140756404.45639
-"Tapentadol","digesterC","kps_psychoactive_substances_v2",5396943709.37584
-"Tapentadol","digesterD","kps_psychoactive_substances_v2",3042527813.9003
-"Tapentadol","feedpump","kps_psychoactive_substances_v2",130226353.775911
-"Tapentadol","newdry","kps_psychoactive_substances_v2",231288162.313594
-"Tapentadol","olddry","kps_psychoactive_substances_v2",3112065850.25397
-"Testosterone decanoate","centrin","kps_psychoactive_substances_v2",9234025.90910783
-"Testosterone decanoate","digesterA","kps_psychoactive_substances_v2",13571870.8239984
-"Testosterone decanoate","digesterB","kps_psychoactive_substances_v2",14273848.9678376
-"Testosterone decanoate","digesterC","kps_psychoactive_substances_v2",11110248.50185
-"Testosterone decanoate","digesterD","kps_psychoactive_substances_v2",6231854.7401271
-"Testosterone decanoate","feedpump","kps_psychoactive_substances_v2",3245728.38114601
-"Testosterone decanoate","newdry","kps_psychoactive_substances_v2",15741730.8280106
-"Testosterone decanoate","olddry","kps_psychoactive_substances_v2",5268757.72609563
-"Testosterone isobutyrate","centrin","kps_psychoactive_substances_v2",5594880.15563555
-"Testosterone isobutyrate","newdry","kps_psychoactive_substances_v2",6267080.29445337
-"Testosterone propionate","centrin","kps_psychoactive_substances_v2",14008043.3892681
-"Testosterone propionate","digesterC","kps_psychoactive_substances_v2",12411125.6657541
-"Testosterone propionate","digesterD","kps_psychoactive_substances_v2",10267803.9442546
-"Testosterone propionate","newdry","kps_psychoactive_substances_v2",13038782.733407
-"Testosterone propionate","olddry","kps_psychoactive_substances_v2",12131028.893971
-"Tetrahydrogestrinone","newdry","kps_psychoactive_substances_v2",16469447.7249507
-"Trenbolone acetate","digesterB","kps_psychoactive_substances_v2",13271712.7238467
-"Trimetazidine","digesterB","kps_psychoactive_substances_v2",34629188.4415954
-"Trimetazidine","digesterD","kps_psychoactive_substances_v2",28072916.1368094
-"Trimetazidine","feedpump","kps_psychoactive_substances_v2",12166590.9596614
-"Trimetazidine","olddry","kps_psychoactive_substances_v2",27901702.0209698
-"alpha-pyrrolidinovalerophenone","centrin","kps_psychoactive_substances_v2",11246518.3559703
-"alpha-pyrrolidinovalerophenone","digesterA","kps_psychoactive_substances_v2",9545715.53604926
-"alpha-pyrrolidinovalerophenone","digesterB","kps_psychoactive_substances_v2",8365397.62531879
-"alpha-pyrrolidinovalerophenone","feedpump","kps_psychoactive_substances_v2",24761247.047492
-"alpha-pyrrolidinovalerophenone","newdry","kps_psychoactive_substances_v2",6706255.55205742
-"alpha-pyrrolidinovalerophenone","olddry","kps_psychoactive_substances_v2",14477591.2315471
+"peak_number","name","formula","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+391,"17-Methyltestosterone","C20 H30 O2",302.22471,303.23195,23.017,"centrin","kps_psychoactive_substances_v2",27231525.2408758
+85,"17-Methyltestosterone","C20 H30 O2",302.22475,320.25858,19.694,"digesterA","kps_psychoactive_substances_v2",488745488.211791
+391,"17-Methyltestosterone","C20 H30 O2",302.22471,303.23195,23.017,"digesterB","kps_psychoactive_substances_v2",19618205.9062632
+391,"17-Methyltestosterone","C20 H30 O2",302.22471,303.23195,23.017,"digesterC","kps_psychoactive_substances_v2",30923377.0019064
+391,"17-Methyltestosterone","C20 H30 O2",302.22471,303.23195,23.017,"digesterD","kps_psychoactive_substances_v2",34908164.9248134
+391,"17-Methyltestosterone","C20 H30 O2",302.22471,303.23195,23.017,"feedpump","kps_psychoactive_substances_v2",90356564.462422
+391,"17-Methyltestosterone","C20 H30 O2",302.22471,303.23195,23.017,"newdry","kps_psychoactive_substances_v2",26886708.2362665
+391,"17-Methyltestosterone","C20 H30 O2",302.22471,303.23195,23.017,"olddry","kps_psychoactive_substances_v2",35942361.8056806
+2511,"2-Ethylmethcathinone","C12 H17 N O",191.13102,192.1383,16.546,"centrin","kps_psychoactive_substances_v2",6062719.03512338
+2511,"2-Ethylmethcathinone","C12 H17 N O",191.13102,192.1383,16.546,"digesterA","kps_psychoactive_substances_v2",17702110.3015185
+2511,"2-Ethylmethcathinone","C12 H17 N O",191.13102,192.1383,16.546,"digesterC","kps_psychoactive_substances_v2",9059259.51628515
+2511,"2-Ethylmethcathinone","C12 H17 N O",191.13102,192.1383,16.546,"digesterD","kps_psychoactive_substances_v2",8219434.70345017
+2281,"2C-G","C12 H19 N O2",209.14187,227.1754,14.415,"olddry","kps_psychoactive_substances_v2",16507662.408904
+2236,"2C-P","C13 H21 N O2",223.15724,224.16451,23.569,"centrin","kps_psychoactive_substances_v2",2965346.85422058
+2236,"2C-P","C13 H21 N O2",223.15724,224.16451,23.569,"digesterA","kps_psychoactive_substances_v2",3751505.48929976
+2236,"2C-P","C13 H21 N O2",223.15724,224.16451,23.569,"feedpump","kps_psychoactive_substances_v2",4359266.53930524
+2236,"2C-P","C13 H21 N O2",223.15724,224.16451,23.569,"olddry","kps_psychoactive_substances_v2",3351483.81878404
+3794,"3alpha-Androstanediol","C19 H32 O2",292.24031,293.24756,22.089,"feedpump","kps_psychoactive_substances_v2",4784336.89782616
+3794,"3alpha-Androstanediol","C19 H32 O2",292.24031,293.24756,22.089,"newdry","kps_psychoactive_substances_v2",8621795.99955419
+1893,"4-Methoxyamphetamine","C10 H15 N O",165.11539,166.12266,17.851,"centrin","kps_psychoactive_substances_v2",4164218.39732544
+1893,"4-Methoxyamphetamine","C10 H15 N O",165.11539,166.12266,17.851,"digesterA","kps_psychoactive_substances_v2",18490407.8667916
+1893,"4-Methoxyamphetamine","C10 H15 N O",165.11539,166.12266,17.851,"digesterB","kps_psychoactive_substances_v2",22011001.3283869
+1893,"4-Methoxyamphetamine","C10 H15 N O",165.11539,166.12266,17.851,"digesterC","kps_psychoactive_substances_v2",1302954.90769475
+1893,"4-Methoxyamphetamine","C10 H15 N O",165.11539,166.12266,17.851,"digesterD","kps_psychoactive_substances_v2",924282.139111183
+1893,"4-Methoxyamphetamine","C10 H15 N O",165.11539,166.12266,17.851,"newdry","kps_psychoactive_substances_v2",7377453.98137875
+1893,"4-Methoxyamphetamine","C10 H15 N O",165.11539,166.12266,17.851,"olddry","kps_psychoactive_substances_v2",11379823.1329343
+2072,"AM-1235","C24 H21 F N2 O3",404.15449,405.16176,18.694,"digesterB","kps_psychoactive_substances_v2",23912324.2128755
+4066,"Alphaxalone","C21 H32 O3",332.23533,333.2426,22.111,"centrin","kps_psychoactive_substances_v2",5581270.7380198
+4066,"Alphaxalone","C21 H32 O3",332.23533,333.2426,22.111,"digesterA","kps_psychoactive_substances_v2",7350564.21167295
+2782,"Androsta-1,4-diene-3,17-dione","C19 H24 O2",284.17767,285.18494,16.356,"newdry","kps_psychoactive_substances_v2",12732081.9550495
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",492.25116,515.24038,21.409,"centrin","kps_psychoactive_substances_v2",12104482.9552829
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",492.25116,515.24038,21.409,"digesterB","kps_psychoactive_substances_v2",29230292.5511313
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",492.25116,515.24038,21.409,"digesterC","kps_psychoactive_substances_v2",25346315.5975275
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",492.25116,515.24038,21.409,"digesterD","kps_psychoactive_substances_v2",9289728.8380765
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",492.25116,515.24038,21.409,"newdry","kps_psychoactive_substances_v2",10563649.3394753
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",492.25116,515.24038,21.409,"olddry","kps_psychoactive_substances_v2",9756117.92399488
+3137,"Boldenone undecylenate","C30 H44 O3",452.32905,453.33633,22.506,"digesterA","kps_psychoactive_substances_v2",11919190.8623217
+3137,"Boldenone undecylenate","C30 H44 O3",452.32905,453.33633,22.506,"digesterB","kps_psychoactive_substances_v2",11738100.833445
+2569,"Boldenone undecylenate","C30 H44 O3",452.32908,453.33636,23.723,"olddry","kps_psychoactive_substances_v2",18301473.3854152
+4265,"Butorphanol","C21 H29 N O2",327.22005,328.22732,17.314,"digesterC","kps_psychoactive_substances_v2",6463445.59808674
+2390,"CB-25","C25 H41 N O3",403.30864,404.31592,23.911,"feedpump","kps_psychoactive_substances_v2",18584679.4330459
+2390,"CB-25","C25 H41 N O3",403.30864,404.31592,23.911,"newdry","kps_psychoactive_substances_v2",6283256.80753607
+2642,"Carisoprodol","C12 H24 N2 O4",260.17359,261.18087,19.087,"centrin","kps_psychoactive_substances_v2",5118877.32502532
+2642,"Carisoprodol","C12 H24 N2 O4",260.17359,261.18087,19.087,"digesterA","kps_psychoactive_substances_v2",4675218.44285633
+2642,"Carisoprodol","C12 H24 N2 O4",260.17359,261.18087,19.087,"digesterB","kps_psychoactive_substances_v2",3829984.07278288
+2642,"Carisoprodol","C12 H24 N2 O4",260.17359,261.18087,19.087,"feedpump","kps_psychoactive_substances_v2",3692818.22184136
+2642,"Carisoprodol","C12 H24 N2 O4",260.17359,261.18087,19.087,"olddry","kps_psychoactive_substances_v2",2902229.47132615
+1708,"Codeine","C18 H21 N O3",299.15226,300.15954,16.482,"centrin","kps_psychoactive_substances_v2",13317407.0862088
+1708,"Codeine","C18 H21 N O3",299.15226,300.15954,16.482,"digesterC","kps_psychoactive_substances_v2",15141355.0237462
+1708,"Codeine","C18 H21 N O3",299.15226,300.15954,16.482,"digesterD","kps_psychoactive_substances_v2",16108538.0861206
+1708,"Codeine","C18 H21 N O3",299.15226,300.15954,16.482,"feedpump","kps_psychoactive_substances_v2",27095657.1385919
+1708,"Codeine","C18 H21 N O3",299.15226,300.15954,16.482,"newdry","kps_psychoactive_substances_v2",18911028.1642764
+1537,"Codeine","C18 H21 N O3",299.15228,300.15955,10.549,"olddry","kps_psychoactive_substances_v2",19641120.799559
+1148,"DM 235","C14 H18 N2 O2",246.13681,247.14409,11.121,"olddry","kps_psychoactive_substances_v2",28282262.7609701
+3645,"Desoxymethyltestosterone","C20 H32 O",288.24541,289.25264,23.229,"centrin","kps_psychoactive_substances_v2",10092614.1197063
+3645,"Desoxymethyltestosterone","C20 H32 O",288.24541,289.25264,23.229,"digesterA","kps_psychoactive_substances_v2",7572831.62540728
+3645,"Desoxymethyltestosterone","C20 H32 O",288.24541,289.25264,23.229,"newdry","kps_psychoactive_substances_v2",6231653.00448893
+3645,"Desoxymethyltestosterone","C20 H32 O",288.24541,289.25264,23.229,"olddry","kps_psychoactive_substances_v2",6804665.10243902
+2414,"Dextromethorphan","C18 H25 N O",271.19356,272.20084,18.294,"digesterA","kps_psychoactive_substances_v2",14902382.5993348
+646,"Diethylpropion","C13 H19 N O",205.14664,206.15392,15.218,"olddry","kps_psychoactive_substances_v2",66107377.3530097
+4177,"Dihydrocodeine","C18 H23 N O3",301.16793,302.1752,16.528,"feedpump","kps_psychoactive_substances_v2",6113519.87544411
+4177,"Dihydrocodeine","C18 H23 N O3",301.16793,302.1752,16.528,"newdry","kps_psychoactive_substances_v2",4138221.67246678
+4478,"Dimenoxadol","C20 H25 N O3",327.18366,328.19094,16.915,"centrin","kps_psychoactive_substances_v2",4595578.68863482
+4478,"Dimenoxadol","C20 H25 N O3",327.18366,328.19094,16.915,"digesterA","kps_psychoactive_substances_v2",4931170.82130401
+4478,"Dimenoxadol","C20 H25 N O3",327.18366,328.19094,16.915,"digesterB","kps_psychoactive_substances_v2",3718379.68224989
+4478,"Dimenoxadol","C20 H25 N O3",327.18366,328.19094,16.915,"digesterC","kps_psychoactive_substances_v2",5731700.72354025
+4478,"Dimenoxadol","C20 H25 N O3",327.18366,328.19094,16.915,"newdry","kps_psychoactive_substances_v2",6476526.43391845
+457,"Dipropyltryptamine","C16 H24 N2",244.19393,245.20121,22.007,"centrin","kps_psychoactive_substances_v2",35411730.8214567
+457,"Dipropyltryptamine","C16 H24 N2",244.19393,245.20121,22.007,"digesterB","kps_psychoactive_substances_v2",12193916.7097371
+457,"Dipropyltryptamine","C16 H24 N2",244.19393,245.20121,22.007,"digesterC","kps_psychoactive_substances_v2",40953751.6282393
+457,"Dipropyltryptamine","C16 H24 N2",244.19393,245.20121,22.007,"digesterD","kps_psychoactive_substances_v2",68721070.4435577
+457,"Dipropyltryptamine","C16 H24 N2",244.19393,245.20121,22.007,"feedpump","kps_psychoactive_substances_v2",28329021.4414147
+457,"Dipropyltryptamine","C16 H24 N2",244.19393,245.20121,22.007,"newdry","kps_psychoactive_substances_v2",45239597.4362179
+457,"Dipropyltryptamine","C16 H24 N2",244.19393,245.20121,22.007,"olddry","kps_psychoactive_substances_v2",32346135.2603022
+1065,"Dromostanolone","C20 H32 O2",304.24038,305.24763,23.546,"centrin","kps_psychoactive_substances_v2",16644297.6114908
+1065,"Dromostanolone","C20 H32 O2",304.24038,305.24763,23.546,"digesterB","kps_psychoactive_substances_v2",10358901.7807631
+1065,"Dromostanolone","C20 H32 O2",304.24038,305.24763,23.546,"digesterC","kps_psychoactive_substances_v2",31018395.056402
+1065,"Dromostanolone","C20 H32 O2",304.24038,305.24763,23.546,"digesterD","kps_psychoactive_substances_v2",22929285.0453871
+1065,"Dromostanolone","C20 H32 O2",304.24038,305.24763,23.546,"feedpump","kps_psychoactive_substances_v2",49410029.8821444
+1065,"Dromostanolone","C20 H32 O2",304.24038,305.24763,23.546,"newdry","kps_psychoactive_substances_v2",19289465.7644061
+1065,"Dromostanolone","C20 H32 O2",304.24038,305.24763,23.546,"olddry","kps_psychoactive_substances_v2",20014020.7753824
+648,"Dromostanolone proprionate","C23 H36 O3",360.26655,361.27383,23.131,"centrin","kps_psychoactive_substances_v2",81818803.5581133
+648,"Dromostanolone proprionate","C23 H36 O3",360.26655,361.27383,23.131,"digesterC","kps_psychoactive_substances_v2",72142518.0048433
+648,"Dromostanolone proprionate","C23 H36 O3",360.26655,361.27383,23.131,"digesterD","kps_psychoactive_substances_v2",57222543.2169009
+648,"Dromostanolone proprionate","C23 H36 O3",360.26655,361.27383,23.131,"newdry","kps_psychoactive_substances_v2",79713586.6038956
+648,"Dromostanolone proprionate","C23 H36 O3",360.26655,361.27383,23.131,"olddry","kps_psychoactive_substances_v2",9563684.90786372
+1200,"Indan","C9 H10",118.07836,119.08564,18.705,"centrin","kps_psychoactive_substances_v2",16980456.4903875
+1200,"Indan","C9 H10",118.07836,119.08564,18.705,"digesterA","kps_psychoactive_substances_v2",15274071.498154
+1200,"Indan","C9 H10",118.07836,119.08564,18.705,"digesterB","kps_psychoactive_substances_v2",14234857.8528731
+3135,"Indan","C9 H10",118.07837,119.08564,17.841,"digesterC","kps_psychoactive_substances_v2",2680443.4791238
+3135,"Indan","C9 H10",118.07837,119.08564,17.841,"digesterD","kps_psychoactive_substances_v2",2632098.71217924
+1200,"Indan","C9 H10",118.07836,119.08564,18.705,"feedpump","kps_psychoactive_substances_v2",6168050.93110232
+1200,"Indan","C9 H10",118.07836,119.08564,18.705,"olddry","kps_psychoactive_substances_v2",3097282.04554165
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"centrin","kps_psychoactive_substances_v2",38351877.5465139
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"digesterA","kps_psychoactive_substances_v2",72092559.1132715
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"digesterB","kps_psychoactive_substances_v2",54127665.4476459
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"digesterC","kps_psychoactive_substances_v2",55185260.3028893
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"digesterD","kps_psychoactive_substances_v2",32392908.7059843
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"feedpump","kps_psychoactive_substances_v2",11177842.891316
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"newdry","kps_psychoactive_substances_v2",84501196.947534
+525,"Levophenacylmorphan","C24 H27 N O2",361.20421,384.19342,22.315,"olddry","kps_psychoactive_substances_v2",63133025.154754
+2300,"MDMA","C11 H15 N O2",193.11028,194.11756,17.537,"centrin","kps_psychoactive_substances_v2",3252829.24667442
+2300,"MDMA","C11 H15 N O2",193.11028,194.11756,17.537,"digesterA","kps_psychoactive_substances_v2",3291469.32272344
+1085,"MDMA","C11 H15 N O2",193.11028,194.11755,17.96,"feedpump","kps_psychoactive_substances_v2",8955404.04244286
+1085,"MDMA","C11 H15 N O2",193.11028,194.11755,17.96,"olddry","kps_psychoactive_substances_v2",3448265.49242574
+4797,"Mephobarbital","C13 H14 N2 O3",246.09969,247.10697,16.788,"digesterA","kps_psychoactive_substances_v2",4192085.55337703
+3983,"Methadone","C21 H27 N O",309.2094,310.21667,19.432,"digesterB","kps_psychoactive_substances_v2",8025548.27138185
+2870,"Methadone","C21 H27 N O",309.20941,310.21669,18.193,"digesterC","kps_psychoactive_substances_v2",15498735.1530189
+3625,"Methadone","C21 H27 N O",309.20938,310.21666,15.434,"olddry","kps_psychoactive_substances_v2",8828855.58622248
+2337,"Methandrostenolone","C20 H28 O2",300.20908,301.21635,21.944,"digesterA","kps_psychoactive_substances_v2",20624599.1003264
+1611,"Methandrostenolone","C20 H28 O2",300.20905,301.21633,21.058,"feedpump","kps_psychoactive_substances_v2",33454509.0405336
+2474,"Methasterone","C21 H34 O2",318.25615,319.26342,22.933,"feedpump","kps_psychoactive_substances_v2",16261640.483804
+642,"Methenolone enanthate","C27 H42 O3",414.3134,415.32073,23.589,"centrin","kps_psychoactive_substances_v2",16069740.0068395
+919,"Methenolone enanthate","C27 H42 O3",414.31345,415.32073,22.152,"digesterA","kps_psychoactive_substances_v2",27632245.8275952
+642,"Methenolone enanthate","C27 H42 O3",414.3134,415.32073,23.589,"digesterD","kps_psychoactive_substances_v2",7021681.57015994
+642,"Methenolone enanthate","C27 H42 O3",414.3134,415.32073,23.589,"feedpump","kps_psychoactive_substances_v2",4894424.32895209
+642,"Methenolone enanthate","C27 H42 O3",414.3134,415.32073,23.589,"newdry","kps_psychoactive_substances_v2",86989488.1442834
+642,"Methenolone enanthate","C27 H42 O3",414.3134,415.32073,23.589,"olddry","kps_psychoactive_substances_v2",37290132.4899088
+3098,"Methylphenidate","C14 H19 N O2",233.14154,234.14882,15.127,"olddry","kps_psychoactive_substances_v2",13691020.4202642
+157,"Nabilone","C24 H36 O3",372.26646,373.27373,21.823,"centrin","kps_psychoactive_substances_v2",54646534.0153122
+185,"Nabilone","C24 H36 O3",372.26641,373.27368,21.736,"digesterA","kps_psychoactive_substances_v2",7108370.99734558
+185,"Nabilone","C24 H36 O3",372.26641,373.27368,21.736,"digesterB","kps_psychoactive_substances_v2",7481553.86935578
+157,"Nabilone","C24 H36 O3",372.26646,373.27373,21.823,"digesterC","kps_psychoactive_substances_v2",66501998.17071
+185,"Nabilone","C24 H36 O3",372.26641,373.27368,21.736,"digesterD","kps_psychoactive_substances_v2",65352699.9461547
+157,"Nabilone","C24 H36 O3",372.26646,373.27373,21.823,"feedpump","kps_psychoactive_substances_v2",46895779.3666951
+157,"Nabilone","C24 H36 O3",372.26646,373.27373,21.823,"newdry","kps_psychoactive_substances_v2",281032111.874529
+157,"Nabilone","C24 H36 O3",372.26646,373.27373,21.823,"olddry","kps_psychoactive_substances_v2",83899966.9065988
+2819,"Nalorphine","C19 H21 N O3",311.1523,312.15958,19.326,"centrin","kps_psychoactive_substances_v2",15909484.3144765
+2676,"Nalorphine","C19 H21 N O3",311.15228,312.15955,20.074,"feedpump","kps_psychoactive_substances_v2",13448439.90179
+3176,"Nandrolone decanoate","C28 H44 O3",428.329,429.33628,23.534,"feedpump","kps_psychoactive_substances_v2",4968677.03747676
+2781,"Noopept","C17 H22 N2 O4",318.15818,319.16546,14.289,"centrin","kps_psychoactive_substances_v2",10361532.7859412
+2781,"Noopept","C17 H22 N2 O4",318.15818,319.16546,14.289,"digesterA","kps_psychoactive_substances_v2",12185634.174844
+2781,"Noopept","C17 H22 N2 O4",318.15818,319.16546,14.289,"digesterB","kps_psychoactive_substances_v2",12114695.6112516
+2781,"Noopept","C17 H22 N2 O4",318.15818,319.16546,14.289,"digesterC","kps_psychoactive_substances_v2",15216221.1998162
+2781,"Noopept","C17 H22 N2 O4",318.15818,319.16546,14.289,"digesterD","kps_psychoactive_substances_v2",12716185.5623088
+2781,"Noopept","C17 H22 N2 O4",318.15818,319.16546,14.289,"feedpump","kps_psychoactive_substances_v2",13109391.9390057
+2781,"Noopept","C17 H22 N2 O4",318.15818,319.16546,14.289,"newdry","kps_psychoactive_substances_v2",7997061.49103239
+617,"Oxabolone","C18 H26 O3",290.18818,291.19546,19.593,"centrin","kps_psychoactive_substances_v2",40934462.2727849
+617,"Oxabolone","C18 H26 O3",290.18818,291.19546,19.593,"digesterA","kps_psychoactive_substances_v2",19572787.4111159
+617,"Oxabolone","C18 H26 O3",290.18818,291.19546,19.593,"digesterB","kps_psychoactive_substances_v2",13643765.2964511
+819,"Oxabolone","C18 H26 O3",290.18814,291.19541,19.226,"digesterC","kps_psychoactive_substances_v2",39497300.0933863
+819,"Oxabolone","C18 H26 O3",290.18814,291.19541,19.226,"digesterD","kps_psychoactive_substances_v2",35862173.293069
+2419,"Oxabolone","C18 H26 O3",290.18821,291.19549,21.504,"feedpump","kps_psychoactive_substances_v2",11655445.7792555
+819,"Oxabolone","C18 H26 O3",290.18814,291.19541,19.226,"newdry","kps_psychoactive_substances_v2",45035859.6617349
+617,"Oxabolone","C18 H26 O3",290.18818,291.19546,19.593,"olddry","kps_psychoactive_substances_v2",28074924.6726121
+1127,"Oxandrolone","C19 H30 O3",306.21962,307.2269,22.184,"centrin","kps_psychoactive_substances_v2",6090640.08693635
+1127,"Oxandrolone","C19 H30 O3",306.21962,307.2269,22.184,"digesterC","kps_psychoactive_substances_v2",10886872.1232603
+1127,"Oxandrolone","C19 H30 O3",306.21962,307.2269,22.184,"digesterD","kps_psychoactive_substances_v2",21810314.6300125
+1127,"Oxandrolone","C19 H30 O3",306.21962,307.2269,22.184,"feedpump","kps_psychoactive_substances_v2",30701783.8998383
+1127,"Oxandrolone","C19 H30 O3",306.21962,307.2269,22.184,"newdry","kps_psychoactive_substances_v2",7244317.80843567
+1127,"Oxandrolone","C19 H30 O3",306.21962,307.2269,22.184,"olddry","kps_psychoactive_substances_v2",8818347.96738755
+628,"Sertraline","C17 H17 Cl2 N",305.07392,306.08119,19.379,"centrin","kps_psychoactive_substances_v2",52607451.3202836
+628,"Sertraline","C17 H17 Cl2 N",305.07392,306.08119,19.379,"digesterA","kps_psychoactive_substances_v2",11718685.6269166
+628,"Sertraline","C17 H17 Cl2 N",305.07392,306.08119,19.379,"digesterB","kps_psychoactive_substances_v2",17419422.9870052
+628,"Sertraline","C17 H17 Cl2 N",305.07392,306.08119,19.379,"digesterD","kps_psychoactive_substances_v2",28349595.9792828
+628,"Sertraline","C17 H17 Cl2 N",305.07392,306.08119,19.379,"newdry","kps_psychoactive_substances_v2",75557523.3856145
+628,"Sertraline","C17 H17 Cl2 N",305.07392,306.08119,19.379,"olddry","kps_psychoactive_substances_v2",62471367.5025548
+2,"Tapentadol","C14 H23 N O",221.17786,222.18513,19.07,"centrin","kps_psychoactive_substances_v2",7258952494.50117
+2,"Tapentadol","C14 H23 N O",221.17786,222.18513,19.07,"digesterA","kps_psychoactive_substances_v2",1010728502.34736
+2,"Tapentadol","C14 H23 N O",221.17786,222.18513,19.07,"digesterB","kps_psychoactive_substances_v2",3140756404.45639
+3,"Tapentadol","C14 H23 N O",221.17786,222.18513,18.5,"digesterC","kps_psychoactive_substances_v2",5396943709.37584
+3,"Tapentadol","C14 H23 N O",221.17786,222.18513,18.5,"digesterD","kps_psychoactive_substances_v2",3042527813.9003
+2,"Tapentadol","C14 H23 N O",221.17786,222.18513,19.07,"feedpump","kps_psychoactive_substances_v2",130226353.775911
+2,"Tapentadol","C14 H23 N O",221.17786,222.18513,19.07,"newdry","kps_psychoactive_substances_v2",231288162.313594
+2,"Tapentadol","C14 H23 N O",221.17786,222.18513,19.07,"olddry","kps_psychoactive_substances_v2",3112065850.25397
+2089,"Testosterone decanoate","C29 H46 O3",442.34461,443.35189,22.855,"centrin","kps_psychoactive_substances_v2",9234025.90910783
+2934,"Testosterone decanoate","C29 H46 O3",442.34469,443.35197,22.172,"digesterA","kps_psychoactive_substances_v2",13571870.8239984
+2934,"Testosterone decanoate","C29 H46 O3",442.34469,443.35197,22.172,"digesterB","kps_psychoactive_substances_v2",14273848.9678376
+2934,"Testosterone decanoate","C29 H46 O3",442.34469,443.35197,22.172,"digesterC","kps_psychoactive_substances_v2",11110248.50185
+2942,"Testosterone decanoate","C29 H46 O3",442.34469,443.35197,22.365,"digesterD","kps_psychoactive_substances_v2",6231854.7401271
+2089,"Testosterone decanoate","C29 H46 O3",442.34461,443.35189,22.855,"feedpump","kps_psychoactive_substances_v2",3245728.38114601
+2089,"Testosterone decanoate","C29 H46 O3",442.34461,443.35189,22.855,"newdry","kps_psychoactive_substances_v2",15741730.8280106
+2089,"Testosterone decanoate","C29 H46 O3",442.34461,443.35189,22.855,"olddry","kps_psychoactive_substances_v2",5268757.72609563
+3699,"Testosterone isobutyrate","C23 H34 O3",358.25093,359.25821,21.493,"centrin","kps_psychoactive_substances_v2",5594880.15563555
+3699,"Testosterone isobutyrate","C23 H34 O3",358.25093,359.25821,21.493,"newdry","kps_psychoactive_substances_v2",6267080.29445337
+31,"Testosterone propionate","C22 H32 O3",344.23527,345.24255,21.462,"centrin","kps_psychoactive_substances_v2",14008043.3892681
+31,"Testosterone propionate","C22 H32 O3",344.23527,345.24255,21.462,"digesterC","kps_psychoactive_substances_v2",12411125.6657541
+31,"Testosterone propionate","C22 H32 O3",344.23527,345.24255,21.462,"digesterD","kps_psychoactive_substances_v2",10267803.9442546
+31,"Testosterone propionate","C22 H32 O3",344.23527,345.24255,21.462,"newdry","kps_psychoactive_substances_v2",13038782.733407
+44,"Testosterone propionate","C22 H32 O3",344.2353,345.24258,19.995,"olddry","kps_psychoactive_substances_v2",12131028.893971
+2757,"Tetrahydrogestrinone","C21 H28 O2",312.20907,313.21634,18.631,"newdry","kps_psychoactive_substances_v2",16469447.7249507
+3153,"Trenbolone acetate","C20 H24 O3",312.17268,313.17996,16.096,"digesterB","kps_psychoactive_substances_v2",13271712.7238467
+815,"Trimetazidine","C14 H22 N2 O3",266.163,289.15222,7.9,"digesterB","kps_psychoactive_substances_v2",34629188.4415954
+815,"Trimetazidine","C14 H22 N2 O3",266.163,289.15222,7.9,"digesterD","kps_psychoactive_substances_v2",28072916.1368094
+815,"Trimetazidine","C14 H22 N2 O3",266.163,289.15222,7.9,"feedpump","kps_psychoactive_substances_v2",12166590.9596614
+815,"Trimetazidine","C14 H22 N2 O3",266.163,289.15222,7.9,"olddry","kps_psychoactive_substances_v2",27901702.0209698
+2565,"alpha-pyrrolidinovalerophenone","C15 H21 N O",231.16229,232.16957,17.755,"centrin","kps_psychoactive_substances_v2",11246518.3559703
+1419,"alpha-pyrrolidinovalerophenone","C15 H21 N O",231.16229,232.16956,18.017,"digesterA","kps_psychoactive_substances_v2",9545715.53604926
+1419,"alpha-pyrrolidinovalerophenone","C15 H21 N O",231.16229,232.16956,18.017,"digesterB","kps_psychoactive_substances_v2",8365397.62531879
+675,"alpha-pyrrolidinovalerophenone","C15 H21 N O",231.1623,232.16957,18.481,"feedpump","kps_psychoactive_substances_v2",24761247.047492
+1419,"alpha-pyrrolidinovalerophenone","C15 H21 N O",231.16229,232.16956,18.017,"newdry","kps_psychoactive_substances_v2",6706255.55205742
+675,"alpha-pyrrolidinovalerophenone","C15 H21 N O",231.1623,232.16957,18.481,"olddry","kps_psychoactive_substances_v2",14477591.2315471

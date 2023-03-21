@@ -35,15 +35,24 @@ Base1_MS2$checked = NULL
 Base2_MS2$checked = NULL
 Base3_MS2$checked = NULL
 
+# concatenate compound names and retention times to make a unique identifier, this will make things easier later on.
+BaseUniqueID1 <- add_column(Base1_MS2, unique_id = NA, .after = 0)
+BaseUniqueID1$unique_id <- str_c(BaseUniqueID1$name, "_", BaseUniqueID1$rt_min)
+BaseUniqueID2 <- add_column(Base2_MS2, unique_id = NA, .after = 0)
+BaseUniqueID2$unique_id <- str_c(BaseUniqueID2$name, "_", BaseUniqueID2$rt_min)
+BaseUniqueID3 <- add_column(Base3_MS2, unique_id = NA, .after = 0)
+BaseUniqueID3$unique_id <- str_c(BaseUniqueID3$name, "_", BaseUniqueID3$rt_min)
+
 # add peak number in as another unique identifier
-BaseUniqueID_PeakNumber1 <- add_column(Base1_MS2, peak_number = NA, .after = 0)
-BaseUniqueID_PeakNumber2 <- add_column(Base2_MS2, peak_number = NA, .after = 0)
-BaseUniqueID_PeakNumber3 <- add_column(Base3_MS2, peak_number = NA, .after = 0)
+BaseUniqueID_PeakNumber1 <- add_column(BaseUniqueID1, peak_number = NA, .after = 0)
+BaseUniqueID_PeakNumber2 <- add_column(BaseUniqueID2, peak_number = NA, .after = 0)
+BaseUniqueID_PeakNumber3 <- add_column(BaseUniqueID3, peak_number = NA, .after = 0)
 BaseUniqueID_PeakNumber1$peak_number <- seq.int(nrow(BaseUniqueID_PeakNumber1))
 BaseUniqueID_PeakNumber2$peak_number <- seq.int(nrow(BaseUniqueID_PeakNumber2))
 BaseUniqueID_PeakNumber3$peak_number <- seq.int(nrow(BaseUniqueID_PeakNumber3))
 
-# starting with the group area measurements, lengthen the table to erase white space
+# starting with the group area measurements 
+# lengthen the table to erase white space
 colnames(BaseUniqueID_PeakNumber1) <- sub("*_raw_f\\d\\d*", "", 
                                           colnames(BaseUniqueID_PeakNumber1))
 colnames(BaseUniqueID_PeakNumber2) <- sub("*_raw_f\\d\\d*", "", 
@@ -139,7 +148,8 @@ FilteredReplicate3 <- mutate(FilteredReplicate3,
                                str_ends(sample, "2") ~ "2"))
 
 # Add location column for each sample and remove numbers
-# (DO NOT PUT NUMBERS IN LOCATION TITLES! e.g. if you're talking pipe_1/pipe_2, call them pipe_a/pipe_b)
+# (DO NOT PUT NUMBERS IN LOCATION TITLES! 
+# e.g. if you're talking pipe_1/pipe_2, call them pipe_a/pipe_b)
 FilteredReplicate1$sample_location = FilteredReplicate1$sample
 FilteredReplicate3$sample_location = FilteredReplicate3$sample
 FilteredReplicate1$sample_location <- stringi::stri_replace_all_regex(
@@ -168,7 +178,7 @@ FilteredDigesterMerge1$location <- stringi::stri_replace_all_regex(
   FilteredDigesterMerge1$location, "_", "")
 
 # change names back to original!
-colnames(FilteredDigesterMerge1)[26] = "sample_location"
+colnames(FilteredDigesterMerge1)[27] = "sample_location"
 FilteredReplicate1 <- FilteredDigesterMerge1
 
 # Remove "solo" results.
@@ -179,7 +189,7 @@ SoloRemoved3 <- plyr::ddply(FilteredReplicate3, c("name", "sample_location"),
 
 # rename if no filtering could be done.
 SoloRemoved2 <- GroupAreaFiltered2
-colnames(SoloRemoved2)[20] = "sample_location"
+colnames(SoloRemoved2)[21] = "sample_location"
 
 # calculate means, std and se
 Summary1 <- SoloRemoved1 %>% 
@@ -341,6 +351,22 @@ MergeFilter1$sample_location <- as.character(MergeFilter1$sample_location)
 MergeFilter2$sample_location <- as.character(MergeFilter2$sample_location)
 MergeFilter3$sample_location <- as.character(MergeFilter3$sample_location)
 
+write.csv(MergeFilter1, 
+          "Results/Ordered_Mass_List_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(MergeFilter2, 
+          "Results/Ordered_Mass_List_Thailand.csv", row.names = FALSE)
+write.csv(MergeFilter3, 
+          "Results/Ordered_Mass_List_Kgato_MARCH.csv", row.names = FALSE)
+
+# duplicate tables so we can keep retention times
+RT1 <- MergeFilter1[, c("peak_number", "name", "formula", "calc_mw", "m_z", "rt_min", "sample_location")]
+RT2 <- MergeFilter2[, c("peak_number", "name", "formula", "calc_mw", "m_z", "rt_min", "sample_location")]
+RT3 <- MergeFilter3[, c("peak_number", "name", "formula", "calc_mw", "m_z", "rt_min", "sample_location")]
+
+write.csv(RT1, "Results/RT_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(RT2, "Results/RT_Thailand.csv", row.names = FALSE)
+write.csv(RT3, "Results/RT_Kgato_MAR.csv", row.names = FALSE)
+
 # Try sum/mean.
 Sum1 <- MergeFilter1 %>%
   group_by(name, sample_location, replicate, mass_list_name) %>%
@@ -368,49 +394,66 @@ write.csv(Mean1, "Results/Summary_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(Mean2, "Results/Summary_Thailand.csv", row.names = FALSE)
 write.csv(Mean3, "Results/Summary_Kgato_MAR.csv", row.names = FALSE)
 
+# add tables together to get RT back
+RT_Join1 <- RT1 %>%
+  inner_join(Mean1, by = c("name", "sample_location"))
+RT_Join2 <- RT2 %>%
+  inner_join(Mean2, by = c("name", "sample_location"))
+RT_Join3 <- RT3 %>%
+  inner_join(Mean3, by = c("name", "sample_location"))
+
 # for Kgato's dataset only, read in sample location key
 SC_Key <- read_csv("Data/SC_Key.csv") %>% 
   janitor::clean_names()
 colnames(SC_Key)[1] = "sample_location"
 SC_Key$sample_location <- stringi::stri_replace_all_regex(
   SC_Key$sample_location, "_", "")
-CorrectNames3 <- fuzzyjoin::regex_inner_join(Mean3,SC_Key,by = "sample_location", ignore_case = TRUE)
+CorrectNames3 <- fuzzyjoin::regex_inner_join(RT_Join3,
+                                             SC_Key,
+                                             by = "sample_location", 
+                                             ignore_case = TRUE)
 CorrectNames3$sample_location.x = NULL
 CorrectNames3$sample_location.y = NULL
 
 # concatenate location and matrix into sample_location column
-CorrectLocation3 <- add_column(CorrectNames3, sample_location = NA)
-CorrectLocation3$sample_location <- str_c(CorrectLocation3$location, " ", CorrectLocation3$matrix)
+CorrectLocation3 <- add_column(CorrectNames3, 
+                               sample_location = NA)
+CorrectLocation3$sample_location <- str_c(CorrectLocation3$location, 
+                                          " ", 
+                                          CorrectLocation3$matrix)
 CorrectLocation3$sample_location <- tolower(CorrectLocation3$sample_location)
 CorrectLocation3$location = NULL
 CorrectLocation3$matrix = NULL
 
-Mean3 <- CorrectLocation3
+RT_Join3 <- CorrectLocation3
 
 # Create a loop to produce a CSV for each group of mass_list_name entries
-MassListNames1 <- unique(Mean1$mass_list_name)
-MassListNames2 <- unique(Mean2$mass_list_name)
-MassListNames3 <- unique(Mean3$mass_list_name)
+MassListNames1 <- unique(RT_Join1$mass_list_name)
+MassListNames2 <- unique(RT_Join2$mass_list_name)
+MassListNames3 <- unique(RT_Join3$mass_list_name)
 MassListNames1 <- as.character(MassListNames1)
 MassListNames2 <- as.character(MassListNames2)
 MassListNames3 <- as.character(MassListNames3)
 
 for (i in MassListNames1) {2
-  filtered_df1 <- Mean1 %>% filter(mass_list_name == i)
-  write.csv(filtered_df1, paste0("Results/", i, "_Charlie_26JAN.csv"), row.names = FALSE)
+  filtered_df1 <- RT_Join1 %>% filter(mass_list_name == i)
+  write.csv(filtered_df1, paste0("Results/", i, "_Charlie_26JAN.csv"), 
+            row.names = FALSE)
 }
 for (i in MassListNames2) {
-  filtered_df2 <- Mean2 %>% filter(mass_list_name == i)
-  write.csv(filtered_df2, paste0("Results/", i, "_Thailand.csv"), row.names = FALSE)
+  filtered_df2 <- RT_Join2 %>% filter(mass_list_name == i)
+  write.csv(filtered_df2, paste0("Results/", i, "_Thailand.csv"), 
+            row.names = FALSE)
 }
 for (i in MassListNames3) {
-  filtered_df3 <- Mean3 %>% filter(mass_list_name == i)
-  write.csv(filtered_df3, paste0("Results/", i, "_Kgato_MARCH.csv"), row.names = FALSE)
+  filtered_df3 <- RT_Join3 %>% filter(mass_list_name == i)
+  write.csv(filtered_df3, paste0("Results/", i, "_Kgato_MARCH.csv"), 
+            row.names = FALSE)
 }
 
 # Create a for loop for a ggplot for the same groups
 for (i in MassListNames1) {
-  filtered_df4 <- Mean1 %>% filter(mass_list_name == i)
+  filtered_df4 <- RT_Join1 %>% filter(mass_list_name == i)
   ggplot() +
     geom_tile(aes(y = name, 
                   x = sample_location, 
@@ -437,7 +480,7 @@ for (i in MassListNames1) {
 }
 
 for (i in MassListNames2) {
-  filtered_df5 <- Mean2 %>% filter(mass_list_name == i)
+  filtered_df5 <- RT_Join2 %>% filter(mass_list_name == i)
   ggplot() +
     geom_tile(aes(y = name, 
                   x = sample_location, 
@@ -460,11 +503,11 @@ for (i in MassListNames2) {
           plot.background = element_rect(colour = NA,
                                          linetype = "solid"), 
           legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
-  ggsave(filtered_df2, paste0("Figures/", i, "_Thailand.png"))
+  ggsave(filename = paste0("Figures/", i, "_Thailand.pdf"), plot = last_plot())
 }
 
 for (i in MassListNames3) {
-  filtered_df6 <- CorrectNames3 %>% filter(mass_list_name == i)
+  filtered_df6 <- RT_Join3 %>% filter(mass_list_name == i)
   ggplot() +
     geom_tile(aes(y = name, 
                   x = sample_location, 
@@ -487,5 +530,5 @@ for (i in MassListNames3) {
           plot.background = element_rect(colour = NA,
                                          linetype = "solid"), 
           legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
-  ggsave(filtered_df3, paste0("Figures/", i, "_Kgato_MAR.png"))
+  ggsave(filename = paste0("Figures/", i, "_Kgato_MAR.pdf"), plot = last_plot())
 }

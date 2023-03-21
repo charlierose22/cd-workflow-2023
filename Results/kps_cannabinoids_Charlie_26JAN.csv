@@ -1,60 +1,60 @@
-"name","sample_location","mass_list_name","mean_area"
-"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","centrin","kps_cannabinoids",4012950.36986297
-"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","digesterA","kps_cannabinoids",14846068.2126291
-"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","digesterB","kps_cannabinoids",6601999.80413291
-"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","digesterC","kps_cannabinoids",23309885.5272508
-"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","digesterD","kps_cannabinoids",40362181.4455642
-"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","newdry","kps_cannabinoids",1519765.75311212
-"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","olddry","kps_cannabinoids",5531387.02359664
-"2,4-Di-tert-butylphenol","centrin","kps_cannabinoids",20320841.8643517
-"2,4-Di-tert-butylphenol","digesterA","kps_cannabinoids",11185373.8633068
-"2,4-Di-tert-butylphenol","digesterB","kps_cannabinoids",8793540.2092531
-"2,4-Di-tert-butylphenol","digesterC","kps_cannabinoids",7507119.17790526
-"2,4-Di-tert-butylphenol","digesterD","kps_cannabinoids",4416073.89012421
-"2,4-Di-tert-butylphenol","feedpump","kps_cannabinoids",4726692.45148493
-"2,4-Di-tert-butylphenol","newdry","kps_cannabinoids",6902452.31259335
-"2,4-Di-tert-butylphenol","olddry","kps_cannabinoids",3899938.92901354
-"AB-001","newdry","kps_cannabinoids",4624567.95726807
-"APP-FUBINACA","digesterC","kps_cannabinoids",17006015.4441644
-"APP-FUBINACA","olddry","kps_cannabinoids",65435006.0758378
-"Cannabidiolic acid","centrin","kps_cannabinoids",9958198.40918284
-"Cannabidiolic acid","newdry","kps_cannabinoids",34493739.6817146
-"Cannabigerol","centrin","kps_cannabinoids",142764833.41715
-"Cannabigerol","digesterC","kps_cannabinoids",6232591.94235004
-"Cannabigerol","digesterD","kps_cannabinoids",44710501.1177106
-"Cannabigerol","newdry","kps_cannabinoids",1020085.40035314
-"Cannabigerol","olddry","kps_cannabinoids",6237233.22980265
-"Cannabigerolic acid","centrin","kps_cannabinoids",67110707.1916999
-"Cannabigerolic acid","digesterC","kps_cannabinoids",21224091.7889912
-"Cannabigerolic acid","digesterD","kps_cannabinoids",29367437.9226132
-"Cannabigerolic acid","newdry","kps_cannabinoids",44440963.7190469
-"Cannabinol monomethyl ether","digesterA","kps_cannabinoids",9053691.11085392
-"Cannabinol monomethyl ether","newdry","kps_cannabinoids",9910373.82615319
-"Cannabinol monomethyl ether","olddry","kps_cannabinoids",6434183.87693145
-"Delta 9 Tetrahydrocannabinol (THC)","centrin","kps_cannabinoids",34463231.2894474
-"Delta 9 Tetrahydrocannabinol (THC)","digesterA","kps_cannabinoids",11048916.8371257
-"Delta 9 Tetrahydrocannabinol (THC)","digesterB","kps_cannabinoids",14134734.5344585
-"Delta 9 Tetrahydrocannabinol (THC)","digesterC","kps_cannabinoids",7474962.27983096
-"Delta 9 Tetrahydrocannabinol (THC)","digesterD","kps_cannabinoids",6823836.37975276
-"Delta 9 Tetrahydrocannabinol (THC)","feedpump","kps_cannabinoids",3357783.23056977
-"Delta 9 Tetrahydrocannabinol (THC)","newdry","kps_cannabinoids",55626915.3217779
-"Delta 9 Tetrahydrocannabinol (THC)","olddry","kps_cannabinoids",6203428.37233583
-"JWH 200","centrin","kps_cannabinoids",425057.645667404
-"JWH 200","newdry","kps_cannabinoids",69186008.8282143
-"JWH 200 analog 1","centrin","kps_cannabinoids",10367661.9458281
-"JWH 200 analog 1","digesterA","kps_cannabinoids",8965242.37412963
-"JWH 200 analog 1","digesterB","kps_cannabinoids",9168258.82047651
-"JWH 200 analog 1","feedpump","kps_cannabinoids",30898524.7985067
-"JWH 200 analog 1","olddry","kps_cannabinoids",13340723.2403531
-"JWH-133","centrin","kps_cannabinoids",60656094.6992365
-"JWH-133","digesterC","kps_cannabinoids",56413995.8402355
-"JWH-133","digesterD","kps_cannabinoids",57709604.6841032
-"JWH-133","newdry","kps_cannabinoids",60877170.2341572
-"JWH-198","centrin","kps_cannabinoids",12032038.2916256
-"JWH-198","digesterA","kps_cannabinoids",3899831.64935218
-"JWH-198","digesterB","kps_cannabinoids",10290480.5541746
-"JWH-198","olddry","kps_cannabinoids",5196976.54126477
-"Tetrahydrocannabivarin (THCV)","newdry","kps_cannabinoids",14291817.5044769
-"UR-144","centrin","kps_cannabinoids",6337583.29994433
-"UR-144","feedpump","kps_cannabinoids",4105231.80228589
-"UR-144","olddry","kps_cannabinoids",13698640.5043286
+"peak_number","name","formula","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+1651,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",344.19888,345.20616,18.348,"centrin","kps_cannabinoids",4012950.36986297
+2077,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",344.19897,345.20625,19.107,"digesterA","kps_cannabinoids",14846068.2126291
+2077,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",344.19897,345.20625,19.107,"digesterB","kps_cannabinoids",6601999.80413291
+1356,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",344.19899,345.20627,19.256,"digesterC","kps_cannabinoids",23309885.5272508
+1356,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",344.19899,345.20627,19.256,"digesterD","kps_cannabinoids",40362181.4455642
+1651,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",344.19888,345.20616,18.348,"newdry","kps_cannabinoids",1519765.75311212
+3454,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",344.1989,345.20618,21.046,"olddry","kps_cannabinoids",5531387.02359664
+1860,"2,4-Di-tert-butylphenol","C14 H22 O",206.16706,207.17434,20.636,"centrin","kps_cannabinoids",20320841.8643517
+2461,"2,4-Di-tert-butylphenol","C14 H22 O",206.16711,207.17439,20.571,"digesterA","kps_cannabinoids",11185373.8633068
+2221,"2,4-Di-tert-butylphenol","C14 H22 O",206.16705,207.17432,20.746,"digesterB","kps_cannabinoids",8793540.2092531
+2461,"2,4-Di-tert-butylphenol","C14 H22 O",206.16711,207.17439,20.571,"digesterC","kps_cannabinoids",7507119.17790526
+2457,"2,4-Di-tert-butylphenol","C14 H22 O",206.16707,207.17434,20.514,"digesterD","kps_cannabinoids",4416073.89012421
+2461,"2,4-Di-tert-butylphenol","C14 H22 O",206.16711,207.17439,20.571,"feedpump","kps_cannabinoids",4726692.45148493
+1860,"2,4-Di-tert-butylphenol","C14 H22 O",206.16706,207.17434,20.636,"newdry","kps_cannabinoids",6902452.31259335
+1860,"2,4-Di-tert-butylphenol","C14 H22 O",206.16706,207.17434,20.636,"olddry","kps_cannabinoids",3899938.92901354
+4906,"AB-001","C24 H31 N O",349.24067,350.24794,20.591,"newdry","kps_cannabinoids",4624567.95726807
+813,"APP-FUBINACA","C24 H21 F N4 O2",416.1658,417.17308,10.246,"digesterC","kps_cannabinoids",17006015.4441644
+670,"APP-FUBINACA","C24 H21 F N4 O2",416.16583,417.1731,9.551,"olddry","kps_cannabinoids",65435006.0758378
+1195,"Cannabidiolic acid","C22 H30 O4",358.2145,359.22178,16.797,"centrin","kps_cannabinoids",9958198.40918284
+1195,"Cannabidiolic acid","C22 H30 O4",358.2145,359.22178,16.797,"newdry","kps_cannabinoids",34493739.6817146
+357,"Cannabigerol","C21 H32 O2",316.24038,317.24765,18.78,"centrin","kps_cannabinoids",142764833.41715
+357,"Cannabigerol","C21 H32 O2",316.24038,317.24765,18.78,"digesterC","kps_cannabinoids",6232591.94235004
+758,"Cannabigerol","C21 H32 O2",316.24038,317.24766,18.531,"digesterD","kps_cannabinoids",44710501.1177106
+758,"Cannabigerol","C21 H32 O2",316.24038,317.24766,18.531,"newdry","kps_cannabinoids",1020085.40035314
+3599,"Cannabigerol","C21 H32 O2",316.24043,317.24771,23.624,"olddry","kps_cannabinoids",6237233.22980265
+816,"Cannabigerolic acid","C22 H32 O4",360.23018,361.23751,18.037,"centrin","kps_cannabinoids",67110707.1916999
+2287,"Cannabigerolic acid","C22 H32 O4",360.23016,361.2375,17.513,"digesterC","kps_cannabinoids",21224091.7889912
+1793,"Cannabigerolic acid","C22 H32 O4",360.23018,361.23748,17.49,"digesterD","kps_cannabinoids",29367437.9226132
+1252,"Cannabigerolic acid","C22 H32 O4",360.23014,361.23747,18.273,"newdry","kps_cannabinoids",44440963.7190469
+3843,"Cannabinol monomethyl ether","C22 H28 O2",324.20912,325.2164,22.249,"digesterA","kps_cannabinoids",9053691.11085392
+584,"Cannabinol monomethyl ether","C22 H28 O2",324.20916,325.21644,18.752,"newdry","kps_cannabinoids",9910373.82615319
+584,"Cannabinol monomethyl ether","C22 H28 O2",324.20916,325.21644,18.752,"olddry","kps_cannabinoids",6434183.87693145
+1562,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.22481,315.23209,18.032,"centrin","kps_cannabinoids",34463231.2894474
+3037,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.2248,315.23207,22.653,"digesterA","kps_cannabinoids",11048916.8371257
+3037,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.2248,315.23207,22.653,"digesterB","kps_cannabinoids",14134734.5344585
+975,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.22479,315.23206,19.079,"digesterC","kps_cannabinoids",7474962.27983096
+975,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.22479,315.23206,19.079,"digesterD","kps_cannabinoids",6823836.37975276
+3151,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.22482,315.2321,22.745,"feedpump","kps_cannabinoids",3357783.23056977
+975,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.22479,315.23206,19.079,"newdry","kps_cannabinoids",55626915.3217779
+3037,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",314.2248,315.23207,22.653,"olddry","kps_cannabinoids",6203428.37233583
+785,"JWH 200","C25 H24 N2 O2",384.1825,385.18978,17.549,"centrin","kps_cannabinoids",425057.645667404
+785,"JWH 200","C25 H24 N2 O2",384.1825,385.18978,17.549,"newdry","kps_cannabinoids",69186008.8282143
+1077,"JWH 200 analog 1","C22 H30 N2 O2",354.23081,355.23814,17.744,"centrin","kps_cannabinoids",10367661.9458281
+1036,"JWH 200 analog 1","C22 H30 N2 O2",354.23077,355.23812,18.087,"digesterA","kps_cannabinoids",8965242.37412963
+1036,"JWH 200 analog 1","C22 H30 N2 O2",354.23077,355.23812,18.087,"digesterB","kps_cannabinoids",9168258.82047651
+932,"JWH 200 analog 1","C22 H30 N2 O2",354.23075,377.2199,18.952,"feedpump","kps_cannabinoids",30898524.7985067
+1036,"JWH 200 analog 1","C22 H30 N2 O2",354.23077,355.23812,18.087,"olddry","kps_cannabinoids",13340723.2403531
+855,"JWH-133","C22 H32 O",312.24546,313.25273,20.454,"centrin","kps_cannabinoids",60656094.6992365
+855,"JWH-133","C22 H32 O",312.24546,313.25273,20.454,"digesterC","kps_cannabinoids",56413995.8402355
+855,"JWH-133","C22 H32 O",312.24546,313.25273,20.454,"digesterD","kps_cannabinoids",57709604.6841032
+855,"JWH-133","C22 H32 O",312.24546,313.25273,20.454,"newdry","kps_cannabinoids",60877170.2341572
+2667,"JWH-198","C26 H26 N2 O3",414.19431,415.20159,18.755,"centrin","kps_cannabinoids",12032038.2916256
+2667,"JWH-198","C26 H26 N2 O3",414.19431,415.20159,18.755,"digesterA","kps_cannabinoids",3899831.64935218
+3670,"JWH-198","C26 H26 N2 O3",414.19432,415.2016,19.61,"digesterB","kps_cannabinoids",10290480.5541746
+2667,"JWH-198","C26 H26 N2 O3",414.19431,415.20159,18.755,"olddry","kps_cannabinoids",5196976.54126477
+3015,"Tetrahydrocannabivarin (THCV)","C19 H26 O2",286.1933,287.20058,17.434,"newdry","kps_cannabinoids",14291817.5044769
+4055,"UR-144","C21 H29 N O",311.22509,312.23236,20.1,"centrin","kps_cannabinoids",6337583.29994433
+3096,"UR-144","C21 H29 N O",311.22501,312.23229,20.242,"feedpump","kps_cannabinoids",4105231.80228589
+3096,"UR-144","C21 H29 N O",311.22501,312.23229,20.242,"olddry","kps_cannabinoids",13698640.5043286
