@@ -1,900 +1,762 @@
-"peak_number","name","formula","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
-3605,"(+)-ar-Turmerone","C15 H20 O",216.15141,217.15869,21.242,"feedpump","mz_cloud",873217.33215188
-3605,"(+)-ar-Turmerone","C15 H20 O",216.15141,217.15869,21.242,"newdry","mz_cloud",10255456.0496695
-3605,"(+)-ar-Turmerone","C15 H20 O",216.15141,217.15869,21.242,"olddry","mz_cloud",7593422.11600101
-3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",258.16197,259.16925,21.51,"centrin","mz_cloud",9741451.66820529
-5090,"(+/-)-Cannabichromeorcin","C17 H22 O2",258.16194,259.16921,21.841,"control","mz_cloud",1878173.76236341
-3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",258.16197,259.16925,21.51,"feedpump","mz_cloud",8563350.28861379
-3048,"(+/-)-Cannabichromeorcin","C17 H22 O2",258.16197,259.16925,21.155,"mix","mz_cloud",14053569.5304173
-3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",258.16197,259.16925,21.51,"newdry","mz_cloud",4350010.35425113
-3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",258.16197,259.16925,21.51,"olddry","mz_cloud",4118610.38585115
-1421,"(+/-)5(6)-EET Ethanolamide","C22 H37 N O3",363.27748,364.28476,16.258,"centrin","mz_cloud",38243241.4375373
-2785,"(+/-)5(6)-EET Ethanolamide","C22 H37 N O3",363.27748,364.28476,18.3,"digesterC","mz_cloud",8416590.04692555
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"centrin","mz_cloud",21111772.4237733
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"digesterA","mz_cloud",19069672.0055596
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"digesterB","mz_cloud",61059061.5382219
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"digesterC","mz_cloud",32464428.8038197
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"digesterD","mz_cloud",24599430.3865108
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"feedpump","mz_cloud",9231694.2613766
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"newdry","mz_cloud",23460278.6632311
-882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",330.18333,331.19061,22.783,"olddry","mz_cloud",23951595.51867
-1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.3447,455.35196,23.72,"centrin","mz_cloud",13971997.4448367
-1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.3447,455.35196,23.72,"digesterA","mz_cloud",22141052.2025619
-1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.3447,455.35196,23.72,"digesterB","mz_cloud",30835057.0366575
-1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.3447,455.35196,23.72,"digesterC","mz_cloud",20348904.4636025
-1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.3447,455.35196,23.72,"digesterD","mz_cloud",24727384.4312155
-2801,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.34471,455.35199,20.905,"feedpump","mz_cloud",6681823.05070649
-1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.3447,455.35196,23.72,"newdry","mz_cloud",27143164.5070127
-1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",454.3447,455.35196,23.72,"olddry","mz_cloud",12765307.8119313
-3806,"(2E,4E)-N-(2-methylpropyl)deca-2,4-dienamide","C14 H25 N O",223.19361,224.20089,22.709,"digesterA","mz_cloud",5806209.39323752
-3806,"(2E,4E)-N-(2-methylpropyl)deca-2,4-dienamide","C14 H25 N O",223.19361,224.20089,22.709,"digesterC","mz_cloud",4317155.07788455
-3806,"(2E,4E)-N-(2-methylpropyl)deca-2,4-dienamide","C14 H25 N O",223.19361,224.20089,22.709,"mix","mz_cloud",6117025.72106343
-2883,"(2E,4E)-N-(2-methylpropyl)dodeca-2,4-dienamide","C16 H29 N O",251.22489,252.23216,20.995,"control","mz_cloud",13330699.6925245
-2883,"(2E,4E)-N-(2-methylpropyl)dodeca-2,4-dienamide","C16 H29 N O",251.22489,252.23216,20.995,"mix","mz_cloud",9560236.022145
-1133,"(2E,6E)-10,11,15,19,23,27,31,35-Octahydroxy-3,7,11,15,19,23,27,31,35-nonamethyl-2,6-hexatriacontadien-1-yl hexopyranoside","C51 H98 O14",934.69475,935.70203,23.803,"control","mz_cloud",9261050.90551984
-1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",254.15184,255.15908,16.726,"centrin","mz_cloud",8292410.99489305
-1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",254.15184,255.15908,16.726,"control","mz_cloud",26233766.0055244
-1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",254.15184,255.15908,16.726,"digesterC","mz_cloud",5840109.44470923
-1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",254.15184,255.15908,16.726,"digesterD","mz_cloud",27710677.0519574
-1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",254.15184,255.15908,16.726,"feedpump","mz_cloud",11814541.3847212
-1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",254.15184,255.15908,16.726,"newdry","mz_cloud",24042443.0956465
-1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",254.15184,255.15908,16.726,"olddry","mz_cloud",36976733.3862024
-1684,"(2S,3S)-2-[(1E,3S,4R)-3,4-dihydroxypent-1-en-1-yl]-6-oxo-3,6-dihydro-2H-pyran-3-yl (2E)-2-methylbut-2-enoate","C15 H20 O6",296.12611,297.13338,20.224,"control","mz_cloud",31570332.2402283
-4209,"(4-benzoylpiperidino)[4-(tert-butyl)phenyl]methanone","C23 H27 N O2",349.20526,350.21253,22.886,"mix","mz_cloud",3283714.08182714
-3489,"1,2,2,6,6-Pentamethyl-4-piperidyl methacrylate","C14 H25 N O2",239.18851,240.19579,18.124,"control","mz_cloud",11218026.1993683
-3593,"1,2,2,6,6-Pentamethyl-4-piperidyl methacrylate","C14 H25 N O2",239.18851,240.19579,17.047,"feedpump","mz_cloud",6176373.85303154
-4517,"1,2,2,6,6-Pentamethyl-4-piperidyl methacrylate","C14 H25 N O2",239.18849,240.19577,18.794,"mix","mz_cloud",6251767.8860586
-3593,"1,2,2,6,6-Pentamethyl-4-piperidyl methacrylate","C14 H25 N O2",239.18851,240.19579,17.047,"olddry","mz_cloud",4939182.89038482
-900,"1,3-Diphenylacetone","C15 H14 O",210.10446,211.11174,18.907,"centrin","mz_cloud",4663664.03930933
-900,"1,3-Diphenylacetone","C15 H14 O",210.10446,211.11174,18.907,"control","mz_cloud",59943680.5881782
-900,"1,3-Diphenylacetone","C15 H14 O",210.10446,211.11174,18.907,"digesterB","mz_cloud",3717512.33812122
-900,"1,3-Diphenylacetone","C15 H14 O",210.10446,211.11174,18.907,"mix","mz_cloud",33188955.8827613
-3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",328.26152,329.26883,22.438,"centrin","mz_cloud",5565623.50404017
-3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",328.26152,329.26883,22.438,"digesterB","mz_cloud",4000222.06520204
-3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",328.26152,329.26883,22.438,"digesterC","mz_cloud",6920783.9299904
-3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",328.26152,329.26883,22.438,"digesterD","mz_cloud",6348075.22314036
-3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",328.26152,329.26883,22.438,"feedpump","mz_cloud",5798539.58803281
-3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",328.26152,329.26883,22.438,"newdry","mz_cloud",6327135.62222432
-3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",328.26152,329.26883,22.438,"olddry","mz_cloud",9691692.84607157
-4308,"1-(piperidinomethyl)-2-naphthol","C16 H19 N O",241.14666,242.15395,17.163,"control","mz_cloud",7249795.20961999
-4308,"1-(piperidinomethyl)-2-naphthol","C16 H19 N O",241.14666,242.15395,17.163,"feedpump","mz_cloud",5990954.38046375
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"centrin","mz_cloud",1839763938.33376
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"control","mz_cloud",1511886884.0101
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"digesterA","mz_cloud",1326748060.1014
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"digesterB","mz_cloud",858758696.277102
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"digesterC","mz_cloud",801452766.168362
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"digesterD","mz_cloud",861543088.232838
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"feedpump","mz_cloud",535216721.929229
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"mix","mz_cloud",2056232384.94109
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"newdry","mz_cloud",1155163547.89902
-15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",253.24048,254.24775,22.289,"olddry","mz_cloud",1288523058.79443
-3355,"1-Linoleoyl glycerol","C21 H38 O4",354.27712,355.2844,21.439,"centrin","mz_cloud",9973285.31454504
-3355,"1-Linoleoyl glycerol","C21 H38 O4",354.27712,355.2844,21.439,"digesterA","mz_cloud",8373135.95314277
-3355,"1-Linoleoyl glycerol","C21 H38 O4",354.27712,355.2844,21.439,"digesterB","mz_cloud",8027384.49660938
-3355,"1-Linoleoyl glycerol","C21 H38 O4",354.27712,355.2844,21.439,"feedpump","mz_cloud",8375116.7068566
-3355,"1-Linoleoyl glycerol","C21 H38 O4",354.27712,355.2844,21.439,"newdry","mz_cloud",6201015.0822685
-1928,"1-Naphthol","C10 H8 O",144.05754,145.06482,18.629,"mix","mz_cloud",4514270.99789652
-3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",231.12591,232.13318,17.823,"centrin","mz_cloud",849344.506826716
-3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",231.12591,232.13318,17.823,"digesterB","mz_cloud",6104690.739974
-3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",231.12591,232.13318,17.823,"digesterC","mz_cloud",738627.590199529
-3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",231.12591,232.13318,17.823,"newdry","mz_cloud",6694790.46942359
-3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",231.12591,232.13318,17.823,"olddry","mz_cloud",5787570.30615941
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"centrin","mz_cloud",540388448.055986
-755,"1-Tetradecylamine","C14 H31 N",213.24564,214.25292,18.391,"control","mz_cloud",61768632.487806
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"digesterA","mz_cloud",367585371.489878
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"digesterB","mz_cloud",188916499.085562
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"digesterC","mz_cloud",810972852.396949
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"digesterD","mz_cloud",914261734.381226
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"feedpump","mz_cloud",5821540267.14111
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"mix","mz_cloud",201907021.400338
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"newdry","mz_cloud",635092750.302864
-6,"1-Tetradecylamine","C14 H31 N",213.24558,214.25286,20.391,"olddry","mz_cloud",207781914.622757
-5249,"1-[2-Hydroxy-3-(phenylthio)propyl]piperidine-4-carboxamide","C15 H22 N2 O2 S",294.14105,295.14833,20.239,"mix","mz_cloud",1109440.34025034
-3655,"1-ethyl-4-(2-phenylethynyl)piperidin-4-ol","C15 H19 N O",229.14666,230.15394,18.675,"feedpump","mz_cloud",8927155.50637613
-2075,"10-HDA","C10 H18 O3",186.12562,187.1329,22.379,"control","mz_cloud",18589872.5460438
-2075,"10-HDA","C10 H18 O3",186.12562,187.1329,22.379,"digesterB","mz_cloud",4439270.40153845
-2075,"10-HDA","C10 H18 O3",186.12562,187.1329,22.379,"feedpump","mz_cloud",9785873.27523394
-2075,"10-HDA","C10 H18 O3",186.12562,187.1329,22.379,"mix","mz_cloud",4649195.96853958
-1558,"10-[(acetyloxy)methyl]-6-formyl-3-methylidene-2-oxo-2H,3H,3aH,4H,5H,8H,9H,11aH-cyclodeca[b]furan-4-yl 2-methylbutanoate","C22 H28 O7",404.18348,427.17268,16.833,"mix","mz_cloud",30984590.2460336
-1696,"11(Z),14(Z),17(Z)-Eicosatrienoic acid","C20 H34 O2",306.25608,307.26332,24.022,"feedpump","mz_cloud",25410406.9010097
-3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",292.13113,293.13841,19.511,"centrin","mz_cloud",4883043.36582575
-3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",292.13113,293.13841,19.511,"digesterD","mz_cloud",3155523.99568371
-3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",292.13113,293.13841,19.511,"newdry","mz_cloud",5249775.7909185
-3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",292.13113,293.13841,19.511,"olddry","mz_cloud",5615110.53034103
-1159,"12-Oxo phytodienoic acid","C18 H28 O3",292.20389,293.21116,17.538,"centrin","mz_cloud",2037143.48256959
-1159,"12-Oxo phytodienoic acid","C18 H28 O3",292.20389,293.21116,17.538,"digesterB","mz_cloud",3379819.42817739
-3527,"12-Oxo phytodienoic acid","C18 H28 O3",292.20385,293.21112,18.199,"feedpump","mz_cloud",9791165.23868497
-1159,"12-Oxo phytodienoic acid","C18 H28 O3",292.20389,293.21116,17.538,"newdry","mz_cloud",37877932.8287268
-4150,"13(S)-HOTrE","C18 H30 O3",294.21962,295.2269,18.568,"feedpump","mz_cloud",7957450.46583698
-2975,"15-Crown-5","C10 H20 O5",220.13112,221.1384,14.254,"newdry","mz_cloud",14459475.000104
-3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",284.23517,285.24243,22.349,"centrin","mz_cloud",8104976.71876887
-3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",284.23517,285.24243,22.349,"control","mz_cloud",6411203.618001
-3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",284.23517,285.24243,22.349,"digesterA","mz_cloud",7429872.552785
-3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",284.23517,285.24243,22.349,"digesterB","mz_cloud",5872746.74811895
-3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",284.23517,285.24243,22.349,"feedpump","mz_cloud",5460489.91007626
-3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",284.23517,285.24243,22.349,"newdry","mz_cloud",5126778.97432413
-3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",284.23517,285.24243,22.349,"olddry","mz_cloud",5087321.0393814
-757,"17α-Methyl-androstan-3-hydroxyimine-17β-ol","C20 H33 N O2",319.2514,320.25868,19.278,"digesterA","mz_cloud",72845219.5418495
-757,"17α-Methyl-androstan-3-hydroxyimine-17β-ol","C20 H33 N O2",319.2514,320.25868,19.278,"digesterB","mz_cloud",20088444.4166573
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"centrin","mz_cloud",19842517.738855
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"control","mz_cloud",31680128.9896006
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"digesterA","mz_cloud",27917020.3763964
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"digesterB","mz_cloud",18288566.3766142
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"digesterC","mz_cloud",17233508.4094781
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"digesterD","mz_cloud",22249561.9570164
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"feedpump","mz_cloud",23148936.6617528
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"mix","mz_cloud",6458523.6509
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"newdry","mz_cloud",10576121.6858293
-1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",157.14669,158.15396,16.304,"olddry","mz_cloud",25235796.4120699
-3881,"2,5-Anhydro-4,6-dideoxy-6-{[(1-methyl-1H-pyrazol-4-yl)carbonyl]amino}-4-(4-phenyl-1-piperazinyl)-D-galactitol","C21 H29 N5 O4",415.22148,416.22876,18.48,"centrin","mz_cloud",9275192.36691307
-4655,"2,5-Anhydro-4,6-dideoxy-6-{[(1-methyl-1H-pyrazol-4-yl)carbonyl]amino}-4-(4-phenyl-1-piperazinyl)-D-galactitol","C21 H29 N5 O4",415.22164,416.22891,17.681,"digesterB","mz_cloud",5711250.29594947
-4545,"2,5-Anhydro-4,6-dideoxy-6-{[(1-methyl-1H-pyrazol-4-yl)carbonyl]amino}-4-(4-phenyl-1-piperazinyl)-D-galactitol","C21 H29 N5 O4",415.22145,416.22873,17.805,"digesterC","mz_cloud",6121892.67144204
-4346,"2-(1,3-benzodioxol-5-yl)-7-ethylimidazo[1,2-a]pyridine","C16 H14 N2 O2",266.10554,267.11281,17.105,"digesterA","mz_cloud",4694601.11093566
-226,"2-(8-Hydroxy-4a,8-dimethyldecahydro-2-naphthalenyl)acrylic acid","C15 H24 O3",252.17254,275.16177,19.307,"mix","mz_cloud",212273955.101166
-788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",297.26691,298.27418,22.225,"centrin","mz_cloud",3410550.20309703
-788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",297.26691,298.27418,22.225,"digesterC","mz_cloud",4138387.50214541
-788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",297.26691,298.27418,22.225,"digesterD","mz_cloud",4498194.54132718
-788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",297.26691,298.27418,22.225,"feedpump","mz_cloud",57532589.5672663
-1839,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",297.26692,298.27419,21.373,"mix","mz_cloud",2901072.96602995
-1839,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",297.26692,298.27419,21.373,"newdry","mz_cloud",10759786.8335095
-788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",297.26691,298.27418,22.225,"olddry","mz_cloud",4985818.01715335
-2103,"2-Arachidonoyl glycerol","C23 H38 O4",378.27702,379.2843,22.307,"digesterD","mz_cloud",6613917.13419146
-569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",320.1738,321.18109,14.561,"centrin","mz_cloud",39948401.817329
-569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",320.1738,321.18109,14.561,"digesterA","mz_cloud",58723526.5126447
-569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",320.1738,321.18109,14.561,"digesterB","mz_cloud",53616559.4411878
-569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",320.1738,321.18109,14.561,"digesterC","mz_cloud",73648860.1256003
-569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",320.1738,321.18109,14.561,"feedpump","mz_cloud",90585179.0245279
-569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",320.1738,321.18109,14.561,"newdry","mz_cloud",30786808.4721785
-569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",320.1738,321.18109,14.561,"olddry","mz_cloud",18654672.7791806
-239,"2-Hydroxybenzothiazole","C7 H5 N O S",151.00923,152.01651,12.502,"digesterA","mz_cloud",176288203.782019
-239,"2-Hydroxybenzothiazole","C7 H5 N O S",151.00923,152.01651,12.502,"digesterB","mz_cloud",34835677.4788354
-4785,"2-Methylbenzophenone","C14 H12 O",196.0889,197.09617,18.453,"control","mz_cloud",1406439.38060648
-4785,"2-Methylbenzophenone","C14 H12 O",196.0889,197.09617,18.453,"mix","mz_cloud",5137704.15808311
-1586,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20471,316.21199,6.611,"centrin","mz_cloud",23897510.4698943
-1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20469,316.21197,7.552,"control","mz_cloud",38506670.657534
-2489,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20474,316.21202,1.274,"digesterA","mz_cloud",6863535.76801352
-1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20469,316.21197,7.552,"digesterB","mz_cloud",46440617.1287272
-1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20469,316.21197,7.552,"digesterD","mz_cloud",35156125.8081411
-1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20469,316.21197,7.552,"feedpump","mz_cloud",14457767.4798825
-1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20469,316.21197,7.552,"mix","mz_cloud",26329641.8103345
-2489,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20474,316.21202,1.274,"newdry","mz_cloud",16401152.913635
-1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",315.20469,316.21197,7.552,"olddry","mz_cloud",42659599.0849308
-2925,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-methoxy-1H-benzimidazole","C19 H27 N3 O",313.21557,314.22285,19.678,"digesterA","mz_cloud",15012205.9532436
-994,"2-benzylideneindan-1-one","C16 H12 O",220.08881,221.09609,15.731,"centrin","mz_cloud",29467699.2676996
-994,"2-benzylideneindan-1-one","C16 H12 O",220.08881,221.09609,15.731,"control","mz_cloud",54574590.4696116
-994,"2-benzylideneindan-1-one","C16 H12 O",220.08881,221.09609,15.731,"mix","mz_cloud",8609290.38716431
-1863,"2-piperidinobenzoic acid","C12 H15 N O2",205.11026,206.11754,13.53,"mix","mz_cloud",28065810.7732075
-4116,"25iP-NBOMe","C21 H29 N O3",343.21483,344.2221,21.436,"feedpump","mz_cloud",8181239.23845789
-2906,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",141.11543,142.12271,22.378,"control","mz_cloud",15220417.0511326
-2906,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",141.11543,142.12271,22.378,"digesterB","mz_cloud",2703263.98981794
-2979,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",141.11542,142.1227,10.459,"digesterD","mz_cloud",10493289.9597441
-2979,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",141.11542,142.1227,10.459,"feedpump","mz_cloud",14058583.168023
-2444,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",141.11543,142.1227,9.687,"mix","mz_cloud",11615994.0545784
-2695,"3,5-Dimethyl-1-phenylpyrazole","C11 H12 N2",172.10007,173.10734,15.501,"digesterC","mz_cloud",16887406.2882005
-2695,"3,5-Dimethyl-1-phenylpyrazole","C11 H12 N2",172.10007,173.10734,15.501,"digesterD","mz_cloud",17061566.4168146
-477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",234.16197,235.16925,19.669,"centrin","mz_cloud",111896015.151052
-552,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",234.16192,235.1692,21.083,"control","mz_cloud",98415224.9256535
-477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",234.16197,235.16925,19.669,"digesterB","mz_cloud",56838872.0039551
-912,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",234.16197,235.16925,20.135,"feedpump","mz_cloud",44950835.8878688
-477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",234.16197,235.16925,19.669,"mix","mz_cloud",90629126.548328
-477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",234.16197,235.16925,19.669,"olddry","mz_cloud",60906654.50444
-2211,"3-(3,4,5-trimethoxyphenyl)propanoic acid","C12 H16 O5",240.09977,241.10704,22.649,"digesterB","mz_cloud",22185120.2307653
-2591,"3-Carboxymedetomidine","C13 H14 N2 O2",230.10552,231.1128,15.042,"centrin","mz_cloud",11539419.7661062
-2591,"3-Carboxymedetomidine","C13 H14 N2 O2",230.10552,231.1128,15.042,"digesterB","mz_cloud",10417170.5715813
-2591,"3-Carboxymedetomidine","C13 H14 N2 O2",230.10552,231.1128,15.042,"olddry","mz_cloud",7641399.55280989
-2251,"3-Hydroxycyclobenzaprine","C20 H21 N O",291.16235,292.16965,12.719,"digesterA","mz_cloud",21013931.3470751
-1817,"3-Hydroxycyclobenzaprine","C20 H21 N O",291.16238,292.16966,17.331,"digesterB","mz_cloud",28932192.8613686
-4860,"3-[(2H-1,3-benzodioxol-5-yl)methyl]-4-[(3,4-dimethoxyphenyl)methyl]oxolan-2-one","C21 H22 O6",370.14163,371.14891,19.368,"olddry","mz_cloud",2965509.67360398
-854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",242.08038,243.08766,13.375,"centrin","mz_cloud",12823767.2315003
-854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",242.08038,243.08766,13.375,"digesterC","mz_cloud",10306028.482012
-854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",242.08038,243.08766,13.375,"digesterD","mz_cloud",6435971.37427644
-854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",242.08038,243.08766,13.375,"feedpump","mz_cloud",51922416.4829675
-854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",242.08038,243.08766,13.375,"newdry","mz_cloud",16049973.4404969
-854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",242.08038,243.08766,13.375,"olddry","mz_cloud",15562035.1923221
-2638,"4'-Methyl-α-pyrrolidinopropiophenone","C14 H19 N O",217.14665,218.15393,17.647,"control","mz_cloud",17645030.5015062
-2897,"4'-Methyl-α-pyrrolidinopropiophenone","C14 H19 N O",217.14664,218.15392,18.169,"feedpump","mz_cloud",15261263.0758244
-2514,"4,4'-Sulfonylbis[2-(prop-2-en-1-yl)phenol]","C18 H18 O4 S",330.09257,331.09984,18.563,"olddry","mz_cloud",17417777.2667257
-2441,"4-Methoxy PV9","C19 H29 N O2",303.21996,304.22724,13.228,"digesterA","mz_cloud",19600677.8466393
-137,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",333.26698,334.27426,17.409,"centrin","mz_cloud",23747431.2667738
-1954,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",333.267,334.27427,19.006,"digesterA","mz_cloud",26369883.6816593
-146,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",333.26699,334.27426,15.514,"feedpump","mz_cloud",9836061.27087744
-146,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",333.26699,334.27426,15.514,"newdry","mz_cloud",12890915.4900963
-137,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",333.26698,334.27426,17.409,"olddry","mz_cloud",255856613.470628
-1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",300.18411,301.19119,17.56,"centrin","mz_cloud",502523.706349261
-1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",300.18411,301.19119,17.56,"digesterD","mz_cloud",479956.522757305
-1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",300.18411,301.19119,17.56,"newdry","mz_cloud",4023452.11516593
-1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",300.18411,301.19119,17.56,"olddry","mz_cloud",27116940.3084395
-3618,"4-amino-1-phenyl-6-(phenylimino)-1,2,5,6-tetrahydro-1,3,5-triazin-2-one","C15 H13 N5 O",279.11207,280.11934,16.097,"olddry","mz_cloud",9221559.57395578
-5104,"4-chloro-2-(1H-pyrazol-3-yl)phenol","C9 H7 Cl N2 O",194.02491,195.03219,21.753,"centrin","mz_cloud",3030204.56651156
-5104,"4-chloro-2-(1H-pyrazol-3-yl)phenol","C9 H7 Cl N2 O",194.02491,195.03219,21.753,"control","mz_cloud",761860.655759749
-5104,"4-chloro-2-(1H-pyrazol-3-yl)phenol","C9 H7 Cl N2 O",194.02491,195.03219,21.753,"feedpump","mz_cloud",2577289.80523051
-5104,"4-chloro-2-(1H-pyrazol-3-yl)phenol","C9 H7 Cl N2 O",194.02491,195.03219,21.753,"mix","mz_cloud",532929.083242723
-3688,"4-hydroxy-1-phenyl-1,2-dihydroquinolin-2-one","C15 H11 N O2",237.07898,238.08626,17.895,"olddry","mz_cloud",7188610.76414287
-2737,"4-hydroxy-3-(3-methylbut-2-en-1-yl)benzoic acid","C12 H14 O3",206.09428,207.10155,21.492,"olddry","mz_cloud",2362619.46418481
-4454,"4-{5-[(3R,4S,6R)-6-(Aminomethyl)-1-azabicyclo[2.2.2]oct-3-yl]-1-methyl-1H-pyrazol-3-yl}-N,N-dimethylaniline","C20 H29 N5",339.24244,340.24972,22.01,"centrin","mz_cloud",4100501.3872794
-4454,"4-{5-[(3R,4S,6R)-6-(Aminomethyl)-1-azabicyclo[2.2.2]oct-3-yl]-1-methyl-1H-pyrazol-3-yl}-N,N-dimethylaniline","C20 H29 N5",339.24244,340.24972,22.01,"feedpump","mz_cloud",6199180.42366361
-436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",383.2461,384.25338,22.476,"centrin","mz_cloud",3365942.57993632
-436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",383.2461,384.25338,22.476,"digesterC","mz_cloud",6154049.09596882
-436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",383.2461,384.25338,22.476,"feedpump","mz_cloud",12287812.4210255
-436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",383.2461,384.25338,22.476,"newdry","mz_cloud",6593121.87945964
-436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",383.2461,384.25338,22.476,"olddry","mz_cloud",6562968.56674359
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"centrin","mz_cloud",51137674.0070094
-5068,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27168,321.27895,21.807,"control","mz_cloud",1698294.24701269
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"digesterA","mz_cloud",37148096.2120638
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"digesterB","mz_cloud",124094879.125635
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"digesterC","mz_cloud",50642115.9392146
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"digesterD","mz_cloud",182137220.722198
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"feedpump","mz_cloud",150347962.890677
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"newdry","mz_cloud",26062748.7887799
-263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",320.27174,321.27901,22.922,"olddry","mz_cloud",150294793.086984
-3492,"5-(1-Ethyl-3-methyl-1H-pyrazol-5-yl)-4-(3-methoxypropyl)-4H-1,2,4-triazole-3-thiol","C12 H19 N5 O S",281.13043,282.13771,17.048,"control","mz_cloud",10122604.9258981
-2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",279.07099,280.07826,18.246,"centrin","mz_cloud",11287603.3972046
-2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",279.07099,280.07826,18.246,"digesterC","mz_cloud",16527065.5581043
-2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",279.07099,280.07826,18.246,"digesterD","mz_cloud",13316311.9509149
-2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",279.07099,280.07826,18.246,"newdry","mz_cloud",2248526.18468133
-2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",279.07099,280.07826,18.246,"olddry","mz_cloud",15248028.7214797
-2766,"5-(tert-butyl)-2-methyl-N-(4-nitrophenyl)-3-furamide","C16 H18 N2 O4",302.12682,303.1341,12.959,"centrin","mz_cloud",7975312.84519056
-168,"5-Methoxyindole","C9 H9 N O",147.06846,148.07574,12.078,"feedpump","mz_cloud",266042586.807002
-791,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",299.19989,300.20717,18.309,"digesterD","mz_cloud",26983216.5882002
-791,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",299.19989,300.20717,18.309,"newdry","mz_cloud",9399538.32484575
-2549,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",299.19981,300.20708,17.135,"olddry","mz_cloud",18463767.6843619
-4982,"5-[5-(methoxycarbonyl)-5,8a-dimethyl-2-methylidene-decahydronaphthalen-1-yl]-3-methylpentanoic acid","C21 H34 O4",350.24565,351.25292,21.364,"feedpump","mz_cloud",1493917.14500212
-1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",432.21484,433.22211,22.695,"centrin","mz_cloud",4400676.29240015
-1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",432.21484,433.22211,22.695,"digesterB","mz_cloud",46891720.6016268
-1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",432.21484,433.22211,22.695,"digesterC","mz_cloud",12184489.5289434
-1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",432.21484,433.22211,22.695,"digesterD","mz_cloud",6421137.93794329
-1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",432.21484,433.22211,22.695,"newdry","mz_cloud",7782916.93351085
-1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",432.21484,433.22211,22.695,"olddry","mz_cloud",8218896.58310507
-1724,"5α-Dihydrotestosterone glucuronide","C25 H38 O8",466.25541,467.26269,10.471,"control","mz_cloud",16450029.8766898
-2713,"5α-Dihydrotestosterone glucuronide","C25 H38 O8",466.25547,467.26274,10.863,"mix","mz_cloud",9808437.81205933
-2688,"6-(7-methyloctyl)-1H,3H,4H,6H-furo[3,4-c]furan-1-one","C15 H24 O3",252.17252,253.1798,17.62,"digesterD","mz_cloud",15232346.0269598
-3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",397.35568,398.36296,21.542,"digesterA","mz_cloud",4945654.91788521
-3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",397.35568,398.36296,21.542,"digesterB","mz_cloud",4555369.40774476
-3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",397.35568,398.36296,21.542,"digesterC","mz_cloud",7662369.20477431
-3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",397.35568,398.36296,21.542,"newdry","mz_cloud",7182594.1298857
-3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",397.35568,398.36296,21.542,"olddry","mz_cloud",6422605.84907438
-2307,"7-Hydroxycoumarine","C9 H6 O3",162.03171,163.03898,20.41,"centrin","mz_cloud",20964933.005631
-844,"7-Hydroxycoumarine","C9 H6 O3",162.03172,163.039,21.462,"control","mz_cloud",9641470.10098847
-3556,"7-Hydroxycoumarine","C9 H6 O3",162.03169,163.03897,21.82,"digesterC","mz_cloud",5930872.10649596
-2307,"7-Hydroxycoumarine","C9 H6 O3",162.03171,163.03898,20.41,"feedpump","mz_cloud",2959168.88033441
-844,"7-Hydroxycoumarine","C9 H6 O3",162.03172,163.039,21.462,"mix","mz_cloud",5577612.27913041
-2307,"7-Hydroxycoumarine","C9 H6 O3",162.03171,163.03898,20.41,"olddry","mz_cloud",4175790.94085834
-5545,"7-chloro-4-piperidinoquinoline","C14 H15 Cl N2",246.09236,247.09963,18.544,"newdry","mz_cloud",969135.83696119
-5105,"7-{[(1S,4aS,6R,8aR)-6-Hydroxy-5,5,8a-trimethyl-2-methylenedecahydro-1-naphthalenyl]methoxy}-2H-chromen-2-one","C24 H30 O4",382.21544,383.22272,23.72,"mix","mz_cloud",2688295.021238
-1420,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",292.20389,293.21116,19.534,"centrin","mz_cloud",7574092.44278284
-1056,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",292.2039,293.21117,19.648,"digesterC","mz_cloud",51818811.1254544
-1056,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",292.2039,293.21117,19.648,"digesterD","mz_cloud",17083207.8118732
-2529,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",292.20386,293.21114,20.115,"feedpump","mz_cloud",18597782.3263663
-1420,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",292.20389,293.21116,19.534,"newdry","mz_cloud",38255456.2842878
-2894,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",294.21964,295.22691,17.201,"centrin","mz_cloud",3199807.31318725
-1246,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",294.21964,295.22692,20.97,"digesterC","mz_cloud",2754055.65002561
-375,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",294.21958,295.22686,20.098,"feedpump","mz_cloud",68531315.4216382
-1541,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",294.2197,295.22698,21.161,"newdry","mz_cloud",7931965.57923636
-1703,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",277.14673,278.154,12.931,"centrin","mz_cloud",22371481.3166664
-1269,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",277.14673,278.154,17.766,"digesterA","mz_cloud",33028137.5187408
-1269,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",277.14673,278.154,17.766,"digesterB","mz_cloud",33905478.6178925
-1703,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",277.14673,278.154,12.931,"digesterC","mz_cloud",26269427.2788458
-1269,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",277.14673,278.154,17.766,"newdry","mz_cloud",26673365.7619483
-1309,"A-836339","C16 H26 N2 O2 S",310.1723,311.17957,21.307,"centrin","mz_cloud",41984754.9348923
-2296,"A-836339","C16 H26 N2 O2 S",310.17227,311.17955,21.794,"control","mz_cloud",14524344.8153579
-2583,"A-836339","C16 H26 N2 O2 S",310.1723,311.17957,21.163,"digesterC","mz_cloud",6305932.13170445
-2296,"A-836339","C16 H26 N2 O2 S",310.17227,311.17955,21.794,"feedpump","mz_cloud",7726692.9833177
-1531,"A-836339","C16 H26 N2 O2 S",310.17223,311.1795,20.481,"mix","mz_cloud",35265715.6132193
-1309,"A-836339","C16 H26 N2 O2 S",310.1723,311.17957,21.307,"olddry","mz_cloud",4249892.11821461
-911,"Acetanilide","C8 H9 N O",135.06847,136.07575,10.927,"feedpump","mz_cloud",59427870.2699912
-4134,"Anandamide (AEA)","C22 H37 N O2",347.28259,348.28987,23.576,"control","mz_cloud",6934622.97121894
-4921,"Anandamide (AEA)","C22 H37 N O2",347.28268,348.28996,19.918,"digesterA","mz_cloud",1234226.58730759
-5230,"Arachidonoyl amide","C20 H33 N O",303.25615,304.26343,22.766,"centrin","mz_cloud",3054551.31522276
-3384,"Arachidonoyl amide","C20 H33 N O",303.25633,304.26361,22.396,"feedpump","mz_cloud",10224649.1026309
-5071,"Arachidonoyl amide","C20 H33 N O",303.25625,304.26328,22.672,"mix","mz_cloud",3916748.05901314
-3995,"Benoxacor","C11 H11 Cl2 N O2",259.01572,260.02299,11.667,"feedpump","mz_cloud",6335306.94970488
-949,"Benzenesulfonamide","C6 H7 N O2 S",157.01977,158.02705,15.096,"centrin","mz_cloud",7545070.00231713
-949,"Benzenesulfonamide","C6 H7 N O2 S",157.01977,158.02705,15.096,"control","mz_cloud",57072933.1100981
-280,"Berberine","C20 H17 N O4",335.116,336.12327,14.448,"centrin","mz_cloud",80792699.1784094
-233,"Berberine","C20 H17 N O4",335.11599,336.12326,12.297,"digesterA","mz_cloud",47173012.3963251
-233,"Berberine","C20 H17 N O4",335.11599,336.12326,12.297,"digesterB","mz_cloud",65071872.1771085
-233,"Berberine","C20 H17 N O4",335.11599,336.12326,12.297,"feedpump","mz_cloud",81341717.153208
-233,"Berberine","C20 H17 N O4",335.11599,336.12326,12.297,"newdry","mz_cloud",116333097.102012
-233,"Berberine","C20 H17 N O4",335.11599,336.12326,12.297,"olddry","mz_cloud",186552959.713994
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"centrin","mz_cloud",1051721561.88166
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"control","mz_cloud",85114548.2015846
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"digesterA","mz_cloud",206487729.047441
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"digesterB","mz_cloud",225845502.770015
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"digesterC","mz_cloud",1386858646.17744
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"digesterD","mz_cloud",1914569370.06768
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"feedpump","mz_cloud",7440771321.63603
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"mix","mz_cloud",78622741.1615057
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"newdry","mz_cloud",904519866.783522
-1,"Bis(2-ethylhexyl) amine","C16 H35 N",241.27689,242.28416,21.21,"olddry","mz_cloud",194794697.710469
-732,"Boldenone cypionate","C27 H38 O3",410.28213,411.2894,23.239,"olddry","mz_cloud",75121199.4071134
-3468,"Buflomedil","C17 H25 N O4",307.17852,308.18576,17.512,"control","mz_cloud",10350521.394189
-3468,"Buflomedil","C17 H25 N O4",307.17852,308.18576,17.512,"mix","mz_cloud",7401399.31316972
-2680,"Butyryl trihexyl citrate","C28 H50 O8",514.34812,515.3554,23.147,"digesterA","mz_cloud",10574904.1016336
-1693,"CB-86","C26 H43 N O3",417.32433,418.33161,20.167,"centrin","mz_cloud",9704857.49472721
-1693,"CB-86","C26 H43 N O3",417.32433,418.33161,20.167,"digesterB","mz_cloud",2956951.57559372
-1693,"CB-86","C26 H43 N O3",417.32433,418.33161,20.167,"digesterC","mz_cloud",18764119.3822028
-1693,"CB-86","C26 H43 N O3",417.32433,418.33161,20.167,"digesterD","mz_cloud",12311823.580992
-1693,"CB-86","C26 H43 N O3",417.32433,418.33161,20.167,"newdry","mz_cloud",18740795.5008875
-1693,"CB-86","C26 H43 N O3",417.32433,418.33161,20.167,"olddry","mz_cloud",24026534.6835431
-909,"Cetaben","C23 H39 N O2",361.2982,362.30548,21.102,"newdry","mz_cloud",6077172.9785583
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"centrin","mz_cloud",980353335.610462
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"control","mz_cloud",105112056.994566
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"digesterA","mz_cloud",3005890456.14847
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"digesterB","mz_cloud",2275999860.90273
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"digesterC","mz_cloud",1414209613.9374
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"digesterD","mz_cloud",1481881179.15432
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"feedpump","mz_cloud",1207750875.351
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"mix","mz_cloud",57582279.5565798
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"newdry","mz_cloud",1680530684.85587
-11,"Cetrimonium","C19 H41 N",283.32385,284.33113,21.675,"olddry","mz_cloud",2472758504.81078
-2902,"Chalcone","C15 H12 O",208.08879,209.09607,21.061,"mix","mz_cloud",557919.822037286
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"centrin","mz_cloud",134729780.995623
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"digesterA","mz_cloud",180773360.365776
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"digesterB","mz_cloud",151058836.574126
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"digesterC","mz_cloud",223449411.322114
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"digesterD","mz_cloud",164661776.123074
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"feedpump","mz_cloud",54305825.9853762
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"newdry","mz_cloud",288896524.285214
-132,"Cinchophen","C16 H11 N O2",249.07902,250.0863,22.318,"olddry","mz_cloud",259781739.006265
-2228,"Clopidogrel carboxylic acid","C15 H14 Cl N O2 S",307.04351,308.05078,11.51,"centrin","mz_cloud",12526786.6913754
-2228,"Clopidogrel carboxylic acid","C15 H14 Cl N O2 S",307.04351,308.05078,11.51,"digesterA","mz_cloud",11208546.9164403
-2228,"Clopidogrel carboxylic acid","C15 H14 Cl N O2 S",307.04351,308.05078,11.51,"digesterC","mz_cloud",22001064.0502589
-1481,"Cyclohexyl phenyl ketone","C13 H16 O",188.12012,189.12739,22.636,"centrin","mz_cloud",16640062.3392194
-1481,"Cyclohexyl phenyl ketone","C13 H16 O",188.12012,189.12739,22.636,"digesterA","mz_cloud",26235407.989085
-1481,"Cyclohexyl phenyl ketone","C13 H16 O",188.12012,189.12739,22.636,"digesterB","mz_cloud",36546106.8709288
-1481,"Cyclohexyl phenyl ketone","C13 H16 O",188.12012,189.12739,22.636,"digesterC","mz_cloud",21498249.8869337
-1481,"Cyclohexyl phenyl ketone","C13 H16 O",188.12012,189.12739,22.636,"digesterD","mz_cloud",20630719.6143358
-1481,"Cyclohexyl phenyl ketone","C13 H16 O",188.12012,189.12739,22.636,"newdry","mz_cloud",17217084.1407488
-1481,"Cyclohexyl phenyl ketone","C13 H16 O",188.12012,189.12739,22.636,"olddry","mz_cloud",18269256.5720982
-3014,"Decanamide","C10 H21 N O",171.16233,172.16961,18.403,"centrin","mz_cloud",11254370.0288224
-3014,"Decanamide","C10 H21 N O",171.16233,172.16961,18.403,"control","mz_cloud",14293958.5176152
-3014,"Decanamide","C10 H21 N O",171.16233,172.16961,18.403,"digesterB","mz_cloud",6808099.48420983
-4626,"Decanamide","C10 H21 N O",171.16233,172.16961,17.649,"digesterC","mz_cloud",4167742.97781196
-4303,"Decanamide","C10 H21 N O",171.16236,172.16963,17.449,"digesterD","mz_cloud",7318044.05803596
-1239,"Decanamide","C10 H21 N O",171.16237,172.16964,19.236,"feedpump","mz_cloud",7827687.25548164
-1239,"Decanamide","C10 H21 N O",171.16237,172.16964,19.236,"mix","mz_cloud",44680933.4684543
-3014,"Decanamide","C10 H21 N O",171.16233,172.16961,18.403,"olddry","mz_cloud",2830662.86088749
-4368,"Decanophenone","C16 H24 O",232.18275,233.19003,17.252,"control","mz_cloud",5342283.07387937
-4778,"Decanophenone","C16 H24 O",232.1827,233.18998,19.617,"olddry","mz_cloud",5168198.65260164
-4924,"Deoxynivalenol","C15 H20 O6",296.1261,297.13338,17.867,"control","mz_cloud",4516994.28896181
-1340,"Desacetyl diltiazem","C20 H24 N2 O3 S",372.15083,373.15811,13.074,"centrin","mz_cloud",9294594.16026913
-1340,"Desacetyl diltiazem","C20 H24 N2 O3 S",372.15083,373.15811,13.074,"feedpump","mz_cloud",21465340.7528191
-1340,"Desacetyl diltiazem","C20 H24 N2 O3 S",372.15083,373.15811,13.074,"olddry","mz_cloud",36156780.0385052
-3919,"Deschloro-N-ethyl-ketamine","C14 H19 N O",217.14668,218.15395,17.773,"control","mz_cloud",9081194.89523148
-4640,"Desmethyldoxepin","C18 H19 N O",265.14662,266.1539,21.214,"mix","mz_cloud",4681187.46900112
-2356,"Detomidine","C12 H14 N2",186.11571,187.12298,16.328,"digesterB","mz_cloud",18200566.4688685
-1731,"Dibutyl phthalate","C16 H22 O4",278.15187,279.15915,24.71,"centrin","mz_cloud",6880782.37748459
-1731,"Dibutyl phthalate","C16 H22 O4",278.15187,279.15915,24.71,"digesterB","mz_cloud",4733411.27367627
-1731,"Dibutyl phthalate","C16 H22 O4",278.15187,279.15915,24.71,"digesterD","mz_cloud",6334740.565849
-1731,"Dibutyl phthalate","C16 H22 O4",278.15187,279.15915,24.71,"feedpump","mz_cloud",30627779.6414742
-1731,"Dibutyl phthalate","C16 H22 O4",278.15187,279.15915,24.71,"mix","mz_cloud",13318479.2273519
-1731,"Dibutyl phthalate","C16 H22 O4",278.15187,279.15915,24.71,"newdry","mz_cloud",6427268.21747023
-1731,"Dibutyl phthalate","C16 H22 O4",278.15187,279.15915,24.71,"olddry","mz_cloud",7262313.34566437
-2475,"Diclofensine","C17 H17 Cl2 N O",321.06894,322.07622,18.382,"centrin","mz_cloud",13773879.8205184
-2475,"Diclofensine","C17 H17 Cl2 N O",321.06894,322.07622,18.382,"digesterC","mz_cloud",16218978.7265605
-2475,"Diclofensine","C17 H17 Cl2 N O",321.06894,322.07622,18.382,"newdry","mz_cloud",578934.013147449
-1026,"Didecyl phthalate","C28 H46 O4",446.33962,447.3469,23.574,"centrin","mz_cloud",19015549.8059745
-1026,"Didecyl phthalate","C28 H46 O4",446.33962,447.3469,23.574,"digesterA","mz_cloud",35863046.3069629
-1026,"Didecyl phthalate","C28 H46 O4",446.33962,447.3469,23.574,"digesterB","mz_cloud",50946849.7727334
-1026,"Didecyl phthalate","C28 H46 O4",446.33962,447.3469,23.574,"digesterC","mz_cloud",14648837.0307257
-1026,"Didecyl phthalate","C28 H46 O4",446.33962,447.3469,23.574,"feedpump","mz_cloud",36031323.430626
-1026,"Didecyl phthalate","C28 H46 O4",446.33962,447.3469,23.574,"olddry","mz_cloud",16879811.9804771
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"centrin","mz_cloud",1022688877.01422
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"control","mz_cloud",168633043.719498
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"digesterA","mz_cloud",3110368604.07781
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"digesterB","mz_cloud",2098818778.87151
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"digesterC","mz_cloud",1660996758.30995
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"digesterD","mz_cloud",1900392862.61241
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"feedpump","mz_cloud",1819748635.23708
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"mix","mz_cloud",151443728.495412
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"newdry","mz_cloud",2032744964.76562
-8,"Didecyldimethylammonium","C22 H47 N",325.37092,326.3782,21.592,"olddry","mz_cloud",1905665569.13935
-1316,"Diethyl maleate","C8 H12 O4",172.07356,173.08084,10.02,"control","mz_cloud",10247861.0937245
-1316,"Diethyl maleate","C8 H12 O4",172.07356,173.08084,10.02,"feedpump","mz_cloud",36167346.6906579
-1316,"Diethyl maleate","C8 H12 O4",172.07356,173.08084,10.02,"mix","mz_cloud",16290946.1902082
-4098,"Dihexylamine","C12 H27 N",185.21436,186.22164,19.863,"digesterA","mz_cloud",7137551.89228359
-4098,"Dihexylamine","C12 H27 N",185.21436,186.22164,19.863,"digesterB","mz_cloud",5018811.95469785
-1463,"Dihexylamine","C12 H27 N",185.21437,186.22165,16.073,"feedpump","mz_cloud",31247994.447704
-2719,"Dihexylamine","C12 H27 N",185.21437,186.22165,19.343,"newdry","mz_cloud",16807847.2900192
-2484,"Diisobutyl adipate","C14 H26 O4",258.18307,259.19034,17.712,"centrin","mz_cloud",444593.302290399
-2484,"Diisobutyl adipate","C14 H26 O4",258.18307,259.19034,17.712,"control","mz_cloud",17243188.0340397
-2484,"Diisobutyl adipate","C14 H26 O4",258.18307,259.19034,17.712,"digesterA","mz_cloud",3296202.45879731
-4433,"Diisobutyl adipate","C14 H26 O4",258.18307,259.19035,18.305,"feedpump","mz_cloud",6689302.74746297
-4491,"Diisobutyl adipate","C14 H26 O4",258.18313,259.1904,22.751,"mix","mz_cloud",2794780.81163126
-2484,"Diisobutyl adipate","C14 H26 O4",258.18307,259.19034,17.712,"olddry","mz_cloud",2675370.17058922
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"centrin","mz_cloud",68496169.3394325
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"digesterA","mz_cloud",7485599.69316445
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"digesterB","mz_cloud",16288648.9687586
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"digesterC","mz_cloud",111231948.045308
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"digesterD","mz_cloud",144539565.169156
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"feedpump","mz_cloud",438475923.669576
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"newdry","mz_cloud",75822309.6916584
-70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",356.27169,357.27896,21.734,"olddry","mz_cloud",22146626.3459655
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"centrin","mz_cloud",11220472.5702359
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"digesterA","mz_cloud",7632867.03818573
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"digesterB","mz_cloud",14971884.4571112
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"digesterC","mz_cloud",6501540.50109796
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"digesterD","mz_cloud",9755033.07735763
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"feedpump","mz_cloud",10760404.2446994
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"newdry","mz_cloud",18011688.5514225
-109,"Docosanamide","C22 H45 N O",339.35022,340.3575,20.554,"olddry","mz_cloud",6363829.87259062
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"centrin","mz_cloud",682632830.285648
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"control","mz_cloud",22513375.0021462
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"digesterA","mz_cloud",83010889.2660129
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"digesterB","mz_cloud",58365516.6027137
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"digesterC","mz_cloud",592003848.100091
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"digesterD","mz_cloud",1500612545.4877
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"feedpump","mz_cloud",1550790723.695
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"mix","mz_cloud",33517501.459979
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"newdry","mz_cloud",409560374.345918
-18,"Dodecyltrimethylammonium","C15 H33 N",227.26125,228.26853,21.341,"olddry","mz_cloud",97161455.1615884
-2454,"Dodine","C13 H29 N3",227.23616,228.24343,20.753,"centrin","mz_cloud",11345446.5850298
-2454,"Dodine","C13 H29 N3",227.23616,228.24343,20.753,"feedpump","mz_cloud",18787956.0911084
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"centrin","mz_cloud",9781803.73203254
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"control","mz_cloud",10376159.6388049
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"digesterA","mz_cloud",9400755.57492357
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"digesterB","mz_cloud",11381766.5490185
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"digesterC","mz_cloud",11765621.2749628
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"feedpump","mz_cloud",30074918.5988956
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"mix","mz_cloud",10665271.3678831
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"newdry","mz_cloud",7933933.38114745
-133,"Erucamide","C22 H43 N O",337.33466,338.34198,23.434,"olddry","mz_cloud",5495555.89478598
-4206,"Esculetin","C9 H6 O4",178.02661,179.03389,20.071,"centrin","mz_cloud",4999919.96293798
-4206,"Esculetin","C9 H6 O4",178.02661,179.03389,20.071,"digesterA","mz_cloud",3198137.06596151
-4206,"Esculetin","C9 H6 O4",178.02661,179.03389,20.071,"digesterC","mz_cloud",4591154.12112491
-4206,"Esculetin","C9 H6 O4",178.02661,179.03389,20.071,"digesterD","mz_cloud",4117675.02240792
-4206,"Esculetin","C9 H6 O4",178.02661,179.03389,20.071,"newdry","mz_cloud",5036784.99326015
-3545,"Ethyl 2-acetyloctanoate","C12 H22 O3",214.15672,215.1642,22.034,"control","mz_cloud",6832045.18007951
-3545,"Ethyl 2-acetyloctanoate","C12 H22 O3",214.15672,215.1642,22.034,"mix","mz_cloud",9909187.26897086
-1517,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",169.11029,170.11757,9.69,"control","mz_cloud",35527696.9478501
-1658,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",169.11029,170.11757,10.444,"digesterB","mz_cloud",16167422.200765
-1517,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",169.11029,170.11757,9.69,"digesterD","mz_cloud",34564181.7223632
-1658,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",169.11029,170.11757,10.444,"feedpump","mz_cloud",30390056.5092784
-1517,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",169.11029,170.11757,9.69,"mix","mz_cloud",23522457.0612633
-1517,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",169.11029,170.11757,9.69,"newdry","mz_cloud",10919315.4326376
-1658,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",169.11029,170.11757,10.444,"olddry","mz_cloud",8587893.07895035
-3253,"Fenbendazole","C15 H13 N3 O2 S",299.07298,300.08025,17.857,"centrin","mz_cloud",6253549.659627
-4037,"Fenbendazole","C15 H13 N3 O2 S",299.07297,300.08025,18.478,"feedpump","mz_cloud",8552070.03465361
-4037,"Fenbendazole","C15 H13 N3 O2 S",299.07297,300.08025,18.478,"newdry","mz_cloud",910239.163707714
-3253,"Fenbendazole","C15 H13 N3 O2 S",299.07298,300.08025,17.857,"olddry","mz_cloud",12635427.412426
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"centrin","mz_cloud",38452574.5459104
-2736,"Gentian violet","C25 H29 N3",371.23608,372.24336,17.891,"control","mz_cloud",5340616.5930919
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"digesterA","mz_cloud",112298419.476397
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"digesterB","mz_cloud",9359290.14851746
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"digesterC","mz_cloud",31701911.2962887
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"digesterD","mz_cloud",35456932.4256799
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"feedpump","mz_cloud",152728119.645423
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"newdry","mz_cloud",93499020.2115944
-178,"Gentian violet","C25 H29 N3",371.23618,372.24346,19.995,"olddry","mz_cloud",12218617.468109
-3861,"Glycerophospho-N-palmitoyl ethanolamine","C21 H44 N O7 P",453.28559,454.29287,22.624,"digesterC","mz_cloud",2838670.09705764
-3861,"Glycerophospho-N-palmitoyl ethanolamine","C21 H44 N O7 P",453.28559,454.29287,22.624,"olddry","mz_cloud",6714928.86696703
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"centrin","mz_cloud",1785031008.45385
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"control","mz_cloud",1585129066.24165
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"digesterA","mz_cloud",1751854272.54302
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"digesterB","mz_cloud",1246706427.71188
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"digesterC","mz_cloud",918056009.23637
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"digesterD","mz_cloud",1112739387.61586
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"feedpump","mz_cloud",1082677074.73676
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"mix","mz_cloud",2151453375.84695
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"newdry","mz_cloud",1368035911.09008
-14,"Hexadecanamide","C16 H33 N O",255.25612,256.26339,23.086,"olddry","mz_cloud",1705590416.61955
-1431,"Indole-3-acetic acid","C10 H9 N O2",175.06334,176.07062,11.669,"feedpump","mz_cloud",30453502.5738397
-1431,"Indole-3-acetic acid","C10 H9 N O2",175.06334,176.07062,11.669,"newdry","mz_cloud",11879402.3906139
-57,"Indole-3-acrylic acid","C11 H9 N O2",187.06333,188.07061,6.774,"olddry","mz_cloud",49571363.0472328
-4464,"Isobornyl methacrylate","C14 H22 O2",222.16198,223.16925,20.082,"mix","mz_cloud",379745.133507384
-4802,"Jasmone","C11 H16 O",164.12016,165.12743,22.034,"control","mz_cloud",3505527.60816589
-4084,"Jasmone","C11 H16 O",164.12012,165.1274,21.385,"mix","mz_cloud",8345074.02671973
-504,"Jervine","C27 H39 N O3",425.29304,426.30032,15.773,"olddry","mz_cloud",106483173.264906
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"centrin","mz_cloud",45357043.471286
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"control","mz_cloud",109576571.147251
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"digesterA","mz_cloud",48098207.8440294
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"digesterB","mz_cloud",32729646.4827518
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"digesterC","mz_cloud",39992383.8556093
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"digesterD","mz_cloud",23425874.3323721
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"feedpump","mz_cloud",51209037.6775516
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"mix","mz_cloud",83340972.3042404
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"newdry","mz_cloud",62902878.080748
-331,"Laurolactam","C12 H23 N O",197.17801,198.18529,17.102,"olddry","mz_cloud",151591629.127307
-2125,"Linoleoyl ethanolamide","C20 H37 N O2",323.28267,324.28994,22.643,"feedpump","mz_cloud",19130710.4594671
-1882,"Meperidine-d5","C15 H16 [2]H5 N O2",252.18776,253.19504,19.133,"centrin","mz_cloud",9352426.29789842
-2715,"Meperidine-d5","C15 H16 [2]H5 N O2",252.18774,253.19501,18.537,"digesterD","mz_cloud",11917549.560062
-435,"Methanandamide","C23 H39 N O2",361.29821,362.30549,19.493,"centrin","mz_cloud",17029776.6585507
-435,"Methanandamide","C23 H39 N O2",361.29821,362.30549,19.493,"digesterA","mz_cloud",20914961.3742519
-435,"Methanandamide","C23 H39 N O2",361.29821,362.30549,19.493,"digesterB","mz_cloud",22977232.0558231
-435,"Methanandamide","C23 H39 N O2",361.29821,362.30549,19.493,"digesterC","mz_cloud",14056217.4699091
-435,"Methanandamide","C23 H39 N O2",361.29821,362.30549,19.493,"digesterD","mz_cloud",14597237.7629141
-435,"Methanandamide","C23 H39 N O2",361.29821,362.30549,19.493,"newdry","mz_cloud",63919180.3695657
-435,"Methanandamide","C23 H39 N O2",361.29821,362.30549,19.493,"olddry","mz_cloud",66050244.4989124
-1650,"Methyl 3,5-di-tert-butyl-4-hydroxybenzoate","C16 H24 O3",264.17251,265.17979,20.459,"control","mz_cloud",5884705.61707879
-1650,"Methyl 3,5-di-tert-butyl-4-hydroxybenzoate","C16 H24 O3",264.17251,265.17979,20.459,"feedpump","mz_cloud",5926938.54289757
-1650,"Methyl 3,5-di-tert-butyl-4-hydroxybenzoate","C16 H24 O3",264.17251,265.17979,20.459,"mix","mz_cloud",4895294.45007765
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"centrin","mz_cloud",29422941.1451188
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"digesterA","mz_cloud",6787918.17927042
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"digesterB","mz_cloud",3684671.89893156
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"digesterC","mz_cloud",36740636.9565282
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"digesterD","mz_cloud",34844919.6685015
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"feedpump","mz_cloud",136094168.257741
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"newdry","mz_cloud",54289781.2181866
-190,"Methyl Violet","C24 H27 N3",357.2206,358.22789,19.602,"olddry","mz_cloud",18624005.8521046
-740,"N'-(2-chlorobenzoyl)-N,N-dimethylhydrazonoformamide","C10 H12 Cl N3 O",225.06773,226.07501,10.45,"mix","mz_cloud",12909531.2604934
-3994,"N,N'-Dicyclohexylurea","C13 H24 N2 O",224.18885,225.19612,17.214,"digesterA","mz_cloud",8725376.63471526
-574,"N,N-Diethyldodecanamide","C16 H33 N O",255.25618,256.26346,19.808,"centrin","mz_cloud",9185102.9326399
-574,"N,N-Diethyldodecanamide","C16 H33 N O",255.25618,256.26346,19.808,"digesterC","mz_cloud",10178600.440847
-574,"N,N-Diethyldodecanamide","C16 H33 N O",255.25618,256.26346,19.808,"digesterD","mz_cloud",16723533.5950632
-574,"N,N-Diethyldodecanamide","C16 H33 N O",255.25618,256.26346,19.808,"feedpump","mz_cloud",70892542.8898412
-574,"N,N-Diethyldodecanamide","C16 H33 N O",255.25618,256.26346,19.808,"newdry","mz_cloud",11593658.6619944
-2519,"N,N-Dimethyldecylamine N-oxide","C12 H27 N O",201.20925,202.21652,16.155,"control","mz_cloud",18703069.2113901
-2519,"N,N-Dimethyldecylamine N-oxide","C12 H27 N O",201.20925,202.21652,16.155,"mix","mz_cloud",12738444.777477
-1677,"N,N-Dimethylsphingosine","C20 H41 N O2",327.31393,328.32121,21.908,"centrin","mz_cloud",4005291.02005722
-1677,"N,N-Dimethylsphingosine","C20 H41 N O2",327.31393,328.32121,21.908,"digesterA","mz_cloud",8679871.48895869
-1677,"N,N-Dimethylsphingosine","C20 H41 N O2",327.31393,328.32121,21.908,"digesterB","mz_cloud",7513821.47376718
-1677,"N,N-Dimethylsphingosine","C20 H41 N O2",327.31393,328.32121,21.908,"digesterC","mz_cloud",5826014.71427997
-1677,"N,N-Dimethylsphingosine","C20 H41 N O2",327.31393,328.32121,21.908,"feedpump","mz_cloud",17812156.4031381
-884,"N,N-Dimethylsphingosine","C20 H41 N O2",327.3139,328.32118,19.262,"newdry","mz_cloud",8484612.64068961
-884,"N,N-Dimethylsphingosine","C20 H41 N O2",327.3139,328.32118,19.262,"olddry","mz_cloud",60997364.1370384
-3281,"N-(9-oxodecyl)acetamide","C12 H23 N O2",213.17286,236.16209,15.868,"control","mz_cloud",12480683.0399537
-1733,"N-Acetylsphingosine","C20 H39 N O3",341.29309,342.30037,21.569,"centrin","mz_cloud",4422637.67466576
-1733,"N-Acetylsphingosine","C20 H39 N O3",341.29309,342.30037,21.569,"digesterA","mz_cloud",6946824.90898716
-1733,"N-Acetylsphingosine","C20 H39 N O3",341.29309,342.30037,21.569,"digesterB","mz_cloud",30599386.8233285
-1733,"N-Acetylsphingosine","C20 H39 N O3",341.29309,342.30037,21.569,"digesterC","mz_cloud",8141873.50853803
-2329,"N-Acetylsphingosine","C20 H39 N O3",341.29312,342.3004,23.013,"feedpump","mz_cloud",7979660.97306744
-1733,"N-Acetylsphingosine","C20 H39 N O3",341.29309,342.30037,21.569,"newdry","mz_cloud",3145408.78910674
-1733,"N-Acetylsphingosine","C20 H39 N O3",341.29309,342.30037,21.569,"olddry","mz_cloud",8200822.21023351
-1272,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",371.22094,372.22821,16.841,"centrin","mz_cloud",14890500.6989091
-1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",371.22094,372.22822,14.988,"digesterC","mz_cloud",9906380.01597275
-1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",371.22094,372.22822,14.988,"digesterD","mz_cloud",9752883.03769592
-1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",371.22094,372.22822,14.988,"feedpump","mz_cloud",13095913.1465041
-1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",371.22094,372.22822,14.988,"newdry","mz_cloud",11023655.8356566
-1272,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",371.22094,372.22821,16.841,"olddry","mz_cloud",40381522.874679
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"centrin","mz_cloud",40186531.0955067
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"control","mz_cloud",96077292.7926622
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"digesterA","mz_cloud",87264816.0000814
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"digesterC","mz_cloud",30528192.6400935
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"digesterD","mz_cloud",38536700.9874324
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"feedpump","mz_cloud",37917367.5042869
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"mix","mz_cloud",45148193.3662823
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"newdry","mz_cloud",21881653.9646081
-537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",213.08234,214.08962,15.094,"olddry","mz_cloud",60657144.3869932
-3578,"N-Desmethyl-loperamide","C28 H31 Cl N2 O2",462.2074,463.21467,18.193,"newdry","mz_cloud",1427034.19189089
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"centrin","mz_cloud",171701373.258384
-194,"N-Methyldioctylamine","C17 H37 N",255.29257,256.29985,21.2,"control","mz_cloud",17916097.3319119
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"digesterA","mz_cloud",59130388.9477824
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"digesterB","mz_cloud",7475556.38553541
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"digesterC","mz_cloud",297613842.992911
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"digesterD","mz_cloud",538904423.154534
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"feedpump","mz_cloud",760909777.191936
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"newdry","mz_cloud",208312080.513966
-33,"N-Methyldioctylamine","C17 H37 N",255.29256,256.29984,21.829,"olddry","mz_cloud",27534473.5863361
-2703,"N-Octyl-2-pyrrolidone","C12 H23 N O",197.17798,198.18525,20.016,"control","mz_cloud",16947429.6881107
-4580,"N-Octyl-2-pyrrolidone","C12 H23 N O",197.17796,198.18523,19.014,"digesterA","mz_cloud",5340270.91991526
-3588,"N-[1,1'-Biphenyl]-4-ylacetamide","C14 H13 N O",211.09968,212.10696,16.944,"olddry","mz_cloud",9667018.52200409
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"centrin","mz_cloud",52973053.7772555
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"control","mz_cloud",51002164.2540419
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"digesterA","mz_cloud",53521071.7986079
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"digesterB","mz_cloud",55107029.0314967
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"digesterC","mz_cloud",50356795.7327027
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"digesterD","mz_cloud",48961269.0276042
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"feedpump","mz_cloud",89212870.8604846
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"mix","mz_cloud",37570628.7535361
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"newdry","mz_cloud",49439887.6909234
-532,"N-cyclooctylurea","C9 H18 N2 O",170.14196,171.14924,2.347,"olddry","mz_cloud",56235661.8836782
-2928,"N1-bicyclo[2.2.2]oct-2-ylbenzamide","C15 H19 N O",229.14666,230.15393,18.259,"control","mz_cloud",14983226.2946635
-2787,"N1-bicyclo[2.2.2]oct-2-ylbenzamide","C15 H19 N O",229.14665,230.15393,19.085,"feedpump","mz_cloud",16108215.3462155
-3220,"NP-001928","C19 H18 O8",374.10024,375.10751,16.113,"feedpump","mz_cloud",12922890.9176102
-238,"NP-002954","C27 H39 N O3",425.29302,426.3003,18.384,"olddry","mz_cloud",201977104.784394
-2426,"NP-003692","C29 H46 O4",458.33958,459.34685,22.405,"centrin","mz_cloud",13360391.1017626
-2426,"NP-003692","C29 H46 O4",458.33958,459.34685,22.405,"digesterA","mz_cloud",18880459.6590352
-2426,"NP-003692","C29 H46 O4",458.33958,459.34685,22.405,"digesterB","mz_cloud",17034104.3866727
-2426,"NP-003692","C29 H46 O4",458.33958,459.34685,22.405,"digesterC","mz_cloud",15360750.926815
-2426,"NP-003692","C29 H46 O4",458.33958,459.34685,22.405,"digesterD","mz_cloud",11997346.088789
-2426,"NP-003692","C29 H46 O4",458.33958,459.34685,22.405,"newdry","mz_cloud",17247477.0919687
-284,"NP-005397","C18 H30 O6",342.20419,365.19338,18.612,"control","mz_cloud",173359625.415796
-214,"NP-005397","C18 H30 O6",342.20421,365.1934,19.777,"feedpump","mz_cloud",18972965.4498477
-214,"NP-005397","C18 H30 O6",342.20421,365.1934,19.777,"mix","mz_cloud",106310560.983922
-934,"NP-005982","C22 H34 O4",362.24583,363.25318,17.868,"centrin","mz_cloud",58034750.6803023
-2922,"NP-005982","C22 H34 O4",362.24587,363.25318,17.491,"digesterC","mz_cloud",15036197.2935963
-4104,"NP-005982","C22 H34 O4",362.24584,363.25314,17.406,"digesterD","mz_cloud",7999608.33461094
-3976,"NP-006888","C13 H24 O4",244.16746,245.17473,16.502,"control","mz_cloud",4395429.11875064
-3976,"NP-006888","C13 H24 O4",244.16746,245.17473,16.502,"feedpump","mz_cloud",7292518.07460753
-1884,"NP-008095","C15 H24 O3",252.17252,253.1798,18.446,"centrin","mz_cloud",15284959.1586301
-1884,"NP-008095","C15 H24 O3",252.17252,253.1798,18.446,"control","mz_cloud",11727713.8681325
-1884,"NP-008095","C15 H24 O3",252.17252,253.1798,18.446,"digesterA","mz_cloud",21022307.4673145
-1884,"NP-008095","C15 H24 O3",252.17252,253.1798,18.446,"digesterB","mz_cloud",16640837.055295
-1884,"NP-008095","C15 H24 O3",252.17252,253.1798,18.446,"feedpump","mz_cloud",27604146.6724137
-1884,"NP-008095","C15 H24 O3",252.17252,253.1798,18.446,"mix","mz_cloud",26603028.6884553
-1884,"NP-008095","C15 H24 O3",252.17252,253.1798,18.446,"olddry","mz_cloud",2256175.37410528
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"centrin","mz_cloud",8291276.08736394
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"control","mz_cloud",28491068.8866405
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"digesterA","mz_cloud",12087890.8906358
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"digesterB","mz_cloud",8230102.15707298
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"digesterC","mz_cloud",6290378.351469
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"digesterD","mz_cloud",7231870.16547309
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"feedpump","mz_cloud",11350323.1816743
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"mix","mz_cloud",13684515.6159523
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"newdry","mz_cloud",8068152.27669276
-1836,"NP-008993","C18 H34 O4",314.24589,315.25316,22.754,"olddry","mz_cloud",8579446.49364457
-100,"NP-009800","C23 H36 O4",376.26132,377.26859,18.788,"centrin","mz_cloud",409017610.011168
-100,"NP-009800","C23 H36 O4",376.26132,377.26859,18.788,"digesterC","mz_cloud",8327705.04035906
-100,"NP-009800","C23 H36 O4",376.26132,377.26859,18.788,"digesterD","mz_cloud",7560700.70656975
-100,"NP-009800","C23 H36 O4",376.26132,377.26859,18.788,"newdry","mz_cloud",6152756.69370206
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"centrin","mz_cloud",6561040.51438983
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"digesterA","mz_cloud",8566388.00817174
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"digesterB","mz_cloud",12111595.0197114
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"digesterC","mz_cloud",6253841.5800241
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"digesterD","mz_cloud",5742240.46036836
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"feedpump","mz_cloud",9116641.74075656
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"newdry","mz_cloud",11048040.7954612
-1621,"NP-015559","C17 H14 O7",330.07418,331.08145,16.381,"olddry","mz_cloud",16744927.8269592
-577,"NP-016582","C20 H35 N O",305.27188,306.27916,21.119,"centrin","mz_cloud",20481457.7581461
-577,"NP-016582","C20 H35 N O",305.27188,306.27916,21.119,"digesterA","mz_cloud",59739919.4343068
-577,"NP-016582","C20 H35 N O",305.27188,306.27916,21.119,"digesterB","mz_cloud",95031316.3091455
-577,"NP-016582","C20 H35 N O",305.27188,306.27916,21.119,"digesterC","mz_cloud",33588527.2238314
-577,"NP-016582","C20 H35 N O",305.27188,306.27916,21.119,"feedpump","mz_cloud",19847346.4285661
-577,"NP-016582","C20 H35 N O",305.27188,306.27916,21.119,"newdry","mz_cloud",27778321.1365842
-577,"NP-016582","C20 H35 N O",305.27188,306.27916,21.119,"olddry","mz_cloud",33488315.4750949
-2687,"NP-017176","C27 H40 O5",444.28765,445.29492,21.623,"digesterA","mz_cloud",17200424.3866892
-3553,"NP-017624","C23 H32 O8",436.20962,437.21688,19.64,"mix","mz_cloud",3086807.64941237
-2462,"NP-017871","C40 H60 O15",780.39358,803.38281,16.865,"olddry","mz_cloud",14456517.7597396
-787,"NP-018817","C15 H24 O4",268.16749,269.17471,17.872,"control","mz_cloud",11200229.2450269
-787,"NP-018817","C15 H24 O4",268.16749,269.17471,17.872,"feedpump","mz_cloud",7863915.54261962
-787,"NP-018817","C15 H24 O4",268.16749,269.17471,17.872,"mix","mz_cloud",32384530.6007187
-2472,"NP-020112","C30 H48 O2",440.36547,441.37274,23.287,"centrin","mz_cloud",5626248.45806659
-2252,"NP-020112","C30 H48 O2",440.36542,441.3727,24.171,"digesterA","mz_cloud",6516178.99561956
-2472,"NP-020112","C30 H48 O2",440.36547,441.37274,23.287,"digesterB","mz_cloud",12301454.6301811
-2055,"NP-020112","C30 H48 O2",440.36543,441.37271,22.457,"digesterD","mz_cloud",11720067.6521005
-2055,"NP-020112","C30 H48 O2",440.36543,441.37271,22.457,"feedpump","mz_cloud",24473934.8504948
-2252,"NP-020112","C30 H48 O2",440.36542,441.3727,24.171,"newdry","mz_cloud",5537510.70468774
-2472,"NP-020112","C30 H48 O2",440.36547,441.37274,23.287,"olddry","mz_cloud",7067710.26191608
-2983,"NP-020232","C25 H24 O7",436.15223,437.15951,19.014,"olddry","mz_cloud",14513695.5177079
-4301,"NP-021797","C12 H22 O3",214.15693,215.16421,22.256,"mix","mz_cloud",4071947.66095895
-126,"NP-022229","C27 H43 N O3",429.32426,430.33153,18.285,"centrin","mz_cloud",226586548.314083
-353,"NP-022229","C27 H43 N O3",429.32427,430.33154,19.856,"digesterA","mz_cloud",74047294.7816883
-353,"NP-022229","C27 H43 N O3",429.32427,430.33154,19.856,"digesterB","mz_cloud",57906985.6430488
-126,"NP-022229","C27 H43 N O3",429.32426,430.33153,18.285,"digesterC","mz_cloud",315008238.803814
-126,"NP-022229","C27 H43 N O3",429.32426,430.33153,18.285,"digesterD","mz_cloud",314418125.83872
-126,"NP-022229","C27 H43 N O3",429.32426,430.33153,18.285,"feedpump","mz_cloud",195243893.238453
-126,"NP-022229","C27 H43 N O3",429.32426,430.33153,18.285,"newdry","mz_cloud",20410892.3639503
-126,"NP-022229","C27 H43 N O3",429.32426,430.33153,18.285,"olddry","mz_cloud",35106693.442982
-4341,"NP-022474","C16 H24 O3",264.17244,265.17972,18.335,"control","mz_cloud",6407468.92908061
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"centrin","mz_cloud",72920336.0317188
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"digesterA","mz_cloud",838747.955138149
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"digesterB","mz_cloud",4681049.94445969
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"digesterC","mz_cloud",52629195.9567447
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"digesterD","mz_cloud",183025348.458601
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"feedpump","mz_cloud",459383805.698574
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"newdry","mz_cloud",26614215.8904217
-42,"Nonyltrimethylammonium","C12 H27 N",185.21444,186.22172,20.584,"olddry","mz_cloud",4336007.0366907
-1256,"Nootkatone","C15 H22 O",218.16706,219.17434,17.868,"centrin","mz_cloud",2990813.173844
-1665,"Nootkatone","C15 H22 O",218.16704,219.17432,20.29,"control","mz_cloud",15267461.8611705
-2839,"Nootkatone","C15 H22 O",218.16708,219.17436,18.68,"digesterA","mz_cloud",6602604.37303627
-2496,"Nootkatone","C15 H22 O",218.16706,219.17434,19.845,"digesterB","mz_cloud",4863469.62521348
-1256,"Nootkatone","C15 H22 O",218.16706,219.17434,17.868,"digesterC","mz_cloud",6573686.75958333
-1665,"Nootkatone","C15 H22 O",218.16704,219.17432,20.29,"feedpump","mz_cloud",10387316.9006749
-1701,"Nootkatone","C15 H22 O",218.16707,219.17434,20.011,"mix","mz_cloud",14316083.5254604
-1665,"Nootkatone","C15 H22 O",218.16704,219.17432,20.29,"newdry","mz_cloud",5625622.3848872
-2890,"Nootkatone","C15 H22 O",218.16704,219.17431,15.201,"olddry","mz_cloud",13329293.1346475
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"centrin","mz_cloud",8470541.24187539
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"digesterA","mz_cloud",17202009.1873742
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"digesterB","mz_cloud",13094126.8098422
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"digesterC","mz_cloud",17507727.8657215
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"digesterD","mz_cloud",14645173.4183137
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"feedpump","mz_cloud",10634406.6701512
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"mix","mz_cloud",8115747.41059187
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"newdry","mz_cloud",54346666.3040633
-1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",304.14988,305.15715,1.304,"olddry","mz_cloud",6161844.27771394
-20,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28254,348.28982,19.049,"centrin","mz_cloud",1619887080.4696
-400,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28246,348.28974,18.491,"control","mz_cloud",131508603.773911
-12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28245,348.28973,20.424,"digesterA","mz_cloud",45542252.6023985
-12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28245,348.28973,20.424,"digesterB","mz_cloud",40079917.9929385
-500,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28255,348.28983,19.461,"digesterC","mz_cloud",47205909.2578667
-12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28245,348.28973,20.424,"digesterD","mz_cloud",2962962253.5367
-12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28245,348.28973,20.424,"feedpump","mz_cloud",2328127.61793447
-12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28245,348.28973,20.424,"mix","mz_cloud",97753638.7680639
-500,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28255,348.28983,19.461,"newdry","mz_cloud",107608477.124789
-12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",347.28245,348.28973,20.424,"olddry","mz_cloud",5354082.03235003
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"centrin","mz_cloud",241774735.305771
-408,"Octadecanamine","C18 H39 N",269.30824,270.31551,18.803,"control","mz_cloud",130027996.848642
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"digesterA","mz_cloud",63752606.7100351
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"digesterB","mz_cloud",51762725.5825095
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"digesterC","mz_cloud",451247712.928046
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"digesterD","mz_cloud",829132827.679328
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"feedpump","mz_cloud",959640454.326645
-29,"Octadecanamine","C18 H39 N",269.30819,270.31546,20.506,"mix","mz_cloud",1775596.38297247
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"newdry","mz_cloud",387512329.981707
-22,"Octadecanamine","C18 H39 N",269.30822,270.31549,21.78,"olddry","mz_cloud",209883884.985924
-880,"Oleoyl ethanolamide","C20 H39 N O2",325.2983,326.30558,23.267,"centrin","mz_cloud",6386211.91930844
-880,"Oleoyl ethanolamide","C20 H39 N O2",325.2983,326.30558,23.267,"digesterC","mz_cloud",7321442.87083002
-3977,"Oleoyl ethanolamide","C20 H39 N O2",325.29828,326.30556,23.415,"digesterD","mz_cloud",8816913.80080809
-880,"Oleoyl ethanolamide","C20 H39 N O2",325.2983,326.30558,23.267,"feedpump","mz_cloud",36864555.3576013
-880,"Oleoyl ethanolamide","C20 H39 N O2",325.2983,326.30558,23.267,"newdry","mz_cloud",7427251.1498314
-880,"Oleoyl ethanolamide","C20 H39 N O2",325.2983,326.30558,23.267,"olddry","mz_cloud",8511431.89864124
-4274,"Oxyphenonium","C21 H33 N O3",347.24621,348.25349,21.821,"feedpump","mz_cloud",6694418.27057332
-4274,"Oxyphenonium","C21 H33 N O3",347.24621,348.25349,21.821,"newdry","mz_cloud",5624519.27739329
-2397,"PEG Monolaurate n5","C22 H44 O7",420.30875,443.29796,22.257,"centrin","mz_cloud",15185990.4941438
-2397,"PEG Monolaurate n5","C22 H44 O7",420.30875,443.29796,22.257,"digesterD","mz_cloud",19991013.9836932
-699,"PEG Monolaurate n5","C22 H44 O7",420.30871,443.2979,22.45,"feedpump","mz_cloud",69223684.8817406
-699,"PEG Monolaurate n5","C22 H44 O7",420.30871,443.2979,22.45,"newdry","mz_cloud",14250508.7467787
-2312,"PEG Monolaurate n6","C24 H48 O8",464.33488,465.34215,22.471,"feedpump","mz_cloud",17985868.4923827
-2312,"PEG Monolaurate n6","C24 H48 O8",464.33488,465.34215,22.471,"newdry","mz_cloud",4768882.83814282
-2613,"PEG n8","C16 H34 O9",370.22032,371.22759,10.415,"digesterD","mz_cloud",14795973.36914
-2613,"PEG n8","C16 H34 O9",370.22032,371.22759,10.415,"newdry","mz_cloud",11925618.9934258
-99,"PPG n10","C30 H62 O11",598.42955,621.41873,19.603,"centrin","mz_cloud",186915063.249928
-99,"PPG n10","C30 H62 O11",598.42955,621.41873,19.603,"digesterA","mz_cloud",178674817.472968
-99,"PPG n10","C30 H62 O11",598.42955,621.41873,19.603,"digesterB","mz_cloud",300811506.379024
-99,"PPG n10","C30 H62 O11",598.42955,621.41873,19.603,"digesterC","mz_cloud",231720058.788669
-99,"PPG n10","C30 H62 O11",598.42955,621.41873,19.603,"digesterD","mz_cloud",165823800.595165
-99,"PPG n10","C30 H62 O11",598.42955,621.41873,19.603,"newdry","mz_cloud",151954820.662662
-50,"PPG n7","C21 H44 O8",424.30366,447.29286,17.137,"centrin","mz_cloud",305656477.665892
-50,"PPG n7","C21 H44 O8",424.30366,447.29286,17.137,"digesterA","mz_cloud",344551821.118234
-50,"PPG n7","C21 H44 O8",424.30366,447.29286,17.137,"digesterB","mz_cloud",343513216.921893
-50,"PPG n7","C21 H44 O8",424.30366,447.29286,17.137,"digesterC","mz_cloud",349224600.300531
-50,"PPG n7","C21 H44 O8",424.30366,447.29286,17.137,"digesterD","mz_cloud",269911145.684966
-50,"PPG n7","C21 H44 O8",424.30366,447.29286,17.137,"feedpump","mz_cloud",160332704.177642
-50,"PPG n7","C21 H44 O8",424.30366,447.29286,17.137,"newdry","mz_cloud",116194587.805163
-236,"PPG n8","C24 H50 O9",482.34544,505.33466,17.771,"centrin","mz_cloud",114427953.084111
-290,"PPG n8","C24 H50 O9",482.34548,483.35277,18.223,"digesterA","mz_cloud",106397979.651495
-290,"PPG n8","C24 H50 O9",482.34548,483.35277,18.223,"digesterB","mz_cloud",118026473.827533
-236,"PPG n8","C24 H50 O9",482.34544,505.33466,17.771,"digesterC","mz_cloud",53061897.9843139
-236,"PPG n8","C24 H50 O9",482.34544,505.33466,17.771,"digesterD","mz_cloud",61825269.0532746
-290,"PPG n8","C24 H50 O9",482.34548,483.35277,18.223,"feedpump","mz_cloud",17434021.2264781
-290,"PPG n8","C24 H50 O9",482.34548,483.35277,18.223,"newdry","mz_cloud",36105911.0650089
-236,"PPG n8","C24 H50 O9",482.34544,505.33466,17.771,"olddry","mz_cloud",34813383.0249909
-87,"PPG n9","C27 H56 O10",540.38734,563.37659,19.014,"centrin","mz_cloud",199411528.491522
-87,"PPG n9","C27 H56 O10",540.38734,563.37659,19.014,"digesterA","mz_cloud",134100424.415195
-87,"PPG n9","C27 H56 O10",540.38734,563.37659,19.014,"digesterB","mz_cloud",118590694.458956
-77,"PPG n9","C27 H56 O10",540.38733,541.39456,18.12,"digesterC","mz_cloud",215285997.814926
-77,"PPG n9","C27 H56 O10",540.38733,541.39456,18.12,"digesterD","mz_cloud",153030478.371524
-502,"PPG n9","C27 H56 O10",540.38739,563.37664,19.545,"feedpump","mz_cloud",70297084.9664813
-2700,"Palmitelaidic acid methyl ester","C17 H32 O2",268.24023,269.24749,21.587,"centrin","mz_cloud",16975758.8574957
-3277,"Palmitelaidic acid methyl ester","C17 H32 O2",268.24022,269.2475,22.652,"digesterD","mz_cloud",5052742.45585812
-2700,"Palmitelaidic acid methyl ester","C17 H32 O2",268.24023,269.24749,21.587,"feedpump","mz_cloud",9091682.82352242
-4567,"Palmitelaidic acid methyl ester","C17 H32 O2",268.2402,269.24748,22.993,"newdry","mz_cloud",5690649.15720312
-3964,"Palmitoylcarnitine","C23 H45 N O4",399.33488,400.34216,21.807,"centrin","mz_cloud",2633506.64862624
-3964,"Palmitoylcarnitine","C23 H45 N O4",399.33488,400.34216,21.807,"digesterB","mz_cloud",6545418.03512428
-3964,"Palmitoylcarnitine","C23 H45 N O4",399.33488,400.34216,21.807,"digesterC","mz_cloud",3932743.70305958
-4582,"Palmitoylcarnitine","C23 H45 N O4",399.33487,400.34215,21.909,"feedpump","mz_cloud",5359834.17428119
-3964,"Palmitoylcarnitine","C23 H45 N O4",399.33488,400.34216,21.807,"newdry","mz_cloud",3165020.47591206
-3964,"Palmitoylcarnitine","C23 H45 N O4",399.33488,400.34216,21.807,"olddry","mz_cloud",5443907.33607058
-2445,"Poly THF n5","C20 H42 O6",378.29807,401.28729,20.519,"mix","mz_cloud",19556294.833109
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"centrin","mz_cloud",36084099.1741461
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"digesterA","mz_cloud",20633499.9092972
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"digesterB","mz_cloud",22659775.320603
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"digesterC","mz_cloud",25174583.7972964
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"digesterD","mz_cloud",28665458.0995076
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"feedpump","mz_cloud",261369550.388016
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"newdry","mz_cloud",31693436.0151707
-119,"Poly THF n7","C28 H58 O8",522.41314,545.40231,23.717,"olddry","mz_cloud",19803553.1124571
-52,"Poly THF n8","C32 H66 O9",594.47101,617.46019,23.916,"centrin","mz_cloud",606637807.313608
-52,"Poly THF n8","C32 H66 O9",594.47101,617.46019,23.916,"digesterA","mz_cloud",192722344.731209
-52,"Poly THF n8","C32 H66 O9",594.47101,617.46019,23.916,"digesterD","mz_cloud",669654193.384505
-52,"Poly THF n8","C32 H66 O9",594.47101,617.46019,23.916,"feedpump","mz_cloud",696026759.382352
-52,"Poly THF n8","C32 H66 O9",594.47101,617.46019,23.916,"newdry","mz_cloud",461530373.138274
-52,"Poly THF n8","C32 H66 O9",594.47101,617.46019,23.916,"olddry","mz_cloud",165977887.747708
-4224,"Propiconazole","C15 H17 Cl2 N3 O2",341.0699,342.07717,19.406,"olddry","mz_cloud",5077287.21218351
-2112,"Psychosine","C24 H47 N O7",461.33528,462.34256,21.369,"olddry","mz_cloud",18357476.3083428
-905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.2982,314.30547,21.211,"centrin","mz_cloud",8933939.80819364
-4417,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.29825,314.30553,21.44,"control","mz_cloud",2893632.67195042
-905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.2982,314.30547,21.211,"digesterA","mz_cloud",35557823.7353529
-905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.2982,314.30547,21.211,"digesterB","mz_cloud",56025935.4215749
-1745,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.29827,314.30554,21.571,"digesterC","mz_cloud",9474735.307061
-1745,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.29827,314.30554,21.571,"digesterD","mz_cloud",10426322.3904278
-1172,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.2982,314.30547,21.95,"feedpump","mz_cloud",29482464.8706956
-4417,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.29825,314.30553,21.44,"mix","mz_cloud",3779875.61469161
-905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.2982,314.30547,21.211,"newdry","mz_cloud",13567055.1268819
-905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",313.2982,314.30547,21.211,"olddry","mz_cloud",28604169.37592
-1800,"Resmethrin","C22 H26 O3",338.18827,339.19555,16.051,"newdry","mz_cloud",15681044.5730288
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"centrin","mz_cloud",24522686.2088541
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"digesterA","mz_cloud",57090194.970729
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"digesterB","mz_cloud",53496851.8824661
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"digesterC","mz_cloud",43152335.9471646
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"digesterD","mz_cloud",34582695.228021
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"feedpump","mz_cloud",53271246.2146118
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"newdry","mz_cloud",93381279.4405188
-171,"Rhodamine 6G","C28 H30 N2 O3",442.22565,443.23292,19.745,"olddry","mz_cloud",31501157.7176188
-231,"Skatole","C9 H9 N",131.07356,132.08084,15.184,"feedpump","mz_cloud",206897789.540326
-24,"Solanidine","C27 H43 N O",397.33444,398.34171,18.83,"centrin","mz_cloud",1209469911.00051
-37,"Solanidine","C27 H43 N O",397.33443,398.3417,19.588,"digesterA","mz_cloud",493293304.631131
-37,"Solanidine","C27 H43 N O",397.33443,398.3417,19.588,"digesterB","mz_cloud",585509344.533757
-24,"Solanidine","C27 H43 N O",397.33444,398.34171,18.83,"digesterC","mz_cloud",1278517587.98436
-24,"Solanidine","C27 H43 N O",397.33444,398.34171,18.83,"digesterD","mz_cloud",717321336.884848
-24,"Solanidine","C27 H43 N O",397.33444,398.34171,18.83,"feedpump","mz_cloud",92026564.0153614
-24,"Solanidine","C27 H43 N O",397.33444,398.34171,18.83,"newdry","mz_cloud",529399146.410631
-24,"Solanidine","C27 H43 N O",397.33444,398.34171,18.83,"olddry","mz_cloud",321464248.278785
-3801,"Spiroxamine","C18 H35 N O2",297.26706,298.27434,21.024,"centrin","mz_cloud",5699481.53541281
-3017,"Spiroxamine","C18 H35 N O2",297.26696,298.27424,19.557,"digesterC","mz_cloud",14282351.582444
-3017,"Spiroxamine","C18 H35 N O2",297.26696,298.27424,19.557,"digesterD","mz_cloud",10955857.8095003
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"centrin","mz_cloud",429443699.159988
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"control","mz_cloud",220432476.22268
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"digesterA","mz_cloud",623422650.58523
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"digesterB","mz_cloud",429698854.933176
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"digesterC","mz_cloud",166456228.212167
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"digesterD","mz_cloud",302423234.140599
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"feedpump","mz_cloud",479674936.481254
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"mix","mz_cloud",523611089.32959
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"newdry","mz_cloud",317461376.404667
-53,"Stearamide","C18 H37 N O",283.28751,284.29477,24.213,"olddry","mz_cloud",452272257.573359
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"centrin","mz_cloud",180716584.24095
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"control","mz_cloud",3445931.86575755
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"digesterA","mz_cloud",247684653.867999
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"digesterB","mz_cloud",218750037.196106
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"digesterC","mz_cloud",148510532.84103
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"digesterD","mz_cloud",206102853.056596
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"feedpump","mz_cloud",198029402.161765
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"mix","mz_cloud",3002161.16532319
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"newdry","mz_cloud",180112048.956843
-187,"Stearoyl ethanolamide","C20 H41 N O2",327.31384,328.32112,22.312,"olddry","mz_cloud",93037920.2461972
-5408,"Tebuconazole","C16 H22 Cl N3 O",307.14524,308.15252,18.659,"newdry","mz_cloud",888646.679720715
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"centrin","mz_cloud",86674089.6967455
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"digesterA","mz_cloud",47042821.8388639
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"digesterB","mz_cloud",951178.927417007
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"digesterC","mz_cloud",84692168.6312215
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"digesterD","mz_cloud",81604572.7238465
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"feedpump","mz_cloud",7946226.96506754
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"newdry","mz_cloud",68679799.9018963
-207,"Tomatidine","C27 H45 N O2",415.34503,416.35231,20.117,"olddry","mz_cloud",11476384.8402914
-4159,"Tri-o-Cresyl phosphate","C21 H21 O4 P",368.11772,369.125,21.532,"centrin","mz_cloud",4315746.28323885
-4159,"Tri-o-Cresyl phosphate","C21 H21 O4 P",368.11772,369.125,21.532,"newdry","mz_cloud",7970076.21998704
-317,"Tridemorph","C19 H39 N O",297.30329,298.31057,20.549,"centrin","mz_cloud",2986382.35691507
-317,"Tridemorph","C19 H39 N O",297.30329,298.31057,20.549,"digesterA","mz_cloud",1704646.88041295
-317,"Tridemorph","C19 H39 N O",297.30329,298.31057,20.549,"digesterB","mz_cloud",5420268.42853774
-633,"Tridemorph","C19 H39 N O",297.30331,298.31058,19.721,"digesterC","mz_cloud",68416437.956813
-633,"Tridemorph","C19 H39 N O",297.30331,298.31058,19.721,"digesterD","mz_cloud",55023927.4898259
-703,"Tridemorph","C19 H39 N O",297.30326,298.31054,19.952,"feedpump","mz_cloud",54410645.5011619
-3412,"Tridemorph","C19 H39 N O",297.3033,298.31057,24.657,"mix","mz_cloud",10466183.8735932
-317,"Tridemorph","C19 H39 N O",297.30329,298.31057,20.549,"newdry","mz_cloud",3209857.1163453
-633,"Tridemorph","C19 H39 N O",297.30331,298.31058,19.721,"olddry","mz_cloud",73844217.4252212
-3471,"Triphenyl phosphate","C18 H15 O4 P",326.07102,327.0783,19.384,"centrin","mz_cloud",7133910.93570109
-3345,"Triphenyl phosphate","C18 H15 O4 P",326.07098,327.07828,21.011,"control","mz_cloud",12057218.4008097
-3471,"Triphenyl phosphate","C18 H15 O4 P",326.07102,327.0783,19.384,"digesterA","mz_cloud",5044899.14783814
-3471,"Triphenyl phosphate","C18 H15 O4 P",326.07102,327.0783,19.384,"digesterC","mz_cloud",3008568.15789341
-3471,"Triphenyl phosphate","C18 H15 O4 P",326.07102,327.0783,19.384,"digesterD","mz_cloud",4854719.56128558
-879,"Triphenyl phosphate","C18 H15 O4 P",326.07104,327.07831,19.988,"feedpump","mz_cloud",61217007.2016354
-3345,"Triphenyl phosphate","C18 H15 O4 P",326.07098,327.07828,21.011,"mix","mz_cloud",2423153.65100713
-5038,"Triphenyl phosphate","C18 H15 O4 P",326.071,327.07827,18.852,"newdry","mz_cloud",4069275.55494918
-3471,"Triphenyl phosphate","C18 H15 O4 P",326.07102,327.0783,19.384,"olddry","mz_cloud",10126633.9776915
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"centrin","mz_cloud",18444575.9028924
-1135,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24328,399.25055,21.637,"control","mz_cloud",48687460.7895361
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"digesterA","mz_cloud",34018598.3089911
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"digesterB","mz_cloud",39891686.166501
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"digesterC","mz_cloud",21948844.0065228
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"digesterD","mz_cloud",26486509.8325513
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"feedpump","mz_cloud",33997021.6767809
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"newdry","mz_cloud",28649729.248582
-1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",398.24336,399.25064,20.669,"olddry","mz_cloud",14512549.6696878
-2002,"Veratramine","C27 H39 N O2",409.29813,410.30541,18.766,"olddry","mz_cloud",25290318.571853
-117,"Xanthohumol","C21 H22 O5",354.14681,355.15408,20.884,"centrin","mz_cloud",2667273.39943425
-793,"Xanthohumol","C21 H22 O5",354.14686,355.15414,20.068,"digesterA","mz_cloud",25922843.2059315
-793,"Xanthohumol","C21 H22 O5",354.14686,355.15414,20.068,"digesterB","mz_cloud",23302524.8790001
-117,"Xanthohumol","C21 H22 O5",354.14681,355.15408,20.884,"digesterC","mz_cloud",3120809.81141209
-793,"Xanthohumol","C21 H22 O5",354.14686,355.15414,20.068,"digesterD","mz_cloud",34565158.3404246
-793,"Xanthohumol","C21 H22 O5",354.14686,355.15414,20.068,"feedpump","mz_cloud",2887531.88489639
-117,"Xanthohumol","C21 H22 O5",354.14681,355.15408,20.884,"newdry","mz_cloud",3396480.51913674
-117,"Xanthohumol","C21 H22 O5",354.14681,355.15408,20.884,"olddry","mz_cloud",3291536.15619938
-1166,"[(2R,2'S,4'aS,5'R,5''S,6'R,8'aS)-2'-(acetyloxy)-5''-(furan-3-yl)-6'-methyl-2'',8'-dioxo-octahydrodispiro[oxirane-2,1'-naphthalene-5',3''-oxolane]-8'a-yl]methyl acetate","C24 H28 O9",460.17312,483.16226,18.47,"centrin","mz_cloud",5313420.97666007
-1166,"[(2R,2'S,4'aS,5'R,5''S,6'R,8'aS)-2'-(acetyloxy)-5''-(furan-3-yl)-6'-methyl-2'',8'-dioxo-octahydrodispiro[oxirane-2,1'-naphthalene-5',3''-oxolane]-8'a-yl]methyl acetate","C24 H28 O9",460.17312,483.16226,18.47,"control","mz_cloud",26392749.5431512
-368,"[(2R,2'S,4'aS,5'R,5''S,6'R,8'aS)-2'-(acetyloxy)-5''-(furan-3-yl)-6'-methyl-2'',8'-dioxo-octahydrodispiro[oxirane-2,1'-naphthalene-5',3''-oxolane]-8'a-yl]methyl acetate","C24 H28 O9",460.17319,483.16237,19.337,"mix","mz_cloud",140383387.988145
-2119,"[3,2-c]Pyrazole-androst-4-en-17β-ol","C20 H28 N2 O",312.22029,313.22757,18.882,"control","mz_cloud",23478096.5441993
-4445,"[3,2-c]Pyrazole-androst-4-en-17β-ol","C20 H28 N2 O",312.22031,313.22759,22.091,"olddry","mz_cloud",6351274.69037825
-1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",181.01976,182.02704,10.351,"centrin","mz_cloud",16563319.014645
-1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",181.01976,182.02704,10.351,"digesterA","mz_cloud",30793643.3383039
-1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",181.01976,182.02704,10.351,"digesterC","mz_cloud",23070512.5210708
-1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",181.01976,182.02704,10.351,"digesterD","mz_cloud",17146534.4139087
-1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",181.01976,182.02704,10.351,"newdry","mz_cloud",24372673.9768977
-1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",181.01976,182.02704,10.351,"olddry","mz_cloud",15762824.0725472
-1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",296.27168,297.27895,23.148,"centrin","mz_cloud",9138635.85389894
-1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",296.27168,297.27895,23.148,"digesterD","mz_cloud",7067796.79067509
-1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",296.27168,297.27895,23.148,"feedpump","mz_cloud",49555439.2612973
-1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",296.27168,297.27895,23.148,"newdry","mz_cloud",3246447.97329461
-1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",296.27168,297.27895,23.148,"olddry","mz_cloud",7964041.54221981
-4205,"ethyl 1-[4-(tert-butyl)phenyl]-5-cyano-4-methyl-6-oxo-1,6-dihydropyridazine-3-carboxylate","C19 H21 N3 O3",339.15843,340.16571,22.367,"digesterB","mz_cloud",7774337.01417331
-545,"ethyl 3-amino-1-[6-(4-methylpiperidino)pyridazin-3-yl]-1H-pyrazole-4-carboxylate","C16 H22 N6 O2",330.18081,331.18809,19.591,"centrin","mz_cloud",5185685.3752627
-612,"ethyl 3-amino-1-[6-(4-methylpiperidino)pyridazin-3-yl]-1H-pyrazole-4-carboxylate","C16 H22 N6 O2",330.18089,331.18817,20.999,"control","mz_cloud",89910959.0607194
-545,"ethyl 3-amino-1-[6-(4-methylpiperidino)pyridazin-3-yl]-1H-pyrazole-4-carboxylate","C16 H22 N6 O2",330.18081,331.18809,19.591,"mix","mz_cloud",99034485.6165709
-1509,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",274.10274,275.11,18.963,"centrin","mz_cloud",35772031.6353367
-1533,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",274.10272,275.10999,19.05,"digesterA","mz_cloud",29639303.5535702
-1533,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",274.10272,275.10999,19.05,"digesterB","mz_cloud",18495626.3781958
-1478,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",274.10276,275.11004,18.167,"digesterC","mz_cloud",17796694.534088
-1478,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",274.10276,275.11004,18.167,"digesterD","mz_cloud",18527797.5641828
-1277,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",274.10274,275.11002,18.81,"newdry","mz_cloud",3489637.54409835
-1277,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",274.10274,275.11002,18.81,"olddry","mz_cloud",43343904.5151333
-1816,"{2-[(3S)-3-(1-Methyl-1H-benzimidazol-2-yl)-1-pyrrolidinyl]-2-oxoethoxy}acetic acid","C16 H19 N3 O4",317.1378,318.14507,16.306,"olddry","mz_cloud",16533864.420007
+"peak_number","name","formula","annot_delta_mass_ppm","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+3605,"(+)-ar-Turmerone","C15 H20 O",0,216.15141,217.15869,21.242,"feedpump","mz_cloud",873217.33215188
+3605,"(+)-ar-Turmerone","C15 H20 O",0,216.15141,217.15869,21.242,"newdry","mz_cloud",10255456.0496695
+3605,"(+)-ar-Turmerone","C15 H20 O",0,216.15141,217.15869,21.242,"olddry","mz_cloud",7593422.11600101
+3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",-0.04,258.16197,259.16925,21.51,"centrin","mz_cloud",9741451.66820529
+3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",-0.04,258.16197,259.16925,21.51,"feedpump","mz_cloud",8563350.28861379
+3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",-0.04,258.16197,259.16925,21.51,"newdry","mz_cloud",4350010.35425113
+3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",-0.04,258.16197,259.16925,21.51,"olddry","mz_cloud",4118610.38585115
+1421,"(+/-)5(6)-EET Ethanolamide","C22 H37 N O3",0.39,363.27748,364.28476,16.258,"centrin","mz_cloud",38243241.4375373
+2785,"(+/-)5(6)-EET Ethanolamide","C22 H37 N O3",0.38,363.27748,364.28476,18.3,"digesterC","mz_cloud",8416590.04692555
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"centrin","mz_cloud",21111772.4237733
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"digesterA","mz_cloud",19069672.0055596
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"digesterB","mz_cloud",61059061.5382219
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"digesterC","mz_cloud",32464428.8038197
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"digesterD","mz_cloud",24599430.3865108
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"feedpump","mz_cloud",9231694.2613766
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"newdry","mz_cloud",23460278.6632311
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"olddry","mz_cloud",23951595.51867
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"centrin","mz_cloud",13971997.4448367
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"digesterA","mz_cloud",22141052.2025619
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"digesterB","mz_cloud",30835057.0366575
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"digesterC","mz_cloud",20348904.4636025
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"digesterD","mz_cloud",24727384.4312155
+2801,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.04,454.34471,455.35199,20.905,"feedpump","mz_cloud",6681823.05070649
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"newdry","mz_cloud",27143164.5070127
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"olddry","mz_cloud",12765307.8119313
+3806,"(2E,4E)-N-(2-methylpropyl)deca-2,4-dienamide","C14 H25 N O",-0.01,223.19361,224.20089,22.709,"digesterA","mz_cloud",5806209.39323752
+3806,"(2E,4E)-N-(2-methylpropyl)deca-2,4-dienamide","C14 H25 N O",-0.01,223.19361,224.20089,22.709,"digesterC","mz_cloud",4317155.07788455
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"centrin","mz_cloud",8292410.99489305
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"digesterC","mz_cloud",5840109.44470923
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"digesterD","mz_cloud",27710677.0519574
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"feedpump","mz_cloud",11814541.3847212
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"newdry","mz_cloud",24042443.0956465
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"olddry","mz_cloud",36976733.3862024
+3593,"1,2,2,6,6-Pentamethyl-4-piperidyl methacrylate","C14 H25 N O2",-0.07,239.18851,240.19579,17.047,"feedpump","mz_cloud",6176373.85303154
+3593,"1,2,2,6,6-Pentamethyl-4-piperidyl methacrylate","C14 H25 N O2",-0.07,239.18851,240.19579,17.047,"olddry","mz_cloud",4939182.89038482
+900,"1,3-Diphenylacetone","C15 H14 O",-0.03,210.10446,211.11174,18.907,"centrin","mz_cloud",4663664.03930933
+900,"1,3-Diphenylacetone","C15 H14 O",-0.03,210.10446,211.11174,18.907,"digesterB","mz_cloud",3717512.33812122
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"centrin","mz_cloud",5565623.50404017
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"digesterB","mz_cloud",4000222.06520204
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"digesterC","mz_cloud",6920783.9299904
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"digesterD","mz_cloud",6348075.22314036
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"feedpump","mz_cloud",5798539.58803281
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"newdry","mz_cloud",6327135.62222432
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"olddry","mz_cloud",9691692.84607157
+4308,"1-(piperidinomethyl)-2-naphthol","C16 H19 N O",-0.01,241.14666,242.15395,17.163,"feedpump","mz_cloud",5990954.38046375
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"centrin","mz_cloud",1839763938.33376
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"digesterA","mz_cloud",1326748060.1014
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"digesterB","mz_cloud",858758696.277102
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"digesterC","mz_cloud",801452766.168362
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"digesterD","mz_cloud",861543088.232838
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"feedpump","mz_cloud",535216721.929229
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"newdry","mz_cloud",1155163547.89902
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"olddry","mz_cloud",1288523058.79443
+3355,"1-Linoleoyl glycerol","C21 H38 O4",0.31,354.27712,355.2844,21.439,"centrin","mz_cloud",9973285.31454504
+3355,"1-Linoleoyl glycerol","C21 H38 O4",0.31,354.27712,355.2844,21.439,"digesterA","mz_cloud",8373135.95314277
+3355,"1-Linoleoyl glycerol","C21 H38 O4",0.31,354.27712,355.2844,21.439,"digesterB","mz_cloud",8027384.49660938
+3355,"1-Linoleoyl glycerol","C21 H38 O4",0.31,354.27712,355.2844,21.439,"feedpump","mz_cloud",8375116.7068566
+3355,"1-Linoleoyl glycerol","C21 H38 O4",0.31,354.27712,355.2844,21.439,"newdry","mz_cloud",6201015.0822685
+3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",-0.1,231.12591,232.13318,17.823,"centrin","mz_cloud",849344.506826716
+3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",-0.1,231.12591,232.13318,17.823,"digesterB","mz_cloud",6104690.739974
+3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",-0.1,231.12591,232.13318,17.823,"digesterC","mz_cloud",738627.590199529
+3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",-0.1,231.12591,232.13318,17.823,"newdry","mz_cloud",6694790.46942359
+3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",-0.1,231.12591,232.13318,17.823,"olddry","mz_cloud",5787570.30615941
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"centrin","mz_cloud",540388448.055986
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"digesterA","mz_cloud",367585371.489878
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"digesterB","mz_cloud",188916499.085562
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"digesterC","mz_cloud",810972852.396949
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"digesterD","mz_cloud",914261734.381226
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"feedpump","mz_cloud",5821540267.14111
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"newdry","mz_cloud",635092750.302864
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"olddry","mz_cloud",207781914.622757
+3655,"1-ethyl-4-(2-phenylethynyl)piperidin-4-ol","C15 H19 N O",0,229.14666,230.15394,18.675,"feedpump","mz_cloud",8927155.50637613
+2075,"10-HDA","C10 H18 O3",0.14,186.12562,187.1329,22.379,"digesterB","mz_cloud",4439270.40153845
+2075,"10-HDA","C10 H18 O3",0.14,186.12562,187.1329,22.379,"feedpump","mz_cloud",9785873.27523394
+1696,"11(Z),14(Z),17(Z)-Eicosatrienoic acid","C20 H34 O2",0.66,306.25608,307.26332,24.022,"feedpump","mz_cloud",25410406.9010097
+3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",0.2,292.13113,293.13841,19.511,"centrin","mz_cloud",4883043.36582575
+3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",0.2,292.13113,293.13841,19.511,"digesterD","mz_cloud",3155523.99568371
+3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",0.2,292.13113,293.13841,19.511,"newdry","mz_cloud",5249775.7909185
+3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",0.2,292.13113,293.13841,19.511,"olddry","mz_cloud",5615110.53034103
+1159,"12-Oxo phytodienoic acid","C18 H28 O3",0.15,292.20389,293.21116,17.538,"centrin","mz_cloud",2037143.48256959
+1159,"12-Oxo phytodienoic acid","C18 H28 O3",0.15,292.20389,293.21116,17.538,"digesterB","mz_cloud",3379819.42817739
+3527,"12-Oxo phytodienoic acid","C18 H28 O3",0.01,292.20385,293.21112,18.199,"feedpump","mz_cloud",9791165.23868497
+1159,"12-Oxo phytodienoic acid","C18 H28 O3",0.15,292.20389,293.21116,17.538,"newdry","mz_cloud",37877932.8287268
+4150,"13(S)-HOTrE","C18 H30 O3",0.43,294.21962,295.2269,18.568,"feedpump","mz_cloud",7957450.46583698
+2975,"15-Crown-5","C10 H20 O5",0.22,220.13112,221.1384,14.254,"newdry","mz_cloud",14459475.000104
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"centrin","mz_cloud",8104976.71876887
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"digesterA","mz_cloud",7429872.552785
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"digesterB","mz_cloud",5872746.74811895
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"feedpump","mz_cloud",5460489.91007626
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"newdry","mz_cloud",5126778.97432413
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"olddry","mz_cloud",5087321.0393814
+757,"17α-Methyl-androstan-3-hydroxyimine-17β-ol","C20 H33 N O2",0.84,319.2514,320.25868,19.278,"digesterA","mz_cloud",72845219.5418495
+757,"17α-Methyl-androstan-3-hydroxyimine-17β-ol","C20 H33 N O2",0.84,319.2514,320.25868,19.278,"digesterB","mz_cloud",20088444.4166573
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"centrin","mz_cloud",19842517.738855
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"digesterA","mz_cloud",27917020.3763964
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"digesterB","mz_cloud",18288566.3766142
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"digesterC","mz_cloud",17233508.4094781
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"digesterD","mz_cloud",22249561.9570164
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"feedpump","mz_cloud",23148936.6617528
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"newdry","mz_cloud",10576121.6858293
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"olddry","mz_cloud",25235796.4120699
+3881,"2,5-Anhydro-4,6-dideoxy-6-{[(1-methyl-1H-pyrazol-4-yl)carbonyl]amino}-4-(4-phenyl-1-piperazinyl)-D-galactitol","C21 H29 N5 O4",-1.13,415.22148,416.22876,18.48,"centrin","mz_cloud",9275192.36691307
+4655,"2,5-Anhydro-4,6-dideoxy-6-{[(1-methyl-1H-pyrazol-4-yl)carbonyl]amino}-4-(4-phenyl-1-piperazinyl)-D-galactitol","C21 H29 N5 O4",-0.77,415.22164,416.22891,17.681,"digesterB","mz_cloud",5711250.29594947
+4545,"2,5-Anhydro-4,6-dideoxy-6-{[(1-methyl-1H-pyrazol-4-yl)carbonyl]amino}-4-(4-phenyl-1-piperazinyl)-D-galactitol","C21 H29 N5 O4",-1.21,415.22145,416.22873,17.805,"digesterC","mz_cloud",6121892.67144204
+4346,"2-(1,3-benzodioxol-5-yl)-7-ethylimidazo[1,2-a]pyridine","C16 H14 N2 O2",0.03,266.10554,267.11281,17.105,"digesterA","mz_cloud",4694601.11093566
+788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.43,297.26691,298.27418,22.225,"centrin","mz_cloud",3410550.20309703
+788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.43,297.26691,298.27418,22.225,"digesterC","mz_cloud",4138387.50214541
+788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.43,297.26691,298.27418,22.225,"digesterD","mz_cloud",4498194.54132718
+788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.43,297.26691,298.27418,22.225,"feedpump","mz_cloud",57532589.5672663
+1839,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.46,297.26692,298.27419,21.373,"newdry","mz_cloud",10759786.8335095
+788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.43,297.26691,298.27418,22.225,"olddry","mz_cloud",4985818.01715335
+2103,"2-Arachidonoyl glycerol","C23 H38 O4",0.03,378.27702,379.2843,22.307,"digesterD","mz_cloud",6613917.13419146
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"centrin","mz_cloud",39948401.817329
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"digesterA","mz_cloud",58723526.5126447
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"digesterB","mz_cloud",53616559.4411878
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"digesterC","mz_cloud",73648860.1256003
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"feedpump","mz_cloud",90585179.0245279
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"newdry","mz_cloud",30786808.4721785
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"olddry","mz_cloud",18654672.7791806
+239,"2-Hydroxybenzothiazole","C7 H5 N O S",0.31,151.00923,152.01651,12.502,"digesterA","mz_cloud",176288203.782019
+239,"2-Hydroxybenzothiazole","C7 H5 N O S",0.31,151.00923,152.01651,12.502,"digesterB","mz_cloud",34835677.4788354
+1586,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.81,315.20471,316.21199,6.611,"centrin","mz_cloud",23897510.4698943
+2489,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.7,315.20474,316.21202,1.274,"digesterA","mz_cloud",6863535.76801352
+1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.86,315.20469,316.21197,7.552,"digesterB","mz_cloud",46440617.1287272
+1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.86,315.20469,316.21197,7.552,"digesterD","mz_cloud",35156125.8081411
+1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.86,315.20469,316.21197,7.552,"feedpump","mz_cloud",14457767.4798825
+2489,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.7,315.20474,316.21202,1.274,"newdry","mz_cloud",16401152.913635
+1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.86,315.20469,316.21197,7.552,"olddry","mz_cloud",42659599.0849308
+2925,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-methoxy-1H-benzimidazole","C19 H27 N3 O",0.51,313.21557,314.22285,19.678,"digesterA","mz_cloud",15012205.9532436
+994,"2-benzylideneindan-1-one","C16 H12 O",-0.01,220.08881,221.09609,15.731,"centrin","mz_cloud",29467699.2676996
+4116,"25iP-NBOMe","C21 H29 N O3",0.24,343.21483,344.2221,21.436,"feedpump","mz_cloud",8181239.23845789
+2906,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",0.46,141.11543,142.12271,22.378,"digesterB","mz_cloud",2703263.98981794
+2979,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",0.41,141.11542,142.1227,10.459,"digesterD","mz_cloud",10493289.9597441
+2979,"3,3,5,5-Tetramethylpyrroline-N-oxide","C8 H15 N O",0.41,141.11542,142.1227,10.459,"feedpump","mz_cloud",14058583.168023
+2695,"3,5-Dimethyl-1-phenylpyrazole","C11 H12 N2",0.1,172.10007,173.10734,15.501,"digesterC","mz_cloud",16887406.2882005
+2695,"3,5-Dimethyl-1-phenylpyrazole","C11 H12 N2",0.1,172.10007,173.10734,15.501,"digesterD","mz_cloud",17061566.4168146
+477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",-0.05,234.16197,235.16925,19.669,"centrin","mz_cloud",111896015.151052
+477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",-0.05,234.16197,235.16925,19.669,"digesterB","mz_cloud",56838872.0039551
+912,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",-0.05,234.16197,235.16925,20.135,"feedpump","mz_cloud",44950835.8878688
+477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",-0.05,234.16197,235.16925,19.669,"olddry","mz_cloud",60906654.50444
+2211,"3-(3,4,5-trimethoxyphenyl)propanoic acid","C12 H16 O5",-0.02,240.09977,241.10704,22.649,"digesterB","mz_cloud",22185120.2307653
+2591,"3-Carboxymedetomidine","C13 H14 N2 O2",-0.02,230.10552,231.1128,15.042,"centrin","mz_cloud",11539419.7661062
+2591,"3-Carboxymedetomidine","C13 H14 N2 O2",-0.02,230.10552,231.1128,15.042,"digesterB","mz_cloud",10417170.5715813
+2591,"3-Carboxymedetomidine","C13 H14 N2 O2",-0.02,230.10552,231.1128,15.042,"olddry","mz_cloud",7641399.55280989
+2251,"3-Hydroxycyclobenzaprine","C20 H21 N O",0.13,291.16235,292.16965,12.719,"digesterA","mz_cloud",21013931.3470751
+1817,"3-Hydroxycyclobenzaprine","C20 H21 N O",0.24,291.16238,292.16966,17.331,"digesterB","mz_cloud",28932192.8613686
+4860,"3-[(2H-1,3-benzodioxol-5-yl)methyl]-4-[(3,4-dimethoxyphenyl)methyl]oxolan-2-one","C21 H22 O6",-0.02,370.14163,371.14891,19.368,"olddry","mz_cloud",2965509.67360398
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"centrin","mz_cloud",12823767.2315003
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"digesterC","mz_cloud",10306028.482012
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"digesterD","mz_cloud",6435971.37427644
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"feedpump","mz_cloud",51922416.4829675
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"newdry","mz_cloud",16049973.4404969
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"olddry","mz_cloud",15562035.1923221
+2897,"4'-Methyl-α-pyrrolidinopropiophenone","C14 H19 N O",-0.12,217.14664,218.15392,18.169,"feedpump","mz_cloud",15261263.0758244
+2514,"4,4'-Sulfonylbis[2-(prop-2-en-1-yl)phenol]","C18 H18 O4 S",-0.04,330.09257,331.09984,18.563,"olddry","mz_cloud",17417777.2667257
+2441,"4-Methoxy PV9","C19 H29 N O2",0.43,303.21996,304.22724,13.228,"digesterA","mz_cloud",19600677.8466393
+137,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",0.6,333.26698,334.27426,17.409,"centrin","mz_cloud",23747431.2667738
+1954,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",0.65,333.267,334.27427,19.006,"digesterA","mz_cloud",26369883.6816593
+146,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",0.63,333.26699,334.27426,15.514,"feedpump","mz_cloud",9836061.27087744
+146,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",0.63,333.26699,334.27426,15.514,"newdry","mz_cloud",12890915.4900963
+137,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",0.6,333.26698,334.27426,17.409,"olddry","mz_cloud",255856613.470628
+1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",1.09,300.18411,301.19119,17.56,"centrin","mz_cloud",502523.706349261
+1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",1.09,300.18411,301.19119,17.56,"digesterD","mz_cloud",479956.522757305
+1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",1.09,300.18411,301.19119,17.56,"newdry","mz_cloud",4023452.11516593
+1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",1.09,300.18411,301.19119,17.56,"olddry","mz_cloud",27116940.3084395
+3618,"4-amino-1-phenyl-6-(phenylimino)-1,2,5,6-tetrahydro-1,3,5-triazin-2-one","C15 H13 N5 O",0.21,279.11207,280.11934,16.097,"olddry","mz_cloud",9221559.57395578
+5104,"4-chloro-2-(1H-pyrazol-3-yl)phenol","C9 H7 Cl N2 O",1.14,194.02491,195.03219,21.753,"centrin","mz_cloud",3030204.56651156
+5104,"4-chloro-2-(1H-pyrazol-3-yl)phenol","C9 H7 Cl N2 O",1.14,194.02491,195.03219,21.753,"feedpump","mz_cloud",2577289.80523051
+3688,"4-hydroxy-1-phenyl-1,2-dihydroquinolin-2-one","C15 H11 N O2",0.02,237.07898,238.08626,17.895,"olddry","mz_cloud",7188610.76414287
+2737,"4-hydroxy-3-(3-methylbut-2-en-1-yl)benzoic acid","C12 H14 O3",-0.09,206.09428,207.10155,21.492,"olddry","mz_cloud",2362619.46418481
+4454,"4-{5-[(3R,4S,6R)-6-(Aminomethyl)-1-azabicyclo[2.2.2]oct-3-yl]-1-methyl-1H-pyrazol-3-yl}-N,N-dimethylaniline","C20 H29 N5",0.43,339.24244,340.24972,22.01,"centrin","mz_cloud",4100501.3872794
+4454,"4-{5-[(3R,4S,6R)-6-(Aminomethyl)-1-azabicyclo[2.2.2]oct-3-yl]-1-methyl-1H-pyrazol-3-yl}-N,N-dimethylaniline","C20 H29 N5",0.43,339.24244,340.24972,22.01,"feedpump","mz_cloud",6199180.42366361
+436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",0.16,383.2461,384.25338,22.476,"centrin","mz_cloud",3365942.57993632
+436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",0.16,383.2461,384.25338,22.476,"digesterC","mz_cloud",6154049.09596882
+436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",0.16,383.2461,384.25338,22.476,"feedpump","mz_cloud",12287812.4210255
+436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",0.16,383.2461,384.25338,22.476,"newdry","mz_cloud",6593121.87945964
+436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",0.16,383.2461,384.25338,22.476,"olddry","mz_cloud",6562968.56674359
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"centrin","mz_cloud",51137674.0070094
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"digesterA","mz_cloud",37148096.2120638
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"digesterB","mz_cloud",124094879.125635
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"digesterC","mz_cloud",50642115.9392146
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"digesterD","mz_cloud",182137220.722198
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"feedpump","mz_cloud",150347962.890677
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"newdry","mz_cloud",26062748.7887799
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"olddry","mz_cloud",150294793.086984
+2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",-2.86,279.07099,280.07826,18.246,"centrin","mz_cloud",11287603.3972046
+2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",-2.86,279.07099,280.07826,18.246,"digesterC","mz_cloud",16527065.5581043
+2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",-2.86,279.07099,280.07826,18.246,"digesterD","mz_cloud",13316311.9509149
+2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",-2.86,279.07099,280.07826,18.246,"newdry","mz_cloud",2248526.18468133
+2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",-2.86,279.07099,280.07826,18.246,"olddry","mz_cloud",15248028.7214797
+2766,"5-(tert-butyl)-2-methyl-N-(4-nitrophenyl)-3-furamide","C16 H18 N2 O4",0.55,302.12682,303.1341,12.959,"centrin","mz_cloud",7975312.84519056
+168,"5-Methoxyindole","C9 H9 N O",0.33,147.06846,148.07574,12.078,"feedpump","mz_cloud",266042586.807002
+791,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",0.44,299.19989,300.20717,18.309,"digesterD","mz_cloud",26983216.5882002
+791,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",0.44,299.19989,300.20717,18.309,"newdry","mz_cloud",9399538.32484575
+2549,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",0.15,299.19981,300.20708,17.135,"olddry","mz_cloud",18463767.6843619
+4982,"5-[5-(methoxycarbonyl)-5,8a-dimethyl-2-methylidene-decahydronaphthalen-1-yl]-3-methylpentanoic acid","C21 H34 O4",-0.18,350.24565,351.25292,21.364,"feedpump","mz_cloud",1493917.14500212
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"centrin","mz_cloud",4400676.29240015
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"digesterB","mz_cloud",46891720.6016268
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"digesterC","mz_cloud",12184489.5289434
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"digesterD","mz_cloud",6421137.93794329
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"newdry","mz_cloud",7782916.93351085
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"olddry","mz_cloud",8218896.58310507
+2688,"6-(7-methyloctyl)-1H,3H,4H,6H-furo[3,4-c]furan-1-one","C15 H24 O3",-0.08,252.17252,253.1798,17.62,"digesterD","mz_cloud",15232346.0269598
+3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",0.21,397.35568,398.36296,21.542,"digesterA","mz_cloud",4945654.91788521
+3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",0.21,397.35568,398.36296,21.542,"digesterB","mz_cloud",4555369.40774476
+3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",0.21,397.35568,398.36296,21.542,"digesterC","mz_cloud",7662369.20477431
+3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",0.21,397.35568,398.36296,21.542,"newdry","mz_cloud",7182594.1298857
+3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",0.21,397.35568,398.36296,21.542,"olddry","mz_cloud",6422605.84907438
+2307,"7-Hydroxycoumarine","C9 H6 O3",0.09,162.03171,163.03898,20.41,"centrin","mz_cloud",20964933.005631
+3556,"7-Hydroxycoumarine","C9 H6 O3",0,162.03169,163.03897,21.82,"digesterC","mz_cloud",5930872.10649596
+2307,"7-Hydroxycoumarine","C9 H6 O3",0.09,162.03171,163.03898,20.41,"feedpump","mz_cloud",2959168.88033441
+2307,"7-Hydroxycoumarine","C9 H6 O3",0.09,162.03171,163.03898,20.41,"olddry","mz_cloud",4175790.94085834
+5545,"7-chloro-4-piperidinoquinoline","C14 H15 Cl N2",-0.08,246.09236,247.09963,18.544,"newdry","mz_cloud",969135.83696119
+1420,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",0.14,292.20389,293.21116,19.534,"centrin","mz_cloud",7574092.44278284
+1056,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",0.18,292.2039,293.21117,19.648,"digesterC","mz_cloud",51818811.1254544
+1056,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",0.18,292.2039,293.21117,19.648,"digesterD","mz_cloud",17083207.8118732
+2529,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",0.05,292.20386,293.21114,20.115,"feedpump","mz_cloud",18597782.3263663
+1420,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",0.14,292.20389,293.21116,19.534,"newdry","mz_cloud",38255456.2842878
+2894,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",0.49,294.21964,295.22691,17.201,"centrin","mz_cloud",3199807.31318725
+1246,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",0.5,294.21964,295.22692,20.97,"digesterC","mz_cloud",2754055.65002561
+375,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",0.29,294.21958,295.22686,20.098,"feedpump","mz_cloud",68531315.4216382
+1541,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",0.7,294.2197,295.22698,21.161,"newdry","mz_cloud",7931965.57923636
+1703,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",0.23,277.14673,278.154,12.931,"centrin","mz_cloud",22371481.3166664
+1269,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",0.22,277.14673,278.154,17.766,"digesterA","mz_cloud",33028137.5187408
+1269,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",0.22,277.14673,278.154,17.766,"digesterB","mz_cloud",33905478.6178925
+1703,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",0.23,277.14673,278.154,12.931,"digesterC","mz_cloud",26269427.2788458
+1269,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",0.22,277.14673,278.154,17.766,"newdry","mz_cloud",26673365.7619483
+1309,"A-836339","C16 H26 N2 O2 S",2.57,310.1723,311.17957,21.307,"centrin","mz_cloud",41984754.9348923
+2583,"A-836339","C16 H26 N2 O2 S",2.58,310.1723,311.17957,21.163,"digesterC","mz_cloud",6305932.13170445
+2296,"A-836339","C16 H26 N2 O2 S",2.48,310.17227,311.17955,21.794,"feedpump","mz_cloud",7726692.9833177
+1309,"A-836339","C16 H26 N2 O2 S",2.57,310.1723,311.17957,21.307,"olddry","mz_cloud",4249892.11821461
+911,"Acetanilide","C8 H9 N O",0.44,135.06847,136.07575,10.927,"feedpump","mz_cloud",59427870.2699912
+4921,"Anandamide (AEA)","C22 H37 N O2",0.73,347.28268,348.28996,19.918,"digesterA","mz_cloud",1234226.58730759
+5230,"Arachidonoyl amide","C20 H33 N O",-0.21,303.25615,304.26343,22.766,"centrin","mz_cloud",3054551.31522276
+3384,"Arachidonoyl amide","C20 H33 N O",0.39,303.25633,304.26361,22.396,"feedpump","mz_cloud",10224649.1026309
+3995,"Benoxacor","C11 H11 Cl2 N O2",-3.74,259.01572,260.02299,11.667,"feedpump","mz_cloud",6335306.94970488
+949,"Benzenesulfonamide","C6 H7 N O2 S",0.13,157.01977,158.02705,15.096,"centrin","mz_cloud",7545070.00231713
+280,"Berberine","C20 H17 N O4",0.72,335.116,336.12327,14.448,"centrin","mz_cloud",80792699.1784094
+233,"Berberine","C20 H17 N O4",0.68,335.11599,336.12326,12.297,"digesterA","mz_cloud",47173012.3963251
+233,"Berberine","C20 H17 N O4",0.68,335.11599,336.12326,12.297,"digesterB","mz_cloud",65071872.1771085
+233,"Berberine","C20 H17 N O4",0.68,335.11599,336.12326,12.297,"feedpump","mz_cloud",81341717.153208
+233,"Berberine","C20 H17 N O4",0.68,335.11599,336.12326,12.297,"newdry","mz_cloud",116333097.102012
+233,"Berberine","C20 H17 N O4",0.68,335.11599,336.12326,12.297,"olddry","mz_cloud",186552959.713994
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"centrin","mz_cloud",1051721561.88166
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"digesterA","mz_cloud",206487729.047441
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"digesterB","mz_cloud",225845502.770015
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"digesterC","mz_cloud",1386858646.17744
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"digesterD","mz_cloud",1914569370.06768
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"feedpump","mz_cloud",7440771321.63603
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"newdry","mz_cloud",904519866.783522
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"olddry","mz_cloud",194794697.710469
+732,"Boldenone cypionate","C27 H38 O3",0.08,410.28213,411.2894,23.239,"olddry","mz_cloud",75121199.4071134
+2680,"Butyryl trihexyl citrate","C28 H50 O8",-4.75,514.34812,515.3554,23.147,"digesterA","mz_cloud",10574904.1016336
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"centrin","mz_cloud",9704857.49472721
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"digesterB","mz_cloud",2956951.57559372
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"digesterC","mz_cloud",18764119.3822028
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"digesterD","mz_cloud",12311823.580992
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"newdry","mz_cloud",18740795.5008875
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"olddry","mz_cloud",24026534.6835431
+909,"Cetaben","C23 H39 N O2",0.34,361.2982,362.30548,21.102,"newdry","mz_cloud",6077172.9785583
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"centrin","mz_cloud",980353335.610462
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"digesterA","mz_cloud",3005890456.14847
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"digesterB","mz_cloud",2275999860.90273
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"digesterC","mz_cloud",1414209613.9374
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"digesterD","mz_cloud",1481881179.15432
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"feedpump","mz_cloud",1207750875.351
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"newdry","mz_cloud",1680530684.85587
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"olddry","mz_cloud",2472758504.81078
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"centrin","mz_cloud",134729780.995623
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"digesterA","mz_cloud",180773360.365776
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"digesterB","mz_cloud",151058836.574126
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"digesterC","mz_cloud",223449411.322114
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"digesterD","mz_cloud",164661776.123074
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"feedpump","mz_cloud",54305825.9853762
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"newdry","mz_cloud",288896524.285214
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"olddry","mz_cloud",259781739.006265
+2228,"Clopidogrel carboxylic acid","C15 H14 Cl N O2 S",0.42,307.04351,308.05078,11.51,"centrin","mz_cloud",12526786.6913754
+2228,"Clopidogrel carboxylic acid","C15 H14 Cl N O2 S",0.42,307.04351,308.05078,11.51,"digesterA","mz_cloud",11208546.9164403
+2228,"Clopidogrel carboxylic acid","C15 H14 Cl N O2 S",0.42,307.04351,308.05078,11.51,"digesterC","mz_cloud",22001064.0502589
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"centrin","mz_cloud",16640062.3392194
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"digesterA","mz_cloud",26235407.989085
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"digesterB","mz_cloud",36546106.8709288
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"digesterC","mz_cloud",21498249.8869337
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"digesterD","mz_cloud",20630719.6143358
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"newdry","mz_cloud",17217084.1407488
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"olddry","mz_cloud",18269256.5720982
+3014,"Decanamide","C10 H21 N O",0.12,171.16233,172.16961,18.403,"centrin","mz_cloud",11254370.0288224
+3014,"Decanamide","C10 H21 N O",0.12,171.16233,172.16961,18.403,"digesterB","mz_cloud",6808099.48420983
+4626,"Decanamide","C10 H21 N O",0.11,171.16233,172.16961,17.649,"digesterC","mz_cloud",4167742.97781196
+4303,"Decanamide","C10 H21 N O",0.24,171.16236,172.16963,17.449,"digesterD","mz_cloud",7318044.05803596
+1239,"Decanamide","C10 H21 N O",0.3,171.16237,172.16964,19.236,"feedpump","mz_cloud",7827687.25548164
+3014,"Decanamide","C10 H21 N O",0.12,171.16233,172.16961,18.403,"olddry","mz_cloud",2830662.86088749
+4778,"Decanophenone","C16 H24 O",-0.06,232.1827,233.18998,19.617,"olddry","mz_cloud",5168198.65260164
+1340,"Desacetyl diltiazem","C20 H24 N2 O3 S",0.18,372.15083,373.15811,13.074,"centrin","mz_cloud",9294594.16026913
+1340,"Desacetyl diltiazem","C20 H24 N2 O3 S",0.18,372.15083,373.15811,13.074,"feedpump","mz_cloud",21465340.7528191
+1340,"Desacetyl diltiazem","C20 H24 N2 O3 S",0.18,372.15083,373.15811,13.074,"olddry","mz_cloud",36156780.0385052
+2356,"Detomidine","C12 H14 N2",0.05,186.11571,187.12298,16.328,"digesterB","mz_cloud",18200566.4688685
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"centrin","mz_cloud",6880782.37748459
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"digesterB","mz_cloud",4733411.27367627
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"digesterD","mz_cloud",6334740.565849
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"feedpump","mz_cloud",30627779.6414742
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"newdry","mz_cloud",6427268.21747023
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"olddry","mz_cloud",7262313.34566437
+2475,"Diclofensine","C17 H17 Cl2 N O",0.69,321.06894,322.07622,18.382,"centrin","mz_cloud",13773879.8205184
+2475,"Diclofensine","C17 H17 Cl2 N O",0.69,321.06894,322.07622,18.382,"digesterC","mz_cloud",16218978.7265605
+2475,"Diclofensine","C17 H17 Cl2 N O",0.69,321.06894,322.07622,18.382,"newdry","mz_cloud",578934.013147449
+1026,"Didecyl phthalate","C28 H46 O4",0.03,446.33962,447.3469,23.574,"centrin","mz_cloud",19015549.8059745
+1026,"Didecyl phthalate","C28 H46 O4",0.03,446.33962,447.3469,23.574,"digesterA","mz_cloud",35863046.3069629
+1026,"Didecyl phthalate","C28 H46 O4",0.03,446.33962,447.3469,23.574,"digesterB","mz_cloud",50946849.7727334
+1026,"Didecyl phthalate","C28 H46 O4",0.03,446.33962,447.3469,23.574,"digesterC","mz_cloud",14648837.0307257
+1026,"Didecyl phthalate","C28 H46 O4",0.03,446.33962,447.3469,23.574,"feedpump","mz_cloud",36031323.430626
+1026,"Didecyl phthalate","C28 H46 O4",0.03,446.33962,447.3469,23.574,"olddry","mz_cloud",16879811.9804771
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"centrin","mz_cloud",1022688877.01422
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"digesterA","mz_cloud",3110368604.07781
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"digesterB","mz_cloud",2098818778.87151
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"digesterC","mz_cloud",1660996758.30995
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"digesterD","mz_cloud",1900392862.61241
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"feedpump","mz_cloud",1819748635.23708
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"newdry","mz_cloud",2032744964.76562
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"olddry","mz_cloud",1905665569.13935
+1316,"Diethyl maleate","C8 H12 O4",0.03,172.07356,173.08084,10.02,"feedpump","mz_cloud",36167346.6906579
+4098,"Dihexylamine","C12 H27 N",0.06,185.21436,186.22164,19.863,"digesterA","mz_cloud",7137551.89228359
+4098,"Dihexylamine","C12 H27 N",0.06,185.21436,186.22164,19.863,"digesterB","mz_cloud",5018811.95469785
+1463,"Dihexylamine","C12 H27 N",0.13,185.21437,186.22165,16.073,"feedpump","mz_cloud",31247994.447704
+2719,"Dihexylamine","C12 H27 N",0.12,185.21437,186.22165,19.343,"newdry","mz_cloud",16807847.2900192
+2484,"Diisobutyl adipate","C14 H26 O4",-0.17,258.18307,259.19034,17.712,"centrin","mz_cloud",444593.302290399
+2484,"Diisobutyl adipate","C14 H26 O4",-0.17,258.18307,259.19034,17.712,"digesterA","mz_cloud",3296202.45879731
+4433,"Diisobutyl adipate","C14 H26 O4",-0.15,258.18307,259.19035,18.305,"feedpump","mz_cloud",6689302.74746297
+2484,"Diisobutyl adipate","C14 H26 O4",-0.17,258.18307,259.19034,17.712,"olddry","mz_cloud",2675370.17058922
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"centrin","mz_cloud",68496169.3394325
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"digesterA","mz_cloud",7485599.69316445
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"digesterB","mz_cloud",16288648.9687586
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"digesterC","mz_cloud",111231948.045308
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"digesterD","mz_cloud",144539565.169156
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"feedpump","mz_cloud",438475923.669576
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"newdry","mz_cloud",75822309.6916584
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"olddry","mz_cloud",22146626.3459655
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"centrin","mz_cloud",11220472.5702359
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"digesterA","mz_cloud",7632867.03818573
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"digesterB","mz_cloud",14971884.4571112
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"digesterC","mz_cloud",6501540.50109796
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"digesterD","mz_cloud",9755033.07735763
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"feedpump","mz_cloud",10760404.2446994
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"newdry","mz_cloud",18011688.5514225
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"olddry","mz_cloud",6363829.87259062
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"centrin","mz_cloud",682632830.285648
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"digesterA","mz_cloud",83010889.2660129
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"digesterB","mz_cloud",58365516.6027137
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"digesterC","mz_cloud",592003848.100091
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"digesterD","mz_cloud",1500612545.4877
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"feedpump","mz_cloud",1550790723.695
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"newdry","mz_cloud",409560374.345918
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"olddry","mz_cloud",97161455.1615884
+2454,"Dodine","C13 H29 N3",0.04,227.23616,228.24343,20.753,"centrin","mz_cloud",11345446.5850298
+2454,"Dodine","C13 H29 N3",0.04,227.23616,228.24343,20.753,"feedpump","mz_cloud",18787956.0911084
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"centrin","mz_cloud",9781803.73203254
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"digesterA","mz_cloud",9400755.57492357
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"digesterB","mz_cloud",11381766.5490185
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"digesterC","mz_cloud",11765621.2749628
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"feedpump","mz_cloud",30074918.5988956
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"newdry","mz_cloud",7933933.38114745
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"olddry","mz_cloud",5495555.89478598
+4206,"Esculetin","C9 H6 O4",0.01,178.02661,179.03389,20.071,"centrin","mz_cloud",4999919.96293798
+4206,"Esculetin","C9 H6 O4",0.01,178.02661,179.03389,20.071,"digesterA","mz_cloud",3198137.06596151
+4206,"Esculetin","C9 H6 O4",0.01,178.02661,179.03389,20.071,"digesterC","mz_cloud",4591154.12112491
+4206,"Esculetin","C9 H6 O4",0.01,178.02661,179.03389,20.071,"digesterD","mz_cloud",4117675.02240792
+4206,"Esculetin","C9 H6 O4",0.01,178.02661,179.03389,20.071,"newdry","mz_cloud",5036784.99326015
+1658,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",0.07,169.11029,170.11757,10.444,"digesterB","mz_cloud",16167422.200765
+1517,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",0.09,169.11029,170.11757,9.69,"digesterD","mz_cloud",34564181.7223632
+1658,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",0.07,169.11029,170.11757,10.444,"feedpump","mz_cloud",30390056.5092784
+1517,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",0.09,169.11029,170.11757,9.69,"newdry","mz_cloud",10919315.4326376
+1658,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",0.07,169.11029,170.11757,10.444,"olddry","mz_cloud",8587893.07895035
+3253,"Fenbendazole","C15 H13 N3 O2 S",0.43,299.07298,300.08025,17.857,"centrin","mz_cloud",6253549.659627
+4037,"Fenbendazole","C15 H13 N3 O2 S",0.42,299.07297,300.08025,18.478,"feedpump","mz_cloud",8552070.03465361
+4037,"Fenbendazole","C15 H13 N3 O2 S",0.42,299.07297,300.08025,18.478,"newdry","mz_cloud",910239.163707714
+3253,"Fenbendazole","C15 H13 N3 O2 S",0.43,299.07298,300.08025,17.857,"olddry","mz_cloud",12635427.412426
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"centrin","mz_cloud",38452574.5459104
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"digesterA","mz_cloud",112298419.476397
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"digesterB","mz_cloud",9359290.14851746
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"digesterC","mz_cloud",31701911.2962887
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"digesterD","mz_cloud",35456932.4256799
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"feedpump","mz_cloud",152728119.645423
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"newdry","mz_cloud",93499020.2115944
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"olddry","mz_cloud",12218617.468109
+3861,"Glycerophospho-N-palmitoyl ethanolamine","C21 H44 N O7 P",0.12,453.28559,454.29287,22.624,"digesterC","mz_cloud",2838670.09705764
+3861,"Glycerophospho-N-palmitoyl ethanolamine","C21 H44 N O7 P",0.12,453.28559,454.29287,22.624,"olddry","mz_cloud",6714928.86696703
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"centrin","mz_cloud",1785031008.45385
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"digesterA","mz_cloud",1751854272.54302
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"digesterB","mz_cloud",1246706427.71188
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"digesterC","mz_cloud",918056009.23637
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"digesterD","mz_cloud",1112739387.61586
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"feedpump","mz_cloud",1082677074.73676
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"newdry","mz_cloud",1368035911.09008
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"olddry","mz_cloud",1705590416.61955
+1431,"Indole-3-acetic acid","C10 H9 N O2",0.06,175.06334,176.07062,11.669,"feedpump","mz_cloud",30453502.5738397
+1431,"Indole-3-acetic acid","C10 H9 N O2",0.06,175.06334,176.07062,11.669,"newdry","mz_cloud",11879402.3906139
+57,"Indole-3-acrylic acid","C11 H9 N O2",0,187.06333,188.07061,6.774,"olddry","mz_cloud",49571363.0472328
+504,"Jervine","C27 H39 N O3",0.12,425.29304,426.30032,15.773,"olddry","mz_cloud",106483173.264906
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"centrin","mz_cloud",45357043.471286
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"digesterA","mz_cloud",48098207.8440294
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"digesterB","mz_cloud",32729646.4827518
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"digesterC","mz_cloud",39992383.8556093
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"digesterD","mz_cloud",23425874.3323721
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"feedpump","mz_cloud",51209037.6775516
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"newdry","mz_cloud",62902878.080748
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"olddry","mz_cloud",151591629.127307
+2125,"Linoleoyl ethanolamide","C20 H37 N O2",0.73,323.28267,324.28994,22.643,"feedpump","mz_cloud",19130710.4594671
+1882,"Meperidine-d5","C15 H16 [2]H5 N O2",-3.36,252.18776,253.19504,19.133,"centrin","mz_cloud",9352426.29789842
+2715,"Meperidine-d5","C15 H16 [2]H5 N O2",-3.48,252.18774,253.19501,18.537,"digesterD","mz_cloud",11917549.560062
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"centrin","mz_cloud",17029776.6585507
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"digesterA","mz_cloud",20914961.3742519
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"digesterB","mz_cloud",22977232.0558231
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"digesterC","mz_cloud",14056217.4699091
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"digesterD","mz_cloud",14597237.7629141
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"newdry","mz_cloud",63919180.3695657
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"olddry","mz_cloud",66050244.4989124
+1650,"Methyl 3,5-di-tert-butyl-4-hydroxybenzoate","C16 H24 O3",-0.11,264.17251,265.17979,20.459,"feedpump","mz_cloud",5926938.54289757
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"centrin","mz_cloud",29422941.1451188
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"digesterA","mz_cloud",6787918.17927042
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"digesterB","mz_cloud",3684671.89893156
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"digesterC","mz_cloud",36740636.9565282
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"digesterD","mz_cloud",34844919.6685015
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"feedpump","mz_cloud",136094168.257741
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"newdry","mz_cloud",54289781.2181866
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"olddry","mz_cloud",18624005.8521046
+3994,"N,N'-Dicyclohexylurea","C13 H24 N2 O",-0.08,224.18885,225.19612,17.214,"digesterA","mz_cloud",8725376.63471526
+574,"N,N-Diethyldodecanamide","C16 H33 N O",-0.14,255.25618,256.26346,19.808,"centrin","mz_cloud",9185102.9326399
+574,"N,N-Diethyldodecanamide","C16 H33 N O",-0.14,255.25618,256.26346,19.808,"digesterC","mz_cloud",10178600.440847
+574,"N,N-Diethyldodecanamide","C16 H33 N O",-0.14,255.25618,256.26346,19.808,"digesterD","mz_cloud",16723533.5950632
+574,"N,N-Diethyldodecanamide","C16 H33 N O",-0.14,255.25618,256.26346,19.808,"feedpump","mz_cloud",70892542.8898412
+574,"N,N-Diethyldodecanamide","C16 H33 N O",-0.14,255.25618,256.26346,19.808,"newdry","mz_cloud",11593658.6619944
+1677,"N,N-Dimethylsphingosine","C20 H41 N O2",0.61,327.31393,328.32121,21.908,"centrin","mz_cloud",4005291.02005722
+1677,"N,N-Dimethylsphingosine","C20 H41 N O2",0.61,327.31393,328.32121,21.908,"digesterA","mz_cloud",8679871.48895869
+1677,"N,N-Dimethylsphingosine","C20 H41 N O2",0.61,327.31393,328.32121,21.908,"digesterB","mz_cloud",7513821.47376718
+1677,"N,N-Dimethylsphingosine","C20 H41 N O2",0.61,327.31393,328.32121,21.908,"digesterC","mz_cloud",5826014.71427997
+1677,"N,N-Dimethylsphingosine","C20 H41 N O2",0.61,327.31393,328.32121,21.908,"feedpump","mz_cloud",17812156.4031381
+884,"N,N-Dimethylsphingosine","C20 H41 N O2",0.54,327.3139,328.32118,19.262,"newdry","mz_cloud",8484612.64068961
+884,"N,N-Dimethylsphingosine","C20 H41 N O2",0.54,327.3139,328.32118,19.262,"olddry","mz_cloud",60997364.1370384
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"centrin","mz_cloud",4422637.67466576
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"digesterA","mz_cloud",6946824.90898716
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"digesterB","mz_cloud",30599386.8233285
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"digesterC","mz_cloud",8141873.50853803
+2329,"N-Acetylsphingosine","C20 H39 N O3",0.38,341.29312,342.3004,23.013,"feedpump","mz_cloud",7979660.97306744
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"newdry","mz_cloud",3145408.78910674
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"olddry","mz_cloud",8200822.21023351
+1272,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.12,371.22094,372.22821,16.841,"centrin","mz_cloud",14890500.6989091
+1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.14,371.22094,372.22822,14.988,"digesterC","mz_cloud",9906380.01597275
+1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.14,371.22094,372.22822,14.988,"digesterD","mz_cloud",9752883.03769592
+1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.14,371.22094,372.22822,14.988,"feedpump","mz_cloud",13095913.1465041
+1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.14,371.22094,372.22822,14.988,"newdry","mz_cloud",11023655.8356566
+1272,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.12,371.22094,372.22821,16.841,"olddry","mz_cloud",40381522.874679
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"centrin","mz_cloud",40186531.0955067
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"digesterA","mz_cloud",87264816.0000814
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"digesterC","mz_cloud",30528192.6400935
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"digesterD","mz_cloud",38536700.9874324
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"feedpump","mz_cloud",37917367.5042869
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"newdry","mz_cloud",21881653.9646081
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"olddry","mz_cloud",60657144.3869932
+3578,"N-Desmethyl-loperamide","C28 H31 Cl N2 O2",-0.02,462.2074,463.21467,18.193,"newdry","mz_cloud",1427034.19189089
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"centrin","mz_cloud",171701373.258384
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"digesterA","mz_cloud",59130388.9477824
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"digesterB","mz_cloud",7475556.38553541
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"digesterC","mz_cloud",297613842.992911
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"digesterD","mz_cloud",538904423.154534
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"feedpump","mz_cloud",760909777.191936
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"newdry","mz_cloud",208312080.513966
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"olddry","mz_cloud",27534473.5863361
+4580,"N-Octyl-2-pyrrolidone","C12 H23 N O",-0.04,197.17796,198.18523,19.014,"digesterA","mz_cloud",5340270.91991526
+3588,"N-[1,1'-Biphenyl]-4-ylacetamide","C14 H13 N O",-0.16,211.09968,212.10696,16.944,"olddry","mz_cloud",9667018.52200409
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"centrin","mz_cloud",52973053.7772555
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"digesterA","mz_cloud",53521071.7986079
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"digesterB","mz_cloud",55107029.0314967
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"digesterC","mz_cloud",50356795.7327027
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"digesterD","mz_cloud",48961269.0276042
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"feedpump","mz_cloud",89212870.8604846
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"newdry","mz_cloud",49439887.6909234
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"olddry","mz_cloud",56235661.8836782
+2787,"N1-bicyclo[2.2.2]oct-2-ylbenzamide","C15 H19 N O",-0.04,229.14665,230.15393,19.085,"feedpump","mz_cloud",16108215.3462155
+3220,"NP-001928","C19 H18 O8",0.19,374.10024,375.10751,16.113,"feedpump","mz_cloud",12922890.9176102
+238,"NP-002954","C27 H39 N O3",0.06,425.29302,426.3003,18.384,"olddry","mz_cloud",201977104.784394
+2426,"NP-003692","C29 H46 O4",-0.07,458.33958,459.34685,22.405,"centrin","mz_cloud",13360391.1017626
+2426,"NP-003692","C29 H46 O4",-0.07,458.33958,459.34685,22.405,"digesterA","mz_cloud",18880459.6590352
+2426,"NP-003692","C29 H46 O4",-0.07,458.33958,459.34685,22.405,"digesterB","mz_cloud",17034104.3866727
+2426,"NP-003692","C29 H46 O4",-0.07,458.33958,459.34685,22.405,"digesterC","mz_cloud",15360750.926815
+2426,"NP-003692","C29 H46 O4",-0.07,458.33958,459.34685,22.405,"digesterD","mz_cloud",11997346.088789
+2426,"NP-003692","C29 H46 O4",-0.07,458.33958,459.34685,22.405,"newdry","mz_cloud",17247477.0919687
+214,"NP-005397","C18 H30 O6",-0.09,342.20421,365.1934,19.777,"feedpump","mz_cloud",18972965.4498477
+934,"NP-005982","C22 H34 O4",0.34,362.24583,363.25318,17.868,"centrin","mz_cloud",58034750.6803023
+2922,"NP-005982","C22 H34 O4",0.43,362.24587,363.25318,17.491,"digesterC","mz_cloud",15036197.2935963
+4104,"NP-005982","C22 H34 O4",0.35,362.24584,363.25314,17.406,"digesterD","mz_cloud",7999608.33461094
+3976,"NP-006888","C13 H24 O4",-0.01,244.16746,245.17473,16.502,"feedpump","mz_cloud",7292518.07460753
+1884,"NP-008095","C15 H24 O3",-0.09,252.17252,253.1798,18.446,"centrin","mz_cloud",15284959.1586301
+1884,"NP-008095","C15 H24 O3",-0.09,252.17252,253.1798,18.446,"digesterA","mz_cloud",21022307.4673145
+1884,"NP-008095","C15 H24 O3",-0.09,252.17252,253.1798,18.446,"digesterB","mz_cloud",16640837.055295
+1884,"NP-008095","C15 H24 O3",-0.09,252.17252,253.1798,18.446,"feedpump","mz_cloud",27604146.6724137
+1884,"NP-008095","C15 H24 O3",-0.09,252.17252,253.1798,18.446,"olddry","mz_cloud",2256175.37410528
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"centrin","mz_cloud",8291276.08736394
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"digesterA","mz_cloud",12087890.8906358
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"digesterB","mz_cloud",8230102.15707298
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"digesterC","mz_cloud",6290378.351469
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"digesterD","mz_cloud",7231870.16547309
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"feedpump","mz_cloud",11350323.1816743
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"newdry","mz_cloud",8068152.27669276
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"olddry","mz_cloud",8579446.49364457
+100,"NP-009800","C23 H36 O4",-0.12,376.26132,377.26859,18.788,"centrin","mz_cloud",409017610.011168
+100,"NP-009800","C23 H36 O4",-0.12,376.26132,377.26859,18.788,"digesterC","mz_cloud",8327705.04035906
+100,"NP-009800","C23 H36 O4",-0.12,376.26132,377.26859,18.788,"digesterD","mz_cloud",7560700.70656975
+100,"NP-009800","C23 H36 O4",-0.12,376.26132,377.26859,18.788,"newdry","mz_cloud",6152756.69370206
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"centrin","mz_cloud",6561040.51438983
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"digesterA","mz_cloud",8566388.00817174
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"digesterB","mz_cloud",12111595.0197114
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"digesterC","mz_cloud",6253841.5800241
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"digesterD","mz_cloud",5742240.46036836
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"feedpump","mz_cloud",9116641.74075656
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"newdry","mz_cloud",11048040.7954612
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"olddry","mz_cloud",16744927.8269592
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"centrin","mz_cloud",20481457.7581461
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"digesterA","mz_cloud",59739919.4343068
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"digesterB","mz_cloud",95031316.3091455
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"digesterC","mz_cloud",33588527.2238314
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"feedpump","mz_cloud",19847346.4285661
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"newdry","mz_cloud",27778321.1365842
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"olddry","mz_cloud",33488315.4750949
+2687,"NP-017176","C27 H40 O5",0.16,444.28765,445.29492,21.623,"digesterA","mz_cloud",17200424.3866892
+2462,"NP-017871","C40 H60 O15",0.46,780.39358,803.38281,16.865,"olddry","mz_cloud",14456517.7597396
+787,"NP-018817","C15 H24 O4",0.11,268.16749,269.17471,17.872,"feedpump","mz_cloud",7863915.54261962
+2472,"NP-020112","C30 H48 O2",0.08,440.36547,441.37274,23.287,"centrin","mz_cloud",5626248.45806659
+2252,"NP-020112","C30 H48 O2",-0.01,440.36542,441.3727,24.171,"digesterA","mz_cloud",6516178.99561956
+2472,"NP-020112","C30 H48 O2",0.08,440.36547,441.37274,23.287,"digesterB","mz_cloud",12301454.6301811
+2055,"NP-020112","C30 H48 O2",0,440.36543,441.37271,22.457,"digesterD","mz_cloud",11720067.6521005
+2055,"NP-020112","C30 H48 O2",0,440.36543,441.37271,22.457,"feedpump","mz_cloud",24473934.8504948
+2252,"NP-020112","C30 H48 O2",-0.01,440.36542,441.3727,24.171,"newdry","mz_cloud",5537510.70468774
+2472,"NP-020112","C30 H48 O2",0.08,440.36547,441.37274,23.287,"olddry","mz_cloud",7067710.26191608
+2983,"NP-020232","C25 H24 O7",0.06,436.15223,437.15951,19.014,"olddry","mz_cloud",14513695.5177079
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"centrin","mz_cloud",226586548.314083
+353,"NP-022229","C27 H43 N O3",-0.06,429.32427,430.33154,19.856,"digesterA","mz_cloud",74047294.7816883
+353,"NP-022229","C27 H43 N O3",-0.06,429.32427,430.33154,19.856,"digesterB","mz_cloud",57906985.6430488
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"digesterC","mz_cloud",315008238.803814
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"digesterD","mz_cloud",314418125.83872
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"feedpump","mz_cloud",195243893.238453
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"newdry","mz_cloud",20410892.3639503
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"olddry","mz_cloud",35106693.442982
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"centrin","mz_cloud",72920336.0317188
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"digesterA","mz_cloud",838747.955138149
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"digesterB","mz_cloud",4681049.94445969
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"digesterC","mz_cloud",52629195.9567447
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"digesterD","mz_cloud",183025348.458601
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"feedpump","mz_cloud",459383805.698574
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"newdry","mz_cloud",26614215.8904217
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"olddry","mz_cloud",4336007.0366907
+1256,"Nootkatone","C15 H22 O",0,218.16706,219.17434,17.868,"centrin","mz_cloud",2990813.173844
+2839,"Nootkatone","C15 H22 O",0.08,218.16708,219.17436,18.68,"digesterA","mz_cloud",6602604.37303627
+2496,"Nootkatone","C15 H22 O",-0.02,218.16706,219.17434,19.845,"digesterB","mz_cloud",4863469.62521348
+1256,"Nootkatone","C15 H22 O",0,218.16706,219.17434,17.868,"digesterC","mz_cloud",6573686.75958333
+1665,"Nootkatone","C15 H22 O",-0.12,218.16704,219.17432,20.29,"feedpump","mz_cloud",10387316.9006749
+1665,"Nootkatone","C15 H22 O",-0.12,218.16704,219.17432,20.29,"newdry","mz_cloud",5625622.3848872
+2890,"Nootkatone","C15 H22 O",-0.13,218.16704,219.17431,15.201,"olddry","mz_cloud",13329293.1346475
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"centrin","mz_cloud",8470541.24187539
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"digesterA","mz_cloud",17202009.1873742
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"digesterB","mz_cloud",13094126.8098422
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"digesterC","mz_cloud",17507727.8657215
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"digesterD","mz_cloud",14645173.4183137
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"feedpump","mz_cloud",10634406.6701512
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"newdry","mz_cloud",54346666.3040633
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"olddry","mz_cloud",6161844.27771394
+20,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.32,347.28254,348.28982,19.049,"centrin","mz_cloud",1619887080.4696
+12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.07,347.28245,348.28973,20.424,"digesterA","mz_cloud",45542252.6023985
+12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.07,347.28245,348.28973,20.424,"digesterB","mz_cloud",40079917.9929385
+500,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.35,347.28255,348.28983,19.461,"digesterC","mz_cloud",47205909.2578667
+12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.07,347.28245,348.28973,20.424,"digesterD","mz_cloud",2962962253.5367
+12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.07,347.28245,348.28973,20.424,"feedpump","mz_cloud",2328127.61793447
+500,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.35,347.28255,348.28983,19.461,"newdry","mz_cloud",107608477.124789
+12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.07,347.28245,348.28973,20.424,"olddry","mz_cloud",5354082.03235003
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"centrin","mz_cloud",241774735.305771
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"digesterA","mz_cloud",63752606.7100351
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"digesterB","mz_cloud",51762725.5825095
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"digesterC","mz_cloud",451247712.928046
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"digesterD","mz_cloud",829132827.679328
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"feedpump","mz_cloud",959640454.326645
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"newdry","mz_cloud",387512329.981707
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"olddry","mz_cloud",209883884.985924
+880,"Oleoyl ethanolamide","C20 H39 N O2",0.68,325.2983,326.30558,23.267,"centrin","mz_cloud",6386211.91930844
+880,"Oleoyl ethanolamide","C20 H39 N O2",0.68,325.2983,326.30558,23.267,"digesterC","mz_cloud",7321442.87083002
+3977,"Oleoyl ethanolamide","C20 H39 N O2",0.61,325.29828,326.30556,23.415,"digesterD","mz_cloud",8816913.80080809
+880,"Oleoyl ethanolamide","C20 H39 N O2",0.68,325.2983,326.30558,23.267,"feedpump","mz_cloud",36864555.3576013
+880,"Oleoyl ethanolamide","C20 H39 N O2",0.68,325.2983,326.30558,23.267,"newdry","mz_cloud",7427251.1498314
+880,"Oleoyl ethanolamide","C20 H39 N O2",0.68,325.2983,326.30558,23.267,"olddry","mz_cloud",8511431.89864124
+4274,"Oxyphenonium","C21 H33 N O3",0.48,347.24621,348.25349,21.821,"feedpump","mz_cloud",6694418.27057332
+4274,"Oxyphenonium","C21 H33 N O3",0.48,347.24621,348.25349,21.821,"newdry","mz_cloud",5624519.27739329
+2397,"PEG Monolaurate n5","C22 H44 O7",0.12,420.30875,443.29796,22.257,"centrin","mz_cloud",15185990.4941438
+2397,"PEG Monolaurate n5","C22 H44 O7",0.12,420.30875,443.29796,22.257,"digesterD","mz_cloud",19991013.9836932
+699,"PEG Monolaurate n5","C22 H44 O7",0.02,420.30871,443.2979,22.45,"feedpump","mz_cloud",69223684.8817406
+699,"PEG Monolaurate n5","C22 H44 O7",0.02,420.30871,443.2979,22.45,"newdry","mz_cloud",14250508.7467787
+2312,"PEG Monolaurate n6","C24 H48 O8",-0.07,464.33488,465.34215,22.471,"feedpump","mz_cloud",17985868.4923827
+2312,"PEG Monolaurate n6","C24 H48 O8",-0.07,464.33488,465.34215,22.471,"newdry","mz_cloud",4768882.83814282
+2613,"PEG n8","C16 H34 O9",0.09,370.22032,371.22759,10.415,"digesterD","mz_cloud",14795973.36914
+2613,"PEG n8","C16 H34 O9",0.09,370.22032,371.22759,10.415,"newdry","mz_cloud",11925618.9934258
+99,"PPG n10","C30 H62 O11",0.56,598.42955,621.41873,19.603,"centrin","mz_cloud",186915063.249928
+99,"PPG n10","C30 H62 O11",0.56,598.42955,621.41873,19.603,"digesterA","mz_cloud",178674817.472968
+99,"PPG n10","C30 H62 O11",0.56,598.42955,621.41873,19.603,"digesterB","mz_cloud",300811506.379024
+99,"PPG n10","C30 H62 O11",0.56,598.42955,621.41873,19.603,"digesterC","mz_cloud",231720058.788669
+99,"PPG n10","C30 H62 O11",0.56,598.42955,621.41873,19.603,"digesterD","mz_cloud",165823800.595165
+99,"PPG n10","C30 H62 O11",0.56,598.42955,621.41873,19.603,"newdry","mz_cloud",151954820.662662
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"centrin","mz_cloud",305656477.665892
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"digesterA","mz_cloud",344551821.118234
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"digesterB","mz_cloud",343513216.921893
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"digesterC","mz_cloud",349224600.300531
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"digesterD","mz_cloud",269911145.684966
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"feedpump","mz_cloud",160332704.177642
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"newdry","mz_cloud",116194587.805163
+236,"PPG n8","C24 H50 O9",-0.08,482.34544,505.33466,17.771,"centrin","mz_cloud",114427953.084111
+290,"PPG n8","C24 H50 O9",0,482.34548,483.35277,18.223,"digesterA","mz_cloud",106397979.651495
+290,"PPG n8","C24 H50 O9",0,482.34548,483.35277,18.223,"digesterB","mz_cloud",118026473.827533
+236,"PPG n8","C24 H50 O9",-0.08,482.34544,505.33466,17.771,"digesterC","mz_cloud",53061897.9843139
+236,"PPG n8","C24 H50 O9",-0.08,482.34544,505.33466,17.771,"digesterD","mz_cloud",61825269.0532746
+290,"PPG n8","C24 H50 O9",0,482.34548,483.35277,18.223,"feedpump","mz_cloud",17434021.2264781
+290,"PPG n8","C24 H50 O9",0,482.34548,483.35277,18.223,"newdry","mz_cloud",36105911.0650089
+236,"PPG n8","C24 H50 O9",-0.08,482.34544,505.33466,17.771,"olddry","mz_cloud",34813383.0249909
+87,"PPG n9","C27 H56 O10",-0.01,540.38734,563.37659,19.014,"centrin","mz_cloud",199411528.491522
+87,"PPG n9","C27 H56 O10",-0.01,540.38734,563.37659,19.014,"digesterA","mz_cloud",134100424.415195
+87,"PPG n9","C27 H56 O10",-0.01,540.38734,563.37659,19.014,"digesterB","mz_cloud",118590694.458956
+77,"PPG n9","C27 H56 O10",-0.03,540.38733,541.39456,18.12,"digesterC","mz_cloud",215285997.814926
+77,"PPG n9","C27 H56 O10",-0.03,540.38733,541.39456,18.12,"digesterD","mz_cloud",153030478.371524
+502,"PPG n9","C27 H56 O10",0.08,540.38739,563.37664,19.545,"feedpump","mz_cloud",70297084.9664813
+2700,"Palmitelaidic acid methyl ester","C17 H32 O2",-0.02,268.24023,269.24749,21.587,"centrin","mz_cloud",16975758.8574957
+3277,"Palmitelaidic acid methyl ester","C17 H32 O2",-0.02,268.24022,269.2475,22.652,"digesterD","mz_cloud",5052742.45585812
+2700,"Palmitelaidic acid methyl ester","C17 H32 O2",-0.02,268.24023,269.24749,21.587,"feedpump","mz_cloud",9091682.82352242
+4567,"Palmitelaidic acid methyl ester","C17 H32 O2",-0.09,268.2402,269.24748,22.993,"newdry","mz_cloud",5690649.15720312
+3964,"Palmitoylcarnitine","C23 H45 N O4",0.06,399.33488,400.34216,21.807,"centrin","mz_cloud",2633506.64862624
+3964,"Palmitoylcarnitine","C23 H45 N O4",0.06,399.33488,400.34216,21.807,"digesterB","mz_cloud",6545418.03512428
+3964,"Palmitoylcarnitine","C23 H45 N O4",0.06,399.33488,400.34216,21.807,"digesterC","mz_cloud",3932743.70305958
+4582,"Palmitoylcarnitine","C23 H45 N O4",0.04,399.33487,400.34215,21.909,"feedpump","mz_cloud",5359834.17428119
+3964,"Palmitoylcarnitine","C23 H45 N O4",0.06,399.33488,400.34216,21.807,"newdry","mz_cloud",3165020.47591206
+3964,"Palmitoylcarnitine","C23 H45 N O4",0.06,399.33488,400.34216,21.807,"olddry","mz_cloud",5443907.33607058
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"centrin","mz_cloud",36084099.1741461
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"digesterA","mz_cloud",20633499.9092972
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"digesterB","mz_cloud",22659775.320603
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"digesterC","mz_cloud",25174583.7972964
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"digesterD","mz_cloud",28665458.0995076
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"feedpump","mz_cloud",261369550.388016
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"newdry","mz_cloud",31693436.0151707
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"olddry","mz_cloud",19803553.1124571
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"centrin","mz_cloud",606637807.313608
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"digesterA","mz_cloud",192722344.731209
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"digesterD","mz_cloud",669654193.384505
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"feedpump","mz_cloud",696026759.382352
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"newdry","mz_cloud",461530373.138274
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"olddry","mz_cloud",165977887.747708
+4224,"Propiconazole","C15 H17 Cl2 N3 O2",0.34,341.0699,342.07717,19.406,"olddry","mz_cloud",5077287.21218351
+2112,"Psychosine","C24 H47 N O7",0.06,461.33528,462.34256,21.369,"olddry","mz_cloud",18357476.3083428
+905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.38,313.2982,314.30547,21.211,"centrin","mz_cloud",8933939.80819364
+905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.38,313.2982,314.30547,21.211,"digesterA","mz_cloud",35557823.7353529
+905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.38,313.2982,314.30547,21.211,"digesterB","mz_cloud",56025935.4215749
+1745,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.59,313.29827,314.30554,21.571,"digesterC","mz_cloud",9474735.307061
+1745,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.59,313.29827,314.30554,21.571,"digesterD","mz_cloud",10426322.3904278
+1172,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.37,313.2982,314.30547,21.95,"feedpump","mz_cloud",29482464.8706956
+905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.38,313.2982,314.30547,21.211,"newdry","mz_cloud",13567055.1268819
+905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.38,313.2982,314.30547,21.211,"olddry","mz_cloud",28604169.37592
+1800,"Resmethrin","C22 H26 O3",0.22,338.18827,339.19555,16.051,"newdry","mz_cloud",15681044.5730288
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"centrin","mz_cloud",24522686.2088541
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"digesterA","mz_cloud",57090194.970729
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"digesterB","mz_cloud",53496851.8824661
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"digesterC","mz_cloud",43152335.9471646
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"digesterD","mz_cloud",34582695.228021
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"feedpump","mz_cloud",53271246.2146118
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"newdry","mz_cloud",93381279.4405188
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"olddry","mz_cloud",31501157.7176188
+231,"Skatole","C9 H9 N",0.49,131.07356,132.08084,15.184,"feedpump","mz_cloud",206897789.540326
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"centrin","mz_cloud",1209469911.00051
+37,"Solanidine","C27 H43 N O",-0.09,397.33443,398.3417,19.588,"digesterA","mz_cloud",493293304.631131
+37,"Solanidine","C27 H43 N O",-0.09,397.33443,398.3417,19.588,"digesterB","mz_cloud",585509344.533757
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"digesterC","mz_cloud",1278517587.98436
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"digesterD","mz_cloud",717321336.884848
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"feedpump","mz_cloud",92026564.0153614
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"newdry","mz_cloud",529399146.410631
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"olddry","mz_cloud",321464248.278785
+3801,"Spiroxamine","C18 H35 N O2",0.95,297.26706,298.27434,21.024,"centrin","mz_cloud",5699481.53541281
+3017,"Spiroxamine","C18 H35 N O2",0.61,297.26696,298.27424,19.557,"digesterC","mz_cloud",14282351.582444
+3017,"Spiroxamine","C18 H35 N O2",0.61,297.26696,298.27424,19.557,"digesterD","mz_cloud",10955857.8095003
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"centrin","mz_cloud",429443699.159988
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"digesterA","mz_cloud",623422650.58523
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"digesterB","mz_cloud",429698854.933176
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"digesterC","mz_cloud",166456228.212167
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"digesterD","mz_cloud",302423234.140599
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"feedpump","mz_cloud",479674936.481254
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"newdry","mz_cloud",317461376.404667
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"olddry","mz_cloud",452272257.573359
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"centrin","mz_cloud",180716584.24095
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"digesterA","mz_cloud",247684653.867999
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"digesterB","mz_cloud",218750037.196106
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"digesterC","mz_cloud",148510532.84103
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"digesterD","mz_cloud",206102853.056596
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"feedpump","mz_cloud",198029402.161765
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"newdry","mz_cloud",180112048.956843
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"olddry","mz_cloud",93037920.2461972
+5408,"Tebuconazole","C16 H22 Cl N3 O",0.34,307.14524,308.15252,18.659,"newdry","mz_cloud",888646.679720715
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"centrin","mz_cloud",86674089.6967455
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"digesterA","mz_cloud",47042821.8388639
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"digesterB","mz_cloud",951178.927417007
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"digesterC","mz_cloud",84692168.6312215
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"digesterD","mz_cloud",81604572.7238465
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"feedpump","mz_cloud",7946226.96506754
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"newdry","mz_cloud",68679799.9018963
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"olddry","mz_cloud",11476384.8402914
+4159,"Tri-o-Cresyl phosphate","C21 H21 O4 P",-0.07,368.11772,369.125,21.532,"centrin","mz_cloud",4315746.28323885
+4159,"Tri-o-Cresyl phosphate","C21 H21 O4 P",-0.07,368.11772,369.125,21.532,"newdry","mz_cloud",7970076.21998704
+317,"Tridemorph","C19 H39 N O",0.42,297.30329,298.31057,20.549,"centrin","mz_cloud",2986382.35691507
+317,"Tridemorph","C19 H39 N O",0.42,297.30329,298.31057,20.549,"digesterA","mz_cloud",1704646.88041295
+317,"Tridemorph","C19 H39 N O",0.42,297.30329,298.31057,20.549,"digesterB","mz_cloud",5420268.42853774
+633,"Tridemorph","C19 H39 N O",0.47,297.30331,298.31058,19.721,"digesterC","mz_cloud",68416437.956813
+633,"Tridemorph","C19 H39 N O",0.47,297.30331,298.31058,19.721,"digesterD","mz_cloud",55023927.4898259
+703,"Tridemorph","C19 H39 N O",0.32,297.30326,298.31054,19.952,"feedpump","mz_cloud",54410645.5011619
+317,"Tridemorph","C19 H39 N O",0.42,297.30329,298.31057,20.549,"newdry","mz_cloud",3209857.1163453
+633,"Tridemorph","C19 H39 N O",0.47,297.30331,298.31058,19.721,"olddry","mz_cloud",73844217.4252212
+3471,"Triphenyl phosphate","C18 H15 O4 P",0.69,326.07102,327.0783,19.384,"centrin","mz_cloud",7133910.93570109
+3471,"Triphenyl phosphate","C18 H15 O4 P",0.69,326.07102,327.0783,19.384,"digesterA","mz_cloud",5044899.14783814
+3471,"Triphenyl phosphate","C18 H15 O4 P",0.69,326.07102,327.0783,19.384,"digesterC","mz_cloud",3008568.15789341
+3471,"Triphenyl phosphate","C18 H15 O4 P",0.69,326.07102,327.0783,19.384,"digesterD","mz_cloud",4854719.56128558
+879,"Triphenyl phosphate","C18 H15 O4 P",0.74,326.07104,327.07831,19.988,"feedpump","mz_cloud",61217007.2016354
+5038,"Triphenyl phosphate","C18 H15 O4 P",0.62,326.071,327.07827,18.852,"newdry","mz_cloud",4069275.55494918
+3471,"Triphenyl phosphate","C18 H15 O4 P",0.69,326.07102,327.0783,19.384,"olddry","mz_cloud",10126633.9776915
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"centrin","mz_cloud",18444575.9028924
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"digesterA","mz_cloud",34018598.3089911
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"digesterB","mz_cloud",39891686.166501
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"digesterC","mz_cloud",21948844.0065228
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"digesterD","mz_cloud",26486509.8325513
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"feedpump","mz_cloud",33997021.6767809
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"newdry","mz_cloud",28649729.248582
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"olddry","mz_cloud",14512549.6696878
+2002,"Veratramine","C27 H39 N O2",0.13,409.29813,410.30541,18.766,"olddry","mz_cloud",25290318.571853
+117,"Xanthohumol","C21 H22 O5",0.24,354.14681,355.15408,20.884,"centrin","mz_cloud",2667273.39943425
+793,"Xanthohumol","C21 H22 O5",0.4,354.14686,355.15414,20.068,"digesterA","mz_cloud",25922843.2059315
+793,"Xanthohumol","C21 H22 O5",0.4,354.14686,355.15414,20.068,"digesterB","mz_cloud",23302524.8790001
+117,"Xanthohumol","C21 H22 O5",0.24,354.14681,355.15408,20.884,"digesterC","mz_cloud",3120809.81141209
+793,"Xanthohumol","C21 H22 O5",0.4,354.14686,355.15414,20.068,"digesterD","mz_cloud",34565158.3404246
+793,"Xanthohumol","C21 H22 O5",0.4,354.14686,355.15414,20.068,"feedpump","mz_cloud",2887531.88489639
+117,"Xanthohumol","C21 H22 O5",0.24,354.14681,355.15408,20.884,"newdry","mz_cloud",3396480.51913674
+117,"Xanthohumol","C21 H22 O5",0.24,354.14681,355.15408,20.884,"olddry","mz_cloud",3291536.15619938
+1166,"[(2R,2'S,4'aS,5'R,5''S,6'R,8'aS)-2'-(acetyloxy)-5''-(furan-3-yl)-6'-methyl-2'',8'-dioxo-octahydrodispiro[oxirane-2,1'-naphthalene-5',3''-oxolane]-8'a-yl]methyl acetate","C24 H28 O9",-0.47,460.17312,483.16226,18.47,"centrin","mz_cloud",5313420.97666007
+4445,"[3,2-c]Pyrazole-androst-4-en-17β-ol","C20 H28 N2 O",0.48,312.22031,313.22759,22.091,"olddry","mz_cloud",6351274.69037825
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"centrin","mz_cloud",16563319.014645
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"digesterA","mz_cloud",30793643.3383039
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"digesterC","mz_cloud",23070512.5210708
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"digesterD","mz_cloud",17146534.4139087
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"newdry","mz_cloud",24372673.9768977
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"olddry","mz_cloud",15762824.0725472
+1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",0.49,296.27168,297.27895,23.148,"centrin","mz_cloud",9138635.85389894
+1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",0.49,296.27168,297.27895,23.148,"digesterD","mz_cloud",7067796.79067509
+1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",0.49,296.27168,297.27895,23.148,"feedpump","mz_cloud",49555439.2612973
+1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",0.49,296.27168,297.27895,23.148,"newdry","mz_cloud",3246447.97329461
+1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",0.49,296.27168,297.27895,23.148,"olddry","mz_cloud",7964041.54221981
+4205,"ethyl 1-[4-(tert-butyl)phenyl]-5-cyano-4-methyl-6-oxo-1,6-dihydropyridazine-3-carboxylate","C19 H21 N3 O3",0.42,339.15843,340.16571,22.367,"digesterB","mz_cloud",7774337.01417331
+545,"ethyl 3-amino-1-[6-(4-methylpiperidino)pyridazin-3-yl]-1H-pyrazole-4-carboxylate","C16 H22 N6 O2",1.18,330.18081,331.18809,19.591,"centrin","mz_cloud",5185685.3752627
+1509,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",-0.05,274.10274,275.11,18.963,"centrin","mz_cloud",35772031.6353367
+1533,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",-0.11,274.10272,275.10999,19.05,"digesterA","mz_cloud",29639303.5535702
+1533,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",-0.11,274.10272,275.10999,19.05,"digesterB","mz_cloud",18495626.3781958
+1478,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",0.05,274.10276,275.11004,18.167,"digesterC","mz_cloud",17796694.534088
+1478,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",0.05,274.10276,275.11004,18.167,"digesterD","mz_cloud",18527797.5641828
+1277,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",-0.03,274.10274,275.11002,18.81,"newdry","mz_cloud",3489637.54409835
+1277,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",-0.03,274.10274,275.11002,18.81,"olddry","mz_cloud",43343904.5151333
+1816,"{2-[(3S)-3-(1-Methyl-1H-benzimidazol-2-yl)-1-pyrrolidinyl]-2-oxoethoxy}acetic acid","C16 H19 N3 O4",0.76,317.1378,318.14507,16.306,"olddry","mz_cloud",16533864.420007

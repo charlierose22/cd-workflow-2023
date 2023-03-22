@@ -2,7 +2,7 @@ library(tidyverse)
 
 # import data
 Charlie_JAN26 <- readxl::read_excel(
-  "~/GitHub/cd_workflow_2023/Data/Charlie_KPS_26JAN_22.xlsx") %>% 
+  "Data/Charlie_KPS_26JAN_22.xlsx") %>% 
   janitor::clean_names()
 Thailand_15Feb_RAW <- readxl::read_excel(
   "Data/Thailand_15Feb_RAW.xlsx") %>% 
@@ -269,6 +269,9 @@ MZLonger3 <- MZCloud3 %>%
 MixRemoved1 <- MassListLonger1[!grepl('mix', MassListLonger1$sample_location),]
 MixRemoved2 <- MixRemoved1[!grepl('control', MixRemoved1$sample_location),]
 MassListLonger1 <- MixRemoved2
+MixRemovedMZ1 <- MZLonger1[!grepl('mix', MZLonger1$sample_location),]
+MixRemovedMZ2 <- MixRemovedMZ1[!grepl('control', MixRemovedMZ1$sample_location),]
+MZLonger1 <- MixRemovedMZ2
 
 # Filter for no matches, or invalid mass.
 FilteredMassList1 <- MassListLonger1[!grepl('No matches found', 
@@ -359,9 +362,9 @@ write.csv(MergeFilter3,
           "Results/Ordered_Mass_List_Kgato_MARCH.csv", row.names = FALSE)
 
 # duplicate tables so we can keep retention times
-RT1 <- MergeFilter1[, c("peak_number", "name", "formula", "calc_mw", "m_z", "rt_min", "sample_location")]
-RT2 <- MergeFilter2[, c("peak_number", "name", "formula", "calc_mw", "m_z", "rt_min", "sample_location")]
-RT3 <- MergeFilter3[, c("peak_number", "name", "formula", "calc_mw", "m_z", "rt_min", "sample_location")]
+RT1 <- MergeFilter1[, c("peak_number", "name", "formula", "annot_delta_mass_ppm", "calc_mw", "m_z", "rt_min", "sample_location")]
+RT2 <- MergeFilter2[, c("peak_number", "name", "formula", "annot_delta_mass_ppm", "calc_mw", "m_z", "rt_min", "sample_location")]
+RT3 <- MergeFilter3[, c("peak_number", "name", "formula", "annot_delta_mass_ppm", "calc_mw", "m_z", "rt_min", "sample_location")]
 
 write.csv(RT1, "Results/RT_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(RT2, "Results/RT_Thailand.csv", row.names = FALSE)
@@ -426,6 +429,22 @@ CorrectLocation3$location = NULL
 CorrectLocation3$matrix = NULL
 
 RT_Join3 <- CorrectLocation3
+
+# taking the joined tables, pivot wider so that each sample location is a different column header.
+Wider_Run1 <- pivot_wider(RT_Join1,
+                          names_from = sample_location,
+                          values_from = mean_area)
+Wider_Run2 <- pivot_wider(RT_Join2,
+                          names_from = sample_location,
+                          values_from = mean_area)
+Wider_Run3 <- pivot_wider(RT_Join3,
+                          names_from = sample_location,
+                          values_from = mean_area)
+
+# create a csv of filtered results.
+write.csv(Wider_Run1, "Results/Analysed_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(Wider_Run2, "Results/Analysed_Thailand.csv", row.names = FALSE)
+write.csv(Wider_Run3, "Results/Analysed_Kgato_MARCH.csv", row.names = FALSE)
 
 # Create a loop to produce a CSV for each group of mass_list_name entries
 MassListNames1 <- unique(RT_Join1$mass_list_name)

@@ -1,79 +1,79 @@
-"peak_number","name","formula","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
-327,"4-Epianhydrotetracycline","C22 H22 N2 O7",426.1427,427.14998,18.118,"digesterA","itn_kps",104837865.385354
-327,"4-Epianhydrotetracycline","C22 H22 N2 O7",426.1427,427.14998,18.118,"digesterB","itn_kps",109114161.969796
-814,"8-Hydroxychinolin","C9 H7 N O",145.05281,146.06009,11.007,"centrin","itn_kps",20767185.0303922
-814,"8-Hydroxychinolin","C9 H7 N O",145.05281,146.06009,11.007,"digesterC","itn_kps",20298698.331247
-814,"8-Hydroxychinolin","C9 H7 N O",145.05281,146.06009,11.007,"digesterD","itn_kps",45967437.3116095
-814,"8-Hydroxychinolin","C9 H7 N O",145.05281,146.06009,11.007,"feedpump","itn_kps",25016475.2618997
-814,"8-Hydroxychinolin","C9 H7 N O",145.05281,146.06009,11.007,"newdry","itn_kps",45688568.3151677
-814,"8-Hydroxychinolin","C9 H7 N O",145.05281,146.06009,11.007,"olddry","itn_kps",20131704.4238054
-2080,"Azithromycin","C38 H72 N2 O12",748.50868,749.51596,18.928,"newdry","itn_kps",3296588.12011236
-2575,"Cefrotil","C20 H22 N4 O4 S",414.13788,415.14515,13.291,"olddry","itn_kps",15064394.0537761
-625,"Ciprofloxacin","C17 H18 F N3 O3",331.13345,332.14073,11.652,"centrin","itn_kps",58190810.7396905
-427,"Ciprofloxacin","C17 H18 F N3 O3",331.13347,332.14074,12.312,"digesterA","itn_kps",124652276.61073
-427,"Ciprofloxacin","C17 H18 F N3 O3",331.13347,332.14074,12.312,"newdry","itn_kps",47510675.0846386
-3617,"Clarithromycin","C38 H69 N O13",747.47685,748.48413,19.488,"centrin","itn_kps",4614432.42234387
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"centrin","itn_kps",136600337.627448
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"digesterA","itn_kps",355004393.201165
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"digesterB","itn_kps",185234132.507355
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"digesterC","itn_kps",249594237.27385
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"digesterD","itn_kps",92010636.2735802
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"feedpump","itn_kps",5617622.01785439
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"newdry","itn_kps",140576556.80906
-112,"Cryptotanshinone","C19 H20 O3",296.14138,297.14866,21.39,"olddry","itn_kps",200063795.072769
-877,"Erythromycin","C37 H67 N O13",733.45888,734.46615,23.894,"centrin","itn_kps",36716298.0611977
-877,"Erythromycin","C37 H67 N O13",733.45888,734.46615,23.894,"digesterA","itn_kps",31973624.3901352
-877,"Erythromycin","C37 H67 N O13",733.45888,734.46615,23.894,"digesterB","itn_kps",46211220.3519412
-877,"Erythromycin","C37 H67 N O13",733.45888,734.46615,23.894,"digesterC","itn_kps",32764993.1797189
-877,"Erythromycin","C37 H67 N O13",733.45888,734.46615,23.894,"feedpump","itn_kps",25328536.0756142
-877,"Erythromycin","C37 H67 N O13",733.45888,734.46615,23.894,"newdry","itn_kps",45478390.7920963
-877,"Erythromycin","C37 H67 N O13",733.45888,734.46615,23.894,"olddry","itn_kps",61235646.6517153
-322,"Hyperforin","C35 H52 O4",536.38744,537.39472,24.116,"digesterB","itn_kps",35542864.3308441
-322,"Hyperforin","C35 H52 O4",536.38744,537.39472,24.116,"digesterD","itn_kps",154867015.469417
-792,"Hyperforin","C35 H52 O4",536.38754,537.39481,24.381,"olddry","itn_kps",18444093.5381826
-3502,"Kalafungin","C16 H12 O6",300.06348,301.07076,16.402,"feedpump","itn_kps",9040020.59394877
-634,"Ketoconazole","C26 H28 Cl2 N4 O4",530.1488,531.15607,18.053,"centrin","itn_kps",57197477.0906963
-752,"Ketoconazole","C26 H28 Cl2 N4 O4",530.14867,531.15595,19.217,"digesterA","itn_kps",73259158.3392415
-752,"Ketoconazole","C26 H28 Cl2 N4 O4",530.14867,531.15595,19.217,"digesterB","itn_kps",17895206.4040744
-634,"Ketoconazole","C26 H28 Cl2 N4 O4",530.1488,531.15607,18.053,"digesterC","itn_kps",81017867.0643483
-549,"Ketoconazole","C26 H28 Cl2 N4 O4",530.14878,531.15606,17.952,"digesterD","itn_kps",68503565.7305184
-385,"Ketoconazole","C26 H28 Cl2 N4 O4",530.14878,531.15606,17.404,"feedpump","itn_kps",126341291.995718
-634,"Ketoconazole","C26 H28 Cl2 N4 O4",530.1488,531.15607,18.053,"newdry","itn_kps",9463753.79445967
-549,"Ketoconazole","C26 H28 Cl2 N4 O4",530.14878,531.15606,17.952,"olddry","itn_kps",98777313.9269729
-3676,"Mevastatin","C23 H34 O5",390.24066,391.24792,20.107,"centrin","itn_kps",10237680.6680453
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"centrin","itn_kps",16870958.565651
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"digesterA","itn_kps",29682426.5173974
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"digesterB","itn_kps",26055129.1238124
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"digesterC","itn_kps",16691240.2486365
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"digesterD","itn_kps",11948852.2193551
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"feedpump","itn_kps",2152454.07393189
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"newdry","itn_kps",24326947.3023945
-1775,"Miconazole","C18 H14 Cl4 N2 O",413.98616,414.99343,20.536,"olddry","itn_kps",21863317.2659147
-2305,"Pirarubicin","C32 H37 N O12",627.23191,628.23919,16.734,"olddry","itn_kps",20969734.2545839
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"centrin","itn_kps",10829272.2433309
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"digesterA","itn_kps",16787145.6817579
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"digesterB","itn_kps",14770363.5408774
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"digesterC","itn_kps",13241603.6865576
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"digesterD","itn_kps",12481093.367002
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"feedpump","itn_kps",5536599.29063886
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"newdry","itn_kps",16224414.2257004
-2431,"Pirlimycin","C17 H31 Cl N2 O5 S",410.16474,411.17202,22.416,"olddry","itn_kps",16605974.8869991
-3289,"Rhodomycin A","C36 H48 N2 O12",700.32168,701.32896,21.955,"centrin","itn_kps",7303042.76396391
-3289,"Rhodomycin A","C36 H48 N2 O12",700.32168,701.32896,21.955,"digesterC","itn_kps",5497397.1883643
-3289,"Rhodomycin A","C36 H48 N2 O12",700.32168,701.32896,21.955,"digesterD","itn_kps",8791637.45611059
-3289,"Rhodomycin A","C36 H48 N2 O12",700.32168,701.32896,21.955,"feedpump","itn_kps",12436601.8192032
-3289,"Rhodomycin A","C36 H48 N2 O12",700.32168,701.32896,21.955,"newdry","itn_kps",5080410.87181069
-609,"Tetracycline","C22 H24 N2 O8",444.15332,445.1606,16.599,"centrin","itn_kps",80493886.1622704
-407,"Tetracycline","C22 H24 N2 O8",444.15332,445.1606,17.28,"digesterA","itn_kps",111986215.602266
-373,"Tetracycline","C22 H24 N2 O8",444.15321,445.16048,8.781,"feedpump","itn_kps",85358571.9849808
-407,"Tetracycline","C22 H24 N2 O8",444.15332,445.1606,17.28,"newdry","itn_kps",108172894.312518
-2216,"Ubenimex","C16 H24 N2 O4",308.17373,309.181,13.018,"centrin","itn_kps",12011225.3690465
-2216,"Ubenimex","C16 H24 N2 O4",308.17373,309.181,13.018,"digesterD","itn_kps",9980836.63390258
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"centrin","itn_kps",41781053.3523872
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"digesterA","itn_kps",92460464.6309985
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"digesterB","itn_kps",82615057.968405
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"digesterC","itn_kps",51877942.7058678
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"digesterD","itn_kps",46483812.5135927
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"feedpump","itn_kps",11854470.5485328
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"newdry","itn_kps",51356249.4107867
-512,"Xibornol","C18 H26 O",258.19832,259.2056,22.365,"olddry","itn_kps",62358812.365856
+"peak_number","name","formula","annot_delta_mass_ppm","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+327,"4-Epianhydrotetracycline","C22 H22 N2 O7",0,426.1427,427.14998,18.118,"digesterA","itn_kps",104837865.385354
+327,"4-Epianhydrotetracycline","C22 H22 N2 O7",0,426.1427,427.14998,18.118,"digesterB","itn_kps",109114161.969796
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"centrin","itn_kps",20767185.0303922
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"digesterC","itn_kps",20298698.331247
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"digesterD","itn_kps",45967437.3116095
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"feedpump","itn_kps",25016475.2618997
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"newdry","itn_kps",45688568.3151677
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"olddry","itn_kps",20131704.4238054
+2080,"Azithromycin","C38 H72 N2 O12",0.21,748.50868,749.51596,18.928,"newdry","itn_kps",3296588.12011236
+2575,"Cefrotil","C20 H22 N4 O4 S",4.11,414.13788,415.14515,13.291,"olddry","itn_kps",15064394.0537761
+625,"Ciprofloxacin","C17 H18 F N3 O3",0.7,331.13345,332.14073,11.652,"centrin","itn_kps",58190810.7396905
+427,"Ciprofloxacin","C17 H18 F N3 O3",0.74,331.13347,332.14074,12.312,"digesterA","itn_kps",124652276.61073
+427,"Ciprofloxacin","C17 H18 F N3 O3",0.74,331.13347,332.14074,12.312,"newdry","itn_kps",47510675.0846386
+3617,"Clarithromycin","C38 H69 N O13",-0.06,747.47685,748.48413,19.488,"centrin","itn_kps",4614432.42234387
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"centrin","itn_kps",136600337.627448
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"digesterA","itn_kps",355004393.201165
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"digesterB","itn_kps",185234132.507355
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"digesterC","itn_kps",249594237.27385
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"digesterD","itn_kps",92010636.2735802
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"feedpump","itn_kps",5617622.01785439
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"newdry","itn_kps",140576556.80906
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"olddry","itn_kps",200063795.072769
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"centrin","itn_kps",36716298.0611977
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"digesterA","itn_kps",31973624.3901352
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"digesterB","itn_kps",46211220.3519412
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"digesterC","itn_kps",32764993.1797189
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"feedpump","itn_kps",25328536.0756142
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"newdry","itn_kps",45478390.7920963
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"olddry","itn_kps",61235646.6517153
+322,"Hyperforin","C35 H52 O4",1.64,536.38744,537.39472,24.116,"digesterB","itn_kps",35542864.3308441
+322,"Hyperforin","C35 H52 O4",1.64,536.38744,537.39472,24.116,"digesterD","itn_kps",154867015.469417
+792,"Hyperforin","C35 H52 O4",1.82,536.38754,537.39481,24.381,"olddry","itn_kps",18444093.5381826
+3502,"Kalafungin","C16 H12 O6",0.32,300.06348,301.07076,16.402,"feedpump","itn_kps",9040020.59394877
+634,"Ketoconazole","C26 H28 Cl2 N4 O4",0.07,530.1488,531.15607,18.053,"centrin","itn_kps",57197477.0906963
+752,"Ketoconazole","C26 H28 Cl2 N4 O4",-0.17,530.14867,531.15595,19.217,"digesterA","itn_kps",73259158.3392415
+752,"Ketoconazole","C26 H28 Cl2 N4 O4",-0.17,530.14867,531.15595,19.217,"digesterB","itn_kps",17895206.4040744
+634,"Ketoconazole","C26 H28 Cl2 N4 O4",0.07,530.1488,531.15607,18.053,"digesterC","itn_kps",81017867.0643483
+549,"Ketoconazole","C26 H28 Cl2 N4 O4",0.04,530.14878,531.15606,17.952,"digesterD","itn_kps",68503565.7305184
+385,"Ketoconazole","C26 H28 Cl2 N4 O4",0.03,530.14878,531.15606,17.404,"feedpump","itn_kps",126341291.995718
+634,"Ketoconazole","C26 H28 Cl2 N4 O4",0.07,530.1488,531.15607,18.053,"newdry","itn_kps",9463753.79445967
+549,"Ketoconazole","C26 H28 Cl2 N4 O4",0.04,530.14878,531.15606,17.952,"olddry","itn_kps",98777313.9269729
+3676,"Mevastatin","C23 H34 O5",0.08,390.24066,391.24792,20.107,"centrin","itn_kps",10237680.6680453
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"centrin","itn_kps",16870958.565651
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"digesterA","itn_kps",29682426.5173974
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"digesterB","itn_kps",26055129.1238124
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"digesterC","itn_kps",16691240.2486365
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"digesterD","itn_kps",11948852.2193551
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"feedpump","itn_kps",2152454.07393189
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"newdry","itn_kps",24326947.3023945
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"olddry","itn_kps",21863317.2659147
+2305,"Pirarubicin","C32 H37 N O12",0.54,627.23191,628.23919,16.734,"olddry","itn_kps",20969734.2545839
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"centrin","itn_kps",10829272.2433309
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"digesterA","itn_kps",16787145.6817579
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"digesterB","itn_kps",14770363.5408774
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"digesterC","itn_kps",13241603.6865576
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"digesterD","itn_kps",12481093.367002
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"feedpump","itn_kps",5536599.29063886
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"newdry","itn_kps",16224414.2257004
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"olddry","itn_kps",16605974.8869991
+3289,"Rhodomycin A","C36 H48 N2 O12",1.36,700.32168,701.32896,21.955,"centrin","itn_kps",7303042.76396391
+3289,"Rhodomycin A","C36 H48 N2 O12",1.36,700.32168,701.32896,21.955,"digesterC","itn_kps",5497397.1883643
+3289,"Rhodomycin A","C36 H48 N2 O12",1.36,700.32168,701.32896,21.955,"digesterD","itn_kps",8791637.45611059
+3289,"Rhodomycin A","C36 H48 N2 O12",1.36,700.32168,701.32896,21.955,"feedpump","itn_kps",12436601.8192032
+3289,"Rhodomycin A","C36 H48 N2 O12",1.36,700.32168,701.32896,21.955,"newdry","itn_kps",5080410.87181069
+609,"Tetracycline","C22 H24 N2 O8",0.13,444.15332,445.1606,16.599,"centrin","itn_kps",80493886.1622704
+407,"Tetracycline","C22 H24 N2 O8",0.13,444.15332,445.1606,17.28,"digesterA","itn_kps",111986215.602266
+373,"Tetracycline","C22 H24 N2 O8",-0.13,444.15321,445.16048,8.781,"feedpump","itn_kps",85358571.9849808
+407,"Tetracycline","C22 H24 N2 O8",0.13,444.15332,445.1606,17.28,"newdry","itn_kps",108172894.312518
+2216,"Ubenimex","C16 H24 N2 O4",0.4,308.17373,309.181,13.018,"centrin","itn_kps",12011225.3690465
+2216,"Ubenimex","C16 H24 N2 O4",0.4,308.17373,309.181,13.018,"digesterD","itn_kps",9980836.63390258
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"centrin","itn_kps",41781053.3523872
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"digesterA","itn_kps",92460464.6309985
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"digesterB","itn_kps",82615057.968405
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"digesterC","itn_kps",51877942.7058678
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"digesterD","itn_kps",46483812.5135927
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"feedpump","itn_kps",11854470.5485328
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"newdry","itn_kps",51356249.4107867
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"olddry","itn_kps",62358812.365856
