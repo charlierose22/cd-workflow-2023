@@ -430,6 +430,10 @@ CorrectLocation3$matrix = NULL
 
 RT_Join3 <- CorrectLocation3
 
+# specific for Charlie
+Biosolid1 <- RT_Join1[grepl("newdry|olddry", RT_Join1$sample_location),]
+RT_Join1 <- Biosolid1
+
 # taking the joined tables, pivot wider so that each sample location is a different column header.
 Wider_Run1 <- pivot_wider(RT_Join1,
                           names_from = sample_location,
@@ -469,6 +473,76 @@ for (i in MassListNames3) {
   write.csv(filtered_df3, paste0("Results/", i, "_Kgato_MARCH.csv"), 
             row.names = FALSE)
 }
+
+# split further into mass lists
+SplitMassList1 <- split(RT_Join1, RT_Join1$mass_list_name)
+SplitMassList2 <- split(RT_Join2, RT_Join2$mass_list_name)
+SplitMassList3 <- split(RT_Join3, RT_Join3$mass_list_name)
+
+ITN1 <- SplitMassList1$"itn_kps"
+Cannabinoids1 <- SplitMassList1$"kps_cannabinoids"
+ITNMetabolites1 <- SplitMassList1$"itn_cyp_metabolites"
+Psychoactive1 <- SplitMassList1$"kps_psychoactive_substances_v2"
+Pharmaceuticals1 <- SplitMassList1$"kps_pharmaceuticals_oct22"
+NPL2 <- SplitMassList2$"kps_npl"
+Psychoactive2 <- SplitMassList2$"kps_psychoactive_substances_v2"
+Pharmaceuticals2 <- SplitMassList2$"kps_pharmaceuticals_oct22"
+ITN3 <- SplitMassList3$"itn_kps"
+ITNMetabolites3 <- SplitMassList3$"itn_cyp_metabolites"
+Psychoactive3 <- SplitMassList3$"kps_psychoactive_substances_v2"
+Pharmaceuticals3 <- SplitMassList3$"kps_pharmaceuticals_oct22"
+
+# summary figures, easier by name
+ITN1 %>% 
+  filter(!is.na(name)) %>% 
+  ggplot(aes(y = name, 
+             x = sample_location, 
+             fill = mean_area)) +
+  geom_tile() +
+  scale_y_discrete(limits = rev) +
+  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 1e+08) +
+  labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
+  theme_bw(base_size = 10) +
+  theme(panel.grid.major = element_line(colour = "gray80"),
+        panel.grid.minor = element_line(colour = "gray80"),
+        axis.text.x = element_text(angle = 90),
+        legend.text = element_text(family = "serif", 
+                                   size = 10), 
+        axis.text = element_text(family = "serif", 
+                                 size = 10),
+        axis.title = element_text(family = "serif",
+                                  size = 10, face = "bold", colour = "gray20"),
+        legend.title = element_text(size = 10,
+                                    family = "serif"),
+        plot.background = element_rect(colour = NA,
+                                       linetype = "solid"), 
+        legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
+ggsave("Figures/ITN_Charlie_26JAN_PRES.pdf", width = 20, height = 25)
+ITNMetabolites1 %>% 
+  filter(!is.na(name)) %>% 
+  ggplot(aes(y = name, 
+             x = sample_location, 
+             fill = mean_area)) +
+  geom_tile() +
+  scale_y_discrete(limits = rev) +
+  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 5e+07) +
+  labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
+  theme_bw(base_size = 10) +
+  theme(panel.grid.major = element_line(colour = "gray80"),
+        panel.grid.minor = element_line(colour = "gray80"),
+        axis.text.x = element_text(angle = 90),
+        legend.text = element_text(family = "serif", 
+                                   size = 10), 
+        axis.text = element_text(family = "serif", 
+                                 size = 10),
+        axis.title = element_text(family = "serif",
+                                  size = 10, face = "bold", colour = "gray20"),
+        legend.title = element_text(size = 10,
+                                    family = "serif"),
+        plot.background = element_rect(colour = NA,
+                                       linetype = "solid"), 
+        legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
+ggsave("Figures/ITNMetabolites_Charlie_26JAN_PRES.pdf", width = 20, height = 25)
 
 # Create a for loop for a ggplot for the same groups
 for (i in MassListNames1) {
