@@ -475,7 +475,7 @@ for (i in MassListNames3) {
 }
 
 # split further into mass lists
-SplitMassList1 <- split(RT_Join1, RT_Join1$mass_list_name)
+SplitMassList1 <- split( , RT_Join1$mass_list_name)
 SplitMassList2 <- split(RT_Join2, RT_Join2$mass_list_name)
 SplitMassList3 <- split(RT_Join3, RT_Join3$mass_list_name)
 
