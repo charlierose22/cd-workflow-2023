@@ -362,9 +362,30 @@ write.csv(MergeFilter3,
           "Results/Ordered_Mass_List_Kgato_MARCH.csv", row.names = FALSE)
 
 # duplicate tables so we can keep retention times
-RT1 <- MergeFilter1[, c("peak_number", "name", "formula", "annot_delta_mass_ppm", "calc_mw", "m_z", "rt_min", "sample_location")]
-RT2 <- MergeFilter2[, c("peak_number", "name", "formula", "annot_delta_mass_ppm", "calc_mw", "m_z", "rt_min", "sample_location")]
-RT3 <- MergeFilter3[, c("peak_number", "name", "formula", "annot_delta_mass_ppm", "calc_mw", "m_z", "rt_min", "sample_location")]
+RT1 <- MergeFilter1[, c("peak_number", 
+                        "name", 
+                        "formula", 
+                        "annot_delta_mass_ppm", 
+                        "calc_mw", 
+                        "m_z", 
+                        "rt_min", 
+                        "sample_location")]
+RT2 <- MergeFilter2[, c("peak_number", 
+                        "name", 
+                        "formula", 
+                        "annot_delta_mass_ppm", 
+                        "calc_mw", 
+                        "m_z", 
+                        "rt_min", 
+                        "sample_location")]
+RT3 <- MergeFilter3[, c("peak_number", 
+                        "name", 
+                        "formula", 
+                        "annot_delta_mass_ppm", 
+                        "calc_mw", 
+                        "m_z", 
+                        "rt_min", 
+                        "sample_location")]
 
 write.csv(RT1, "Results/RT_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(RT2, "Results/RT_Thailand.csv", row.names = FALSE)
@@ -434,7 +455,8 @@ RT_Join3 <- CorrectLocation3
 Biosolid1 <- RT_Join1[grepl("newdry|olddry", RT_Join1$sample_location),]
 RT_Join1 <- Biosolid1
 
-# taking the joined tables, pivot wider so that each sample location is a different column header.
+# taking the joined tables, 
+# pivot wider so that each sample location is a different column header.
 Wider_Run1 <- pivot_wider(RT_Join1,
                           names_from = sample_location,
                           values_from = mean_area)
@@ -449,7 +471,7 @@ Wider_Run3 <- pivot_wider(RT_Join3,
 write.csv(Wider_Run1, "Results/Analysed_Charlie_26JAN.csv", row.names = FALSE)
 write.csv(Wider_Run2, "Results/Analysed_Thailand.csv", row.names = FALSE)
 write.csv(Wider_Run3, "Results/Analysed_Kgato_MARCH.csv", row.names = FALSE)
-
+---------------------------------------------------------------------------------
 # Create a loop to produce a CSV for each group of mass_list_name entries
 MassListNames1 <- unique(RT_Join1$mass_list_name)
 MassListNames2 <- unique(RT_Join2$mass_list_name)
@@ -625,3 +647,4 @@ for (i in MassListNames3) {
           legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
   ggsave(filename = paste0("Figures/", i, "_Kgato_MAR.pdf"), plot = last_plot())
 }
+
