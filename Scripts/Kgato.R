@@ -449,6 +449,7 @@ CorrectLocation3$sample_location <- tolower(CorrectLocation3$sample_location)
 CorrectLocation3$location = NULL
 CorrectLocation3$matrix = NULL
 
+# rename for easier downstream application.
 RT_Join3 <- CorrectLocation3
 
 # specific for Charlie
@@ -467,11 +468,16 @@ Wider_Run3 <- pivot_wider(RT_Join3,
                           names_from = sample_location,
                           values_from = mean_area)
 
+# create a csv of long filtered results.
+write.csv(RT_Join1, "Results/Analysed_Long_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(RT_Join2, "Results/Analysed_Long_Thailand.csv", row.names = FALSE)
+write.csv(RT_Join3, "Results/Analysed_Long_Kgato_MARCH.csv", row.names = FALSE)
+
 # create a csv of filtered results.
-write.csv(Wider_Run1, "Results/Analysed_Charlie_26JAN.csv", row.names = FALSE)
-write.csv(Wider_Run2, "Results/Analysed_Thailand.csv", row.names = FALSE)
-write.csv(Wider_Run3, "Results/Analysed_Kgato_MARCH.csv", row.names = FALSE)
----------------------------------------------------------------------------------
+write.csv(Wider_Run1, "Results/Analysed_Wide_Charlie_26JAN.csv", row.names = FALSE)
+write.csv(Wider_Run2, "Results/Analysed_Wide_Thailand.csv", row.names = FALSE)
+write.csv(Wider_Run3, "Results/Analysed_Wide_Kgato_MARCH.csv", row.names = FALSE)
+
 # Create a loop to produce a CSV for each group of mass_list_name entries
 MassListNames1 <- unique(RT_Join1$mass_list_name)
 MassListNames2 <- unique(RT_Join2$mass_list_name)
@@ -497,7 +503,7 @@ for (i in MassListNames3) {
 }
 
 # split further into mass lists
-SplitMassList1 <- split( , RT_Join1$mass_list_name)
+SplitMassList1 <- split(RT_Join1, RT_Join1$mass_list_name)
 SplitMassList2 <- split(RT_Join2, RT_Join2$mass_list_name)
 SplitMassList3 <- split(RT_Join3, RT_Join3$mass_list_name)
 
