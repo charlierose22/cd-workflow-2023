@@ -523,10 +523,10 @@ Pharmaceuticals3 <- SplitMassList3$"kps_pharmaceuticals_oct22"
 # summary figures, easier by name
 ITN1 %>% 
   filter(!is.na(name)) %>% 
-  ggplot(aes(y = name, 
-             x = sample_location, 
-             fill = mean_area)) +
-  geom_tile() +
+  ggplot() +
+  geom_tile(aes(y = name, 
+                x = sample_location, 
+                fill = mean_area)) +
   scale_y_discrete(limits = rev) +
   scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 1e+08) +
   labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
@@ -545,15 +545,16 @@ ITN1 %>%
         plot.background = element_rect(colour = NA,
                                        linetype = "solid"), 
         legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
-ggsave("Figures/ITN_Charlie_26JAN_PRES.pdf", width = 20, height = 25)
+ggsave("Figures/ITN_Charlie_26JAN_PRES.png", width = 20, height = 25)
+
 ITNMetabolites1 %>% 
   filter(!is.na(name)) %>% 
-  ggplot(aes(y = name, 
-             x = sample_location, 
-             fill = mean_area)) +
-  geom_tile() +
+  ggplot() +
+  geom_tile(aes(y = name, 
+                x = sample_location, 
+                fill = mean_area)) +
   scale_y_discrete(limits = rev) +
-  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 5e+07) +
+  scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 1e+08) +
   labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
   theme_bw(base_size = 10) +
   theme(panel.grid.major = element_line(colour = "gray80"),
@@ -570,7 +571,7 @@ ITNMetabolites1 %>%
         plot.background = element_rect(colour = NA,
                                        linetype = "solid"), 
         legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
-ggsave("Figures/ITNMetabolites_Charlie_26JAN_PRES.pdf", width = 20, height = 25)
+ggsave("Figures/ITNMetabolites_Charlie_26JAN_PRES.png", width = 20, height = 25)
 
 # Create a for loop for a ggplot for the same groups
 for (i in MassListNames1) {
