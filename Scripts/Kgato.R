@@ -529,18 +529,18 @@ ITN1 %>%
                 fill = mean_area)) +
   scale_y_discrete(limits = rev) +
   scale_fill_gradient2(low = "turquoise3", high = "orange", mid = "yellow", midpoint = 1e+08) +
-  labs(x = "Sample", y = "Compound Name", colour = "Intensity") +
-  theme_bw(base_size = 10) +
+  labs(x = "Treatment Stage", y = "Compound Name", colour = "Intensity") +
+  theme_bw(base_size = 12) +
   theme(panel.grid.major = element_line(colour = "gray80"),
         panel.grid.minor = element_line(colour = "gray80"),
         axis.text.x = element_text(angle = 90),
         legend.text = element_text(family = "serif", 
-                                   size = 10), 
+                                   size = 12), 
         axis.text = element_text(family = "serif", 
-                                 size = 10),
+                                 size = 12),
         axis.title = element_text(family = "serif",
-                                  size = 10, face = "bold", colour = "gray20"),
-        legend.title = element_text(size = 10,
+                                  size = 12, face = "bold", colour = "gray20"),
+        legend.title = element_text(size = 12,
                                     family = "serif"),
         plot.background = element_rect(colour = NA,
                                        linetype = "solid"), 
