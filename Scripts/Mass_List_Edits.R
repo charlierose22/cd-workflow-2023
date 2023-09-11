@@ -18,4 +18,3 @@ ITN_ML2 <- add_column(ITN_ML, mass_list = "ITN", .after = 0)
 ITN_Metabolites_ML2 <- add_column(ITN_Metabolites_ML, mass_list = "ITN_Metabolites", .after = 0)
 Psychoactive_ML2 <- add_column(Psychoactive_ML, mass_list = "Psychoactive", .after = 0)
 Pharmaceuticals_ML2 <- add_column(Pharmaceuticals_ML, mass_list = "Pharmaceuticals", .after = 0)
-
