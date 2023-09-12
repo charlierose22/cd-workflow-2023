@@ -85,6 +85,11 @@ wider_3 <- samplenames_3 %>%
 wider_5 <- samplenames_5 %>%
   pivot_wider(names_from = measurement, values_from = result)
 
+# CHANGE COLUMN TYPE TO NUMERIC
+numeric_3 <- transform(wider_3, 
+                       group_area = as.numeric(group_area), 
+                       peak_rating = as.numeric(peak_rating))
+
 # REMOVE NAS
 nona_3 <- drop_na(wider_3, group_area)
 nona_5 <- drop_na(wider_5, group_area)
@@ -124,9 +129,17 @@ soloremoved_3 <- plyr::ddply(replicates_3, c("unique_id", "sample"),
 soloremoved_5 <- plyr::ddply(replicates_5, c("unique_id", "sample"),
                            function(d) {if (nrow(d) > 1) d else NULL})
 
+# MAKE COLUMNS FOR SAMPLES, EG PIVOT WIDER
+wider_filtered_3 <- soloremoved_3 %>%
+  pivot_wider(names_from = sample, values_from = group_area)
+wider_filtered_5 <- soloremoved_5 %>%
+  pivot_wider(names_from = sample, values_from = group_area)
+
 # WRITE CSV
 readr::write_csv(soloremoved_3, "Leeds/Filtered_Batch_3_Results.csv")
 readr::write_csv(soloremoved_5, "Leeds/Filtered_Batch_5_Results.csv")
+readr::write_csv(wider_filtered_3, "Leeds/Filtered_Wide_Batch_3_Results.csv")
+readr::write_csv(wider_filtered_5, "Leeds/Filtered_Wide_Batch_5_Results.csv")
 
 #----
 # SPLIT RESULTS BASED ON MASS LIST VS MZCLOUD
