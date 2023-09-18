@@ -81,14 +81,9 @@ samplenames_5$sample <- str_replace_all(samplenames_5$sample, "peak_rating_", ""
 
 # WIDEN TABLE
 wider_3 <- samplenames_3 %>%
-  pivot_wider(names_from = measurement, values_from = result)
+  pivot_wider(names_from = 'measurement', values_from = 'result')
 wider_5 <- samplenames_5 %>%
-  pivot_wider(names_from = measurement, values_from = result)
-
-# CHANGE COLUMN TYPE TO NUMERIC
-numeric_3 <- transform(wider_3, 
-                       group_area = as.numeric(group_area), 
-                       peak_rating = as.numeric(peak_rating))
+  pivot_wider(names_from = 'measurement', values_from = 'result')
 
 # REMOVE NAS
 nona_3 <- drop_na(wider_3, group_area)
@@ -144,11 +139,11 @@ readr::write_csv(wider_filtered_5, "Leeds/Filtered_Wide_Batch_5_Results.csv")
 #----
 # SPLIT RESULTS BASED ON MASS LIST VS MZCLOUD
 split_3 <- split(soloremoved_3, soloremoved_3$annot_source_mass_list_search)
-mzcloud_3 <- split$"No results"
-masslists_3 <- split$"Full match"
+mzcloud_3 <- split_3$"No results"
+masslists_3 <- split_3$"Full match"
 split_5 <- split(soloremoved_5, soloremoved_5$annot_source_mass_list_search)
-mzcloud_5 <- split$"No results"
-masslists_5 <- split$"Full match"
+mzcloud_5 <- split_5$"No results"
+masslists_5 <- split_5$"Full match"
 
 # MERGE MASS LISTS INTO ONE COLUMN
 masslistmerged_3 <- masslists_3 %>% 
