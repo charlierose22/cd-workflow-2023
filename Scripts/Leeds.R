@@ -115,33 +115,36 @@ replicates_5 <- mutate(replicates_5,
                        str_ends(sample, "c") ~ "3"))
 
 # REMOVE REPLICATES FROM SAMPLE NAMES
+## check that not all samples are affected (only remove string after last number)
 replicates_3$sample <- str_sub(replicates_3$sample, end = -3)
 replicates_5$sample <- str_sub(replicates_5$sample, end = -3)
 
 # REMOVE PEAKS WITH RESULTS IN ONLY ONE REPLICATE
+# make sure this is only for samples with replicates.
 soloremoved_3 <- plyr::ddply(replicates_3, c("unique_id", "sample"),
                            function(d) {if (nrow(d) > 1) d else NULL})
 soloremoved_5 <- plyr::ddply(replicates_5, c("unique_id", "sample"),
                            function(d) {if (nrow(d) > 1) d else NULL})
 
+# WRITE CSV
+readr::write_csv(grouparea_3, "Leeds/Filtered_Batch_3_Results.csv")
+readr::write_csv(grouparea_5, "Leeds/Filtered_Batch_5_Results.csv")
+
+#----
 # MAKE COLUMNS FOR SAMPLES, EG PIVOT WIDER
-wider_filtered_3 <- soloremoved_3 %>%
+wider_filtered_3 <- grouparea_3 %>%
   pivot_wider(names_from = sample, values_from = group_area)
-wider_filtered_5 <- soloremoved_5 %>%
+wider_filtered_5 <- grouparea_5 %>%
   pivot_wider(names_from = sample, values_from = group_area)
 
-# WRITE CSV
-readr::write_csv(soloremoved_3, "Leeds/Filtered_Batch_3_Results.csv")
-readr::write_csv(soloremoved_5, "Leeds/Filtered_Batch_5_Results.csv")
 readr::write_csv(wider_filtered_3, "Leeds/Filtered_Wide_Batch_3_Results.csv")
 readr::write_csv(wider_filtered_5, "Leeds/Filtered_Wide_Batch_5_Results.csv")
 
-#----
 # SPLIT RESULTS BASED ON MASS LIST VS MZCLOUD
-split_3 <- split(soloremoved_3, soloremoved_3$annot_source_mass_list_search)
+split_3 <- split(grouparea_3, grouparea_3$annot_source_mass_list_search)
 mzcloud_3 <- split_3$"No results"
 masslists_3 <- split_3$"Full match"
-split_5 <- split(soloremoved_5, soloremoved_5$annot_source_mass_list_search)
+split_5 <- split(grouparea_5, grouparea_5$annot_source_mass_list_search)
 mzcloud_5 <- split_5$"No results"
 masslists_5 <- split_5$"Full match"
 
@@ -162,6 +165,12 @@ filteredmasslist_3 <- masslistmerged_3[!grepl('No matches found', masslistmerged
 filteredmzcloud_3 <- mzcloud_3[!grepl('Invalid Mass', mzcloud_3$annot_source_mz_cloud_search),]
 filteredmasslist_5 <- masslistmerged_5[!grepl('No matches found', masslistmerged_5$mass_list_match),]
 filteredmzcloud_5 <- mzcloud_5[!grepl('Invalid Mass', mzcloud_5$annot_source_mz_cloud_search),]
+
+# write csvs
+write.csv(filteredmasslist_3, "Leeds/masslistresults_leeds_batch3.csv", row.names = FALSE)
+write.csv(filteredmasslist_5, "Leeds/masslistresults_leeds_batch5.csv", row.names = FALSE)
+write.csv(filteredmzcloud_3, "Leeds/mzcloudresults_leeds_batch3.csv", row.names = FALSE)
+write.csv(filteredmzcloud_5, "Leeds/mzcloudresults_leeds_batch5.csv", row.names = FALSE)
 
 # SPLIT THE INDIVIDUAL MASS LISTS
 splitmasslist <- split(filteredmasslist, filteredmasslist$mass_list_name)
