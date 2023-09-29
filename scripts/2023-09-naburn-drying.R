@@ -184,7 +184,7 @@ write.csv(antibiotics_wide, "data/processed/2023-naburn-drying/antibiotics_wide.
 # CHANGE HEIGHT AND WIDTH AND MIDPOINT AS NEEDED
 antibiotics_annotated %>% 
   ggplot(aes(y = name, 
-             x = sample, 
+             x = sample_location, 
              fill = mean)) +
   geom_tile() +
   scale_y_discrete(limits = rev) +
