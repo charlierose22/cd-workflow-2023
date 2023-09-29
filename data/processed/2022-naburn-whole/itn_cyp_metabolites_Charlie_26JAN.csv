@@ -1,0 +1,30 @@
+"peak_number","name","formula","annot_delta_mass_ppm","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+3140,"4'-Deoxycirramycin�A1_BTM02228","C29 H44 O10",1.22,552.29412,553.3014,15.423,"olddry","itn_cyp_metabolites",13384870.0675135
+2422,"6-Allyl-o-cresol","C10 H12 O",0.26,148.08885,149.09613,18.702,"olddry","itn_cyp_metabolites",1693626.24317596
+2595,"Agroclavine_BTM03062","C16 H18 N2 O",-0.13,254.14188,255.14916,18.588,"newdry","itn_cyp_metabolites",1628024.11495444
+1051,"Benzylsulfanilamide_BTM04684","C7 H6 O",1.29,106.042,107.04928,20.91,"newdry","itn_cyp_metabolites",18786533.4763238
+1051,"Benzylsulfanilamide_BTM04684","C7 H6 O",1.29,106.042,107.04928,20.91,"olddry","itn_cyp_metabolites",13470348.2129252
+4190,"Carvedilol","C24 H26 N2 O4",0.17,406.18933,407.1966,14.27,"olddry","itn_cyp_metabolites",7843674.95906487
+3442,"Cefaloglycin_BTM00313","C18 H19 N3 O7 S",-3.63,421.09284,422.10012,16.507,"olddry","itn_cyp_metabolites",9774496.79381965
+561,"Concanamycin A_BTM01216","C45 H73 N O14",0.17,851.50325,852.51053,17.444,"newdry","itn_cyp_metabolites",25638002.7052054
+782,"Concanamycin A_BTM01216","C45 H73 N O14",0.14,851.50322,852.5105,14.498,"olddry","itn_cyp_metabolites",41204788.2805132
+2039,"Cryptotanshinone_BTM04455","C19 H20 O4",0.27,312.13624,313.14352,20.502,"newdry","itn_cyp_metabolites",1386194.84169626
+2039,"Cryptotanshinone_BTM04455","C19 H20 O4",0.27,312.13624,313.14352,20.502,"olddry","itn_cyp_metabolites",15926332.5155285
+478,"Dichlorophene_BTM02818","C13 H11 Cl O3",-0.79,250.03947,251.04675,22.086,"newdry","itn_cyp_metabolites",109175588.140253
+478,"Dichlorophene_BTM02818","C13 H11 Cl O3",-0.79,250.03947,251.04675,22.086,"olddry","itn_cyp_metabolites",91653866.964356
+2247,"Fluorescein","C20 H12 O5",0.71,332.06871,333.07599,15.388,"newdry","itn_cyp_metabolites",13555601.8989288
+2054,"Hydromorphone","C17 H19 N O3",0.2,285.13655,286.14383,18.342,"newdry","itn_cyp_metabolites",24476325.5042976
+2054,"Hydromorphone","C17 H19 N O3",0.2,285.13655,286.14383,18.342,"olddry","itn_cyp_metabolites",7326830.71351202
+4085,"Kalamycin_BTM03157","C16 H12 O7",0.81,316.05856,317.06583,13.092,"olddry","itn_cyp_metabolites",7656902.50409887
+2022,"Losartan","C22 H23 Cl N6 O",0.06,422.16221,423.16949,16.344,"newdry","itn_cyp_metabolites",8492006.63696158
+2022,"Losartan","C22 H23 Cl N6 O",0.06,422.16221,423.16949,16.344,"olddry","itn_cyp_metabolites",11226652.8121005
+4354,"Moxidectin_BTM03194","C37 H53 N O9",-1.91,655.37078,656.37806,16.636,"newdry","itn_cyp_metabolites",6231473.60302319
+5054,"Mucidin_BTM03176","C16 H18 O4",-0.07,274.12049,275.12777,22.621,"newdry","itn_cyp_metabolites",3760270.8262206
+5054,"Mucidin_BTM03176","C16 H18 O4",-0.07,274.12049,275.12777,22.621,"olddry","itn_cyp_metabolites",3440792.96747204
+671,"Nadifloxacin_BTM04326","C19 H20 F N2 O4",4.67,359.14239,360.14966,18.645,"newdry","itn_cyp_metabolites",863275.697402185
+2449,"Nandrolone","C18 H26 O2",0.13,274.19332,275.20059,17.554,"newdry","itn_cyp_metabolites",16249903.4099943
+3284,"Propylparaben","C10 H12 O3",0.01,180.07865,181.08592,20.943,"newdry","itn_cyp_metabolites",4079240.22471123
+3284,"Propylparaben","C10 H12 O3",0.01,180.07865,181.08592,20.943,"olddry","itn_cyp_metabolites",5311377.0399908
+1754,"Talmetoprim_BTM03332","C21 H18 N4 O5",4.49,406.12954,407.13682,14.146,"olddry","itn_cyp_metabolites",22916447.5354552
+2917,"Tamoxifen_BTM03704","C22 H20 O",0.52,300.15157,301.15885,22.835,"newdry","itn_cyp_metabolites",6217495.19614719
+2917,"Tamoxifen_BTM03704","C22 H20 O",0.52,300.15157,301.15885,22.835,"olddry","itn_cyp_metabolites",7896551.39373079

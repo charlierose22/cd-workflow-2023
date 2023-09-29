@@ -1,0 +1,21 @@
+"peak_number","name","formula","annot_delta_mass_ppm","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+1651,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",0.36,344.19888,345.20616,18.348,"newdry","kps_cannabinoids",1519765.75311212
+3454,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",0.42,344.1989,345.20618,21.046,"olddry","kps_cannabinoids",5531387.02359664
+1860,"2,4-Di-tert-butylphenol","C14 H22 O",-0.01,206.16706,207.17434,20.636,"newdry","kps_cannabinoids",6902452.31259335
+1860,"2,4-Di-tert-butylphenol","C14 H22 O",-0.01,206.16706,207.17434,20.636,"olddry","kps_cannabinoids",3899938.92901354
+4906,"AB-001","C24 H31 N O",0.3,349.24067,350.24794,20.591,"newdry","kps_cannabinoids",4624567.95726807
+670,"APP-FUBINACA","C24 H21 F N4 O2",2.34,416.16583,417.1731,9.551,"olddry","kps_cannabinoids",65435006.0758378
+1195,"Cannabidiolic acid","C22 H30 O4",0.25,358.2145,359.22178,16.797,"newdry","kps_cannabinoids",34493739.6817146
+758,"Cannabigerol","C21 H32 O2",0.48,316.24038,317.24766,18.531,"newdry","kps_cannabinoids",1020085.40035314
+3599,"Cannabigerol","C21 H32 O2",0.64,316.24043,317.24771,23.624,"olddry","kps_cannabinoids",6237233.22980265
+1252,"Cannabigerolic acid","C22 H32 O4",0.22,360.23014,361.23747,18.273,"newdry","kps_cannabinoids",44440963.7190469
+584,"Cannabinol monomethyl ether","C22 H28 O2",0.71,324.20916,325.21644,18.752,"newdry","kps_cannabinoids",9910373.82615319
+584,"Cannabinol monomethyl ether","C22 H28 O2",0.71,324.20916,325.21644,18.752,"olddry","kps_cannabinoids",6434183.87693145
+975,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",0.66,314.22479,315.23206,19.079,"newdry","kps_cannabinoids",55626915.3217779
+3037,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",0.69,314.2248,315.23207,22.653,"olddry","kps_cannabinoids",6203428.37233583
+785,"JWH 200","C25 H24 N2 O2",-3.33,384.1825,385.18978,17.549,"newdry","kps_cannabinoids",69186008.8282143
+1036,"JWH 200 analog 1","C22 H30 N2 O2",0.12,354.23077,355.23812,18.087,"olddry","kps_cannabinoids",13340723.2403531
+855,"JWH-133","C22 H32 O",0.45,312.24546,313.25273,20.454,"newdry","kps_cannabinoids",60877170.2341572
+2667,"JWH-198","C26 H26 N2 O3",-0.08,414.19431,415.20159,18.755,"olddry","kps_cannabinoids",5196976.54126477
+3015,"Tetrahydrocannabivarin (THCV)","C19 H26 O2",0.08,286.1933,287.20058,17.434,"newdry","kps_cannabinoids",14291817.5044769
+3096,"UR-144","C21 H29 N O",0.32,311.22501,312.23229,20.242,"olddry","kps_cannabinoids",13698640.5043286

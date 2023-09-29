@@ -1,0 +1,595 @@
+"peak_number","name","formula","annot_delta_mass_ppm","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+3605,"(+)-ar-Turmerone","C15 H20 O",0,216.15141,217.15869,21.242,"newdry","mz_cloud",10255456.0496695
+3605,"(+)-ar-Turmerone","C15 H20 O",0,216.15141,217.15869,21.242,"olddry","mz_cloud",7593422.11600101
+3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",-0.04,258.16197,259.16925,21.51,"newdry","mz_cloud",4350010.35425113
+3396,"(+/-)-Cannabichromeorcin","C17 H22 O2",-0.04,258.16197,259.16925,21.51,"olddry","mz_cloud",4118610.38585115
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"newdry","mz_cloud",23460278.6632311
+882,"(1R,4aS)-7-(2-Hydroxypropan-2-yl)-1,4a-dimethyl-9-oxo-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid","C20 H26 O4",0.67,330.18333,331.19061,22.783,"olddry","mz_cloud",23951595.51867
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"newdry","mz_cloud",27143164.5070127
+1251,"(1S,4S,5R,10S,13S,17S,19S,20R)-10-hydroxy-4,5,9,9,13,19,20-heptamethyl-24-oxahexacyclo[15.5.2.0Âa,Âaâ¸.0â´,Âaâ·.0âµ,Âaâ´.0â¸,ÂaÂl]tetracos-15-en-23-one","C30 H46 O3",0.01,454.3447,455.35196,23.72,"olddry","mz_cloud",12765307.8119313
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"newdry","mz_cloud",24042443.0956465
+1264,"(2R,5R,6R)-3-[(1E,3E)-hepta-1,3-dien-1-yl]-5,6-dihydroxy-2-(hydroxymethyl)cyclohexan-1-one","C14 H22 O4",0.13,254.15184,255.15908,16.726,"olddry","mz_cloud",36976733.3862024
+1641,"(E)-Squalene","C30 H50",0.05,410.39127,411.39855,22.105,"newdry","kps_pharmaceuticals_oct22",24779321.9804582
+1641,"(E)-Squalene","C30 H50",0.05,410.39127,411.39855,22.105,"olddry","kps_pharmaceuticals_oct22",4342209.65941913
+3593,"1,2,2,6,6-Pentamethyl-4-piperidyl methacrylate","C14 H25 N O2",-0.07,239.18851,240.19579,17.047,"olddry","mz_cloud",4939182.89038482
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"newdry","mz_cloud",6327135.62222432
+3309,"1,4-dihydroxyheptadec-16-en-2-yl acetate","C19 H36 O4",0.5,328.26152,329.26883,22.438,"olddry","mz_cloud",9691692.84607157
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"newdry","mz_cloud",1155163547.89902
+15,"1-Dodecyl-2-pyrrolidinone","C16 H31 N O",-0.34,253.24048,254.24775,22.289,"olddry","mz_cloud",1288523058.79443
+3355,"1-Linoleoyl glycerol","C21 H38 O4",0.31,354.27712,355.2844,21.439,"newdry","mz_cloud",6201015.0822685
+3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",-0.1,231.12591,232.13318,17.823,"newdry","mz_cloud",6694790.46942359
+3402,"1-Pentyl-1H-indole-3-carboxylic acid","C14 H17 N O2",-0.1,231.12591,232.13318,17.823,"olddry","mz_cloud",5787570.30615941
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"newdry","mz_cloud",635092750.302864
+6,"1-Tetradecylamine","C14 H31 N",-0.32,213.24558,214.25286,20.391,"olddry","mz_cloud",207781914.622757
+668,"1-oleoylglycerol","C21 H40 O4",0.18,356.29273,379.28193,23.631,"newdry","kps_pharmaceuticals_oct22",29512384.2854936
+668,"1-oleoylglycerol","C21 H40 O4",0.18,356.29273,379.28193,23.631,"olddry","kps_pharmaceuticals_oct22",48743271.4231845
+3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",0.2,292.13113,293.13841,19.511,"newdry","mz_cloud",5249775.7909185
+3698,"11,13-Dihydroxy-4-methyl-4,5,6,7,8,9-hexahydro-2H-3-benzoxacyclododecine-2,10(1H)-dione","C16 H20 O5",0.2,292.13113,293.13841,19.511,"olddry","mz_cloud",5615110.53034103
+1651,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",0.36,344.19888,345.20616,18.348,"newdry","kps_cannabinoids",1519765.75311212
+3454,"11-Nor-9-carboxy-delta-9-tetrahydrocannabinol","C21 H28 O4",0.42,344.1989,345.20618,21.046,"olddry","kps_cannabinoids",5531387.02359664
+1159,"12-Oxo phytodienoic acid","C18 H28 O3",0.15,292.20389,293.21116,17.538,"newdry","mz_cloud",37877932.8287268
+2975,"15-Crown-5","C10 H20 O5",0.22,220.13112,221.1384,14.254,"newdry","mz_cloud",14459475.000104
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"newdry","mz_cloud",5126778.97432413
+3443,"16-Heptadecyne-1,2,4-triol","C17 H32 O3",0.09,284.23517,285.24243,22.349,"olddry","mz_cloud",5087321.0393814
+391,"17-Methyltestosterone","C20 H30 O2",0.42,302.22471,303.23195,23.017,"newdry","kps_psychoactive_substances_v2",26886708.2362665
+391,"17-Methyltestosterone","C20 H30 O2",0.42,302.22471,303.23195,23.017,"olddry","kps_psychoactive_substances_v2",35942361.8056806
+115,"17beta-Estradiol","C18 H24 O2",-0.28,272.17755,273.18483,20.433,"newdry","kps_pharmaceuticals_oct22",23383795.5333843
+312,"17beta-Estradiol","C18 H24 O2",0.07,272.17765,273.18492,20.667,"olddry","kps_pharmaceuticals_oct22",113552485.251619
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"newdry","mz_cloud",10576121.6858293
+1379,"2,2,6,6-Tetramethyl-4-piperidinol","C9 H19 N O",0.15,157.14669,158.15396,16.304,"olddry","mz_cloud",25235796.4120699
+1860,"2,4-Di-tert-butylphenol","C14 H22 O",-0.01,206.16706,207.17434,20.636,"newdry","kps_cannabinoids",6902452.31259335
+1860,"2,4-Di-tert-butylphenol","C14 H22 O",-0.01,206.16706,207.17434,20.636,"olddry","kps_cannabinoids",3899938.92901354
+1839,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.46,297.26692,298.27419,21.373,"newdry","mz_cloud",10759786.8335095
+788,"2-Aminooctadec-4-yne-1,3-diol","C18 H35 N O2",0.43,297.26691,298.27418,22.225,"olddry","mz_cloud",4985818.01715335
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"newdry","mz_cloud",30786808.4721785
+569,"2-Ethyl-N-{4-[(2R,3R)-3-(hydroxymethyl)-5-oxo-2-morpholinyl]phenyl}butanamide","C17 H24 N2 O4",0.61,320.1738,321.18109,14.561,"olddry","mz_cloud",18654672.7791806
+2489,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.7,315.20474,316.21202,1.274,"newdry","mz_cloud",16401152.913635
+1186,"2-[(3S)-1-(Cyclohexylmethyl)-3-pyrrolidinyl]-5-(1-methyl-1H-imidazol-5-yl)-1,3,4-oxadiazole","C17 H25 N5 O",-3.86,315.20469,316.21197,7.552,"olddry","mz_cloud",42659599.0849308
+2281,"2C-G","C12 H19 N O2",1.39,209.14187,227.1754,14.415,"olddry","kps_psychoactive_substances_v2",16507662.408904
+2236,"2C-P","C13 H21 N O2",0.03,223.15724,224.16451,23.569,"olddry","kps_psychoactive_substances_v2",3351483.81878404
+176,"3,4-Dimethylaniline","C8 H11 N",1.29,121.08931,122.09658,4.352,"newdry","kps_pharmaceuticals_oct22",43918187.9577646
+176,"3,4-Dimethylaniline","C8 H11 N",1.29,121.08931,122.09658,4.352,"olddry","kps_pharmaceuticals_oct22",56754849.0510764
+477,"3,5-di-tert-Butyl-4-hydroxybenzaldehyde","C15 H22 O2",-0.05,234.16197,235.16925,19.669,"olddry","mz_cloud",60906654.50444
+2591,"3-Carboxymedetomidine","C13 H14 N2 O2",-0.02,230.10552,231.1128,15.042,"olddry","mz_cloud",7641399.55280989
+4860,"3-[(2H-1,3-benzodioxol-5-yl)methyl]-4-[(3,4-dimethoxyphenyl)methyl]oxolan-2-one","C21 H22 O6",-0.02,370.14163,371.14891,19.368,"olddry","mz_cloud",2965509.67360398
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"newdry","mz_cloud",16049973.4404969
+854,"3-amino-2-phenyl-2H-pyrazolo[4,3-c]pyridine-4,6-diol","C12 H10 N4 O2",0.02,242.08038,243.08766,13.375,"olddry","mz_cloud",15562035.1923221
+3794,"3alpha-Androstanediol","C19 H32 O2",0.27,292.24031,293.24756,22.089,"newdry","kps_psychoactive_substances_v2",8621795.99955419
+3140,"4'-Deoxycirramycin�A1_BTM02228","C29 H44 O10",1.22,552.29412,553.3014,15.423,"olddry","itn_cyp_metabolites",13384870.0675135
+2514,"4,4'-Sulfonylbis[2-(prop-2-en-1-yl)phenol]","C18 H18 O4 S",-0.04,330.09257,331.09984,18.563,"olddry","mz_cloud",17417777.2667257
+1424,"4-Heptylphenol","C13 H20 O",0.08,192.15143,193.15871,19.111,"newdry","kps_pharmaceuticals_oct22",14451050.2104819
+1424,"4-Heptylphenol","C13 H20 O",0.08,192.15143,193.15871,19.111,"olddry","kps_pharmaceuticals_oct22",24271437.4602836
+3108,"4-Hexylresorcinol","C12 H18 O2",0.16,194.13071,195.13799,17.551,"olddry","kps_pharmaceuticals_oct22",2079491.08811561
+1893,"4-Methoxyamphetamine","C10 H15 N O",0.14,165.11539,166.12266,17.851,"newdry","kps_psychoactive_substances_v2",7377453.98137875
+1893,"4-Methoxyamphetamine","C10 H15 N O",0.14,165.11539,166.12266,17.851,"olddry","kps_psychoactive_substances_v2",11379823.1329343
+472,"4-Oxosebacic Acid","C10 H16 O5",-0.11,216.09975,239.08898,10.02,"newdry","kps_pharmaceuticals_oct22",10276846.6734374
+472,"4-Oxosebacic Acid","C10 H16 O5",-0.11,216.09975,239.08898,10.02,"olddry","kps_pharmaceuticals_oct22",19708493.3293604
+146,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",0.63,333.26699,334.27426,15.514,"newdry","mz_cloud",12890915.4900963
+137,"4-[(6E)-3-Hydroxy-8,10-dimethyl-2-(methylamino)-6-dodecen-1-yl]phenol","C21 H35 N O2",0.6,333.26698,334.27426,17.409,"olddry","mz_cloud",255856613.470628
+1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",1.09,300.18411,301.19119,17.56,"newdry","mz_cloud",4023452.11516593
+1914,"4-[3,5-di(tert-butyl)-1H-pyrazol-1-yl]benzoic acid","C18 H24 N2 O2",1.09,300.18411,301.19119,17.56,"olddry","mz_cloud",27116940.3084395
+3618,"4-amino-1-phenyl-6-(phenylimino)-1,2,5,6-tetrahydro-1,3,5-triazin-2-one","C15 H13 N5 O",0.21,279.11207,280.11934,16.097,"olddry","mz_cloud",9221559.57395578
+3688,"4-hydroxy-1-phenyl-1,2-dihydroquinolin-2-one","C15 H11 N O2",0.02,237.07898,238.08626,17.895,"olddry","mz_cloud",7188610.76414287
+2737,"4-hydroxy-3-(3-methylbut-2-en-1-yl)benzoic acid","C12 H14 O3",-0.09,206.09428,207.10155,21.492,"olddry","mz_cloud",2362619.46418481
+2637,"4-piperidin-4-ylbutal","C9 H17 N O",0.15,155.13104,156.13831,23.522,"olddry","kps_pharmaceuticals_oct22",3815867.58228741
+436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",0.16,383.2461,384.25338,22.476,"newdry","mz_cloud",6593121.87945964
+436,"4-{[(7-Isopropyl-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl]amino}-4-oxobut-2-enoic acid","C24 H33 N O3",0.16,383.2461,384.25338,22.476,"olddry","mz_cloud",6562968.56674359
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"newdry","mz_cloud",26062748.7887799
+263,"5(Z),8(Z),11(Z)-Eicosatrienoic acid methyl ester","C21 H36 O2",0.64,320.27174,321.27901,22.922,"olddry","mz_cloud",150294793.086984
+2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",-2.86,279.07099,280.07826,18.246,"newdry","mz_cloud",2248526.18468133
+2334,"5-(4-methylphenyl)-2-phenyl-6H-1,3-thiazin-6-one","C17 H13 N O S",-2.86,279.07099,280.07826,18.246,"olddry","mz_cloud",15248028.7214797
+791,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",0.44,299.19989,300.20717,18.309,"newdry","mz_cloud",9399538.32484575
+2549,"5-Methyl-2-[(3S)-1-(1-methyl-4-piperidinyl)-3-pyrrolidinyl]-1,3-benzoxazole","C18 H25 N3 O",0.15,299.19981,300.20708,17.135,"olddry","mz_cloud",18463767.6843619
+2289,"5-Phenylvaleric acid","C11 H14 O2",0.07,178.09939,179.10667,19.51,"newdry","kps_pharmaceuticals_oct22",21206439.4094604
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"newdry","mz_cloud",7782916.93351085
+1174,"5-hydroxy-2,2,6,6-tetramethyl-4-{2-methyl-1-[2,4,6-trihydroxy-3-(2-methylpropanoyl)phenyl]propyl}cyclohex-4-ene-1,3-dione","C24 H32 O7",0.08,432.21484,433.22211,22.695,"olddry","mz_cloud",8218896.58310507
+2422,"6-Allyl-o-cresol","C10 H12 O",0.26,148.08885,149.09613,18.702,"olddry","itn_cyp_metabolites",1693626.24317596
+3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",0.21,397.35568,398.36296,21.542,"newdry","mz_cloud",7182594.1298857
+3909,"6-Hexanoyl-D-erythro-sphingosine","C24 H47 N O3",0.21,397.35568,398.36296,21.542,"olddry","mz_cloud",6422605.84907438
+2307,"7-Hydroxycoumarine","C9 H6 O3",0.09,162.03171,163.03898,20.41,"olddry","mz_cloud",4175790.94085834
+5545,"7-chloro-4-piperidinoquinoline","C14 H15 Cl N2",-0.08,246.09236,247.09963,18.544,"newdry","mz_cloud",969135.83696119
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"newdry","itn_kps",45688568.3151677
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"olddry","itn_kps",20131704.4238054
+1420,"8-{3-Oxo-2-[(2E)-2-penten-1-yl]-1-cyclopenten-1-yl}octanoic acid","C18 H28 O3",0.14,292.20389,293.21116,19.534,"newdry","mz_cloud",38255456.2842878
+953,"9-Aminocamptothecin","C20 H17 N3 O4",0.19,363.12197,364.12925,9.578,"olddry","kps_pharmaceuticals_oct22",10091224.8444761
+1541,"9-Oxo-10(E),12(E)-octadecadienoic acid","C18 H30 O3",0.7,294.2197,295.22698,21.161,"newdry","mz_cloud",7931965.57923636
+1269,"9H-Fluoren-4-yl(piperidino)methanone","C19 H19 N O",0.22,277.14673,278.154,17.766,"newdry","mz_cloud",26673365.7619483
+1309,"A-836339","C16 H26 N2 O2 S",2.57,310.1723,311.17957,21.307,"olddry","mz_cloud",4249892.11821461
+4906,"AB-001","C24 H31 N O",0.3,349.24067,350.24794,20.591,"newdry","kps_cannabinoids",4624567.95726807
+670,"APP-FUBINACA","C24 H21 F N4 O2",2.34,416.16583,417.1731,9.551,"olddry","kps_cannabinoids",65435006.0758378
+3948,"Abexinostat","C21 H23 N3 O5",3.93,397.16533,398.17261,19.42,"olddry","kps_pharmaceuticals_oct22",8938912.45871429
+773,"Acitretin","C21 H26 O3",0.64,326.1884,327.19568,17.413,"newdry","kps_pharmaceuticals_oct22",44693244.6798745
+4117,"Agomelatine","C15 H17 N O2",-0.01,243.12593,244.1332,16.758,"olddry","kps_pharmaceuticals_oct22",8175408.93165535
+2595,"Agroclavine_BTM03062","C16 H18 N2 O",-0.13,254.14188,255.14916,18.588,"newdry","itn_cyp_metabolites",1628024.11495444
+1989,"Alfacalcidol","C27 H44 O2",0.1,400.33417,401.34145,23.72,"newdry","kps_pharmaceuticals_oct22",25572538.4650156
+1989,"Alfacalcidol","C27 H44 O2",0.1,400.33417,401.34145,23.72,"olddry","kps_pharmaceuticals_oct22",20369682.8915674
+188,"Allylestrenol","C21 H32 O",0.67,300.24552,318.27935,18.936,"newdry","kps_pharmaceuticals_oct22",203814222.26025
+2124,"Allylprodine","C18 H25 N O2",0.3,287.18862,288.19586,17.464,"newdry","kps_pharmaceuticals_oct22",4783763.22468748
+543,"Allylprodine","C18 H25 N O2",0.23,287.18859,288.19586,17.912,"olddry","kps_pharmaceuticals_oct22",24103784.3577728
+5208,"Alosetron","C17 H18 N4 O",-3.88,294.14692,295.1542,20.574,"newdry","kps_pharmaceuticals_oct22",3134914.28154589
+528,"Alpha-Dimorphecolic","C18 H32 O3",0.44,296.23527,297.24255,17.671,"newdry","kps_pharmaceuticals_oct22",9991233.20934684
+2534,"Alverine","C20 H27 N",0.16,281.21439,282.22167,23.141,"newdry","kps_pharmaceuticals_oct22",2220564.52804901
+2534,"Alverine","C20 H27 N",0.16,281.21439,282.22167,23.141,"olddry","kps_pharmaceuticals_oct22",7878074.98198176
+2021,"Amiodarone","C25 H29 I2 N O3",0.6,645.02407,646.03134,21.242,"newdry","kps_pharmaceuticals_oct22",24981384.5821962
+2021,"Amiodarone","C25 H29 I2 N O3",0.6,645.02407,646.03134,21.242,"olddry","kps_pharmaceuticals_oct22",19035956.085434
+4814,"Amisulpride","C17 H27 N3 O4 S",0.01,369.17223,370.17951,1.268,"newdry","kps_pharmaceuticals_oct22",4589690.62075983
+1544,"Amisulpride","C17 H27 N3 O4 S",-0.11,369.17219,370.17946,8.277,"olddry","kps_pharmaceuticals_oct22",21310171.2980656
+148,"Amitriptyline","C20 H23 N",0.13,277.18309,278.19036,18.475,"newdry","kps_pharmaceuticals_oct22",16478623.4667034
+148,"Amitriptyline","C20 H23 N",0.13,277.18309,278.19036,18.475,"olddry","kps_pharmaceuticals_oct22",241092999.517991
+205,"Amorolfine","C21 H35 N O",0.6,317.27206,318.27933,19.36,"newdry","kps_pharmaceuticals_oct22",135640762.673464
+150,"Amorolfine","C21 H35 N O",0.64,317.27207,318.27934,19.875,"olddry","kps_pharmaceuticals_oct22",24557376.951906
+2344,"Amylocaine","C14 H21 N O2",-0.02,235.15723,236.1645,17.237,"newdry","kps_pharmaceuticals_oct22",7097687.691525
+2344,"Amylocaine","C14 H21 N O2",-0.02,235.15723,236.1645,17.237,"olddry","kps_pharmaceuticals_oct22",14991732.3986195
+2782,"Androsta-1,4-diene-3,17-dione","C19 H24 O2",0.13,284.17767,285.18494,16.356,"newdry","kps_psychoactive_substances_v2",12732081.9550495
+118,"Antroquinonol","C24 H38 O4",0.03,390.27702,413.26624,24.711,"newdry","kps_pharmaceuticals_oct22",72600642.5397478
+118,"Antroquinonol","C24 H38 O4",0.03,390.27702,413.26624,24.711,"olddry","kps_pharmaceuticals_oct22",77889307.3876719
+3341,"Apigenin","C15 H10 O5",-0.01,270.05282,271.0601,13.351,"olddry","kps_pharmaceuticals_oct22",5802242.06906566
+4215,"Apixaban","C25 H25 N5 O4",-0.02,459.19064,460.19792,14.967,"newdry","kps_pharmaceuticals_oct22",4459620.27969196
+4215,"Apixaban","C25 H25 N5 O4",-0.02,459.19064,460.19792,14.967,"olddry","kps_pharmaceuticals_oct22",5700551.25463935
+4234,"Atorvastatin","C33 H35 F N2 O5",0.07,558.25304,559.26032,18.665,"newdry","kps_pharmaceuticals_oct22",7640318.45809973
+2080,"Azithromycin","C38 H72 N2 O12",0.21,748.50868,749.51596,18.928,"newdry","itn_kps",3296588.12011236
+2649,"Bardoxolone methyl","C32 H43 N O4",-4.77,505.3168,506.32408,22.493,"olddry","kps_pharmaceuticals_oct22",5056457.38756328
+371,"Bencyclane","C19 H31 N O",0.11,289.2406,290.24787,18.488,"newdry","kps_pharmaceuticals_oct22",23912241.50854
+237,"Bencyclane","C19 H31 N O",0.18,289.24062,290.24789,16.595,"olddry","kps_pharmaceuticals_oct22",56786582.5278539
+4709,"Benzenesulfinic acid","C6 H6 O2 S",0.36,142.0089,143.01618,22.98,"olddry","kps_pharmaceuticals_oct22",2690123.599893
+1734,"Benzophenone","C13 H10 O",0.09,182.07318,183.08046,17.18,"newdry","kps_pharmaceuticals_oct22",9846171.09779999
+1734,"Benzophenone","C13 H10 O",0.09,182.07318,183.08046,17.18,"olddry","kps_pharmaceuticals_oct22",30597086.0030367
+1051,"Benzylsulfanilamide_BTM04684","C7 H6 O",1.29,106.042,107.04928,20.91,"newdry","itn_cyp_metabolites",18786533.4763238
+1051,"Benzylsulfanilamide_BTM04684","C7 H6 O",1.29,106.042,107.04928,20.91,"olddry","itn_cyp_metabolites",13470348.2129252
+233,"Berberine","C20 H17 N O4",0.68,335.11599,336.12326,12.297,"newdry","mz_cloud",116333097.102012
+233,"Berberine","C20 H17 N O4",0.68,335.11599,336.12326,12.297,"olddry","mz_cloud",186552959.713994
+3257,"Bevantolol","C20 H27 N O4",0.39,345.19414,346.20142,16.301,"olddry","kps_pharmaceuticals_oct22",10940304.6399319
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",-2.78,492.25116,515.24038,21.409,"newdry","kps_psychoactive_substances_v2",10563649.3394753
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",-2.78,492.25116,515.24038,21.409,"olddry","kps_psychoactive_substances_v2",9756117.92399488
+570,"Bifonazole","C22 H18 N2",4.13,310.14828,311.15556,13.265,"newdry","kps_pharmaceuticals_oct22",35289175.9540543
+567,"Bifonazole","C22 H18 N2",4.13,310.14828,311.15556,15.737,"olddry","kps_pharmaceuticals_oct22",77531981.6336464
+5552,"Biotin","C10 H16 N2 O3 S",2.55,244.08879,245.09606,20.585,"olddry","kps_pharmaceuticals_oct22",954820.25224602
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"newdry","mz_cloud",904519866.783522
+1,"Bis(2-ethylhexyl) amine","C16 H35 N",-0.27,241.27689,242.28416,21.21,"olddry","mz_cloud",194794697.710469
+732,"Boldenone cypionate","C27 H38 O3",0.08,410.28213,411.2894,23.239,"olddry","mz_cloud",75121199.4071134
+2569,"Boldenone undecylenate","C30 H44 O3",0.09,452.32908,453.33636,23.723,"olddry","kps_psychoactive_substances_v2",18301473.3854152
+3099,"Bombykol","C16 H30 O",0.02,238.22967,239.23695,23.408,"olddry","kps_pharmaceuticals_oct22",8522768.39617971
+2195,"Brivaracetam","C11 H20 N2 O2",-0.01,212.15248,213.15975,12.542,"olddry","kps_pharmaceuticals_oct22",9765371.14072968
+124,"Buthionine Sulfoxime","C8 H18 N2 O3 S",2.8,222.10444,223.11171,18.618,"newdry","kps_pharmaceuticals_oct22",16554053.9040331
+124,"Buthionine Sulfoxime","C8 H18 N2 O3 S",2.8,222.10444,223.11171,18.618,"olddry","kps_pharmaceuticals_oct22",7811597.59749868
+2390,"CB-25","C25 H41 N O3",0,403.30864,404.31592,23.911,"newdry","kps_psychoactive_substances_v2",6283256.80753607
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"newdry","mz_cloud",18740795.5008875
+1693,"CB-86","C26 H43 N O3",0.08,417.32433,418.33161,20.167,"olddry","mz_cloud",24026534.6835431
+1210,"Calcipotriene","C27 H40 O3",0.07,412.29777,413.30504,22.907,"newdry","kps_pharmaceuticals_oct22",14872400.3407494
+1210,"Calcipotriene","C27 H40 O3",0.07,412.29777,413.30504,22.907,"olddry","kps_pharmaceuticals_oct22",29344397.2270762
+2333,"Calcitriol","C27 H44 O3",0.07,416.32907,417.33635,22.021,"newdry","kps_pharmaceuticals_oct22",20644521.0590995
+555,"Calcitriol","C27 H44 O3",0.09,416.32908,417.33636,24.854,"olddry","kps_pharmaceuticals_oct22",25842523.0309889
+1744,"Calophyn","C20 H24 O4",0.67,328.16768,329.17496,16.202,"newdry","kps_pharmaceuticals_oct22",15237596.9110319
+4734,"Calophyn","C20 H24 O4",0.82,328.16773,329.17501,21.749,"olddry","kps_pharmaceuticals_oct22",5365263.58770929
+1195,"Cannabidiolic acid","C22 H30 O4",0.25,358.2145,359.22178,16.797,"newdry","kps_cannabinoids",34493739.6817146
+758,"Cannabigerol","C21 H32 O2",0.48,316.24038,317.24766,18.531,"newdry","kps_cannabinoids",1020085.40035314
+3599,"Cannabigerol","C21 H32 O2",0.64,316.24043,317.24771,23.624,"olddry","kps_cannabinoids",6237233.22980265
+1252,"Cannabigerolic acid","C22 H32 O4",0.22,360.23014,361.23747,18.273,"newdry","kps_cannabinoids",44440963.7190469
+584,"Cannabinol monomethyl ether","C22 H28 O2",0.71,324.20916,325.21644,18.752,"newdry","kps_cannabinoids",9910373.82615319
+584,"Cannabinol monomethyl ether","C22 H28 O2",0.71,324.20916,325.21644,18.752,"olddry","kps_cannabinoids",6434183.87693145
+2759,"Canrenone","C22 H28 O3",0.31,340.20395,341.21123,17.664,"newdry","kps_pharmaceuticals_oct22",8951362.95494466
+4981,"Carazolol","C18 H22 N2 O2",0.33,298.16823,299.1755,18.897,"newdry","kps_pharmaceuticals_oct22",4278795.33252496
+2395,"Carbamazepine","C15 H12 N2 O",-0.01,236.09496,237.10224,14.847,"newdry","kps_pharmaceuticals_oct22",7940232.06919849
+2395,"Carbamazepine","C15 H12 N2 O",-0.01,236.09496,237.10224,14.847,"olddry","kps_pharmaceuticals_oct22",15183092.8677045
+2642,"Carisoprodol","C12 H24 N2 O4",-0.06,260.17359,261.18087,19.087,"olddry","kps_psychoactive_substances_v2",2902229.47132615
+4190,"Carvedilol","C24 H26 N2 O4",0.17,406.18933,407.1966,14.27,"olddry","itn_cyp_metabolites",7843674.95906487
+4487,"Cediranib","C25 H27 F N4 O3",2.28,450.20774,451.21502,10.116,"newdry","kps_pharmaceuticals_oct22",6258422.69606192
+3442,"Cefaloglycin_BTM00313","C18 H19 N3 O7 S",-3.63,421.09284,422.10012,16.507,"olddry","itn_cyp_metabolites",9774496.79381965
+2575,"Cefrotil","C20 H22 N4 O4 S",4.11,414.13788,415.14515,13.291,"olddry","itn_kps",15064394.0537761
+909,"Cetaben","C23 H39 N O2",0.34,361.2982,362.30548,21.102,"newdry","mz_cloud",6077172.9785583
+2133,"Cetirizine","C21 H25 Cl N2 O3",0.22,388.15545,389.16273,16.162,"newdry","kps_pharmaceuticals_oct22",6891489.09946145
+790,"Cetirizine","C21 H25 Cl N2 O3",0.15,388.15543,389.1627,17.623,"olddry","kps_pharmaceuticals_oct22",68774825.7951091
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"newdry","mz_cloud",1680530684.85587
+11,"Cetrimonium","C19 H41 N",-0.17,283.32385,284.33113,21.675,"olddry","mz_cloud",2472758504.81078
+2455,"Chlorphenesin","C9 H11 Cl O3",-0.91,202.03949,203.04676,20.675,"newdry","kps_pharmaceuticals_oct22",17651042.3406569
+2455,"Chlorphenesin","C9 H11 Cl O3",-0.91,202.03949,203.04676,20.675,"olddry","kps_pharmaceuticals_oct22",12668451.3918927
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"newdry","mz_cloud",288896524.285214
+132,"Cinchophen","C16 H11 N O2",0.18,249.07902,250.0863,22.318,"olddry","mz_cloud",259781739.006265
+3841,"Cinnarizine","C26 H28 N2",0.03,368.22526,369.23254,19.483,"olddry","kps_pharmaceuticals_oct22",7051472.72237079
+427,"Ciprofloxacin","C17 H18 F N3 O3",0.74,331.13347,332.14074,12.312,"newdry","itn_kps",47510675.0846386
+730,"Cisatracurium besylate","C18 H28 O2",0.16,276.20897,277.21625,21.327,"newdry","kps_pharmaceuticals_oct22",18142153.4109714
+730,"Cisatracurium besylate","C18 H28 O2",0.16,276.20897,277.21625,21.327,"olddry","kps_pharmaceuticals_oct22",15614628.0890904
+182,"Citalopram","C20 H21 F N2 O",0.72,324.16403,325.1713,13.162,"newdry","kps_pharmaceuticals_oct22",90923624.9114102
+182,"Citalopram","C20 H21 F N2 O",0.72,324.16403,325.1713,13.162,"olddry","kps_pharmaceuticals_oct22",232009458.751922
+2860,"Clobutinol","C14 H22 Cl N O",-0.07,255.13897,256.14625,19.716,"newdry","kps_pharmaceuticals_oct22",15574828.0171909
+2860,"Clobutinol","C14 H22 Cl N O",-0.07,255.13897,256.14625,19.716,"olddry","kps_pharmaceuticals_oct22",10269363.5050353
+3225,"Clozapine","C18 H19 Cl N4",-2.16,326.12912,327.1364,18.465,"newdry","kps_pharmaceuticals_oct22",12898355.0677993
+1881,"Clozapine","C18 H19 Cl N4",0.67,326.13004,327.13732,16.878,"olddry","kps_pharmaceuticals_oct22",27690996.0288549
+1708,"Codeine","C18 H21 N O3",0.4,299.15226,300.15954,16.482,"newdry","kps_psychoactive_substances_v2",18911028.1642764
+1537,"Codeine","C18 H21 N O3",0.45,299.15228,300.15955,10.549,"olddry","kps_psychoactive_substances_v2",19641120.799559
+2446,"Colchicine","C22 H25 N O6",0.21,399.16827,400.17554,18.09,"olddry","kps_pharmaceuticals_oct22",19542010.5515232
+561,"Concanamycin A_BTM01216","C45 H73 N O14",0.17,851.50325,852.51053,17.444,"newdry","itn_cyp_metabolites",25638002.7052054
+782,"Concanamycin A_BTM01216","C45 H73 N O14",0.14,851.50322,852.5105,14.498,"olddry","itn_cyp_metabolites",41204788.2805132
+1921,"Coumafuryl","C17 H14 O5",0.49,298.08427,299.09155,20.066,"newdry","kps_pharmaceuticals_oct22",14180942.7159484
+1921,"Coumafuryl","C17 H14 O5",0.49,298.08427,299.09155,20.066,"olddry","kps_pharmaceuticals_oct22",5937639.07552173
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"newdry","itn_kps",140576556.80906
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"olddry","itn_kps",200063795.072769
+2039,"Cryptotanshinone_BTM04455","C19 H20 O4",0.27,312.13624,313.14352,20.502,"newdry","itn_cyp_metabolites",1386194.84169626
+2039,"Cryptotanshinone_BTM04455","C19 H20 O4",0.27,312.13624,313.14352,20.502,"olddry","itn_cyp_metabolites",15926332.5155285
+332,"Curcumin","C21 H20 O6",0.06,368.12601,369.13329,18.54,"newdry","kps_pharmaceuticals_oct22",87585063.0968495
+332,"Curcumin","C21 H20 O6",0.06,368.12601,369.13329,18.54,"olddry","kps_pharmaceuticals_oct22",77214814.4063983
+235,"Cyclandelate","C17 H24 O3",0.04,276.17256,277.17982,18.11,"newdry","kps_pharmaceuticals_oct22",29749740.9328411
+235,"Cyclandelate","C17 H24 O3",0.04,276.17256,277.17982,18.11,"olddry","kps_pharmaceuticals_oct22",46044473.7404646
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"newdry","mz_cloud",17217084.1407488
+1481,"Cyclohexyl phenyl ketone","C13 H16 O",0.01,188.12012,189.12739,22.636,"olddry","mz_cloud",18269256.5720982
+204,"Cyclohexyl-norstatine","C13 H25 N O3",-0.19,243.1834,266.17262,17.047,"newdry","kps_pharmaceuticals_oct22",17479081.2140589
+204,"Cyclohexyl-norstatine","C13 H25 N O3",-0.19,243.1834,266.17262,17.047,"olddry","kps_pharmaceuticals_oct22",38917220.5865123
+1148,"DM 235","C14 H18 N2 O2",-0.08,246.13681,247.14409,11.121,"olddry","kps_psychoactive_substances_v2",28282262.7609701
+3557,"Dabigatran etexilate","C34 H41 N7 O5",0.56,627.31727,628.32455,19.363,"newdry","kps_pharmaceuticals_oct22",6315945.05566699
+3822,"Decamethylcyclopentasiloxane","C10 H30 O5 Si5",-0.07,370.09393,371.10121,23.041,"olddry","kps_pharmaceuticals_oct22",9532052.49088303
+3014,"Decanamide","C10 H21 N O",0.12,171.16233,172.16961,18.403,"olddry","mz_cloud",2830662.86088749
+4778,"Decanophenone","C16 H24 O",-0.06,232.1827,233.18998,19.617,"olddry","mz_cloud",5168198.65260164
+2799,"Deferasirox","C21 H15 N3 O4",0.07,373.10628,374.11356,18.929,"newdry","kps_pharmaceuticals_oct22",775715.536510262
+2799,"Deferasirox","C21 H15 N3 O4",0.07,373.10628,374.11356,18.929,"olddry","kps_pharmaceuticals_oct22",6494450.69844473
+975,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",0.66,314.22479,315.23206,19.079,"newdry","kps_cannabinoids",55626915.3217779
+3037,"Delta 9 Tetrahydrocannabinol (THC)","C21 H30 O2",0.69,314.2248,315.23207,22.653,"olddry","kps_cannabinoids",6203428.37233583
+1340,"Desacetyl diltiazem","C20 H24 N2 O3 S",0.18,372.15083,373.15811,13.074,"olddry","mz_cloud",36156780.0385052
+3432,"Desmethyl tocotrienol","C26 H38 O2",0.12,382.28723,383.2945,22.409,"olddry","kps_pharmaceuticals_oct22",11505044.6801617
+1027,"Desogestrel","C22 H30 O",0.38,310.22978,311.23706,21.289,"newdry","kps_pharmaceuticals_oct22",53425558.8319214
+3645,"Desoxymethyltestosterone","C20 H32 O",0.32,288.24541,289.25264,23.229,"newdry","kps_psychoactive_substances_v2",6231653.00448893
+3645,"Desoxymethyltestosterone","C20 H32 O",0.32,288.24541,289.25264,23.229,"olddry","kps_psychoactive_substances_v2",6804665.10243902
+2800,"Dexbrompheniramine","C16 H19 Br N2",-4.67,318.07167,319.07895,18.956,"olddry","kps_pharmaceuticals_oct22",6258464.10074557
+871,"Diampromide","C21 H28 N2 O",0.64,324.22037,325.22765,13.134,"olddry","kps_pharmaceuticals_oct22",45675158.9972166
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"newdry","mz_cloud",6427268.21747023
+1731,"Dibutyl phthalate","C16 H22 O4",0.23,278.15187,279.15915,24.71,"olddry","mz_cloud",7262313.34566437
+478,"Dichlorophene_BTM02818","C13 H11 Cl O3",-0.79,250.03947,251.04675,22.086,"newdry","itn_cyp_metabolites",109175588.140253
+478,"Dichlorophene_BTM02818","C13 H11 Cl O3",-0.79,250.03947,251.04675,22.086,"olddry","itn_cyp_metabolites",91653866.964356
+2475,"Diclofensine","C17 H17 Cl2 N O",0.69,321.06894,322.07622,18.382,"newdry","mz_cloud",578934.013147449
+1026,"Didecyl phthalate","C28 H46 O4",0.03,446.33962,447.3469,23.574,"olddry","mz_cloud",16879811.9804771
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"newdry","mz_cloud",2032744964.76562
+8,"Didecyldimethylammonium","C22 H47 N",0.22,325.37092,326.3782,21.592,"olddry","mz_cloud",1905665569.13935
+1584,"Dienogest","C20 H25 N O2",0.4,311.18865,312.19593,11.034,"olddry","kps_pharmaceuticals_oct22",21877057.9956343
+646,"Diethylpropion","C13 H19 N O",-0.12,205.14664,206.15392,15.218,"olddry","kps_psychoactive_substances_v2",66107377.3530097
+1577,"Digitoxigenin","C23 H34 O4",0.11,374.24575,375.25303,18.185,"newdry","kps_pharmaceuticals_oct22",24325590.3650016
+2719,"Dihexylamine","C12 H27 N",0.12,185.21437,186.22165,19.343,"newdry","mz_cloud",16807847.2900192
+4177,"Dihydrocodeine","C18 H23 N O3",0.44,301.16793,302.1752,16.528,"newdry","kps_psychoactive_substances_v2",4138221.67246678
+2484,"Diisobutyl adipate","C14 H26 O4",-0.17,258.18307,259.19034,17.712,"olddry","mz_cloud",2675370.17058922
+4478,"Dimenoxadol","C20 H25 N O3",0.66,327.18366,328.19094,16.915,"newdry","kps_psychoactive_substances_v2",6476526.43391845
+457,"Dipropyltryptamine","C16 H24 N2",-0.07,244.19393,245.20121,22.007,"newdry","kps_psychoactive_substances_v2",45239597.4362179
+457,"Dipropyltryptamine","C16 H24 N2",-0.07,244.19393,245.20121,22.007,"olddry","kps_psychoactive_substances_v2",32346135.2603022
+2768,"Dipyridamole","C24 H40 N8 O4",-0.06,504.31722,505.3245,18.672,"newdry","kps_pharmaceuticals_oct22",1936384.62825063
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"newdry","mz_cloud",75822309.6916584
+70,"Docosahexaenoic acid ethyl ester","C24 H36 O2",0.44,356.27169,357.27896,21.734,"olddry","mz_cloud",22146626.3459655
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"newdry","mz_cloud",18011688.5514225
+109,"Docosanamide","C22 H45 N O",0.32,339.35022,340.3575,20.554,"olddry","mz_cloud",6363829.87259062
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"newdry","mz_cloud",409560374.345918
+18,"Dodecyltrimethylammonium","C15 H33 N",-0.2,227.26125,228.26853,21.341,"olddry","mz_cloud",97161455.1615884
+2093,"Dolutegravir","C20 H19 F2 N3 O5",0.14,419.12934,420.13661,15.951,"newdry","kps_pharmaceuticals_oct22",21497273.1402198
+2093,"Dolutegravir","C20 H19 F2 N3 O5",0.14,419.12934,420.13661,15.951,"olddry","kps_pharmaceuticals_oct22",22109475.9183986
+3520,"Doxercalciferol","C28 H44 O2",-0.98,412.33373,413.341,23.287,"newdry","kps_pharmaceuticals_oct22",2917141.00233099
+1065,"Dromostanolone","C20 H32 O2",0.5,304.24038,305.24763,23.546,"newdry","kps_psychoactive_substances_v2",19289465.7644061
+1065,"Dromostanolone","C20 H32 O2",0.5,304.24038,305.24763,23.546,"olddry","kps_psychoactive_substances_v2",20014020.7753824
+648,"Dromostanolone proprionate","C23 H36 O3",0.3,360.26655,361.27383,23.131,"newdry","kps_psychoactive_substances_v2",79713586.6038956
+648,"Dromostanolone proprionate","C23 H36 O3",0.3,360.26655,361.27383,23.131,"olddry","kps_psychoactive_substances_v2",9563684.90786372
+3128,"Drospirenone","C24 H30 O3",0.04,366.21951,367.22679,17.88,"newdry","kps_pharmaceuticals_oct22",4743514.54993891
+3128,"Drospirenone","C24 H30 O3",0.04,366.21951,367.22679,17.88,"olddry","kps_pharmaceuticals_oct22",12133434.1444142
+64,"Drotaverine","C24 H31 N O4",-0.06,397.22529,398.23256,21.794,"newdry","kps_pharmaceuticals_oct22",326814954.831347
+64,"Drotaverine","C24 H31 N O4",-0.06,397.22529,398.23256,21.794,"olddry","kps_pharmaceuticals_oct22",591350461.112129
+770,"Efinaconazole","C18 H22 F2 N4 O",-0.32,348.17606,349.18333,1.334,"newdry","kps_pharmaceuticals_oct22",71185241.3375053
+9,"Eicosapentaenoic acid ethyl ester","C22 H34 O2",0.21,330.25595,348.28977,19.007,"newdry","kps_pharmaceuticals_oct22",1936137541.48561
+9,"Eicosapentaenoic acid ethyl ester","C22 H34 O2",0.21,330.25595,348.28977,19.007,"olddry","kps_pharmaceuticals_oct22",834348492.153872
+1219,"Elacytarabine","C27 H45 N3 O6",3.16,507.33244,508.33972,23.038,"newdry","kps_pharmaceuticals_oct22",33403809.8115455
+1219,"Elacytarabine","C27 H45 N3 O6",3.16,507.33244,508.33972,23.038,"olddry","kps_pharmaceuticals_oct22",19746701.8684774
+5,"Elaidoylamide","C18 H35 N O",-0.17,281.27182,282.27908,23.364,"newdry","kps_pharmaceuticals_oct22",4031630883.50086
+5,"Elaidoylamide","C18 H35 N O",-0.17,281.27182,282.27908,23.364,"olddry","kps_pharmaceuticals_oct22",4405980833.4941
+2984,"Ellagic acid","C14 H6 O8",0.51,302.00642,303.0137,13.075,"newdry","kps_pharmaceuticals_oct22",14501164.8290154
+2984,"Ellagic acid","C14 H6 O8",0.51,302.00642,303.0137,13.075,"olddry","kps_pharmaceuticals_oct22",7397566.17109319
+3279,"Elvitegravir","C23 H23 Cl F N O5",0.09,447.12492,448.1322,19.812,"newdry","kps_pharmaceuticals_oct22",11317073.8038729
+3279,"Elvitegravir","C23 H23 Cl F N O5",0.09,447.12492,448.1322,19.812,"olddry","kps_pharmaceuticals_oct22",2239213.85371258
+1154,"Enalapril acid","C18 H24 N2 O5",4.19,348.16998,349.17726,19.391,"newdry","kps_pharmaceuticals_oct22",24865361.4143418
+1154,"Enalapril acid","C18 H24 N2 O5",4.19,348.16998,349.17726,19.391,"olddry","kps_pharmaceuticals_oct22",35604943.2574659
+3523,"Enzacamene","C18 H22 O",0.06,254.16708,255.17436,20.556,"newdry","kps_pharmaceuticals_oct22",2305143.92836507
+3523,"Enzacamene","C18 H22 O",0.06,254.16708,255.17436,20.556,"olddry","kps_pharmaceuticals_oct22",3447858.77476155
+47,"Eplerenone","C24 H30 O6",-0.24,414.20414,415.21151,18.729,"newdry","kps_pharmaceuticals_oct22",199256579.754733
+47,"Eplerenone","C24 H30 O6",-0.24,414.20414,415.21151,18.729,"olddry","kps_pharmaceuticals_oct22",179625874.334162
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"newdry","mz_cloud",7933933.38114745
+133,"Erucamide","C22 H43 N O",0.58,337.33466,338.34198,23.434,"olddry","mz_cloud",5495555.89478598
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"newdry","itn_kps",45478390.7920963
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"olddry","itn_kps",61235646.6517153
+4206,"Esculetin","C9 H6 O4",0.01,178.02661,179.03389,20.071,"newdry","mz_cloud",5036784.99326015
+3103,"Estradiol","C20 H26 O3",0.69,314.18841,315.19569,20.481,"newdry","kps_pharmaceuticals_oct22",5436738.0054582
+2117,"Estradiol","C20 H26 O3",0.23,314.18827,315.19554,20.642,"olddry","kps_pharmaceuticals_oct22",6057063.74321835
+1517,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",0.09,169.11029,170.11757,9.69,"newdry","mz_cloud",10919315.4326376
+1658,"Ethyl-2-amino-1-cyclohexene-1-carboxylate","C9 H15 N O2",0.07,169.11029,170.11757,10.444,"olddry","mz_cloud",8587893.07895035
+17,"Ethylenediaminetetraacetic acid (EDTA)","C10 H16 N2 O8",-0.44,292.09054,293.09782,1.544,"newdry","kps_pharmaceuticals_oct22",44370622.8462764
+17,"Ethylenediaminetetraacetic acid (EDTA)","C10 H16 N2 O8",-0.44,292.09054,293.09782,1.544,"olddry","kps_pharmaceuticals_oct22",37698316.3607645
+334,"Ethylphosphate","C2 H7 O4 P",1.19,126.00834,127.01562,5.659,"newdry","kps_pharmaceuticals_oct22",47898220.4962953
+334,"Ethylphosphate","C2 H7 O4 P",1.19,126.00834,127.01562,5.659,"olddry","kps_pharmaceuticals_oct22",96519710.7110941
+241,"Etomidate","C14 H16 N2 O2",-0.07,244.12116,245.12844,16.006,"olddry","kps_pharmaceuticals_oct22",184053662.425792
+2570,"Eugenol","C10 H12 O2",0.12,164.08375,165.09103,22.402,"newdry","kps_pharmaceuticals_oct22",8937706.2750981
+4037,"Fenbendazole","C15 H13 N3 O2 S",0.42,299.07297,300.08025,18.478,"newdry","mz_cloud",910239.163707714
+3253,"Fenbendazole","C15 H13 N3 O2 S",0.43,299.07298,300.08025,17.857,"olddry","mz_cloud",12635427.412426
+519,"Fenpropidin","C19 H31 N",0.06,273.24566,274.25294,21.085,"newdry","kps_pharmaceuticals_oct22",6388971.19624985
+519,"Fenpropidin","C19 H31 N",0.06,273.24566,274.25294,21.085,"olddry","kps_pharmaceuticals_oct22",5140055.97354788
+250,"Fexofenadine","C32 H39 N O4",-0.1,501.28786,502.29514,15.413,"newdry","kps_pharmaceuticals_oct22",55476277.7649545
+81,"Fexofenadine","C32 H39 N O4",-0.08,501.28787,502.29515,17.461,"olddry","kps_pharmaceuticals_oct22",503013376.187834
+2247,"Fluorescein","C20 H12 O5",0.71,332.06871,333.07599,15.388,"newdry","itn_cyp_metabolites",13555601.8989288
+1368,"Fluoxetine","C17 H18 F3 N O",0.38,309.13417,310.14144,18.488,"newdry","kps_pharmaceuticals_oct22",1140898.2597485
+1368,"Fluoxetine","C17 H18 F3 N O",0.38,309.13417,310.14144,18.488,"olddry","kps_pharmaceuticals_oct22",25208020.1067214
+568,"Gabapentin","C9 H17 N O2",0.06,171.12594,172.13323,22.378,"olddry","kps_pharmaceuticals_oct22",4977627.57676531
+147,"Gamolenic acid","C18 H30 O2",0.21,278.22464,279.23191,21.406,"newdry","kps_pharmaceuticals_oct22",31021662.4650552
+147,"Gamolenic acid","C18 H30 O2",0.21,278.22464,279.23191,21.406,"olddry","kps_pharmaceuticals_oct22",25457885.300273
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"newdry","mz_cloud",93499020.2115944
+178,"Gentian violet","C25 H29 N3",0.1,371.23618,372.24346,19.995,"olddry","mz_cloud",12218617.468109
+3861,"Glycerophospho-N-palmitoyl ethanolamine","C21 H44 N O7 P",0.12,453.28559,454.29287,22.624,"olddry","mz_cloud",6714928.86696703
+1506,"Glycyrrhetinic acid","C30 H46 O4",-0.8,470.33923,471.34651,22.486,"newdry","kps_pharmaceuticals_oct22",22766965.7903027
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"newdry","mz_cloud",1368035911.09008
+14,"Hexadecanamide","C16 H33 N O",-0.38,255.25612,256.26339,23.086,"olddry","mz_cloud",1705590416.61955
+2054,"Hydromorphone","C17 H19 N O3",0.2,285.13655,286.14383,18.342,"newdry","itn_cyp_metabolites",24476325.5042976
+2054,"Hydromorphone","C17 H19 N O3",0.2,285.13655,286.14383,18.342,"olddry","itn_cyp_metabolites",7326830.71351202
+1415,"Hydroxychloroquine, (R)-","C18 H26 Cl N3 O",0.65,335.17666,336.18393,18.644,"newdry","kps_pharmaceuticals_oct22",38409615.8633332
+278,"Hydroxychloroquine, (R)-","C18 H26 Cl N3 O",0.64,335.17666,336.18393,16.772,"olddry","kps_pharmaceuticals_oct22",112334504.793489
+1695,"Hydroxyprogesterone caproate","C27 H40 O4",-0.06,428.29264,429.29991,21.591,"newdry","kps_pharmaceuticals_oct22",31260451.3728907
+792,"Hyperforin","C35 H52 O4",1.82,536.38754,537.39481,24.381,"olddry","itn_kps",18444093.5381826
+1838,"Inavir","C21 H36 N4 O8",-2.91,472.25194,495.24117,10.654,"newdry","kps_pharmaceuticals_oct22",25546361.019247
+4361,"Indacaterol","C24 H28 N2 O3",0.08,392.21002,393.2173,21.185,"olddry","kps_pharmaceuticals_oct22",6641682.63618257
+1200,"Indan","C9 H10",0.94,118.07836,119.08564,18.705,"olddry","kps_psychoactive_substances_v2",3097282.04554165
+2541,"Indobufen","C18 H17 N O3",0.47,295.12098,296.12826,21.794,"newdry","kps_pharmaceuticals_oct22",10366798.0885016
+2541,"Indobufen","C18 H17 N O3",0.47,295.12098,296.12826,21.794,"olddry","kps_pharmaceuticals_oct22",18504452.121379
+1311,"Indole","C8 H7 N",0.95,117.05796,118.06524,10.979,"newdry","kps_pharmaceuticals_oct22",17107932.741856
+1431,"Indole-3-acetic acid","C10 H9 N O2",0.06,175.06334,176.07062,11.669,"newdry","mz_cloud",11879402.3906139
+57,"Indole-3-acrylic acid","C11 H9 N O2",0,187.06333,188.07061,6.774,"olddry","mz_cloud",49571363.0472328
+3890,"Isopropamide","C23 H33 N2 O",-3.53,353.25804,354.26532,22.718,"newdry","kps_pharmaceuticals_oct22",9085692.89055464
+3890,"Isopropamide","C23 H33 N2 O",-3.53,353.25804,354.26532,22.718,"olddry","kps_pharmaceuticals_oct22",5739872.27713341
+26,"Isopropyl dihydrogen phosphate","C3 H9 O4 P",0.79,140.02396,141.03124,5.661,"newdry","kps_pharmaceuticals_oct22",379982322.495968
+26,"Isopropyl dihydrogen phosphate","C3 H9 O4 P",0.79,140.02396,141.03124,5.661,"olddry","kps_pharmaceuticals_oct22",758404972.976781
+809,"Isopropyl tetradecanoate","C17 H34 O2",-0.27,270.25581,271.26308,0.814,"newdry","kps_pharmaceuticals_oct22",4658666.73067309
+894,"Isoquinoline","C9 H7 N",0.55,129.05792,130.0652,11.669,"newdry","kps_pharmaceuticals_oct22",17467613.2331512
+785,"JWH 200","C25 H24 N2 O2",-3.33,384.1825,385.18978,17.549,"newdry","kps_cannabinoids",69186008.8282143
+1036,"JWH 200 analog 1","C22 H30 N2 O2",0.12,354.23077,355.23812,18.087,"olddry","kps_cannabinoids",13340723.2403531
+855,"JWH-133","C22 H32 O",0.45,312.24546,313.25273,20.454,"newdry","kps_cannabinoids",60877170.2341572
+2667,"JWH-198","C26 H26 N2 O3",-0.08,414.19431,415.20159,18.755,"olddry","kps_cannabinoids",5196976.54126477
+504,"Jervine","C27 H39 N O3",0.12,425.29304,426.30032,15.773,"olddry","mz_cloud",106483173.264906
+1757,"Kaempferol","C15 H10 O6",0.21,286.0478,287.05507,15.285,"olddry","kps_pharmaceuticals_oct22",10025683.2034098
+4085,"Kalamycin_BTM03157","C16 H12 O7",0.81,316.05856,317.06583,13.092,"olddry","itn_cyp_metabolites",7656902.50409887
+634,"Ketoconazole","C26 H28 Cl2 N4 O4",0.07,530.1488,531.15607,18.053,"newdry","itn_kps",9463753.79445967
+549,"Ketoconazole","C26 H28 Cl2 N4 O4",0.04,530.14878,531.15606,17.952,"olddry","itn_kps",98777313.9269729
+3745,"Lafutidine","C22 H29 N3 O4 S",-3.52,431.18636,432.19364,22.834,"newdry","kps_pharmaceuticals_oct22",8502025.48946266
+3745,"Lafutidine","C22 H29 N3 O4 S",-3.52,431.18636,432.19364,22.834,"olddry","kps_pharmaceuticals_oct22",9911366.36260995
+277,"Lansoprazole","C16 H14 F3 N3 O2 S",0.06,369.07591,370.08318,12.249,"newdry","kps_pharmaceuticals_oct22",87617224.5532537
+277,"Lansoprazole","C16 H14 F3 N3 O2 S",0.06,369.07591,370.08318,12.249,"olddry","kps_pharmaceuticals_oct22",42466507.5322217
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"newdry","mz_cloud",62902878.080748
+331,"Laurolactam","C12 H23 N O",0.25,197.17801,198.18529,17.102,"olddry","mz_cloud",151591629.127307
+525,"Levophenacylmorphan","C24 H27 N O2",0.08,361.20421,384.19342,22.315,"newdry","kps_psychoactive_substances_v2",84501196.947534
+525,"Levophenacylmorphan","C24 H27 N O2",0.08,361.20421,384.19342,22.315,"olddry","kps_psychoactive_substances_v2",63133025.154754
+1607,"Lifibrol","C21 H26 O4",0.23,342.18319,365.17237,17.103,"newdry","kps_pharmaceuticals_oct22",13133826.5430331
+586,"Linoleic acid","C18 H32 O2",0.15,280.24027,281.24755,22.131,"newdry","kps_pharmaceuticals_oct22",25716355.2004265
+586,"Linoleic acid","C18 H32 O2",0.15,280.24027,281.24755,22.131,"olddry","kps_pharmaceuticals_oct22",16769758.8032347
+2620,"Loperamide","C29 H33 Cl N2 O2",-0.03,476.22304,477.23032,18.858,"olddry","kps_pharmaceuticals_oct22",17823466.9665627
+2443,"Loratadine","C22 H23 Cl N2 O2",0.04,382.14482,383.1521,19.031,"newdry","kps_pharmaceuticals_oct22",3579286.80386091
+2443,"Loratadine","C22 H23 Cl N2 O2",0.04,382.14482,383.1521,19.031,"olddry","kps_pharmaceuticals_oct22",8469568.3758
+2022,"Losartan","C22 H23 Cl N6 O",0.06,422.16221,423.16949,16.344,"newdry","itn_cyp_metabolites",8492006.63696158
+2022,"Losartan","C22 H23 Cl N6 O",0.06,422.16221,423.16949,16.344,"olddry","itn_cyp_metabolites",11226652.8121005
+1085,"MDMA","C11 H15 N O2",-0.01,193.11028,194.11755,17.96,"olddry","kps_psychoactive_substances_v2",3448265.49242574
+114,"MEGESTROL","C22 H30 O3",0.31,342.2196,343.22688,18.739,"newdry","kps_pharmaceuticals_oct22",37359911.494616
+114,"MEGESTROL","C22 H30 O3",0.31,342.2196,343.22688,18.739,"olddry","kps_pharmaceuticals_oct22",20244568.3528093
+2404,"Manidipine","C35 H38 N4 O6",0.47,610.27942,611.2867,23.219,"newdry","kps_pharmaceuticals_oct22",16752667.4682949
+2404,"Manidipine","C35 H38 N4 O6",0.47,610.27942,611.2867,23.219,"olddry","kps_pharmaceuticals_oct22",15812140.5689253
+2512,"Masoprocol","C18 H22 O4",0.25,302.15189,303.15916,16.696,"olddry","kps_pharmaceuticals_oct22",14475027.1975732
+2309,"Medrogestone","C23 H32 O2",0.36,340.24035,341.24763,19.879,"olddry","kps_pharmaceuticals_oct22",1917970.26083056
+4949,"Mepiprazole","C16 H21 Cl N4",3.08,304.14641,305.15369,21.106,"olddry","kps_pharmaceuticals_oct22",3645960.2247501
+3625,"Methadone","C21 H27 N O",0.37,309.20938,310.21666,15.434,"olddry","kps_psychoactive_substances_v2",8828855.58622248
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"newdry","mz_cloud",63919180.3695657
+435,"Methanandamide","C23 H39 N O2",0.37,361.29821,362.30549,19.493,"olddry","mz_cloud",66050244.4989124
+642,"Methenolone enanthate","C27 H42 O3",0.01,414.3134,415.32073,23.589,"newdry","kps_psychoactive_substances_v2",86989488.1442834
+642,"Methenolone enanthate","C27 H42 O3",0.01,414.3134,415.32073,23.589,"olddry","kps_psychoactive_substances_v2",37290132.4899088
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"newdry","mz_cloud",54289781.2181866
+190,"Methyl Violet","C24 H27 N3",0.29,357.2206,358.22789,19.602,"olddry","mz_cloud",18624005.8521046
+3098,"Methylphenidate","C14 H19 N O2",-0.16,233.14154,234.14882,15.127,"olddry","kps_psychoactive_substances_v2",13691020.4202642
+826,"Methylprednisolone","C22 H30 O5",2.59,374.21029,375.21757,19.341,"newdry","kps_pharmaceuticals_oct22",66048951.0901373
+1616,"Methylprednisolone","C22 H30 O5",2.79,374.21037,375.21764,20.278,"olddry","kps_pharmaceuticals_oct22",16597703.3180281
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"newdry","itn_kps",24326947.3023945
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"olddry","itn_kps",21863317.2659147
+4354,"Moxidectin_BTM03194","C37 H53 N O9",-1.91,655.37078,656.37806,16.636,"newdry","itn_cyp_metabolites",6231473.60302319
+5054,"Mucidin_BTM03176","C16 H18 O4",-0.07,274.12049,275.12777,22.621,"newdry","itn_cyp_metabolites",3760270.8262206
+5054,"Mucidin_BTM03176","C16 H18 O4",-0.07,274.12049,275.12777,22.621,"olddry","itn_cyp_metabolites",3440792.96747204
+574,"N,N-Diethyldodecanamide","C16 H33 N O",-0.14,255.25618,256.26346,19.808,"newdry","mz_cloud",11593658.6619944
+884,"N,N-Dimethylsphingosine","C20 H41 N O2",0.54,327.3139,328.32118,19.262,"newdry","mz_cloud",8484612.64068961
+884,"N,N-Dimethylsphingosine","C20 H41 N O2",0.54,327.3139,328.32118,19.262,"olddry","mz_cloud",60997364.1370384
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"newdry","mz_cloud",3145408.78910674
+1733,"N-Acetylsphingosine","C20 H39 N O3",0.28,341.29309,342.30037,21.569,"olddry","mz_cloud",8200822.21023351
+1795,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.14,371.22094,372.22822,14.988,"newdry","mz_cloud",11023655.8356566
+1272,"N-Benzyl-2-[(3R,4S)-3-{[5-(methoxymethyl)-1,2-oxazol-3-yl]methyl}-4-piperidinyl]-N-methylacetamide","C21 H29 N3 O3",0.12,371.22094,372.22821,16.841,"olddry","mz_cloud",40381522.874679
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"newdry","mz_cloud",21881653.9646081
+537,"N-Butylbenzenesulfonamide","C10 H15 N O2 S",-0.06,213.08234,214.08962,15.094,"olddry","mz_cloud",60657144.3869932
+3578,"N-Desmethyl-loperamide","C28 H31 Cl N2 O2",-0.02,462.2074,463.21467,18.193,"newdry","mz_cloud",1427034.19189089
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"newdry","mz_cloud",208312080.513966
+33,"N-Methyldioctylamine","C17 H37 N",-0.16,255.29256,256.29984,21.829,"olddry","mz_cloud",27534473.5863361
+2450,"N-Palmitoylglycine","C18 H35 N O3",0.31,313.26179,314.26907,21.838,"newdry","kps_pharmaceuticals_oct22",19487327.1472205
+3588,"N-[1,1'-Biphenyl]-4-ylacetamide","C14 H13 N O",-0.16,211.09968,212.10696,16.944,"olddry","mz_cloud",9667018.52200409
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"newdry","mz_cloud",49439887.6909234
+532,"N-cyclooctylurea","C9 H18 N2 O",0.27,170.14196,171.14924,2.347,"olddry","mz_cloud",56235661.8836782
+565,"NORBIOTIN","C9 H14 N2 O3 S",2.85,230.07317,231.08044,19.272,"newdry","kps_pharmaceuticals_oct22",5718828.13019492
+565,"NORBIOTIN","C9 H14 N2 O3 S",2.85,230.07317,231.08044,19.272,"olddry","kps_pharmaceuticals_oct22",42528741.7375096
+238,"NP-002954","C27 H39 N O3",0.06,425.29302,426.3003,18.384,"olddry","mz_cloud",201977104.784394
+2426,"NP-003692","C29 H46 O4",-0.07,458.33958,459.34685,22.405,"newdry","mz_cloud",17247477.0919687
+1884,"NP-008095","C15 H24 O3",-0.09,252.17252,253.1798,18.446,"olddry","mz_cloud",2256175.37410528
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"newdry","mz_cloud",8068152.27669276
+1836,"NP-008993","C18 H34 O4",0.56,314.24589,315.25316,22.754,"olddry","mz_cloud",8579446.49364457
+100,"NP-009800","C23 H36 O4",-0.12,376.26132,377.26859,18.788,"newdry","mz_cloud",6152756.69370206
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"newdry","mz_cloud",11048040.7954612
+1621,"NP-015559","C17 H14 O7",0.68,330.07418,331.08145,16.381,"olddry","mz_cloud",16744927.8269592
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"newdry","mz_cloud",27778321.1365842
+577,"NP-016582","C20 H35 N O",0.05,305.27188,306.27916,21.119,"olddry","mz_cloud",33488315.4750949
+2462,"NP-017871","C40 H60 O15",0.46,780.39358,803.38281,16.865,"olddry","mz_cloud",14456517.7597396
+2252,"NP-020112","C30 H48 O2",-0.01,440.36542,441.3727,24.171,"newdry","mz_cloud",5537510.70468774
+2472,"NP-020112","C30 H48 O2",0.08,440.36547,441.37274,23.287,"olddry","mz_cloud",7067710.26191608
+2983,"NP-020232","C25 H24 O7",0.06,436.15223,437.15951,19.014,"olddry","mz_cloud",14513695.5177079
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"newdry","mz_cloud",20410892.3639503
+126,"NP-022229","C27 H43 N O3",-0.09,429.32426,430.33153,18.285,"olddry","mz_cloud",35106693.442982
+157,"Nabilone","C24 H36 O3",0.03,372.26646,373.27373,21.823,"newdry","kps_psychoactive_substances_v2",281032111.874529
+157,"Nabilone","C24 H36 O3",0.03,372.26646,373.27373,21.823,"olddry","kps_psychoactive_substances_v2",83899966.9065988
+671,"Nadifloxacin_BTM04326","C19 H20 F N2 O4",4.67,359.14239,360.14966,18.645,"newdry","itn_cyp_metabolites",863275.697402185
+2449,"Nandrolone","C18 H26 O2",0.13,274.19332,275.20059,17.554,"newdry","itn_cyp_metabolites",16249903.4099943
+533,"Naronapride","C27 H41 Cl N4 O5",1.65,536.27743,537.28471,22.695,"newdry","kps_pharmaceuticals_oct22",15937874.5090989
+533,"Naronapride","C27 H41 Cl N4 O5",1.65,536.27743,537.28471,22.695,"olddry","kps_pharmaceuticals_oct22",18060923.8217814
+2156,"Nicaraven","C15 H16 N4 O2",-4.52,284.12604,285.13332,22.672,"newdry","kps_pharmaceuticals_oct22",4061794.31166622
+2156,"Nicaraven","C15 H16 N4 O2",-4.52,284.12604,285.13332,22.672,"olddry","kps_pharmaceuticals_oct22",5853260.53620606
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"newdry","mz_cloud",26614215.8904217
+42,"Nonyltrimethylammonium","C12 H27 N",0.48,185.21444,186.22172,20.584,"olddry","mz_cloud",4336007.0366907
+2781,"Noopept","C17 H22 N2 O4",0.7,318.15818,319.16546,14.289,"newdry","kps_psychoactive_substances_v2",7997061.49103239
+1665,"Nootkatone","C15 H22 O",-0.12,218.16704,219.17432,20.29,"newdry","mz_cloud",5625622.3848872
+2890,"Nootkatone","C15 H22 O",-0.13,218.16704,219.17431,15.201,"olddry","mz_cloud",13329293.1346475
+4032,"Norgestimate","C23 H31 N O3",0.08,369.23042,370.2377,22.513,"newdry","kps_pharmaceuticals_oct22",5015024.3560394
+4032,"Norgestimate","C23 H31 N O3",0.08,369.23042,370.2377,22.513,"olddry","kps_pharmaceuticals_oct22",8576753.69435942
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"newdry","mz_cloud",54346666.3040633
+1002,"Noroxycodone-d3","C17 H16 [2]H3 N O4",-1.19,304.14988,305.15715,1.304,"olddry","mz_cloud",6161844.27771394
+500,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.35,347.28255,348.28983,19.461,"newdry","mz_cloud",107608477.124789
+12,"O-Arachidonoyl ethanolamine","C22 H37 N O2",0.07,347.28245,348.28973,20.424,"olddry","mz_cloud",5354082.03235003
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"newdry","mz_cloud",387512329.981707
+22,"Octadecanamine","C18 H39 N",-0.13,269.30822,270.31549,21.78,"olddry","mz_cloud",209883884.985924
+166,"Oleic acid","C18 H34 O2",0.03,282.25589,283.26316,22.318,"newdry","kps_pharmaceuticals_oct22",62365316.4916533
+166,"Oleic acid","C18 H34 O2",0.03,282.25589,283.26316,22.318,"olddry","kps_pharmaceuticals_oct22",98545489.7947419
+880,"Oleoyl ethanolamide","C20 H39 N O2",0.68,325.2983,326.30558,23.267,"newdry","mz_cloud",7427251.1498314
+880,"Oleoyl ethanolamide","C20 H39 N O2",0.68,325.2983,326.30558,23.267,"olddry","mz_cloud",8511431.89864124
+819,"Oxabolone","C18 H26 O3",-0.2,290.18814,291.19541,19.226,"newdry","kps_psychoactive_substances_v2",45035859.6617349
+617,"Oxabolone","C18 H26 O3",-0.05,290.18818,291.19546,19.593,"olddry","kps_psychoactive_substances_v2",28074924.6726121
+1127,"Oxandrolone","C19 H30 O3",0.41,306.21962,307.2269,22.184,"newdry","kps_psychoactive_substances_v2",7244317.80843567
+1127,"Oxandrolone","C19 H30 O3",0.41,306.21962,307.2269,22.184,"olddry","kps_psychoactive_substances_v2",8818347.96738755
+1964,"Oxyphencyclimine","C20 H28 N2 O3",0.38,344.21012,345.2174,12.543,"olddry","kps_pharmaceuticals_oct22",22652697.9321212
+4274,"Oxyphenonium","C21 H33 N O3",0.48,347.24621,348.25349,21.821,"newdry","mz_cloud",5624519.27739329
+699,"PEG Monolaurate n5","C22 H44 O7",0.02,420.30871,443.2979,22.45,"newdry","mz_cloud",14250508.7467787
+2312,"PEG Monolaurate n6","C24 H48 O8",-0.07,464.33488,465.34215,22.471,"newdry","mz_cloud",4768882.83814282
+2613,"PEG n8","C16 H34 O9",0.09,370.22032,371.22759,10.415,"newdry","mz_cloud",11925618.9934258
+99,"PPG n10","C30 H62 O11",0.56,598.42955,621.41873,19.603,"newdry","mz_cloud",151954820.662662
+50,"PPG n7","C21 H44 O8",0.11,424.30366,447.29286,17.137,"newdry","mz_cloud",116194587.805163
+290,"PPG n8","C24 H50 O9",0,482.34548,483.35277,18.223,"newdry","mz_cloud",36105911.0650089
+236,"PPG n8","C24 H50 O9",-0.08,482.34544,505.33466,17.771,"olddry","mz_cloud",34813383.0249909
+4567,"Palmitelaidic acid methyl ester","C17 H32 O2",-0.09,268.2402,269.24748,22.993,"newdry","mz_cloud",5690649.15720312
+3964,"Palmitoylcarnitine","C23 H45 N O4",0.06,399.33488,400.34216,21.807,"newdry","mz_cloud",3165020.47591206
+3964,"Palmitoylcarnitine","C23 H45 N O4",0.06,399.33488,400.34216,21.807,"olddry","mz_cloud",5443907.33607058
+101,"Palmitoylethanolamide","C18 H37 N O2",1.26,299.28281,300.29008,21.008,"newdry","kps_pharmaceuticals_oct22",117642027.475766
+101,"Palmitoylethanolamide","C18 H37 N O2",1.26,299.28281,300.29008,21.008,"olddry","kps_pharmaceuticals_oct22",31094438.1479437
+2862,"Perifosine","C25 H53 N O4 P",-0.48,462.371,463.37828,24.102,"olddry","kps_pharmaceuticals_oct22",7868174.12518363
+4128,"Perospirone","C23 H30 N4 O2 S",2.73,426.21011,449.19931,11.392,"newdry","kps_pharmaceuticals_oct22",6150229.60481087
+2557,"Phenazone","C11 H12 N2 O",0.05,188.09497,189.10225,14.679,"newdry","kps_pharmaceuticals_oct22",6342355.53475965
+2557,"Phenazone","C11 H12 N2 O",0.05,188.09497,189.10225,14.679,"olddry","kps_pharmaceuticals_oct22",4836121.45498025
+4020,"Phosphorylcholine","C5 H15 N O4 P",-1.6,184.07358,185.08085,16.925,"olddry","kps_pharmaceuticals_oct22",5632723.03106865
+2184,"Phthalic acid","C8 H6 O4",0.08,166.02662,167.0339,24.71,"newdry","kps_pharmaceuticals_oct22",4384627.97746075
+2184,"Phthalic acid","C8 H6 O4",0.08,166.02662,167.0339,24.71,"olddry","kps_pharmaceuticals_oct22",5017202.17945277
+2336,"Phytosphingosine","C18 H39 N O3",0.78,317.29324,318.30052,21.446,"newdry","kps_pharmaceuticals_oct22",2974087.50918833
+2336,"Phytosphingosine","C18 H39 N O3",0.78,317.29324,318.30052,21.446,"olddry","kps_pharmaceuticals_oct22",8820726.66721103
+5338,"Piceatannol","C14 H12 O4",0.02,244.07356,245.08084,18.752,"olddry","kps_pharmaceuticals_oct22",2268639.25926906
+1467,"Pipendoxifene","C29 H32 N2 O3",0.03,456.2413,457.24858,19.76,"newdry","kps_pharmaceuticals_oct22",12989884.9182564
+1467,"Pipendoxifene","C29 H32 N2 O3",0.03,456.2413,457.24858,19.76,"olddry","kps_pharmaceuticals_oct22",11033817.3660139
+2305,"Pirarubicin","C32 H37 N O12",0.54,627.23191,628.23919,16.734,"olddry","itn_kps",20969734.2545839
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"newdry","itn_kps",16224414.2257004
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"olddry","itn_kps",16605974.8869991
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"newdry","mz_cloud",31693436.0151707
+119,"Poly THF n7","C28 H58 O8",-0.06,522.41314,545.40231,23.717,"olddry","mz_cloud",19803553.1124571
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"newdry","mz_cloud",461530373.138274
+52,"Poly THF n8","C32 H66 O9",0.55,594.47101,617.46019,23.916,"olddry","mz_cloud",165977887.747708
+244,"Polyoxyethylene (9) lauryl ether","C30 H62 O10",0.58,582.43463,605.42381,22.648,"newdry","kps_pharmaceuticals_oct22",53694857.8683295
+244,"Polyoxyethylene (9) lauryl ether","C30 H62 O10",0.58,582.43463,605.42381,22.648,"olddry","kps_pharmaceuticals_oct22",30256644.9892091
+3045,"Prednisolone","C21 H28 O5",0.39,360.19381,361.20109,18.167,"newdry","kps_pharmaceuticals_oct22",8355003.08906168
+4224,"Propiconazole","C15 H17 Cl2 N3 O2",0.34,341.0699,342.07717,19.406,"olddry","mz_cloud",5077287.21218351
+506,"Propranolol","C16 H21 N O2",-0.06,259.15721,260.16449,12.889,"newdry","kps_pharmaceuticals_oct22",42890466.5419296
+506,"Propranolol","C16 H21 N O2",-0.06,259.15721,260.16449,12.889,"olddry","kps_pharmaceuticals_oct22",91020944.718954
+3284,"Propylparaben","C10 H12 O3",0.01,180.07865,181.08592,20.943,"newdry","itn_cyp_metabolites",4079240.22471123
+3284,"Propylparaben","C10 H12 O3",0.01,180.07865,181.08592,20.943,"olddry","itn_cyp_metabolites",5311377.0399908
+1090,"Protriptyline","C19 H21 N",-0.04,263.16739,264.17466,18.77,"newdry","kps_pharmaceuticals_oct22",12533144.3158643
+1090,"Protriptyline","C19 H21 N",-0.04,263.16739,264.17466,18.77,"olddry","kps_pharmaceuticals_oct22",29902777.7073468
+861,"Pruvanserin","C22 H21 F N4 O",2.72,376.17096,377.17824,9.546,"olddry","kps_pharmaceuticals_oct22",22258324.8117241
+2112,"Psychosine","C24 H47 N O7",0.06,461.33528,462.34256,21.369,"olddry","mz_cloud",18357476.3083428
+768,"Quisinostat","C21 H26 N6 O2",4.05,394.21332,395.2206,13.148,"newdry","kps_pharmaceuticals_oct22",24755559.4547592
+905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.38,313.2982,314.30547,21.211,"newdry","mz_cloud",13567055.1268819
+905,"R-Palmitoyl-(2-methyl) ethanolamide","C19 H39 N O2",0.38,313.2982,314.30547,21.211,"olddry","mz_cloud",28604169.37592
+174,"Raltegravir","C20 H21 F N6 O5",-0.06,444.15572,445.163,15.045,"newdry","kps_pharmaceuticals_oct22",70892996.3328862
+174,"Raltegravir","C20 H21 F N6 O5",-0.06,444.15572,445.163,15.045,"olddry","kps_pharmaceuticals_oct22",181835226.931181
+1800,"Resmethrin","C22 H26 O3",0.22,338.18827,339.19555,16.051,"newdry","mz_cloud",15681044.5730288
+2355,"Retinol","C20 H30 O",0.15,286.22971,287.23699,22.826,"newdry","kps_pharmaceuticals_oct22",17768719.0151566
+1945,"Retinol","C20 H30 O",0.17,286.22972,287.23699,22.201,"olddry","kps_pharmaceuticals_oct22",6380069.56961898
+149,"Retinol acetate","C22 H32 O2",0.59,328.24042,329.2477,21.29,"newdry","kps_pharmaceuticals_oct22",297065571.657675
+149,"Retinol acetate","C22 H32 O2",0.59,328.24042,329.2477,21.29,"olddry","kps_pharmaceuticals_oct22",23982531.9100252
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"newdry","mz_cloud",93381279.4405188
+171,"Rhodamine 6G","C28 H30 N2 O3",0.01,442.22565,443.23292,19.745,"olddry","mz_cloud",31501157.7176188
+3289,"Rhodomycin A","C36 H48 N2 O12",1.36,700.32168,701.32896,21.955,"newdry","itn_kps",5080410.87181069
+1033,"Riboflavin","C17 H20 N4 O6",-0.01,376.13828,377.14556,10.105,"newdry","kps_pharmaceuticals_oct22",11475990.9415332
+1314,"Rimexolone","C24 H34 O3",0.02,370.2508,371.25808,20.907,"newdry","kps_pharmaceuticals_oct22",37935323.2436647
+1314,"Rimexolone","C24 H34 O3",0.02,370.2508,371.25808,20.907,"olddry","kps_pharmaceuticals_oct22",16544683.3109839
+94,"Rofecoxib","C17 H14 O4 S",-3.05,314.06032,315.06761,1.559,"newdry","kps_pharmaceuticals_oct22",23188575.8814609
+94,"Rofecoxib","C17 H14 O4 S",-3.05,314.06032,315.06761,1.559,"olddry","kps_pharmaceuticals_oct22",12372955.655191
+1974,"Sacubitril","C24 H29 N O5",0.08,411.20461,412.21188,18.806,"olddry","kps_pharmaceuticals_oct22",25946446.2942709
+531,"Safingol","C18 H39 N O2",0.48,301.29822,302.3055,21.775,"newdry","kps_pharmaceuticals_oct22",15970830.0289881
+531,"Safingol","C18 H39 N O2",0.48,301.29822,302.3055,21.775,"olddry","kps_pharmaceuticals_oct22",67072348.908409
+705,"Saquinavir","C38 H50 N6 O5",4.22,670.3871,693.37627,22.839,"newdry","kps_pharmaceuticals_oct22",67000216.3893848
+705,"Saquinavir","C38 H50 N6 O5",4.22,670.3871,693.37627,22.839,"olddry","kps_pharmaceuticals_oct22",33006736.2272963
+4087,"Selexipag","C26 H32 N4 O4 S",3.64,496.21623,497.22351,19.831,"olddry","kps_pharmaceuticals_oct22",820713.237561629
+628,"Sertraline","C17 H17 Cl2 N",0.36,305.07392,306.08119,19.379,"newdry","kps_psychoactive_substances_v2",75557523.3856145
+628,"Sertraline","C17 H17 Cl2 N",0.36,305.07392,306.08119,19.379,"olddry","kps_psychoactive_substances_v2",62471367.5025548
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"newdry","mz_cloud",529399146.410631
+24,"Solanidine","C27 H43 N O",-0.07,397.33444,398.34171,18.83,"olddry","mz_cloud",321464248.278785
+1998,"Solifenacin","C23 H26 N2 O2",0.37,362.19956,363.20684,17.703,"olddry","kps_pharmaceuticals_oct22",25431208.774991
+842,"Squaric acid dibutyl ester","C12 H18 O4",-0.06,226.12049,227.12777,22.783,"newdry","kps_pharmaceuticals_oct22",21818310.1278272
+842,"Squaric acid dibutyl ester","C12 H18 O4",-0.06,226.12049,227.12777,22.783,"olddry","kps_pharmaceuticals_oct22",23204720.7772977
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"newdry","mz_cloud",317461376.404667
+53,"Stearamide","C18 H37 N O",-0.01,283.28751,284.29477,24.213,"olddry","mz_cloud",452272257.573359
+4602,"Stearic acid","C18 H36 O2",0.25,284.2716,285.27885,22.363,"newdry","kps_pharmaceuticals_oct22",4472531.34943258
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"newdry","mz_cloud",180112048.956843
+187,"Stearoyl ethanolamide","C20 H41 N O2",0.34,327.31384,328.32112,22.312,"olddry","mz_cloud",93037920.2461972
+3299,"Styrene oxide","C8 H8 O",0.85,120.05762,121.06489,18.69,"newdry","kps_pharmaceuticals_oct22",1263830.82792752
+1754,"Talmetoprim_BTM03332","C21 H18 N4 O5",4.49,406.12954,407.13682,14.146,"olddry","itn_cyp_metabolites",22916447.5354552
+1908,"Talnetant","C25 H22 N2 O2",-3.42,382.16682,383.1741,16.914,"newdry","kps_pharmaceuticals_oct22",27203445.0446004
+2917,"Tamoxifen_BTM03704","C22 H20 O",0.52,300.15157,301.15885,22.835,"newdry","itn_cyp_metabolites",6217495.19614719
+2917,"Tamoxifen_BTM03704","C22 H20 O",0.52,300.15157,301.15885,22.835,"olddry","itn_cyp_metabolites",7896551.39373079
+2,"Tapentadol","C14 H23 N O",-0.47,221.17786,222.18513,19.07,"newdry","kps_psychoactive_substances_v2",231288162.313594
+2,"Tapentadol","C14 H23 N O",-0.47,221.17786,222.18513,19.07,"olddry","kps_psychoactive_substances_v2",3112065850.25397
+3428,"Tarazepide","C28 H24 N4 O2",-1.39,448.1893,449.19658,14.114,"newdry","kps_pharmaceuticals_oct22",10324746.8554884
+5408,"Tebuconazole","C16 H22 Cl N3 O",0.34,307.14524,308.15252,18.659,"newdry","mz_cloud",888646.679720715
+2436,"Tegaserod","C16 H23 N5 O",-4.28,301.18897,302.19625,5.915,"olddry","kps_pharmaceuticals_oct22",13007097.9624737
+1086,"Telmisartan","C33 H30 N4 O2",-0.02,514.23687,515.24414,18.773,"newdry","kps_pharmaceuticals_oct22",2435969.87908455
+1086,"Telmisartan","C33 H30 N4 O2",-0.02,514.23687,515.24414,18.773,"olddry","kps_pharmaceuticals_oct22",28991866.9062087
+2772,"Terbinafine","C21 H25 N",0.12,291.19874,292.20601,18.978,"olddry","kps_pharmaceuticals_oct22",7115211.71779751
+3458,"Terbutryn","C10 H19 N5 S",-0.01,241.13611,242.14339,15.949,"olddry","kps_pharmaceuticals_oct22",6840261.77309489
+2089,"Testosterone decanoate","C29 H46 O3",-0.18,442.34461,443.35189,22.855,"newdry","kps_psychoactive_substances_v2",15741730.8280106
+2089,"Testosterone decanoate","C29 H46 O3",-0.18,442.34461,443.35189,22.855,"olddry","kps_psychoactive_substances_v2",5268757.72609563
+3699,"Testosterone isobutyrate","C23 H34 O3",0.38,358.25093,359.25821,21.493,"newdry","kps_psychoactive_substances_v2",6267080.29445337
+31,"Testosterone propionate","C22 H32 O3",0.36,344.23527,345.24255,21.462,"newdry","kps_psychoactive_substances_v2",13038782.733407
+44,"Testosterone propionate","C22 H32 O3",0.45,344.2353,345.24258,19.995,"olddry","kps_psychoactive_substances_v2",12131028.893971
+1766,"Testosterone undecanoate","C30 H48 O3",-0.07,456.36031,479.34951,23.909,"newdry","kps_pharmaceuticals_oct22",12919881.7568858
+1766,"Testosterone undecanoate","C30 H48 O3",-0.07,456.36031,479.34951,23.909,"olddry","kps_pharmaceuticals_oct22",9392196.25821122
+407,"Tetracycline","C22 H24 N2 O8",0.13,444.15332,445.1606,17.28,"newdry","itn_kps",108172894.312518
+3015,"Tetrahydrocannabivarin (THCV)","C19 H26 O2",0.08,286.1933,287.20058,17.434,"newdry","kps_cannabinoids",14291817.5044769
+2757,"Tetrahydrogestrinone","C21 H28 O2",0.43,312.20907,313.21634,18.631,"newdry","kps_psychoactive_substances_v2",16469447.7249507
+2261,"Ticagrelor","C23 H28 F2 N6 O4 S",-0.04,522.18606,523.19334,19.48,"newdry","kps_pharmaceuticals_oct22",21556713.9391653
+2261,"Ticagrelor","C23 H28 F2 N6 O4 S",-0.04,522.18606,523.19334,19.48,"olddry","kps_pharmaceuticals_oct22",7074719.38135496
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"newdry","mz_cloud",68679799.9018963
+207,"Tomatidine","C27 H45 N O2",0.01,415.34503,416.35231,20.117,"olddry","mz_cloud",11476384.8402914
+4159,"Tri-o-Cresyl phosphate","C21 H21 O4 P",-0.07,368.11772,369.125,21.532,"newdry","mz_cloud",7970076.21998704
+542,"Triciribine","C13 H16 N6 O4",1.49,320.12378,321.13106,12.273,"newdry","kps_pharmaceuticals_oct22",94151710.2083793
+542,"Triciribine","C13 H16 N6 O4",1.49,320.12378,321.13106,12.273,"olddry","kps_pharmaceuticals_oct22",57687869.8405009
+317,"Tridemorph","C19 H39 N O",0.42,297.30329,298.31057,20.549,"newdry","mz_cloud",3209857.1163453
+633,"Tridemorph","C19 H39 N O",0.47,297.30331,298.31058,19.721,"olddry","mz_cloud",73844217.4252212
+1390,"Trilostane","C20 H27 N O3",0.63,329.1993,330.20658,16.298,"newdry","kps_pharmaceuticals_oct22",29327802.3376697
+1390,"Trilostane","C20 H27 N O3",0.63,329.1993,330.20658,16.298,"olddry","kps_pharmaceuticals_oct22",18546038.9646213
+4139,"Trimebutine","C22 H29 N O5",0.05,387.20459,388.21187,14.21,"olddry","kps_pharmaceuticals_oct22",5080182.39395594
+815,"Trimetazidine","C14 H22 N2 O3",-0.17,266.163,289.15222,7.9,"olddry","kps_psychoactive_substances_v2",27901702.0209698
+5038,"Triphenyl phosphate","C18 H15 O4 P",0.62,326.071,327.07827,18.852,"newdry","mz_cloud",4069275.55494918
+3471,"Triphenyl phosphate","C18 H15 O4 P",0.69,326.07102,327.0783,19.384,"olddry","mz_cloud",10126633.9776915
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"newdry","mz_cloud",28649729.248582
+1366,"Tris(2-butoxyethyl) phosphate","C18 H39 O7 P",0.05,398.24336,399.25064,20.669,"olddry","mz_cloud",14512549.6696878
+3096,"UR-144","C21 H29 N O",0.32,311.22501,312.23229,20.242,"olddry","kps_cannabinoids",13698640.5043286
+1735,"Vatiquinone","C29 H44 O3",-0.05,440.32902,441.3363,22.403,"newdry","kps_pharmaceuticals_oct22",15197412.3670881
+1735,"Vatiquinone","C29 H44 O3",-0.05,440.32902,441.3363,22.403,"olddry","kps_pharmaceuticals_oct22",8954710.55634209
+2734,"Velusetrag","C25 H36 N4 O5 S",1.23,504.24126,505.24854,20.179,"newdry","kps_pharmaceuticals_oct22",15425873.3802111
+2734,"Velusetrag","C25 H36 N4 O5 S",1.23,504.24126,505.24854,20.179,"olddry","kps_pharmaceuticals_oct22",15432648.4187483
+2002,"Veratramine","C27 H39 N O2",0.13,409.29813,410.30541,18.766,"olddry","mz_cloud",25290318.571853
+339,"Vitamin D","C27 H44 O",0.14,384.33927,385.34653,24.877,"newdry","kps_pharmaceuticals_oct22",16318357.0053984
+2092,"Warfarin Alcohol","C19 H18 O4",-4.04,310.11925,311.12653,19.032,"olddry","kps_pharmaceuticals_oct22",4095424.62238678
+117,"Xanthohumol","C21 H22 O5",0.24,354.14681,355.15408,20.884,"newdry","mz_cloud",3396480.51913674
+117,"Xanthohumol","C21 H22 O5",0.24,354.14681,355.15408,20.884,"olddry","mz_cloud",3291536.15619938
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"newdry","itn_kps",51356249.4107867
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"olddry","itn_kps",62358812.365856
+1938,"Z-Pro-Prolinal","C18 H22 N2 O4",0.58,330.15815,331.16543,16.781,"olddry","kps_pharmaceuticals_oct22",25536144.5368703
+1385,"Zicronapine","C22 H27 Cl N2",0.86,354.18658,355.19389,18.536,"newdry","kps_pharmaceuticals_oct22",18064956.1565065
+4445,"[3,2-c]Pyrazole-androst-4-en-17β-ol","C20 H28 N2 O",0.48,312.22031,313.22759,22.091,"olddry","mz_cloud",6351274.69037825
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"newdry","mz_cloud",24372673.9768977
+1685,"[5-(2-thienyl)-3-isoxazolyl]methanol","C8 H7 N O2 S",0.08,181.01976,182.02704,10.351,"olddry","mz_cloud",15762824.0725472
+686,"alpha-Hydroxybenzeneacetonitrile","C8 H7 N O",0.6,133.05284,134.06012,9.75,"newdry","kps_pharmaceuticals_oct22",44053472.2444674
+1419,"alpha-pyrrolidinovalerophenone","C15 H21 N O",-0.11,231.16229,232.16956,18.017,"newdry","kps_psychoactive_substances_v2",6706255.55205742
+675,"alpha-pyrrolidinovalerophenone","C15 H21 N O",-0.07,231.1623,232.16957,18.481,"olddry","kps_psychoactive_substances_v2",14477591.2315471
+1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",0.49,296.27168,297.27895,23.148,"newdry","mz_cloud",3246447.97329461
+1006,"cis-12-Octadecenoic acid methyl ester","C19 H36 O2",0.49,296.27168,297.27895,23.148,"olddry","mz_cloud",7964041.54221981
+1277,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",-0.03,274.10274,275.11002,18.81,"newdry","mz_cloud",3489637.54409835
+1277,"mesityl (4-methylphenyl) sulfone","C16 H18 O2 S",-0.03,274.10274,275.11002,18.81,"olddry","mz_cloud",43343904.5151333
+1816,"{2-[(3S)-3-(1-Methyl-1H-benzimidazol-2-yl)-1-pyrrolidinyl]-2-oxoethoxy}acetic acid","C16 H19 N3 O4",0.76,317.1378,318.14507,16.306,"olddry","mz_cloud",16533864.420007

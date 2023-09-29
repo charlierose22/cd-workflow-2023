@@ -1,0 +1,22 @@
+"peak_number","name","formula","annot_delta_mass_ppm","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"newdry","itn_kps",45688568.3151677
+814,"8-Hydroxychinolin","C9 H7 N O",0.33,145.05281,146.06009,11.007,"olddry","itn_kps",20131704.4238054
+2080,"Azithromycin","C38 H72 N2 O12",0.21,748.50868,749.51596,18.928,"newdry","itn_kps",3296588.12011236
+2575,"Cefrotil","C20 H22 N4 O4 S",4.11,414.13788,415.14515,13.291,"olddry","itn_kps",15064394.0537761
+427,"Ciprofloxacin","C17 H18 F N3 O3",0.74,331.13347,332.14074,12.312,"newdry","itn_kps",47510675.0846386
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"newdry","itn_kps",140576556.80906
+112,"Cryptotanshinone","C19 H20 O3",0.46,296.14138,297.14866,21.39,"olddry","itn_kps",200063795.072769
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"newdry","itn_kps",45478390.7920963
+877,"Erythromycin","C37 H67 N O13",-3.22,733.45888,734.46615,23.894,"olddry","itn_kps",61235646.6517153
+792,"Hyperforin","C35 H52 O4",1.82,536.38754,537.39481,24.381,"olddry","itn_kps",18444093.5381826
+634,"Ketoconazole","C26 H28 Cl2 N4 O4",0.07,530.1488,531.15607,18.053,"newdry","itn_kps",9463753.79445967
+549,"Ketoconazole","C26 H28 Cl2 N4 O4",0.04,530.14878,531.15606,17.952,"olddry","itn_kps",98777313.9269729
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"newdry","itn_kps",24326947.3023945
+1775,"Miconazole","C18 H14 Cl4 N2 O",0.32,413.98616,414.99343,20.536,"olddry","itn_kps",21863317.2659147
+2305,"Pirarubicin","C32 H37 N O12",0.54,627.23191,628.23919,16.734,"olddry","itn_kps",20969734.2545839
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"newdry","itn_kps",16224414.2257004
+2431,"Pirlimycin","C17 H31 Cl N2 O5 S",1.27,410.16474,411.17202,22.416,"olddry","itn_kps",16605974.8869991
+3289,"Rhodomycin A","C36 H48 N2 O12",1.36,700.32168,701.32896,21.955,"newdry","itn_kps",5080410.87181069
+407,"Tetracycline","C22 H24 N2 O8",0.13,444.15332,445.1606,17.28,"newdry","itn_kps",108172894.312518
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"newdry","itn_kps",51356249.4107867
+512,"Xibornol","C18 H26 O",-0.18,258.19832,259.2056,22.365,"olddry","itn_kps",62358812.365856

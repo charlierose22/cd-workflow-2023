@@ -1,0 +1,56 @@
+"peak_number","name","formula","annot_delta_mass_ppm","calc_mw","m_z","rt_min","sample_location","mass_list_name","mean_area"
+391,"17-Methyltestosterone","C20 H30 O2",0.42,302.22471,303.23195,23.017,"newdry","kps_psychoactive_substances_v2",26886708.2362665
+391,"17-Methyltestosterone","C20 H30 O2",0.42,302.22471,303.23195,23.017,"olddry","kps_psychoactive_substances_v2",35942361.8056806
+2281,"2C-G","C12 H19 N O2",1.39,209.14187,227.1754,14.415,"olddry","kps_psychoactive_substances_v2",16507662.408904
+2236,"2C-P","C13 H21 N O2",0.03,223.15724,224.16451,23.569,"olddry","kps_psychoactive_substances_v2",3351483.81878404
+3794,"3alpha-Androstanediol","C19 H32 O2",0.27,292.24031,293.24756,22.089,"newdry","kps_psychoactive_substances_v2",8621795.99955419
+1893,"4-Methoxyamphetamine","C10 H15 N O",0.14,165.11539,166.12266,17.851,"newdry","kps_psychoactive_substances_v2",7377453.98137875
+1893,"4-Methoxyamphetamine","C10 H15 N O",0.14,165.11539,166.12266,17.851,"olddry","kps_psychoactive_substances_v2",11379823.1329343
+2782,"Androsta-1,4-diene-3,17-dione","C19 H24 O2",0.13,284.17767,285.18494,16.356,"newdry","kps_psychoactive_substances_v2",12732081.9550495
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",-2.78,492.25116,515.24038,21.409,"newdry","kps_psychoactive_substances_v2",10563649.3394753
+1802,"Bezitramide [INN:BAN:DCF]","C31 H32 N4 O2",-2.78,492.25116,515.24038,21.409,"olddry","kps_psychoactive_substances_v2",9756117.92399488
+2569,"Boldenone undecylenate","C30 H44 O3",0.09,452.32908,453.33636,23.723,"olddry","kps_psychoactive_substances_v2",18301473.3854152
+2390,"CB-25","C25 H41 N O3",0,403.30864,404.31592,23.911,"newdry","kps_psychoactive_substances_v2",6283256.80753607
+2642,"Carisoprodol","C12 H24 N2 O4",-0.06,260.17359,261.18087,19.087,"olddry","kps_psychoactive_substances_v2",2902229.47132615
+1708,"Codeine","C18 H21 N O3",0.4,299.15226,300.15954,16.482,"newdry","kps_psychoactive_substances_v2",18911028.1642764
+1537,"Codeine","C18 H21 N O3",0.45,299.15228,300.15955,10.549,"olddry","kps_psychoactive_substances_v2",19641120.799559
+1148,"DM 235","C14 H18 N2 O2",-0.08,246.13681,247.14409,11.121,"olddry","kps_psychoactive_substances_v2",28282262.7609701
+3645,"Desoxymethyltestosterone","C20 H32 O",0.32,288.24541,289.25264,23.229,"newdry","kps_psychoactive_substances_v2",6231653.00448893
+3645,"Desoxymethyltestosterone","C20 H32 O",0.32,288.24541,289.25264,23.229,"olddry","kps_psychoactive_substances_v2",6804665.10243902
+646,"Diethylpropion","C13 H19 N O",-0.12,205.14664,206.15392,15.218,"olddry","kps_psychoactive_substances_v2",66107377.3530097
+4177,"Dihydrocodeine","C18 H23 N O3",0.44,301.16793,302.1752,16.528,"newdry","kps_psychoactive_substances_v2",4138221.67246678
+4478,"Dimenoxadol","C20 H25 N O3",0.66,327.18366,328.19094,16.915,"newdry","kps_psychoactive_substances_v2",6476526.43391845
+457,"Dipropyltryptamine","C16 H24 N2",-0.07,244.19393,245.20121,22.007,"newdry","kps_psychoactive_substances_v2",45239597.4362179
+457,"Dipropyltryptamine","C16 H24 N2",-0.07,244.19393,245.20121,22.007,"olddry","kps_psychoactive_substances_v2",32346135.2603022
+1065,"Dromostanolone","C20 H32 O2",0.5,304.24038,305.24763,23.546,"newdry","kps_psychoactive_substances_v2",19289465.7644061
+1065,"Dromostanolone","C20 H32 O2",0.5,304.24038,305.24763,23.546,"olddry","kps_psychoactive_substances_v2",20014020.7753824
+648,"Dromostanolone proprionate","C23 H36 O3",0.3,360.26655,361.27383,23.131,"newdry","kps_psychoactive_substances_v2",79713586.6038956
+648,"Dromostanolone proprionate","C23 H36 O3",0.3,360.26655,361.27383,23.131,"olddry","kps_psychoactive_substances_v2",9563684.90786372
+1200,"Indan","C9 H10",0.94,118.07836,119.08564,18.705,"olddry","kps_psychoactive_substances_v2",3097282.04554165
+525,"Levophenacylmorphan","C24 H27 N O2",0.08,361.20421,384.19342,22.315,"newdry","kps_psychoactive_substances_v2",84501196.947534
+525,"Levophenacylmorphan","C24 H27 N O2",0.08,361.20421,384.19342,22.315,"olddry","kps_psychoactive_substances_v2",63133025.154754
+1085,"MDMA","C11 H15 N O2",-0.01,193.11028,194.11755,17.96,"olddry","kps_psychoactive_substances_v2",3448265.49242574
+3625,"Methadone","C21 H27 N O",0.37,309.20938,310.21666,15.434,"olddry","kps_psychoactive_substances_v2",8828855.58622248
+642,"Methenolone enanthate","C27 H42 O3",0.01,414.3134,415.32073,23.589,"newdry","kps_psychoactive_substances_v2",86989488.1442834
+642,"Methenolone enanthate","C27 H42 O3",0.01,414.3134,415.32073,23.589,"olddry","kps_psychoactive_substances_v2",37290132.4899088
+3098,"Methylphenidate","C14 H19 N O2",-0.16,233.14154,234.14882,15.127,"olddry","kps_psychoactive_substances_v2",13691020.4202642
+157,"Nabilone","C24 H36 O3",0.03,372.26646,373.27373,21.823,"newdry","kps_psychoactive_substances_v2",281032111.874529
+157,"Nabilone","C24 H36 O3",0.03,372.26646,373.27373,21.823,"olddry","kps_psychoactive_substances_v2",83899966.9065988
+2781,"Noopept","C17 H22 N2 O4",0.7,318.15818,319.16546,14.289,"newdry","kps_psychoactive_substances_v2",7997061.49103239
+819,"Oxabolone","C18 H26 O3",-0.2,290.18814,291.19541,19.226,"newdry","kps_psychoactive_substances_v2",45035859.6617349
+617,"Oxabolone","C18 H26 O3",-0.05,290.18818,291.19546,19.593,"olddry","kps_psychoactive_substances_v2",28074924.6726121
+1127,"Oxandrolone","C19 H30 O3",0.41,306.21962,307.2269,22.184,"newdry","kps_psychoactive_substances_v2",7244317.80843567
+1127,"Oxandrolone","C19 H30 O3",0.41,306.21962,307.2269,22.184,"olddry","kps_psychoactive_substances_v2",8818347.96738755
+628,"Sertraline","C17 H17 Cl2 N",0.36,305.07392,306.08119,19.379,"newdry","kps_psychoactive_substances_v2",75557523.3856145
+628,"Sertraline","C17 H17 Cl2 N",0.36,305.07392,306.08119,19.379,"olddry","kps_psychoactive_substances_v2",62471367.5025548
+2,"Tapentadol","C14 H23 N O",-0.47,221.17786,222.18513,19.07,"newdry","kps_psychoactive_substances_v2",231288162.313594
+2,"Tapentadol","C14 H23 N O",-0.47,221.17786,222.18513,19.07,"olddry","kps_psychoactive_substances_v2",3112065850.25397
+2089,"Testosterone decanoate","C29 H46 O3",-0.18,442.34461,443.35189,22.855,"newdry","kps_psychoactive_substances_v2",15741730.8280106
+2089,"Testosterone decanoate","C29 H46 O3",-0.18,442.34461,443.35189,22.855,"olddry","kps_psychoactive_substances_v2",5268757.72609563
+3699,"Testosterone isobutyrate","C23 H34 O3",0.38,358.25093,359.25821,21.493,"newdry","kps_psychoactive_substances_v2",6267080.29445337
+31,"Testosterone propionate","C22 H32 O3",0.36,344.23527,345.24255,21.462,"newdry","kps_psychoactive_substances_v2",13038782.733407
+44,"Testosterone propionate","C22 H32 O3",0.45,344.2353,345.24258,19.995,"olddry","kps_psychoactive_substances_v2",12131028.893971
+2757,"Tetrahydrogestrinone","C21 H28 O2",0.43,312.20907,313.21634,18.631,"newdry","kps_psychoactive_substances_v2",16469447.7249507
+815,"Trimetazidine","C14 H22 N2 O3",-0.17,266.163,289.15222,7.9,"olddry","kps_psychoactive_substances_v2",27901702.0209698
+1419,"alpha-pyrrolidinovalerophenone","C15 H21 N O",-0.11,231.16229,232.16956,18.017,"newdry","kps_psychoactive_substances_v2",6706255.55205742
+675,"alpha-pyrrolidinovalerophenone","C15 H21 N O",-0.07,231.1623,232.16957,18.481,"olddry","kps_psychoactive_substances_v2",14477591.2315471
