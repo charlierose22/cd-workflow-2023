@@ -104,6 +104,14 @@ soloremoved <- plyr::ddply(replicates, c("unique_id", "sample_location"),
 sample_info <- readr::read_csv("data/samples/2023-09-naburn-drying-samples.csv")
 sample_included <- soloremoved %>% left_join(sample_info, 
                                              by = "sample_location")
+sample_included$sample_name <- paste(sample_included$day, 
+                                     sample_included$height,
+                                     sample_included$length, 
+                                      sep = "-")
+sample_included <- select(sample_included,
+                           -day,
+                           -height,
+                           -length)
 
 #----
 # SPLIT RESULTS BASED ON MASS LIST VS MZCLOUD
@@ -136,21 +144,18 @@ pharmaceuticals <- splitmasslist$"kps_pharmaceuticals"
 
 # wide view for samples
 antibiotics_means <- antibiotics %>%
-  group_by(pick(peak_number, sample_location, day, height, length)) %>%
+  group_by(pick(peak_number, sample_name)) %>%
   summarise(mean = mean(group_area),
             std = sd(group_area),
             n = length(group_area),
             se = std/sqrt(n))
-
 antibiotics_info <- select(antibiotics, 
                            -replicate,
                            -sample,
                            -peak_rating,
                            -group_area,
                            -sample_location,
-                           -day,
-                           -height,
-                           -length)
+                           -sample_name)
 antibiotics_info <- unique(antibiotics_info)
 antibiotics_annotated <- antibiotics_means %>% left_join(antibiotics_info, 
                                                          by = "peak_number")
@@ -160,14 +165,11 @@ antibiotics_annotated <- select(antibiotics_annotated,
                                 formula,
                                 calc_mw,
                                 m_z,
-                                sample_location,
-                                mean,
-                                day,
-                                height,
-                                length)
+                                sample_name,
+                                mean)
 antibiotics_wide <- antibiotics_annotated %>%
   group_by(name) %>%
-  pivot_wider(names_from = sample_location, values_from = mean)
+  pivot_wider(names_from = sample_name, values_from = mean)
 
 # PRODUCE A CSV OF RESULTS
 write.csv(antibiotics, "data/processed/2023-naburn-drying/itn_antibiotics.csv", 
@@ -184,7 +186,7 @@ write.csv(antibiotics_wide, "data/processed/2023-naburn-drying/antibiotics_wide.
 # CHANGE HEIGHT AND WIDTH AND MIDPOINT AS NEEDED
 antibiotics_annotated %>% 
   ggplot(aes(y = name, 
-             x = sample_location, 
+             x = sample_name, 
              fill = mean)) +
   geom_tile() +
   scale_y_discrete(limits = rev) +

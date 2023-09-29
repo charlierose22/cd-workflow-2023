@@ -1,12 +1,12 @@
 sample_location,day,height,length
-a1,1,bottom,quarter
-a2,1,middle,quarter
-a3,1,top,quarter
-a4,1,bottom,half
-a5,1,middle,half
-a6,1,top,half
-a10,4,bottom,half
-a16,8,bottom,half
+a1,01,bottom,quarter
+a2,01,middle,quarter
+a3,01,top,quarter
+a4,01,bottom,half
+a5,01,middle,half
+a6,01,top,half
+a10,04,bottom,half
+a16,08,bottom,half
 a22,11,bottom,half
 a28,15,bottom,half
 a34,18,bottom,half
@@ -18,4 +18,4 @@ a51,29,top,quarter
 a52,29,bottom,half
 a53,29,middle,half
 a54,29,top,half
-a0,0,control,control
+a0,00,control,control
