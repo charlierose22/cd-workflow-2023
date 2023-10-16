@@ -4,7 +4,7 @@ library(tidyverse)
 
 # Import data from excel file, using the janitor package to clean the name format up. 
 # Make sure you change the name of the file to match, and check the pathway!
-JAN26_data <- readxl::read_excel("~/GitHub/cd_workflow_2023/Data/Charlie_KPS_26JAN_22.xlsx") %>% 
+JAN26_data <- readxl::read_excel("~/GitHub/cd_workflow_2023/data/raw/2023-01-26-naburn-msc.xlsx") %>% 
   janitor::clean_names()
 
 # To make sure we don't edit any raw data files, duplicate and call the original dataset "base".
