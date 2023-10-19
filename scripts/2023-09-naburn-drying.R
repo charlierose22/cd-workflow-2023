@@ -1,6 +1,8 @@
 # PLEASE REVIEW AND CHANGE ANY FUNCTIONAL CODE WRITTEN IN CAPITAL LETTERS
 # LOAD TIDYVERSE AND CHECK PACKAGE UPDATES
 library(tidyverse)
+library(fuzzyjoin)
+library(stringi)
 
 # IMPORT YOUR CD DATA
 drying_study <- readr::read_delim("data/raw/2023-09-naburn-drying.csv", 
@@ -98,8 +100,6 @@ replicates$sample_location <- gsub('_.*', '', replicates$sample_location)
 soloremoved <- plyr::ddply(replicates, c("unique_id", "sample_location"),
                            function(d) {if (nrow(d) > 1) d else NULL})
 
-
-
 # INCLUDE SAMPLE INFO IF NEEDED
 sample_info <- readr::read_csv("data/samples/2023-09-naburn-drying-samples.csv")
 sample_included <- soloremoved %>% left_join(sample_info, 
@@ -142,7 +142,7 @@ metabolites <- splitmasslist$"itnantibiotic_cyp_metabolites"
 psychoactive <- splitmasslist$"kps_psychoactive_substances_v2"
 pharmaceuticals <- splitmasslist$"kps_pharmaceuticals"
 
-# wide view for samples
+# wide view for samples and fully annotated view
 antibiotics_means <- antibiotics %>%
   group_by(pick(peak_number, sample_name)) %>%
   summarise(mean = mean(group_area),
@@ -167,9 +167,19 @@ antibiotics_annotated <- select(antibiotics_annotated,
                                 m_z,
                                 sample_name,
                                 mean)
+# to see wide
 antibiotics_wide <- antibiotics_annotated %>%
   group_by(name) %>%
   pivot_wider(names_from = sample_name, values_from = mean)
+
+# split by day, height, location
+day_location <- antibiotics_annotated %>% 
+  separate(sample_name, c("day", "height", "location"), sep = "\\")
+
+# add antibiotic classes for common antibiotics
+class_info <- read.csv("data/antimicrobial_classes.csv")
+location_classes <- day_location %>%
+  stringdist_inner_join(class_info, by = c("name" = "name"))
 
 # PRODUCE A CSV OF RESULTS
 write.csv(antibiotics, "data/processed/2023-naburn-drying/itn_antibiotics.csv", 
@@ -211,3 +221,13 @@ antibiotics_annotated %>%
                                        linetype = "solid"), 
         legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
 ggsave("figures/2023-naburn-drying/antibiotics.pdf", width = 15, height = 5)
+
+# for target classes
+location_classes %>% 
+  group_by(location, day) %>% 
+  ggplot(aes(x = height, y = mean, fill = class)) +
+  geom_bar(position = "stack", stat = "identity") +
+  labs(x = "height", y = "intensity") +
+  facet_grid(location ~ day) +
+  theme_ipsum(base_size = 10)
+ggsave("figures/bar-classes.png", width = 4, height = 2)
