@@ -182,17 +182,21 @@ location_classes <- day_location %>%
   stringdist_inner_join(class_info, by = c("name" = "name"))
 
 # PRODUCE A CSV OF RESULTS
-write.csv(antibiotics, "data/processed/2023-naburn-drying/itn_antibiotics.csv", 
+write.csv(antibiotics, 
+          "data/processed/2023-naburn-drying/itn_antibiotics.csv", 
           row.names = FALSE)
-write.csv(metabolites, "data/processed/2023-naburn-drying/itn_metabolites.csv", 
+write.csv(metabolites, 
+          "data/processed/2023-naburn-drying/itn_metabolites.csv", 
           row.names = FALSE)
-write.csv(psychoactive, "data/processed/2023-naburn-drying/psychoactive.csv", 
+write.csv(psychoactive, 
+          "data/processed/2023-naburn-drying/psychoactive.csv", 
           row.names = FALSE)
-write.csv(pharmaceuticals, "data/processed/2023-naburn-drying/pharmaceuticals.csv", 
+write.csv(pharmaceuticals, 
+          "data/processed/2023-naburn-drying/pharmaceuticals.csv", 
           row.names = FALSE)
-write.csv(antibiotics_wide, "data/processed/2023-naburn-drying/antibiotics_wide.csv")
+write.csv(antibiotics_wide, 
+          "data/processed/2023-naburn-drying/antibiotics_wide.csv")
 
-# PRODUCE A HEATMAP TO QUICKLY VISUALISE RESULTS
 # CHANGE HEIGHT AND WIDTH AND MIDPOINT AS NEEDED
 antibiotics_annotated %>% 
   ggplot(aes(y = name, 
