@@ -3,6 +3,9 @@
 library(tidyverse)
 library(fuzzyjoin)
 library(stringi)
+library(hrbrthemes)
+library(viridis)
+library(ggforce)
 
 # IMPORT YOUR CD DATA
 drying_study <- readr::read_delim("data/raw/2023-09-naburn-drying.csv", 
@@ -166,7 +169,10 @@ antibiotics_annotated <- select(antibiotics_annotated,
                                 calc_mw,
                                 m_z,
                                 sample_name,
-                                mean)
+                                mean,
+                                std,
+                                n,
+                                se)
 # to see wide
 antibiotics_wide <- antibiotics_annotated %>%
   group_by(name) %>%
@@ -174,16 +180,29 @@ antibiotics_wide <- antibiotics_annotated %>%
 
 # split by day, height, location
 day_location <- antibiotics_annotated %>% 
-  separate(sample_name, c("day", "height", "location"), sep = "\\")
+  separate(sample_name, c("day", "height", "location"), sep = "-")
+
+# clean compound names in antibiotics dataset.
+day_location$name <- day_location$name %>% 
+  fedmatch::clean_strings()
 
 # add antibiotic classes for common antibiotics
 class_info <- read.csv("data/antimicrobial_classes.csv")
-location_classes <- day_location %>%
-  stringdist_inner_join(class_info, by = c("name" = "name"))
+location_classes <- day_location %>% 
+  fuzzy_left_join(class_info,
+                  by = c("name" = "name"),
+                  match_fun = str_detect)
+
+# replace NA with 'unknown'
+location_classes$class <- location_classes$class %>% 
+  replace_na('unknown')
 
 # PRODUCE A CSV OF RESULTS
 write.csv(antibiotics, 
           "data/processed/2023-naburn-drying/itn_antibiotics.csv", 
+          row.names = FALSE)
+write.csv(location_classes, 
+          "data/processed/2023-naburn-drying/antibiotics_class_organised.csv", 
           row.names = FALSE)
 write.csv(metabolites, 
           "data/processed/2023-naburn-drying/itn_metabolites.csv", 
@@ -224,9 +243,9 @@ antibiotics_annotated %>%
         plot.background = element_rect(colour = NA,
                                        linetype = "solid"), 
         legend.key = element_rect(fill = NA)) + labs(fill = "Intensity")
-ggsave("figures/2023-naburn-drying/antibiotics.pdf", width = 15, height = 5)
+ggsave("figures/2023-naburn-drying/antibiotics.pdf", width = 15, height = 10)
 
-# for target classes
+# for classes as a whole.
 location_classes %>% 
   group_by(location, day) %>% 
   ggplot(aes(x = height, y = mean, fill = class)) +
@@ -235,3 +254,179 @@ location_classes %>%
   facet_grid(location ~ day) +
   theme_ipsum(base_size = 10)
 ggsave("figures/bar-classes.png", width = 4, height = 2)
+
+# split the data into location and time studies
+location_study <- location_classes[grepl('01|29',location_classes$day),]
+time_study <- location_classes[grepl('bottom',location_classes$height),]
+time_study <- time_study[grepl('half', time_study$location),]
+
+# location study plots
+# Create a list of target antibiotics.
+antibiotic_classes <- unique(location_classes$class)
+
+# Create a loop for each target antibiotic.
+for (class in antibiotic_classes) {
+  
+  # Create a subset of the data for the current target antibiotic.
+  data <- location_study[location_study$class == class, ]
+  
+  # Create a heatmap of the data.
+  ggplot(data, aes(x = day, y = name.x, fill = mean)) +
+    geom_tile() +
+    scale_y_discrete(limits = rev) +
+    scale_fill_viridis(discrete = F) +
+    labs(x = "day", y = "compound", fill = "intensity") +
+    facet_grid(location ~ height) +
+    theme_ipsum(base_size = 10)
+  
+  # Save the linegraph to a file.
+  ggsave(paste0("figures/heatmaps/location-heatmap-", class, ".png"), width = 7, height = 7)
+}
+
+# Create a loop for each target antibiotic.
+for (class in antibiotic_classes) {
+  
+  # Create a subset of the data for the current target antibiotic.
+  data2 <- location_study[location_study$class == class, ]
+  
+  # Create bar graphs of the data.
+  data2 %>% 
+    group_by(location, height) %>% 
+    ggplot(aes(x = day, y = mean, fill = name.x)) +
+    geom_bar(position = "stack", stat = "identity") +
+    scale_fill_viridis(discrete = T) +
+    labs(x = "day", y = "intensity", fill = "compound") +
+    facet_grid(location ~ height) +
+    theme_ipsum(base_size = 10)
+  
+  # Save the linegraph to a file.
+  ggsave(paste0("figures/bargraph/location-bargraph-", class, ".png"), width = 7, height = 7)
+}
+
+# time series plots
+
+# Create a loop for each target antibiotic.
+for (class in antibiotic_classes) {
+  
+  # Create a subset of the data for the current target antibiotic.
+  data3 <- time_study[time_study$class == class, ]
+  
+  # Create a heatmap of the data.
+  ggplot(data3, aes(x = day, y = name.x, fill = mean)) +
+    geom_tile() +
+    scale_y_discrete(limits = rev) +
+    scale_fill_viridis(discrete = F) +
+    labs(x = "day", y = "compound", fill = "intensity") +
+    theme_ipsum(base_size = 10)
+  
+  # Save the heatmap to a file.
+  ggsave(paste0("figures/heatmaps/time-heatmap-", class, ".png"), width = 7, height = 7)
+}
+
+# Create a loop for each target antibiotic.
+for (class in antibiotic_classes) {
+  
+  # Create a subset of the data for the current target antibiotic.
+  data4 <- time_study[time_study$class == class, ]
+  
+  # Create line graphs of the data.
+  ggplot(data4, aes(x = day, 
+                    y = mean, 
+                    colour = name.x)) +
+    geom_point() +
+    geom_errorbar(aes(x = day,
+                      ymin = mean - se,
+                      ymax = mean + se),
+                  width = .6) +
+    geom_line(aes(x = day,
+                  y = mean,
+                  colour =  name.x)) +
+    labs(x = "day", y = "intensity", colour = "compound") +
+    scale_color_viridis(discrete = TRUE) +
+    theme_ipsum(base_size = 10)
+  
+  # Save the linegraph to a file.
+  ggsave(paste0("figures/linegraph/time-error-linegraph-", class, ".png"), width = 7, height = 7)
+}
+# create new data for unknown categories
+unknown_time <- time_study[grepl('unknown', time_study$class),]
+unknown_location <- location_study[grepl('unknown', location_study$class),]
+
+unknown_antibiotics <- location_classes[grepl('unknown', location_classes$class),]
+write.csv(unknown_antibiotics, 
+          "data/processed/2023-naburn-drying/unknown_class_antibiotics.csv", 
+          row.names = FALSE)
+
+# graphs as above
+# Create a heatmap of the data.
+  ggplot(unknown_location, aes(x = day, y = name.x, fill = mean)) +
+    geom_tile() +
+    scale_y_discrete(limits = rev, labels = scales::label_wrap(40)) +
+    scale_fill_viridis(discrete = F) +
+    labs(x = "day", y = "compound", fill = "intensity") +
+    facet_wrap_paginate(~ height, nrow = 1, ncol = 3, page = 1) +
+    theme_ipsum(base_size = 10)
+  # Save the linegraph to a file.
+  ggsave(paste0("figures/heatmaps/location-heatmap-unknown-location-1.png"), width = 10, height = 10)
+  ggplot(unknown_location, aes(x = day, y = name.x, fill = mean)) +
+    geom_tile() +
+    scale_y_discrete(limits = rev, labels = scales::label_wrap(40)) +
+    scale_fill_viridis(discrete = F) +
+    labs(x = "day", y = "compound", fill = "intensity") +
+    facet_wrap_paginate(~ height, nrow = 1, ncol = 3, page = 2) +
+    theme_ipsum(base_size = 10)
+  # Save the linegraph to a file.
+  ggsave(paste0("figures/heatmaps/location-heatmap-unknown-location-2.png"), width = 10, height = 10)
+  ggplot(unknown_location, aes(x = day, y = mean, fill = name.x)) +
+    geom_bar(position = "stack", stat = "identity") +
+    scale_fill_viridis(discrete = T) +
+    labs(x = "day", y = "intensity", fill = "compound") +
+    facet_wrap_paginate(~ height, nrow = 1, ncol = 3, page = 1) +
+    theme_ipsum(base_size = 10)
+  # Save the linegraph to a file.
+  ggsave(paste0("figures/bargraph/location-heatmap-unknown-location-1.png"), width = 10, height = 10)
+  ggplot(unknown_location, aes(x = day, y = mean, fill = name.x)) +
+    geom_bar(position = "stack", stat = "identity") +
+    scale_fill_viridis(discrete = T) +
+    labs(x = "day", y = "intensity", fill = "compound") +
+    facet_wrap_paginate(~ height, nrow = 1, ncol = 3, page = 2) +
+    theme_ipsum(base_size = 10)
+  # Save the linegraph to a file.
+  ggsave(paste0("figures/bargraph/location-heatmap-unknown-location-.png"), width = 10, height = 10)
+  # Create a heatmap of the data.
+ggplot(unknown_time, aes(x = day, y = name.x, fill = mean)) +
+  geom_tile() +
+  scale_y_discrete(limits = rev, labels = scales::label_wrap(40)) +
+  scale_fill_viridis(discrete = F) +
+  labs(x = "day", y = "compound", fill = "intensity") +
+  theme_ipsum(base_size = 10)
+# Save the heatmap to a file.
+ggsave(paste0("figures/heatmaps/time-heatmap-unknown.png"), width = 15, height = 15)
+ggplot(unknown_time, aes(x = day, 
+                  y = mean, 
+                  colour = name.x)) +
+  geom_point() +
+  geom_errorbar(aes(x = day,
+                    ymin = mean - se,
+                    ymax = mean + se),
+                width = .6) +
+  geom_line(aes(x = day,
+                y = mean,
+                colour =  name.x)) +
+  labs(x = "day", y = "intensity", colour = "compound") +
+  scale_color_viridis(discrete = T) +
+  theme_ipsum(base_size = 10)
+# Save the linegraph to a file.
+ggsave(paste0("figures/linegraph/time-error-linegraph-unknown.png"), width = 15, height = 15)
+
+# Create a subset of the data for the current target antibiotic.
+trimethoprim <- time_study[grepl('trimethoprim',time_study$class),] 
+# Create a heatmap of the data.
+ggplot(trimethoprim, aes(x = day, y = name.x, fill = mean)) +
+  geom_tile() +
+  scale_y_discrete(limits = rev) +
+  scale_fill_viridis(discrete = F) +
+  labs(x = "day", y = "compound", fill = "intensity") +
+  theme_ipsum(base_size = 10)
+# Save the heatmap to a file.
+ggsave(paste0("figures/heatmaps/time-heatmap-trimethoprim.png"), width = 7, height = 7)
